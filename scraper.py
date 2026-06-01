@@ -2,121 +2,101 @@ import requests
 import json
 from datetime import datetime
 import time
+import os
+import hashlib
 
-# Comprehensive Fresher & Entry-Level Indicators
-INCLUDED_KEYWORDS = [
-    "fresher", "entry level", "entry-level", "graduate trainee", "associate engineer",
-    "junior engineer", "graduate engineer trainee", "get", "et", "software trainee",
-    "intern", "apprentice", "0-1 year", "0-2 years", "2025 passout", "2026 passout", "2027 passout"
-]
+# --- DB ENVIRONMENT KEY CONFIGURATIONS ---
+# If running locally, it uses these strings. In GitHub Actions, it reads from secrets.
+SUB_URL = os.environ.get("SUPABASE_URL", "https://kofcqctifaguxaqzstoz.supabase.co")
+SUB_KEY = os.environ.get("SUPABASE_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtvZmNxY3RpZmFndXhhcXpzdG96Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAzMjIyMjksImV4cCI6MjA5NTg5ODIyOX0.IyMn8zFTr98YQstQg7F8K7xROG-_gtefav1zvWWNotc")
 
-# Strict exclusionary terms to prevent senior roles from leaking in
-STRIP_KEYWORDS = [
-    "senior", "lead", "principal", "manager", "architect", "experienced", "years experience", 
-    "3+", "4+", "5+", "sr.", "tech lead", "team lead"
-]
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept": "application/json"
-}
+INCLUDED_KEYWORDS = ["fresher", "entry level", "entry-level", "graduate trainee", "associate engineer", "junior engineer", "graduate engineer trainee", "get", "intern", "apprentice", "0-1 year", "0-2 years"]
+STRIP_KEYWORDS = ["senior", "lead", "principal", "manager", "architect", "experienced", "3+", "4+", "5+"]
 
 def clean_and_verify(title, description=""):
-    title_low = title.lower()
-    desc_low = description.lower() if description else ""
-    
-    # Verify it targets early-career applicants
-    has_fresher = any(kw in title_low for kw in INCLUDED_KEYWORDS) or any(kw in desc_low for kw in INCLUDED_KEYWORDS)
-    # Ensure it's not a senior position
-    has_senior = any(neg in title_low for neg in STRIP_KEYWORDS)
-    
-    return has_fresher and not has_senior
+    title_low, desc_low = title.lower(), description.lower() if description else ""
+    return (any(kw in title_low for kw in INCLUDED_KEYWORDS) or any(kw in desc_low for kw in INCLUDED_KEYWORDS)) and not any(neg in title_low for neg in STRIP_KEYWORDS)
+
+def fetch_approved_users():
+    """Queries your Supabase cloud backend safely via Python to fetch approved users"""
+    users_dict = {}
+    try:
+        # Request data from your profiles table via Supabase REST API gateway
+        headers = {"apikey": SUB_KEY, "Authorization": f"Bearer {SUB_KEY}"}
+        url = f"{SUB_URL}/rest/v1/profiles?select=email,is_approved,is_admin"
+        resp = requests.get(url, headers=headers, timeout=10)
+        
+        if resp.status_code == 200:
+            for profile in resp.json():
+                email = profile.get("email", "").lower().strip()
+                if email:
+                    users_dict[email] = {
+                        "approved": profile.get("is_approved", False),
+                        "admin": profile.get("is_admin", False)
+                    }
+            print(f"Database Sync: Loaded {len(users_dict)} total user accounts from Supabase.")
+    except Exception as e:
+        print(f"Database Sync Warning: Could not connect to Supabase: {e}")
+    return users_dict
 
 def fetch_aggregated_india_jobs():
     aggregated_results = []
-    
-    # NATIONWIDE EXPANDED SEARCH QUERY PIPELINE
     search_queries = [
-        # === VLSI / ASIC / CHIP DESIGN TRACKS ===
         "asic design", "asic verification", "rtl design", "verilog", "systemverilog", 
-        "physical design engineer", "dft engineer", "fpga engineer", "semiconductor intern", 
-        "analog layout", "soc architecture", "synthesis engineering",
-        
-        # === EMBEDDED SYSTEMS / ELECTRONICS TRACKS ===
+        "physical design engineer", "dft engineer", "fpga engineer", "semiconductor intern",
         "embedded firmware", "firmware developer", "device driver", "pcb design", 
-        "hardware validation", "microcontroller engineer", "iot intern", "electronics trainee",
-        
-        # === SOFTWARE / DIGITAL TECH TRACKS ===
-        "backend developer", "frontend developer", "full stack engineer", "qa automation engineer", 
-        "devops engineer", "data engineer trainee", "cybersecurity analyst intern", "cloud engineer associate"
+        "backend developer", "frontend developer", "full stack engineer", "devops engineer"
     ]
-    
     seen_signatures = set()
 
     for query in search_queries:
         try:
-            # Added max_days_old=30 parameter to keep the job feed fresh
-            api_url = f"https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=1f93aaf4&app_key=311e4db2e9cfe683a6e54889f6d35b1b&results_per_page=25&what={query}&max_days_old=30"
-            resp = requests.get(api_url, headers=HEADERS, timeout=15)
-            
+            api_url = f"https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=1f93aaf4&app_key=311e4db2e9cfe683a6e54889f6d35b1b&results_per_page=15&what={query}&max_days_old=30"
+            resp = requests.get(api_url, timeout=15)
             if resp.status_code == 200:
-                data = resp.json()
-                results = data.get("results", [])
-                
-                for job in results:
+                for job in resp.json().get("results", []):
                     raw_title = job.get("title", "")
                     raw_desc = job.get("description", "")
                     company_name = job.get("company", {}).get("display_name", "Tech Company")
                     target_url = job.get("redirect_url", "")
-                    
                     signature = f"{company_name}-{raw_title}".lower()
                     
                     if signature not in seen_signatures and clean_and_verify(raw_title, raw_desc):
                         seen_signatures.add(signature)
-                        
-                        # Inspect both the title and text snippet for proper domain categorization
                         match_text = f"{raw_title} {raw_desc}".lower()
                         
-                        # VLSI & ASIC Custom Sub-categories
-                        vlsi_tags = ["vlsi", "asic", "rtl", "verilog", "systemverilog", "semiconductor", "fpga", "physical design", "dft", "synthesis", "hardware design", "digital design", "analog layout", "soc"]
-                        # Embedded Sub-categories
-                        embedded_tags = ["embedded", "firmware", "device driver", "pcb", "schematic", "validation", "iot", "microcontroller", "hardware engineering", "electronics"]
-                        
-                        if any(x in match_text for x in vlsi_tags):
+                        if any(x in match_text for x in ["vlsi", "asic", "rtl", "verilog", "systemverilog", "fpga", "dft", "physical design"]):
                             domain = "VLSI"
-                        elif any(x in match_text for x in embedded_tags):
+                        elif any(x in match_text for x in ["embedded", "firmware", "device driver", "pcb", "microcontroller"]):
                             domain = "Embedded"
                         else:
                             domain = "Software"
 
                         aggregated_results.append({
-                            "company": company_name,
-                            "domain": domain,
-                            "title": raw_title,
-                            "url": target_url,
-                            "company_careers": target_url,
-                            "found_at": datetime.now().isoformat()
+                            "company": company_name, "domain": domain, "title": raw_title, "url": target_url
                         })
-        except Exception as e:
-            print(f"Skipping lookup segment '{query}': {e}")
-        time.sleep(1.2) # Avoid hitting API gateway rate limit alerts
-        
+        except Exception:
+            pass
+        time.sleep(0.5)
     return aggregated_results
 
 def main():
-    print("Initializing expanded nationwide fresher career lookup sync...")
+    # 1. Fetch live authenticated user sets
+    user_database = fetch_approved_users()
+    
+    # 2. Fetch live job array
     live_jobs = fetch_aggregated_india_jobs()
     
+    # 3. Save comprehensive state payload
     output = {
         "last_updated": datetime.now().isoformat(),
-        "total": len(live_jobs),
+        "users": user_database,
         "jobs": live_jobs
     }
 
     with open("jobs.json", "w") as f:
         json.dump(output, f, indent=2)
-
-    print(f"Sync complete. Compiled {len(live_jobs)} verified positions across all custom tracks.")
+    print(f"Deployment Build complete. Saved {len(live_jobs)} jobs and authorization layers.")
 
 if __name__ == "__main__":
     main()
