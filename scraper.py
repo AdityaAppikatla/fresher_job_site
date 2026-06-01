@@ -33,7 +33,8 @@ def fetch_aggregated_india_jobs():
     for query in search_queries:
         try:
             # Nationwide Indian Job Aggregator Stream Engine
-            api_url = f"https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=c14bb497&app_key=42898b95886d34bbf3bd05b82772093d&results_per_page=50&what={query}"
+            # Updated with your personal dedicated API keys
+            api_url = f"https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=1f93aaf4&app_key=311e4db2e9cfe683a6e54889f6d35b1b&results_per_page=50&what={query}"
             resp = requests.get(api_url, headers=HEADERS, timeout=15)
             
             if resp.status_code == 200:
