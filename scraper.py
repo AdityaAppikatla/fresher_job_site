@@ -7,6 +7,7 @@ import time
 
 COMPANIES = [
     # Semiconductor / VLSI
+    {"name": "NVIDIA", "url": "https://nvidia.eightfold.ai/careers", "domain": "VLSI"},
     {"name": "Tessolve", "url": "https://tessolve.com/careers/", "domain": "VLSI"},
     {"name": "Sankalp Semiconductor", "url": "https://sankalpct.com/careers/", "domain": "VLSI"},
     {"name": "eInfochips", "url": "https://www.einfochips.com/careers/", "domain": "VLSI"},
