@@ -1,5 +1,918 @@
 {
-  "last_updated": "2026-06-01T14:59:34.414875",
-  "total": 0,
-  "jobs": []
+  "last_updated": "2026-06-01T15:12:16.630466",
+  "total": 114,
+  "jobs": [
+    {
+      "company": "Hypersonic Technologies Pvt Ltd",
+      "domain": "Software",
+      "title": "Trainee Engineer (Fresher)",
+      "url": "https://www.adzuna.in/land/ad/5663457457?se=zlhZP8xd8RGLwJSGqSIW5A&utm_medium=api&utm_source=1f93aaf4&v=1AD22C1B2B259D378D3549671F5DB4D94B37D2E4",
+      "company_careers": "https://www.adzuna.in/land/ad/5663457457?se=zlhZP8xd8RGLwJSGqSIW5A&utm_medium=api&utm_source=1f93aaf4&v=1AD22C1B2B259D378D3549671F5DB4D94B37D2E4",
+      "found_at": "2026-06-01T15:12:08.162630"
+    },
+    {
+      "company": "Green Positive",
+      "domain": "Software",
+      "title": "Environmental Sustainability Engineer - Fresher",
+      "url": "https://www.adzuna.in/land/ad/5740179570?se=zlhZP8xd8RGLwJSGqSIW5A&utm_medium=api&utm_source=1f93aaf4&v=6C774A9083F3E50C6324D3774F2240449FF95F6A",
+      "company_careers": "https://www.adzuna.in/land/ad/5740179570?se=zlhZP8xd8RGLwJSGqSIW5A&utm_medium=api&utm_source=1f93aaf4&v=6C774A9083F3E50C6324D3774F2240449FF95F6A",
+      "found_at": "2026-06-01T15:12:08.162647"
+    },
+    {
+      "company": "KAAPRO",
+      "domain": "Software",
+      "title": "Calibration Engineer , Rau (Fresher)",
+      "url": "https://www.adzuna.in/land/ad/5744182379?se=zlhZP8xd8RGLwJSGqSIW5A&utm_medium=api&utm_source=1f93aaf4&v=1745C3ED50D55314A064FF4D149EAAB989964729",
+      "company_careers": "https://www.adzuna.in/land/ad/5744182379?se=zlhZP8xd8RGLwJSGqSIW5A&utm_medium=api&utm_source=1f93aaf4&v=1745C3ED50D55314A064FF4D149EAAB989964729",
+      "found_at": "2026-06-01T15:12:08.162653"
+    },
+    {
+      "company": "Volvo group",
+      "domain": "Software",
+      "title": "Fresher engineer",
+      "url": "https://www.adzuna.in/details/4801624884?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4801624884?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162659"
+    },
+    {
+      "company": "Career Creed HR Services",
+      "domain": "Software",
+      "title": "Fresher Engineer",
+      "url": "https://www.adzuna.in/details/5727132185?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5727132185?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162664"
+    },
+    {
+      "company": "Tech Company",
+      "domain": "Software",
+      "title": "Jobs For Fresher Engineer",
+      "url": "https://www.adzuna.in/details/4686707444?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4686707444?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162670"
+    },
+    {
+      "company": "Patankar Consultants Pvt. Ltd.",
+      "domain": "Software",
+      "title": "Detailer - RCC Structures",
+      "url": "https://www.adzuna.in/land/ad/5747047328?se=zlhZP8xd8RGLwJSGqSIW5A&utm_medium=api&utm_source=1f93aaf4&v=71BC6ECA4033FE6A8D45FF060262BA1FC96F4054",
+      "company_careers": "https://www.adzuna.in/land/ad/5747047328?se=zlhZP8xd8RGLwJSGqSIW5A&utm_medium=api&utm_source=1f93aaf4&v=71BC6ECA4033FE6A8D45FF060262BA1FC96F4054",
+      "found_at": "2026-06-01T15:12:08.162692"
+    },
+    {
+      "company": "Guidance Placement Hiring For",
+      "domain": "Software",
+      "title": "Urgent hiring fresher engineer trainee live internship",
+      "url": "https://www.adzuna.in/details/5735695088?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5735695088?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162699"
+    },
+    {
+      "company": "EXIMIOUS GLOBAL LIMITED",
+      "domain": "Software",
+      "title": "Fresher Mechanical Engineer",
+      "url": "https://www.adzuna.in/details/5700751751?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5700751751?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162708"
+    },
+    {
+      "company": "Rackbank",
+      "domain": "Software",
+      "title": "Fresher Mechanical Engineer",
+      "url": "https://www.adzuna.in/details/5605447596?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5605447596?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162713"
+    },
+    {
+      "company": "Tech Company",
+      "domain": "Software",
+      "title": "Fresher Mechanical Engineer",
+      "url": "https://www.adzuna.in/details/4686707582?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4686707582?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162718"
+    },
+    {
+      "company": "NPEC",
+      "domain": "Software",
+      "title": "Hiring Freshers Mechanical Engineer",
+      "url": "https://www.adzuna.in/details/5730904524?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5730904524?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162723"
+    },
+    {
+      "company": "MAK",
+      "domain": "Software",
+      "title": "Freshers Software Engineer in Hyderabad",
+      "url": "https://www.adzuna.in/details/5700727125?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5700727125?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162728"
+    },
+    {
+      "company": "Ridlr",
+      "domain": "Software",
+      "title": "Freshers from Engineer Background",
+      "url": "https://www.adzuna.in/details/1341475456?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/1341475456?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162752"
+    },
+    {
+      "company": "Sone India",
+      "domain": "Software",
+      "title": "Purchase Executive \u2013 Fresher ( Mechanical Engineering )",
+      "url": "https://www.adzuna.in/details/5696237499?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5696237499?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162770"
+    },
+    {
+      "company": "Sone India",
+      "domain": "Software",
+      "title": "Purchase Executive Fresher ( Mechanical Engineering )",
+      "url": "https://www.adzuna.in/details/5696237752?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5696237752?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162776"
+    },
+    {
+      "company": "Real Placements",
+      "domain": "Software",
+      "title": "PLC Engineer (Freshers)",
+      "url": "https://www.adzuna.in/details/5727188055?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5727188055?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162781"
+    },
+    {
+      "company": "Sanskar HR Consultancy Services Hiring For Construction Company",
+      "domain": "Software",
+      "title": "Civil Engineer Freshers",
+      "url": "https://www.adzuna.in/details/5733571633?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5733571633?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162789"
+    },
+    {
+      "company": "Adecco",
+      "domain": "Software",
+      "title": "Civil Engineer-Fresher",
+      "url": "https://www.adzuna.in/details/5695000281?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5695000281?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162794"
+    },
+    {
+      "company": "Khanha Traders",
+      "domain": "Software",
+      "title": "Petroleum Engineer fresher",
+      "url": "https://www.adzuna.in/details/5683670530?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5683670530?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162799"
+    },
+    {
+      "company": "Prominent Consultant",
+      "domain": "Software",
+      "title": "Graduate Engineer Fresher",
+      "url": "https://www.adzuna.in/details/5665918738?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5665918738?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162804"
+    },
+    {
+      "company": "DMAIC Academy Consultancy",
+      "domain": "Software",
+      "title": "Network Engineer - Fresher",
+      "url": "https://www.adzuna.in/details/4794473716?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4794473716?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162809"
+    },
+    {
+      "company": "Fragma Data Systems",
+      "domain": "Software",
+      "title": "Data Engineer (Fresher)",
+      "url": "https://www.adzuna.in/details/2890608886?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/2890608886?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162815"
+    },
+    {
+      "company": "Dayal Infosystems",
+      "domain": "Software",
+      "title": "Software - Engineer (Fresher)",
+      "url": "https://www.adzuna.in/details/5083875946?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5083875946?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162820"
+    },
+    {
+      "company": "Green Focus Infotech",
+      "domain": "Software",
+      "title": "AI Engineer - Fresher",
+      "url": "https://www.adzuna.in/details/4889708853?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4889708853?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162825"
+    },
+    {
+      "company": "Khanha Traders",
+      "domain": "Software",
+      "title": "Civil Engineer Fresher",
+      "url": "https://www.adzuna.in/details/5735690303?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5735690303?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162829"
+    },
+    {
+      "company": "Tech Company",
+      "domain": "Software",
+      "title": "Testing Engineer Freshers",
+      "url": "https://www.adzuna.in/details/4686702786?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4686702786?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162834"
+    },
+    {
+      "company": "Ladybird Web Solution Pvt Ltd",
+      "domain": "Software",
+      "title": "Internship For Software Engineers - Freshers",
+      "url": "https://www.adzuna.in/details/5730918570?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5730918570?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162843"
+    },
+    {
+      "company": "Fragma Data Systems",
+      "domain": "Software",
+      "title": "Fresher Data Engineer- PythonSQL (InternshipJob Opportunity)",
+      "url": "https://www.adzuna.in/details/2890608825?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/2890608825?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162848"
+    },
+    {
+      "company": "Vinayak Outsourcing Works",
+      "domain": "Software",
+      "title": "Automobile Engineer (Fresher) - Raipur",
+      "url": "https://www.adzuna.in/details/5727131904?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5727131904?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162857"
+    },
+    {
+      "company": "Bista Universal",
+      "domain": "Software",
+      "title": "Mechanical /Automobile Engineer Fresher",
+      "url": "https://www.adzuna.in/details/5329699889?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5329699889?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162862"
+    },
+    {
+      "company": "Avegen Health",
+      "domain": "Software",
+      "title": "QA - Test Engineer - Fresher",
+      "url": "https://www.adzuna.in/details/5023813615?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5023813615?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162869"
+    },
+    {
+      "company": "Gormalone LLP",
+      "domain": "Software",
+      "title": "Quality Assurance Engineer (Fresher)",
+      "url": "https://www.adzuna.in/details/3337906325?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/3337906325?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162874"
+    },
+    {
+      "company": "Elision Technologies",
+      "domain": "Software",
+      "title": "Pre Sales Engineer ( Fresher)",
+      "url": "https://www.adzuna.in/details/5727263534?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5727263534?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162879"
+    },
+    {
+      "company": "Orbit Global hr Consultants",
+      "domain": "Software",
+      "title": "Electronics Engineer (Fresher) Repair",
+      "url": "https://www.adzuna.in/details/5727119572?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5727119572?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162884"
+    },
+    {
+      "company": "Tech Company",
+      "domain": "Software",
+      "title": "Fresher Junior Assistant Engineer",
+      "url": "https://www.adzuna.in/details/4686703163?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4686703163?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162890"
+    },
+    {
+      "company": "Tech Company",
+      "domain": "Software",
+      "title": "IT Support Engineer Fresher",
+      "url": "https://www.adzuna.in/details/4686700374?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4686700374?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162897"
+    },
+    {
+      "company": "Tech Company",
+      "domain": "Software",
+      "title": "Mechanical Design Engineer Fresher",
+      "url": "https://www.adzuna.in/details/4686702594?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4686702594?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162902"
+    },
+    {
+      "company": "Post A Resume",
+      "domain": "Software",
+      "title": "Hiring Fresher Trainee Engineer in Sanand Ahmedabad Location",
+      "url": "https://www.adzuna.in/details/5736870699?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5736870699?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162907"
+    },
+    {
+      "company": "Alpha Tech Solutions",
+      "domain": "Software",
+      "title": "Electronic Engineer For Freshers",
+      "url": "https://www.adzuna.in/details/4801623583?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4801623583?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162912"
+    },
+    {
+      "company": "Alpha Tech Solutions",
+      "domain": "Software",
+      "title": "Mechanical Quality Engineer For Freshers",
+      "url": "https://www.adzuna.in/details/4801572758?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4801572758?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:08.162917"
+    },
+    {
+      "company": "Mech ikonic group",
+      "domain": "Software",
+      "title": "Graduate Trainee Engineer",
+      "url": "https://www.adzuna.in/land/ad/5648684569?se=kMluQsxd8RGPOejJLnPHVg&utm_medium=api&utm_source=1f93aaf4&v=D0F255AD46861C01EFC12F2C60E675AF05AA5E87",
+      "company_careers": "https://www.adzuna.in/land/ad/5648684569?se=kMluQsxd8RGPOejJLnPHVg&utm_medium=api&utm_source=1f93aaf4&v=D0F255AD46861C01EFC12F2C60E675AF05AA5E87",
+      "found_at": "2026-06-01T15:12:10.363428"
+    },
+    {
+      "company": "Anglo-Eastern Ship Management",
+      "domain": "Software",
+      "title": "Graduate Trainee",
+      "url": "https://www.adzuna.in/details/5723977504?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5723977504?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363457"
+    },
+    {
+      "company": "VERTICAL SOLUTIONS",
+      "domain": "Software",
+      "title": "Graduate Trainee",
+      "url": "https://www.adzuna.in/details/4443416066?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4443416066?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363462"
+    },
+    {
+      "company": "Crisil",
+      "domain": "Software",
+      "title": "Graduate Trainee",
+      "url": "https://www.adzuna.in/details/5714065738?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5714065738?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363467"
+    },
+    {
+      "company": "Ujjwal Autohub",
+      "domain": "Software",
+      "title": "Graduate Trainee",
+      "url": "https://www.adzuna.in/details/4801531570?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4801531570?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363471"
+    },
+    {
+      "company": "IH Enterprise",
+      "domain": "Software",
+      "title": "Graduate Trainee",
+      "url": "https://www.adzuna.in/details/4801558708?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4801558708?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363475"
+    },
+    {
+      "company": "IH Enterprise",
+      "domain": "Software",
+      "title": "Graduate Trainee Jobs",
+      "url": "https://www.adzuna.in/details/4801542154?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4801542154?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363480"
+    },
+    {
+      "company": "T&M Services Consulting Pvt Ltd",
+      "domain": "Software",
+      "title": "Apprentice Trainee",
+      "url": "https://www.adzuna.in/land/ad/5743506918?se=kMluQsxd8RGPOejJLnPHVg&utm_medium=api&utm_source=1f93aaf4&v=8E012B8326EC7AD136C8AC37D6EAC51CFD5AA7FC",
+      "company_careers": "https://www.adzuna.in/land/ad/5743506918?se=kMluQsxd8RGPOejJLnPHVg&utm_medium=api&utm_source=1f93aaf4&v=8E012B8326EC7AD136C8AC37D6EAC51CFD5AA7FC",
+      "found_at": "2026-06-01T15:12:10.363486"
+    },
+    {
+      "company": "Anglo-Eastern Ship Management",
+      "domain": "Software",
+      "title": "Graduate Trainee (ISSC)",
+      "url": "https://www.adzuna.in/details/5722658286?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5722658286?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363491"
+    },
+    {
+      "company": "Hireviajobs",
+      "domain": "Software",
+      "title": "Graduate Trainee Fresher Jobs",
+      "url": "https://www.adzuna.in/details/4801628056?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4801628056?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363495"
+    },
+    {
+      "company": "I.T. Solutions",
+      "domain": "Software",
+      "title": "Graduate Trainee Executive",
+      "url": "https://www.adzuna.in/details/4801385256?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4801385256?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363500"
+    },
+    {
+      "company": "Hireviajobs",
+      "domain": "Software",
+      "title": "Required For Graduate Trainee",
+      "url": "https://www.adzuna.in/details/4801578879?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4801578879?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363505"
+    },
+    {
+      "company": "I.T. Solutions",
+      "domain": "Software",
+      "title": "UG And Graduate Trainee And Jobs",
+      "url": "https://www.adzuna.in/details/4801494547?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4801494547?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363511"
+    },
+    {
+      "company": "Russell Investments",
+      "domain": "Software",
+      "title": "Graduate Trainee, Compliance",
+      "url": "https://www.adzuna.in/details/5731733602?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5731733602?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363519"
+    },
+    {
+      "company": "IMEG Consultants",
+      "domain": "Software",
+      "title": "Mechanical Graduate Trainee Engineer",
+      "url": "https://www.adzuna.in/details/5708537933?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5708537933?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363527"
+    },
+    {
+      "company": "IMEG Consultants",
+      "domain": "Software",
+      "title": "Electrical Graduate Trainee Engineer",
+      "url": "https://www.adzuna.in/details/5740021481?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5740021481?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363531"
+    },
+    {
+      "company": "Bentley Systems",
+      "domain": "Software",
+      "title": "Graduate Trainee, Education Support",
+      "url": "https://www.adzuna.in/details/5737266770?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5737266770?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363536"
+    },
+    {
+      "company": "Hillenbrand",
+      "domain": "Software",
+      "title": "Diploma / Science Graduate Trainee",
+      "url": "https://www.adzuna.in/details/5714820966?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5714820966?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363541"
+    },
+    {
+      "company": "I.T. Solutions",
+      "domain": "Software",
+      "title": "Urgent Hiring For Graduate Trainee",
+      "url": "https://www.adzuna.in/details/4801639601?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4801639601?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363547"
+    },
+    {
+      "company": "Manafa Technologies",
+      "domain": "Software",
+      "title": "Manafa Graduate Trainee Program - SQA",
+      "url": "https://www.adzuna.in/details/5700459321?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5700459321?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363552"
+    },
+    {
+      "company": "PrimoHunt Global Services",
+      "domain": "Software",
+      "title": "Graduate Trainee Production Engineer at Shirwal in Pune",
+      "url": "https://www.adzuna.in/details/5729734150?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5729734150?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363557"
+    },
+    {
+      "company": "Manafa Technologies",
+      "domain": "Software",
+      "title": "Manafa Graduate Trainee Program - Backend (PHP Laravel)",
+      "url": "https://www.adzuna.in/details/5700534069?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5700534069?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363562"
+    },
+    {
+      "company": "PrimoHunt Global Services",
+      "domain": "Software",
+      "title": "Mechanical Graduate Trainee Engineer at Vasai east in Mumbai",
+      "url": "https://www.adzuna.in/details/5740750080?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5740750080?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363567"
+    },
+    {
+      "company": "Hillenbrand",
+      "domain": "Software",
+      "title": "Graduate Engineer Trainee",
+      "url": "https://www.adzuna.in/details/5714831556?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5714831556?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363576"
+    },
+    {
+      "company": "Vertiv Group",
+      "domain": "Software",
+      "title": "Graduate Engineer Trainee",
+      "url": "https://www.adzuna.in/details/5738059385?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5738059385?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363581"
+    },
+    {
+      "company": "Bangalore Strategic Solutions Private Limited",
+      "domain": "Software",
+      "title": "Graduate Engineer Trainee",
+      "url": "https://www.adzuna.in/details/5707749227?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5707749227?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363588"
+    },
+    {
+      "company": "Quality HR India",
+      "domain": "Software",
+      "title": "Graduate Engineer Trainee",
+      "url": "https://www.adzuna.in/details/5727283683?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5727283683?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363592"
+    },
+    {
+      "company": "GE HealthCare",
+      "domain": "Software",
+      "title": "Graduate Engineer Trainee",
+      "url": "https://www.adzuna.in/details/5714257474?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5714257474?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363596"
+    },
+    {
+      "company": "Calderys Group",
+      "domain": "Software",
+      "title": "Graduate Engineer Trainee",
+      "url": "https://www.adzuna.in/details/5693590961?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5693590961?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363601"
+    },
+    {
+      "company": "Emerson",
+      "domain": "Software",
+      "title": "Graduate Engineer Trainee",
+      "url": "https://www.adzuna.in/details/5707760569?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5707760569?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363611"
+    },
+    {
+      "company": "Unity SFB",
+      "domain": "Software",
+      "title": "Graduate Engineer Trainee",
+      "url": "https://www.adzuna.in/details/5727197774?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5727197774?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363618"
+    },
+    {
+      "company": "Jabil",
+      "domain": "Software",
+      "title": "Graduate Apprentice Trainee",
+      "url": "https://www.adzuna.in/details/5662846390?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5662846390?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363623"
+    },
+    {
+      "company": "Milacron",
+      "domain": "Software",
+      "title": "Graduate Engineer Trainee",
+      "url": "https://www.adzuna.in/details/5738053827?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5738053827?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:10.363627"
+    },
+    {
+      "company": "AdElement",
+      "domain": "Software",
+      "title": "Software Intern",
+      "url": "https://www.adzuna.in/details/5587468951?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5587468951?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494001"
+    },
+    {
+      "company": "Visit Health",
+      "domain": "Software",
+      "title": "Software Development Engineer in Test (SDET) Intern",
+      "url": "https://www.adzuna.in/land/ad/5729068026?se=Dhm-Q8xd8RGLwJSGqSIW5A&utm_medium=api&utm_source=1f93aaf4&v=A5072DF0664BFAFEDE682FACE0E7A89228F0854B",
+      "company_careers": "https://www.adzuna.in/land/ad/5729068026?se=Dhm-Q8xd8RGLwJSGqSIW5A&utm_medium=api&utm_source=1f93aaf4&v=A5072DF0664BFAFEDE682FACE0E7A89228F0854B",
+      "found_at": "2026-06-01T15:12:12.494019"
+    },
+    {
+      "company": "Appbay technologies",
+      "domain": "Software",
+      "title": "Software Intern (Backend Development)",
+      "url": "https://www.adzuna.in/details/5728991508?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5728991508?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494029"
+    },
+    {
+      "company": "Intel",
+      "domain": "Software",
+      "title": "Software Intern For Infrastructure GPU Hardware Tools development",
+      "url": "https://www.adzuna.in/details/5715035338?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5715035338?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494037"
+    },
+    {
+      "company": "Ladybird Web Solution Pvt Ltd",
+      "domain": "Software",
+      "title": "Software Engineering internship",
+      "url": "https://www.adzuna.in/details/5693814465?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5693814465?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494044"
+    },
+    {
+      "company": "PALITRONICS TECH SERVICES PRIVATE LIMITED",
+      "domain": "Software",
+      "title": "Software Development INTERN",
+      "url": "https://www.adzuna.in/details/2341052201?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/2341052201?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494051"
+    },
+    {
+      "company": "PODTECH",
+      "domain": "Software",
+      "title": "Software Developer - Intern",
+      "url": "https://www.adzuna.in/details/4309750168?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4309750168?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494056"
+    },
+    {
+      "company": "SynqCloud, Inc",
+      "domain": "Software",
+      "title": "Software Developer Intern",
+      "url": "https://www.adzuna.in/details/1155089572?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/1155089572?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494063"
+    },
+    {
+      "company": "Brahma Group",
+      "domain": "Software",
+      "title": "Software Developer Intern",
+      "url": "https://www.adzuna.in/details/5635277312?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5635277312?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494068"
+    },
+    {
+      "company": "My Job Test",
+      "domain": "Software",
+      "title": "Software Testing Intern",
+      "url": "https://www.adzuna.in/details/5684568346?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5684568346?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494074"
+    },
+    {
+      "company": "AllSoft Consulting Private Limited",
+      "domain": "Software",
+      "title": "Software Development Intern",
+      "url": "https://www.adzuna.in/details/4947384279?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4947384279?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494080"
+    },
+    {
+      "company": "Marcamor Business Solutions",
+      "domain": "Software",
+      "title": "Software Developer Intern",
+      "url": "https://www.adzuna.in/details/2042125211?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/2042125211?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494086"
+    },
+    {
+      "company": "Bennett Coleman & Company Limited",
+      "domain": "Software",
+      "title": "Software Developer Intern",
+      "url": "https://www.adzuna.in/details/5502096759?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5502096759?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494091"
+    },
+    {
+      "company": "RSA Career",
+      "domain": "Software",
+      "title": "Software Engineer - Apprentice",
+      "url": "https://www.adzuna.in/details/5701676107?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5701676107?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494097"
+    },
+    {
+      "company": "Fortune Group",
+      "domain": "Software",
+      "title": "Software Developer Intern",
+      "url": "https://www.adzuna.in/details/5730850810?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5730850810?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494103"
+    },
+    {
+      "company": "CAE",
+      "domain": "Software",
+      "title": "Software Developer - Intern",
+      "url": "https://www.adzuna.in/details/5746733730?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5746733730?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494108"
+    },
+    {
+      "company": "Teleperformance",
+      "domain": "Software",
+      "title": "Software Development Intern",
+      "url": "https://www.adzuna.in/details/5744925680?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5744925680?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494114"
+    },
+    {
+      "company": "Tech Company",
+      "domain": "Software",
+      "title": "Software Tester Intern",
+      "url": "https://www.adzuna.in/details/4686701847?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4686701847?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494120"
+    },
+    {
+      "company": "Poshmark India",
+      "domain": "Software",
+      "title": "Software Engineer Intern, IOS",
+      "url": "https://www.adzuna.in/details/5576184916?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5576184916?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494126"
+    },
+    {
+      "company": "Cnc Software Inc",
+      "domain": "Software",
+      "title": "Software Engineering Intern, India",
+      "url": "https://www.adzuna.in/details/5696999343?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5696999343?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494132"
+    },
+    {
+      "company": "Cloudflare",
+      "domain": "Software",
+      "title": "Software Engineer Intern - Bengaluru",
+      "url": "https://www.adzuna.in/details/5719203778?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5719203778?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494139"
+    },
+    {
+      "company": "Poshmark India",
+      "domain": "Software",
+      "title": "Software Engineer Intern, Android",
+      "url": "https://www.adzuna.in/details/5576276539?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5576276539?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494145"
+    },
+    {
+      "company": "Nirmata",
+      "domain": "Software",
+      "title": "Software Engineer Intern, India",
+      "url": "https://www.adzuna.in/details/5720727578?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5720727578?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494153"
+    },
+    {
+      "company": "Intel",
+      "domain": "Software",
+      "title": "GPU Software Development Intern",
+      "url": "https://www.adzuna.in/details/5715034422?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5715034422?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494160"
+    },
+    {
+      "company": "IXG Inc",
+      "domain": "Software",
+      "title": "AI-native Software Developer Intern",
+      "url": "https://www.adzuna.in/details/5605916596?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5605916596?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494167"
+    },
+    {
+      "company": "Spacenos",
+      "domain": "Software",
+      "title": "U.S. Sales (Software Products) - Interns",
+      "url": "https://www.adzuna.in/details/3162281462?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/3162281462?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494174"
+    },
+    {
+      "company": "TestHiring",
+      "domain": "Software",
+      "title": "Require a Software Engineer Intern in Bangalore",
+      "url": "https://www.adzuna.in/details/5742880880?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5742880880?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494180"
+    },
+    {
+      "company": "I Design My Life",
+      "domain": "Software",
+      "title": "Intern - Software Developer",
+      "url": "https://www.adzuna.in/details/5054286449?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5054286449?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494187"
+    },
+    {
+      "company": "Pearson",
+      "domain": "Software",
+      "title": "Apprentice, Software Engineer",
+      "url": "https://www.adzuna.in/details/5730738444?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5730738444?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494193"
+    },
+    {
+      "company": "ElevateHQ",
+      "domain": "Software",
+      "title": "2 x Software Engineer Intern - ReactJS",
+      "url": "https://www.adzuna.in/details/2396448575?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/2396448575?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494200"
+    },
+    {
+      "company": "DiligenceVault",
+      "domain": "Software",
+      "title": "Software Engineer (Backend) Intern",
+      "url": "https://www.adzuna.in/details/5725817513?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5725817513?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494207"
+    },
+    {
+      "company": "Intel",
+      "domain": "Software",
+      "title": "Software Development Engineer(Intern)",
+      "url": "https://www.adzuna.in/details/5715035020?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5715035020?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494213"
+    },
+    {
+      "company": "Jelly Card",
+      "domain": "Software",
+      "title": "Software Development Engineer Intern",
+      "url": "https://www.adzuna.in/details/3312084782?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/3312084782?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494219"
+    },
+    {
+      "company": "INQ Technologies",
+      "domain": "Software",
+      "title": "Internship - Software Manual Tester",
+      "url": "https://www.adzuna.in/details/5693904598?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5693904598?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494225"
+    },
+    {
+      "company": "Cognic Systems Pvt Ltd",
+      "domain": "Software",
+      "title": "Internship Opportunity for MCA Students: Software Development Intern",
+      "url": "https://www.adzuna.in/details/5503837657?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5503837657?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494233"
+    },
+    {
+      "company": "Soulpage IT Solutions",
+      "domain": "Software",
+      "title": "Full stack - Python Backend Intern",
+      "url": "https://www.adzuna.in/details/4701207128?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/4701207128?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494239"
+    },
+    {
+      "company": "Poshmark India",
+      "domain": "Software",
+      "title": "Software Engineer Intern, Data Engineering (2026 Graduates Only)",
+      "url": "https://www.adzuna.in/details/5576582182?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5576582182?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494247"
+    },
+    {
+      "company": "Cognic Systems Pvt Ltd",
+      "domain": "Software",
+      "title": "Junior Software Developer (Fresher) Internship",
+      "url": "https://www.adzuna.in/details/5503838346?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5503838346?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494252"
+    },
+    {
+      "company": "Honeywell Aerospace Technologies",
+      "domain": "Software",
+      "title": "Intern Masters Software Eng",
+      "url": "https://www.adzuna.in/details/5742070815?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5742070815?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494267"
+    },
+    {
+      "company": "Google",
+      "domain": "Software",
+      "title": "Software Engineering PhD Intern, Summer 2026",
+      "url": "https://www.adzuna.in/details/5695920664?utm_medium=api&utm_source=1f93aaf4",
+      "company_careers": "https://www.adzuna.in/details/5695920664?utm_medium=api&utm_source=1f93aaf4",
+      "found_at": "2026-06-01T15:12:12.494275"
+    }
+  ]
 }
