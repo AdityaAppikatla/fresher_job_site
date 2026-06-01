@@ -1,17 +1,14 @@
 import requests
 import json
-import os
 from datetime import datetime
 import time
 
-# Comprehensive Fresher Indicators mapping across Indian hiring sectors
 INCLUDED_KEYWORDS = [
     "fresher", "entry level", "entry-level", "graduate trainee", "associate engineer",
     "junior engineer", "graduate engineer trainee", "get", "et", "software trainee",
     "intern", "apprentice", "0-1 year", "0-2 years", "2025 passout", "2026 passout", "2027 passout"
 ]
 
-# Strict filters to discard non-entry postings immediately
 STRIP_KEYWORDS = [
     "senior", "lead", "principal", "manager", "architect", "experienced", "years experience", 
     "3+", "4+", "5+", "sr.", "tech lead", "team lead"
@@ -29,19 +26,13 @@ def clean_and_verify(title):
     return has_fresher and not has_senior
 
 def fetch_aggregated_india_jobs():
-    """
-    Queries open endpoint data aggregators indexing Indian corporate pipelines.
-    Using standardized job boards collects massive multi-company entries at once.
-    """
     aggregated_results = []
-    
-    # We query specific entry terms across open job boards
     search_queries = ["fresher engineer", "graduate trainee", "software intern", "associate developer"]
     seen_signatures = set()
 
     for query in search_queries:
         try:
-            # Open API Aggregator endpoint for real-time tracking across India
+            # Nationwide Indian Job Aggregator Stream Engine
             api_url = f"https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=c14bb497&app_key=42898b95886d34bbf3bd05b82772093d&results_per_page=50&what={query}"
             resp = requests.get(api_url, headers=HEADERS, timeout=15)
             
@@ -54,13 +45,11 @@ def fetch_aggregated_india_jobs():
                     company_name = job.get("company", {}).get("display_name", "Tech Company")
                     target_url = job.get("redirect_url", "")
                     
-                    # Deduplicate structural entries
                     signature = f"{company_name}-{raw_title}".lower()
                     
                     if signature not in seen_signatures and clean_and_verify(raw_title):
                         seen_signatures.add(signature)
                         
-                        # Determine category domain dynamically
                         title_check = raw_title.lower()
                         if any(x in title_check for x in ["vlsi", "asic", "rtl", "verilog", "semiconductor"]):
                             domain = "VLSI"
@@ -78,13 +67,13 @@ def fetch_aggregated_india_jobs():
                             "found_at": datetime.now().isoformat()
                         })
         except Exception as e:
-            print(f"Aggregator stream pause on query '{query}': {e}")
+            print(f"Skipping lookup for segment '{query}': {e}")
         time.sleep(1)
         
     return aggregated_results
 
 def main():
-    print("Initiating nationwide live fresher job sync...")
+    print("Starting nationwide fresher career lookup cycle...")
     live_jobs = fetch_aggregated_india_jobs()
     
     output = {
@@ -96,7 +85,7 @@ def main():
     with open("jobs.json", "w") as f:
         json.dump(output, f, indent=2)
 
-    print(f"Sync complete. Successfully cataloged {len(live_jobs)} verified entry positions across India.")
+    print(f"Sync complete. Compiled {len(live_jobs)} verified positions.")
 
 if __name__ == "__main__":
     main()
