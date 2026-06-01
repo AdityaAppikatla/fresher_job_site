@@ -139,7 +139,7 @@ def main():
     import os
     service_id = os.environ.get("EMAILJS_SERVICE_ID")
     template_id = os.environ.get("EMAILJS_TEMPLATE_ID")
-    private_key = os.environ.get("EMAILJS_PRIVATE_KEY")
+    private_key = os.environ.get("EMAILJS_PUBLIC_KEY")
     recipient = os.environ.get("NOTIFY_EMAIL")
 
     if all([service_id, template_id, private_key, recipient]):
