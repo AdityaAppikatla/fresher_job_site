@@ -139,28 +139,33 @@ def main():
     import os
     service_id = os.environ.get("EMAILJS_SERVICE_ID")
     template_id = os.environ.get("EMAILJS_TEMPLATE_ID")
-    user_id = os.environ.get("EMAILJS_PUBLIC_KEY")
+    private_key = os.environ.get("EMAILJS_PRIVATE_KEY")
     recipient = os.environ.get("NOTIFY_EMAIL")
 
-    if all([service_id, template_id, user_id, recipient]):
+    if all([service_id, template_id, private_key, recipient]):
         fresher_jobs = [j for j in all_jobs if not j.get("manual_check") and not j.get("error")]
-        if fresher_jobs:
-            summary = "\n".join([f"• {j['company']}: {j['title']}" for j in fresher_jobs[:15]])
-            payload = {
-                "service_id": service_id,
-                "template_id": template_id,
-                "user_id": user_id,
-                "template_params": {
-                    "to_email": recipient,
-                    "subject": f"🎓 {len(fresher_jobs)} Fresher Jobs Found Today!",
-                    "message": f"New fresher roles found:\n\n{summary}\n\nVisit your dashboard for full details."
-                }
+        summary = "\n".join([f"• {j['company']}: {j['title']}" for j in fresher_jobs[:15]]) if fresher_jobs else "No specific fresher roles detected today — check the dashboard for all company career pages."
+        payload = {
+            "service_id": service_id,
+            "template_id": template_id,
+            "accessToken": private_key,
+            "template_params": {
+                "to_email": recipient,
+                "subject": f"🎓 Fresher Job Alert — {len(fresher_jobs)} roles found today!",
+                "message": f"New fresher roles found:\n\n{summary}\n\nVisit your dashboard for full details.",
+                "name": "FreshHire Bot",
+                "email": recipient
             }
-            try:
-                r = requests.post("https://api.emailjs.com/api/v1.0/email/send", json=payload)
-                print(f"Email sent: {r.status_code}")
-            except Exception as e:
-                print(f"Email failed: {e}")
+        }
+        try:
+            r = requests.post("https://api.emailjs.com/api/v1.0/email/send", json=payload)
+            print(f"Email sent: {r.status_code}")
+            if r.status_code != 200:
+                print(f"Email error details: {r.text}")
+        except Exception as e:
+            print(f"Email failed: {e}")
+    else:
+        print(f"Email skipped — missing secrets. service_id={bool(service_id)}, template_id={bool(template_id)}, private_key={bool(private_key)}, recipient={bool(recipient)}")
 
 
 if __name__ == "__main__":
