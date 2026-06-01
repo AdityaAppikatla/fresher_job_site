@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FreshHire — Private Fresher Job Board</title>
 <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@500;600;700&family=Cabinet+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
-<!-- Inject Supabase Client CDN -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>
 :root {
@@ -97,7 +96,6 @@ header { position: sticky; top: 0; z-index: 200; background: rgba(250,249,246,0.
 </header>
 
 <main class="main">
-  <!-- 1. ENTRY AUTH WALL -->
   <div id="authWall" class="auth-container">
     <h2 id="authTitle" class="auth-title">Sign In</h2>
     <p id="authSubtitle" class="auth-subtitle">Welcome to FreshHire. Access is private.</p>
@@ -115,21 +113,17 @@ header { position: sticky; top: 0; z-index: 200; background: rgba(250,249,246,0.
     <p class="auth-toggle" id="authToggleMsg">Don't have an account? <span onclick="toggleAuthMode()">Request Access</span></p>
   </div>
 
-  <!-- 2. PENDING ACCESS HOLDER STATE -->
   <div id="pendingScreen" class="state-box hidden">
     <h2>Access Requested Successfully ⏳</h2>
     <p>Your request has been submitted to the platform admin. Once the admin verifies your email id, you will be authorized to log in and see live job openings.</p>
   </div>
 
-  <!-- 3. MAIN APP VIEW (SECURED) -->
   <div id="appDashboard" class="hidden">
-    <!-- Admin Controls Area -->
     <div id="adminPanel" class="admin-panel hidden">
       <h3 class="admin-title">🛠️ Admin Moderation — Pending Requests</h3>
-      <div id="pendingUsersList"><!-- Injected dynamically --></div>
+      <div id="pendingUsersList"></div>
     </div>
 
-    <!-- Job Feed Grid Component -->
     <div class="toolbar">
       <div class="search-field">
         <input class="search-input" type="text" id="searchInput" placeholder="Search technology, role, or company..." oninput="renderAll()" />
@@ -154,10 +148,9 @@ header { position: sticky; top: 0; z-index: 200; background: rgba(250,249,246,0.
 <div class="toast" id="toast"></div>
 
 <script>
-// Linked directly with your active database instance URL
+// Hardcoded clean endpoints pointing to your active live stack
 const SUB_URL = "https://kofcqctifaguxaqzstoz.supabase.co";
-// Paste your long Anon Key inside this string from Project Settings -> API
-const SUB_KEY = "YOUR_ANON_PUBLIC_API_KEY"; 
+const SUB_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtvZmNxY3RpZmFndXhhcXpzdG96Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAzMjIyMjksImV4cCI6MjA5NTg5ODIyOX0.IyMn8zFTr98YQstQg7F8K7xROG-_gtefav1zvWWNotc"; 
 
 const supabase = Supabase.createClient(SUB_URL, SUB_KEY);
 
