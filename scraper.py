@@ -145,10 +145,11 @@ def main():
     if all([service_id, template_id, private_key, recipient]):
         fresher_jobs = [j for j in all_jobs if not j.get("manual_check") and not j.get("error")]
         summary = "\n".join([f"• {j['company']}: {j['title']}" for j in fresher_jobs[:15]]) if fresher_jobs else "No specific fresher roles detected today — check the dashboard for all company career pages."
-        payload = {
+         payload = {
             "service_id": service_id,
             "template_id": template_id,
-            "user_id": private_key,
+            "user_id": os.environ.get("EMAILJS_PUBLIC_KEY"),
+            "accessToken": os.environ.get("EMAILJS_PRIVATE_KEY"),
             "template_params": {
                 "to_email": recipient,
                 "subject": f"🎓 Fresher Job Alert — {len(fresher_jobs)} roles found today!",
