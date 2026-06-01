@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-import re
+import os
 from datetime import datetime
 import time
 
@@ -68,7 +68,6 @@ def scrape_company(company):
         resp = requests.get(company["url"], headers=HEADERS, timeout=12)
         soup = BeautifulSoup(resp.text, "html.parser")
 
-        # Collect all text nodes that look like job titles
         candidates = []
         for tag in soup.find_all(["h1", "h2", "h3", "h4", "a", "li", "span", "div"], limit=400):
             text = tag.get_text(strip=True)
@@ -90,7 +89,6 @@ def scrape_company(company):
                     "found_at": datetime.now().isoformat()
                 })
 
-        # If nothing found via keyword match, just record the career page as active
         if not results:
             results.append({
                 "company": company["name"],
@@ -116,6 +114,53 @@ def scrape_company(company):
     return results
 
 
+def send_email(all_jobs):
+    service_id = os.environ.get("EMAILJS_SERVICE_ID", "")
+    template_id = os.environ.get("EMAILJS_TEMPLATE_ID", "")
+    public_key = os.environ.get("EMAILJS_PUBLIC_KEY", "")
+    private_key = os.environ.get("EMAILJS_PRIVATE_KEY", "")
+    recipient = os.environ.get("NOTIFY_EMAIL", "")
+
+    print(f"service_id set: {bool(service_id)}")
+    print(f"template_id set: {bool(template_id)}")
+    print(f"public_key set: {bool(public_key)}")
+    print(f"private_key set: {bool(private_key)}")
+    print(f"recipient set: {bool(recipient)}")
+
+    if not all([service_id, template_id, public_key, private_key, recipient]):
+        print("Email skipped — one or more secrets missing")
+        return
+
+    fresher_jobs = [j for j in all_jobs if not j.get("manual_check") and not j.get("error")]
+    summary = "\n".join([f"• {j['company']}: {j['title']}" for j in fresher_jobs[:15]]) if fresher_jobs else "No specific fresher roles detected today — check the dashboard."
+
+    payload = {
+        "service_id": service_id,
+        "template_id": template_id,
+        "user_id": public_key,
+        "accessToken": private_key,
+        "template_params": {
+            "to_email": recipient,
+            "subject": f"Fresher Job Alert — {len(fresher_jobs)} roles found today!",
+            "message": f"New fresher roles found:\n\n{summary}\n\nVisit your dashboard for full details.",
+            "name": "FreshHire Bot",
+            "email": recipient
+        }
+    }
+
+    try:
+        r = requests.post(
+            "https://api.emailjs.com/api/v1.0/email/send",
+            json=payload,
+            headers={"Content-Type": "application/json"}
+        )
+        print(f"Email sent: {r.status_code}")
+        if r.status_code != 200:
+            print(f"Email error details: {r.text}")
+    except Exception as e:
+        print(f"Email exception: {e}")
+
+
 def main():
     all_jobs = []
     for company in COMPANIES:
@@ -135,38 +180,7 @@ def main():
 
     print(f"\nDone! Found {len(all_jobs)} entries across {len(COMPANIES)} companies.")
 
-    # Send email summary via EmailJS REST API (if secrets are set)
-    import os
-    service_id = os.environ.get("EMAILJS_SERVICE_ID")
-    template_id = os.environ.get("EMAILJS_TEMPLATE_ID")
-    private_key = os.environ.get("EMAILJS_PUBLIC_KEY")
-    recipient = os.environ.get("NOTIFY_EMAIL")
-
-    if all([service_id, template_id, private_key, recipient]):
-        fresher_jobs = [j for j in all_jobs if not j.get("manual_check") and not j.get("error")]
-        summary = "\n".join([f"• {j['company']}: {j['title']}" for j in fresher_jobs[:15]]) if fresher_jobs else "No specific fresher roles detected today — check the dashboard for all company career pages."
-         payload = {
-            "service_id": service_id,
-            "template_id": template_id,
-            "user_id": os.environ.get("EMAILJS_PUBLIC_KEY"),
-            "accessToken": os.environ.get("EMAILJS_PRIVATE_KEY"),
-            "template_params": {
-                "to_email": recipient,
-                "subject": f"🎓 Fresher Job Alert — {len(fresher_jobs)} roles found today!",
-                "message": f"New fresher roles found:\n\n{summary}\n\nVisit your dashboard for full details.",
-                "name": "FreshHire Bot",
-                "email": recipient
-            }
-        }
-        try:
-            r = requests.post("https://api.emailjs.com/api/v1.0/email/send", json=payload)
-            print(f"Email sent: {r.status_code}")
-            if r.status_code != 200:
-                print(f"Email error details: {r.text}")
-        except Exception as e:
-            print(f"Email failed: {e}")
-    else:
-        print(f"Email skipped — missing secrets. service_id={bool(service_id)}, template_id={bool(template_id)}, private_key={bool(private_key)}, recipient={bool(recipient)}")
+    send_email(all_jobs)
 
 
 if __name__ == "__main__":
