@@ -3,570 +3,331 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FreshHire — Fresher Tech Jobs India</title>
-<link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Cabinet+Grotesk:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<title>FreshHire — Private Fresher Job Board</title>
+<link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@500;600;700&family=Cabinet+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
+<!-- Inject Supabase Client CDN -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>
 :root {
-  --ink: #0c0c10;
-  --ink2: #1a1a24;
-  --ink3: #252535;
-  --surface: #f4f3ef;
-  --paper: #faf9f6;
-  --white: #ffffff;
-  --border: rgba(12,12,16,0.1);
-  --border2: rgba(12,12,16,0.07);
-  --muted: #7a7a8c;
-  --muted2: #a0a0b4;
-  --gold: #c8a84b;
-  --gold-light: #f5e9c8;
-  --gold-dark: #8c6d1f;
-  --teal: #1a8c6e;
-  --teal-light: #d6f0e8;
-  --teal-bg: rgba(26,140,110,0.08);
-  --red: #c94040;
-  --red-light: #fce8e8;
-  --vlsi-color: #5b3fbe;
-  --vlsi-bg: rgba(91,63,190,0.08);
-  --vlsi-border: rgba(91,63,190,0.2);
-  --emb-color: #c96020;
-  --emb-bg: rgba(201,96,32,0.08);
-  --emb-border: rgba(201,96,32,0.2);
-  --soft-color: #1a7c5a;
-  --soft-bg: rgba(26,124,90,0.08);
-  --soft-border: rgba(26,124,90,0.2);
-  --radius: 12px;
-  --radius-sm: 8px;
-  --radius-pill: 100px;
-  --transition: 0.2s cubic-bezier(0.4,0,0.2,1);
+  --ink: #0c0c10; --ink2: #1a1a24; --ink3: #252535; --surface: #f4f3ef;
+  --paper: #faf9f6; --white: #ffffff; --border: rgba(12,12,16,0.1);
+  --border2: rgba(12,12,16,0.07); --muted: #7a7a8c; --gold: #c8a84b;
+  --gold-light: #f5e9c8; --gold-dark: #8c6d1f; --teal: #1a8c6e; --red: #c94040;
+  --radius: 12px; --radius-sm: 8px; --radius-pill: 100px; --transition: 0.2s cubic-bezier(0.4,0,0.2,1);
+  --vlsi-color: #5b3fbe; --vlsi-bg: rgba(91,63,190,0.08); --vlsi-border: rgba(91,63,190,0.2);
+  --emb-color: #c96020; --emb-bg: rgba(201,96,32,0.08); --emb-border: rgba(201,96,32,0.2);
+  --soft-color: #1a7c5a; --soft-bg: rgba(26,124,90,0.08); --soft-border: rgba(26,124,90,0.2);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; font-size: 16px; }
+body { background: var(--paper); color: var(--ink); font-family: 'Cabinet Grotesk', system-ui, sans-serif; min-height: 100vh; -webkit-font-smoothing: antialiased; }
 
-body {
-  background: var(--paper);
-  color: var(--ink);
-  font-family: 'Cabinet Grotesk', system-ui, sans-serif;
-  min-height: 100vh;
-  overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-}
-
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(12,12,16,0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(12,12,16,0.025) 1px, transparent 1px);
-  background-size: 60px 60px;
-  pointer-events: none;
-  z-index: 0;
-}
-
-header {
-  position: sticky;
-  top: 0;
-  z-index: 200;
-  background: rgba(250,249,246,0.92);
-  backdrop-filter: blur(24px) saturate(1.5);
-  -webkit-backdrop-filter: blur(24px) saturate(1.5);
-  border-bottom: 1px solid var(--border);
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 clamp(1.2rem, 4vw, 3rem);
-}
-
-.logo {
-  font-family: 'Clash Display', sans-serif;
-  font-weight: 700;
-  font-size: 1.25rem;
-  letter-spacing: -0.03em;
-  color: var(--ink);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-.logo-mark {
-  width: 28px;
-  height: 28px;
-  background: var(--ink);
-  border-radius: 7px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.logo-mark svg { display: block; }
+header { position: sticky; top: 0; z-index: 200; background: rgba(250,249,246,0.92); backdrop-filter: blur(24px); border-bottom: 1px solid var(--border); height: 60px; display: flex; align-items: center; justify-content: space-between; padding: 0 4vw; }
+.logo { font-family: 'Clash Display', sans-serif; font-weight: 700; font-size: 1.25rem; color: var(--ink); display: flex; align-items: center; gap: 0.5rem; }
+.logo-mark { width: 28px; height: 28px; background: var(--ink); border-radius: 7px; display: flex; align-items: center; justify-content: center; }
 .logo-word em { font-style: normal; color: var(--gold); }
+.btn-logout { background: transparent; border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.4rem 0.8rem; font-size: 0.8rem; font-weight: 600; cursor: pointer; display: none; }
 
-.header-right { display: flex; align-items: center; gap: 1.5rem; }
-.header-badge {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.78rem;
-  font-weight: 500;
-  color: var(--muted);
-  letter-spacing: 0.01em;
-}
-.pulse-dot {
-  width: 7px;
-  height: 7px;
-  background: var(--teal);
-  border-radius: 50%;
-  animation: blink 2.4s ease-in-out infinite;
-}
-@keyframes blink {
-  0%,100% { opacity: 1; }
-  50% { opacity: 0.3; }
-}
-.header-cta {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--ink);
-  color: var(--paper);
-  border: none;
-  border-radius: var(--radius-sm);
-  padding: 0.45rem 1rem;
-  font-family: 'Cabinet Grotesk', sans-serif;
-  font-size: 0.82rem;
-  font-weight: 700;
-  cursor: pointer;
-  letter-spacing: 0.01em;
-  transition: background var(--transition), transform var(--transition);
-}
-.header-cta:hover { background: var(--ink2); transform: translateY(-1px); }
+.main { max-width: 900px; margin: 0 auto; padding: 3rem 4vw; }
+.hidden { display: none !important; }
 
-.hero {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: clamp(3rem, 8vw, 6rem) clamp(1.2rem, 4vw, 2rem) clamp(2rem, 4vw, 3rem);
-  position: relative;
-  z-index: 1;
-}
-.hero-eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: var(--gold-light);
-  border: 1px solid rgba(200,168,75,0.35);
-  border-radius: var(--radius-pill);
-  padding: 0.35rem 1rem;
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: var(--gold-dark);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin-bottom: 1.75rem;
-}
-.hero-eyebrow span { width: 5px; height: 5px; background: var(--gold); border-radius: 50%; }
+/* AUTH VIEWS */
+.auth-container { max-width: 400px; margin: 4rem auto; background: var(--white); border: 1px solid var(--border); padding: 2.5rem; border-radius: var(--radius); box-shadow: 0 4px 24px rgba(0,0,0,0.03); }
+.auth-title { font-family: 'Clash Display', sans-serif; font-size: 1.75rem; margin-bottom: 0.5rem; letter-spacing: -0.02em; }
+.auth-subtitle { color: var(--muted); font-size: 0.88rem; margin-bottom: 1.5rem; }
+.form-group { margin-bottom: 1.25rem; }
+.form-group label { display: block; font-size: 0.82rem; font-weight: 700; margin-bottom: 0.4rem; text-transform: uppercase; letter-spacing: 0.03em; }
+.form-input { width: 100%; padding: 0.65rem 0.75rem; border: 1px solid var(--border); border-radius: var(--radius-sm); font-family: inherit; font-size: 0.9rem; outline: none; }
+.form-input:focus { border-color: var(--ink); }
+.btn-primary { width: 100%; background: var(--ink); color: var(--paper); border: none; padding: 0.75rem; border-radius: var(--radius-sm); font-weight: 700; cursor: pointer; margin-top: 0.5rem; }
+.btn-primary:hover { background: var(--ink2); }
+.auth-toggle { text-align: center; margin-top: 1.2rem; font-size: 0.85rem; color: var(--muted); }
+.auth-toggle span { color: var(--gold-dark); cursor: pointer; font-weight: 700; }
 
-.hero-title {
-  font-family: 'Clash Display', sans-serif;
-  font-size: clamp(2.6rem, 7vw, 5.5rem);
-  font-weight: 600;
-  line-height: 0.97;
-  letter-spacing: -0.04em;
-  color: var(--ink);
-  margin-bottom: 1.5rem;
-}
-.hero-title .line2 { display: block; color: transparent; -webkit-text-stroke: 1.5px var(--ink3); }
-.hero-title .accent-word { position: relative; display: inline-block; }
-.hero-title .accent-word::after {
-  content: ''; position: absolute; bottom: 4px; left: 0; right: 0; height: 3px; background: var(--gold); border-radius: 2px;
-}
-.hero-sub {
-  font-size: clamp(0.95rem, 2vw, 1.1rem); font-weight: 400; color: var(--muted); line-height: 1.7; max-width: 520px; margin-bottom: 2.5rem;
-}
-.hero-chips { display: flex; gap: 0.6rem; flex-wrap: wrap; }
-.hchip { display: inline-flex; align-items: center; gap: 6px; padding: 0.5rem 1rem; border-radius: var(--radius-pill); font-size: 0.8rem; font-weight: 600; border: 1px solid; }
-.hchip.vlsi { background: var(--vlsi-bg); border-color: var(--vlsi-border); color: var(--vlsi-color); }
-.hchip.emb { background: var(--emb-bg); border-color: var(--emb-border); color: var(--emb-color); }
-.hchip.soft { background: var(--soft-bg); border-color: var(--soft-border); color: var(--soft-color); }
-.hchip.updated { background: var(--surface); border-color: var(--border); color: var(--muted); font-weight: 500; }
+/* STATE SCREENS */
+.state-box { max-width: 500px; margin: 6rem auto; text-align: center; background: var(--gold-light); border: 1px solid rgba(200,168,75,0.25); padding: 3rem 2rem; border-radius: var(--radius); }
+.state-box h2 { font-family: 'Clash Display', sans-serif; color: var(--gold-dark); margin-bottom: 0.75rem; }
+.state-box p { color: #5c4a1a; font-size: 0.95rem; line-height: 1.5; }
 
-.main { max-width: 900px; margin: 0 auto; padding: 0 clamp(1.2rem, 4vw, 2rem) 6rem; position: relative; z-index: 1; }
+/* ADMIN VIEW */
+.admin-panel { background: #fff; border: 2px dashed var(--gold); border-radius: var(--radius); padding: 1.5rem; margin-bottom: 2rem; }
+.admin-title { font-family: 'Clash Display', sans-serif; font-size: 1.2rem; color: var(--gold-dark); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem; }
+.admin-row { display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid var(--surface); }
+.admin-row:last-child { border-bottom: none; }
+.btn-approve { background: var(--teal); color: #fff; border: none; padding: 0.35rem 0.75rem; border-radius: 4px; font-weight: 700; font-size: 0.78rem; cursor: pointer; }
 
-.alert-banner {
-  background: var(--ink); border-radius: var(--radius); padding: 1.4rem 1.75rem; display: flex; align-items: center; gap: 1.25rem; margin-bottom: 2rem; flex-wrap: wrap;
-}
-.alert-icon-wrap {
-  width: 44px; height: 44px; background: rgba(255,255,255,0.1); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-}
-.alert-icon-wrap svg { width: 22px; height: 22px; stroke: #fff; }
-.alert-copy { flex: 1; min-width: 160px; }
-.alert-copy strong { display: block; color: #fff; font-size: 0.92rem; font-weight: 700; margin-bottom: 0.2rem; letter-spacing: -0.01em; }
-.alert-copy span { color: rgba(255,255,255,0.5); font-size: 0.78rem; }
-.alert-form { display: flex; gap: 8px; flex-wrap: wrap; }
-.alert-input {
-  background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); border-radius: var(--radius-sm); padding: 0.6rem 1rem; color: #fff; font-family: 'Cabinet Grotesk', sans-serif; font-size: 0.85rem; font-weight: 400; outline: none; width: 210px; transition: border-color var(--transition);
-}
-.alert-input::placeholder { color: rgba(255,255,255,0.35); }
-.alert-input:focus { border-color: var(--gold); }
-.btn-alert {
-  background: var(--gold); border: none; border-radius: var(--radius-sm); padding: 0.6rem 1.2rem; color: var(--ink); font-family: 'Cabinet Grotesk', sans-serif; font-size: 0.85rem; font-weight: 800; cursor: pointer; letter-spacing: 0.01em; transition: opacity var(--transition), transform var(--transition); white-space: nowrap;
-}
-.btn-alert:hover { opacity: 0.88; }
-.btn-alert:active { transform: scale(0.97); }
-
-.toolbar { display: flex; gap: 0.75rem; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; }
-.search-field { flex: 1; min-width: 200px; position: relative; }
-.search-field svg { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); width: 15px; height: 15px; stroke: var(--muted2); pointer-events: none; stroke-width: 2; fill: none; }
-.search-input {
-  width: 100%; background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.65rem 1rem 0.65rem 2.6rem; color: var(--ink); font-family: 'Cabinet Grotesk', sans-serif; font-size: 0.88rem; outline: none; transition: border-color var(--transition), box-shadow var(--transition);
-}
-.search-input:focus { border-color: rgba(91,63,190,0.4); box-shadow: 0 0 0 3px rgba(91,63,190,0.08); }
-.search-input::placeholder { color: var(--muted2); }
-
-.filter-group { display: flex; gap: 6px; flex-wrap: wrap; }
-.fpill { padding: 0.5rem 1rem; border-radius: var(--radius-pill); border: 1px solid var(--border); background: var(--white); color: var(--muted); font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: all var(--transition); font-family: 'Cabinet Grotesk', sans-serif; letter-spacing: 0.01em; }
-.fpill:hover { border-color: var(--ink3); color: var(--ink); }
-.fpill.active-all { background: var(--ink); border-color: var(--ink); color: #fff; }
-.fpill.active-vlsi { background: var(--vlsi-color); border-color: var(--vlsi-color); color: #fff; }
-.fpill.active-emb { background: var(--emb-color); border-color: var(--emb-color); color: #fff; }
-.fpill.active-soft { background: var(--soft-color); border-color: var(--soft-color); color: #fff; }
-.fpill.active-open { background: var(--teal); border-color: var(--teal); color: #fff; }
-
-.meta-bar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.5rem; }
-.meta-bar span { font-size: 0.78rem; color: var(--muted); }
-.meta-bar strong { color: var(--ink); font-weight: 600; }
-
-.job-list { display: flex; flex-direction: column; gap: 0; }
-.job-row {
-  display: flex; align-items: center; gap: 1rem; padding: 1rem 1.25rem; background: var(--white); border: 1px solid var(--border2); border-bottom: none; transition: background var(--transition), border-color var(--transition); animation: rowIn 0.35s ease both;
-}
+/* TOOLBAR & ROWS */
+.toolbar { display: flex; gap: 0.75rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.search-field { flex: 1; position: relative; }
+.search-input { width: 100%; background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.65rem 1rem; font-family: inherit; font-size: 0.88rem; outline: none; }
+.filter-group { display: flex; gap: 6px; }
+.fpill { padding: 0.5rem 1rem; border-radius: var(--radius-pill); border: 1px solid var(--border); background: var(--white); color: var(--muted); font-size: 0.8rem; font-weight: 600; cursor: pointer; font-family: inherit; }
+.fpill.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+.meta-bar { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); margin-bottom: 1.25rem; }
+.job-list { display: flex; flex-direction: column; }
+.job-row { display: flex; align-items: center; gap: 1rem; padding: 1rem 1.25rem; background: var(--white); border: 1px solid var(--border2); border-bottom: none; transition: background var(--transition); }
 .job-row:first-child { border-radius: var(--radius) var(--radius) 0 0; }
 .job-row:last-child { border-bottom: 1px solid var(--border2); border-radius: 0 0 var(--radius) var(--radius); }
-.job-row:only-child { border-radius: var(--radius); border-bottom: 1px solid var(--border2); }
-.job-row:hover { background: var(--surface); border-color: var(--border); z-index: 1; position: relative; }
-@keyframes rowIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
-
-.row-indicator { width: 3px; height: 36px; border-radius: 3px; flex-shrink: 0; }
+.row-indicator { width: 3px; height: 36px; border-radius: 3px; }
 .row-indicator.VLSI { background: var(--vlsi-color); }
 .row-indicator.Embedded { background: var(--emb-color); }
 .row-indicator.Software { background: var(--soft-color); }
-.row-indicator.Unknown { background: var(--border); }
-
-.row-logo {
-  width: 36px; height: 36px; border-radius: 9px; background: var(--surface); border: 1px solid var(--border2); display: flex; align-items: center; justify-content: center; font-family: 'Clash Display', sans-serif; font-size: 0.85rem; font-weight: 600; color: var(--ink2); flex-shrink: 0; letter-spacing: -0.02em; text-transform: uppercase; overflow: hidden;
-}
 .row-body { flex: 1; min-width: 0; }
-.row-title { font-size: 0.9rem; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 3px; }
-.row-meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
-.row-company { font-size: 0.78rem; font-weight: 500; color: var(--muted); }
-.row-dot { color: var(--muted2); font-size: 0.65rem; }
-.domain-tag { font-size: 0.68rem; font-weight: 700; padding: 0.15rem 0.55rem; border-radius: var(--radius-pill); letter-spacing: 0.03em; text-transform: uppercase; }
-.domain-tag.VLSI { background: var(--vlsi-bg); color: var(--vlsi-color); border: 1px solid var(--vlsi-border); }
-.domain-tag.Embedded { background: var(--emb-bg); color: var(--emb-color); border: 1px solid var(--emb-border); }
-.domain-tag.Software { background: var(--soft-bg); color: var(--soft-color); border: 1px solid var(--soft-border); }
-.domain-tag.manual { background: rgba(122,122,140,0.08); color: var(--muted); border: 1px solid rgba(122,122,140,0.2); }
-
-.btn-visit {
-  display: inline-flex; align-items: center; gap: 5px; padding: 0.45rem 0.9rem; background: transparent; border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--muted); font-family: 'Cabinet Grotesk', sans-serif; font-size: 0.78rem; font-weight: 600; text-decoration: none; cursor: pointer; transition: all var(--transition); flex-shrink: 0; white-space: nowrap;
-}
+.row-title { font-size: 0.9rem; font-weight: 700; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px; }
+.row-company { font-size: 0.78rem; color: var(--muted); font-weight: 500; }
+.domain-tag { font-size: 0.68rem; font-weight: 700; padding: 0.15rem 0.55rem; border-radius: var(--radius-pill); margin-left: 0.5rem; text-transform: uppercase; }
+.domain-tag.VLSI { background: var(--vlsi-bg); color: var(--vlsi-color); }
+.domain-tag.Embedded { background: var(--emb-bg); color: var(--emb-color); }
+.domain-tag.Software { background: var(--soft-bg); color: var(--soft-color); }
+.btn-visit { display: inline-flex; align-items: center; padding: 0.45rem 0.9rem; background: transparent; border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--muted); font-size: 0.78rem; font-weight: 600; text-decoration: none; transition: all var(--transition); }
 .btn-visit:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
-.btn-visit svg { width: 11px; height: 11px; stroke: currentColor; fill: none; stroke-width: 2; flex-shrink: 0; }
 
-.empty-state { text-align: center; padding: 4rem 2rem; background: var(--white); border: 1px solid var(--border2); border-radius: var(--radius); }
-.empty-state h3 { font-family: 'Clash Display', sans-serif; font-size: 1.3rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--ink); }
-.empty-state p { font-size: 0.88rem; color: var(--muted); }
-
-.skeleton-rows { display: flex; flex-direction: column; gap: 0; }
-.skel-row { display: flex; align-items: center; gap: 1rem; padding: 1rem 1.25rem; background: var(--white); border: 1px solid var(--border2); border-bottom: none; }
-.skel-row:first-child { border-radius: var(--radius) var(--radius) 0 0; }
-.skel-row:last-child { border-bottom: 1px solid var(--border2); border-radius: 0 0 var(--radius) var(--radius); }
-.skel { background: linear-gradient(90deg, var(--surface) 0%, #ece9e2 50%, var(--surface) 100%); background-size: 300% 100%; animation: shimmer 1.4s ease-in-out infinite; border-radius: 6px; }
-@keyframes shimmer { 0% { background-position: 100% 0; } 100% { background-position: -100% 0; } }
-.skel-bar { height: 3px; width: 36px; border-radius: 3px; flex-shrink: 0; }
-.skel-logo { width: 36px; height: 36px; border-radius: 9px; flex-shrink: 0; }
-.skel-body { flex: 1; }
-.skel-title { height: 14px; width: 45%; margin-bottom: 8px; }
-.skel-sub { height: 11px; width: 30%; }
-.skel-btn { height: 30px; width: 70px; border-radius: var(--radius-sm); flex-shrink: 0; }
-
-.toast {
-  position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 9999; background: var(--ink); color: #fff; border-radius: var(--radius); padding: 0.9rem 1.3rem; font-size: 0.85rem; font-weight: 500; max-width: 300px; transform: translateY(20px) scale(0.97); opacity: 0; transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); pointer-events: none; box-shadow: 0 8px 32px rgba(0,0,0,0.18);
-}
-.toast.visible { opacity: 1; transform: translateY(0) scale(1); pointer-events: auto; }
-.toast.success { background: var(--teal); }
-.toast.error { background: var(--red); }
-
-footer { border-top: 1px solid var(--border); padding: 2rem clamp(1.2rem, 4vw, 3rem); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; background: var(--paper); position: relative; z-index: 1; }
-.foot-logo { font-family: 'Clash Display', sans-serif; font-size: 1rem; font-weight: 700; color: var(--ink); letter-spacing: -0.03em; }
-.foot-logo em { font-style: normal; color: var(--gold); }
-.foot-copy { font-size: 0.75rem; color: var(--muted); }
-
-@media (max-width: 640px) {
-  .header-badge { display: none; }
-  .hero-title { line-height: 1; }
-  .hero-title .line2 { display: inline; }
-  .alert-banner { padding: 1.2rem 1.2rem; }
-  .alert-input { width: 100%; }
-  .alert-form { width: 100%; }
-  .row-logo { display: none; }
-  .job-row { padding: 0.85rem 1rem; }
-}
+.toast { position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 999; background: var(--ink); color: #fff; border-radius: var(--radius); padding: 0.9rem 1.3rem; font-size: 0.85rem; font-weight: 500; opacity: 0; pointer-events: none; transition: 0.3s; }
+.toast.visible { opacity: 1; }
 </style>
 </head>
 <body>
 
 <header>
   <div class="logo">
-    <div class="logo-mark">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-        <path d="M3 8h10M8 3v10M5 5l6 6M11 5l-6 6" stroke="#f5e9c8" stroke-width="1.5" stroke-linecap="round"/>
-      </svg>
-    </div>
-    <span class="logo-word">Fresh<em>Hire</em></span>
+    <div class="logo-mark"><span style="color:#f5e9c8; font-size:12px;">★</span></div>
+    <span class="logo-word">Fresh<em>Hire Private</em></span>
   </div>
-  <div class="header-right">
-    <div class="header-badge">
-      <span class="pulse-dot"></span>
-      <span>Auto-updated · 35+ companies</span>
-    </div>
-    <button class="header-cta" onclick="document.getElementById('notifyEmailTop').focus(); document.querySelector('.alert-banner').scrollIntoView({behavior:'smooth'})">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
-        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
-        <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
-      </svg>
-      Get alerts
-    </button>
-  </div>
+  <button id="logoutBtn" class="btn-logout" onclick="handleLogout()">Logout</button>
 </header>
 
-<section class="hero">
-  <div class="hero-eyebrow"><span></span> India's #1 Passout Job Board</div>
-  <h1 class="hero-title">
-    Your first<br>
-    <span class="line2">tech <span class="accent-word">career</span></span><br>
-    starts here.
-  </h1>
-  <p class="hero-sub">Real openings from 35+ semiconductor, embedded & software companies. Curated with direct parsing for early professionals and graduates.</p>
-  <div class="hero-chips">
-    <span class="hchip vlsi">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><rect x="5" y="5" width="14" height="14" rx="1"/><path d="M9 5V3M15 5V3M9 21v-2M15 21v-2M5 9H3M5 15H3M21 9h-2M21 15h-2"/></svg>
-      VLSI / Chip Design
-    </span>
-    <span class="hchip emb">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-      Embedded Systems
-    </span>
-    <span class="hchip soft">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-      Software
-    </span>
-    <span class="hchip updated" id="heroUpdatedChip">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-      Updated <span id="heroUpdatedTime">today</span>
-    </span>
-  </div>
-</section>
-
 <main class="main">
-
-  <div class="alert-banner">
-    <div class="alert-icon-wrap">
-      <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
-        <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
-      </svg>
+  <!-- 1. ENTRY AUTH WALL -->
+  <div id="authWall" class="auth-container">
+    <h2 id="authTitle" class="auth-title">Sign In</h2>
+    <p id="authSubtitle" class="auth-subtitle">Welcome to FreshHire. Access is private.</p>
+    
+    <div class="form-group">
+      <label>Email Address</label>
+      <input type="email" id="authEmail" class="form-input" placeholder="name@domain.com">
     </div>
-    <div class="alert-copy">
-      <strong>Never miss a new opening</strong>
-      <span>Email alerts · twice daily · zero spam</span>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" id="authPassword" class="form-input" placeholder="••••••••">
     </div>
-    <div class="alert-form">
-      <input class="alert-input" type="email" id="notifyEmailTop" placeholder="your@email.com" />
-      <button class="btn-alert" onclick="subscribe()">Subscribe free</button>
-    </div>
+    
+    <button id="authBtn" class="btn-primary" onclick="processAuth()">Log In</button>
+    <p class="auth-toggle" id="authToggleMsg">Don't have an account? <span onclick="toggleAuthMode()">Request Access</span></p>
   </div>
 
-  <div class="toolbar">
-    <div class="search-field">
-      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-      <input class="search-input" type="text" id="searchInput" placeholder="Search company, role, or technology…" oninput="filterJobs()" />
+  <!-- 2. PENDING ACCESS HOLDER STATE -->
+  <div id="pendingScreen" class="state-box hidden">
+    <h2>Access Requested Successfully ⏳</h2>
+    <p>Your request has been submitted to the platform admin. Once the admin verifies your email id, you will be authorized to log in and see live job openings.</p>
+  </div>
+
+  <!-- 3. MAIN APP VIEW (SECURED) -->
+  <div id="appDashboard" class="hidden">
+    <!-- Admin Controls Area -->
+    <div id="adminPanel" class="admin-panel hidden">
+      <h3 class="admin-title">🛠️ Admin Moderation — Pending Requests</h3>
+      <div id="pendingUsersList"><!-- Injected dynamically --></div>
     </div>
-    <div class="filter-group">
-      <button class="fpill active-all" id="pill-All" onclick="setFilter('All',this,'active-all')">All</button>
-      <button class="fpill" id="pill-VLSI" onclick="setFilter('VLSI',this,'active-vlsi')">VLSI</button>
-      <button class="fpill" id="pill-Embedded" onclick="setFilter('Embedded',this,'active-emb')">Embedded</button>
-      <button class="fpill" id="pill-Software" onclick="setFilter('Software',this,'active-soft')">Software</button>
-      <button class="fpill" id="pill-open" onclick="toggleOpen(this)">Openings only</button>
+
+    <!-- Job Feed Grid Component -->
+    <div class="toolbar">
+      <div class="search-field">
+        <input class="search-input" type="text" id="searchInput" placeholder="Search technology, role, or company..." oninput="renderAll()" />
+      </div>
+      <div class="filter-group">
+        <button class="fpill active" id="pill-All" onclick="setFilter('All', this)">All</button>
+        <button class="fpill" id="pill-VLSI" onclick="setFilter('VLSI', this)">VLSI</button>
+        <button class="fpill" id="pill-Embedded" onclick="setFilter('Embedded', this)">Embedded</button>
+        <button class="fpill" id="pill-Software" onclick="setFilter('Software', this)">Software</button>
+      </div>
     </div>
-  </div>
 
-  <div class="meta-bar">
-    <span>Last scraped: <strong id="lastUpdatedMeta">—</strong></span>
-    <span>Showing <strong id="countMeta">—</strong> results</span>
-  </div>
+    <div class="meta-bar">
+      <span>Sync Engine Pipeline Status: <strong style="color:var(--teal)">Online 24/7</strong></span>
+      <span>Showing <strong id="countMeta">—</strong> verified openings</span>
+    </div>
 
-  <div id="jobList">
-    <div class="skeleton-rows" id="skeletonRows"></div>
+    <div id="jobList" class="job-list"></div>
   </div>
-
 </main>
-
-<footer>
-  <div class="foot-logo">Fresh<em>Hire</em></div>
-  <span class="foot-copy">Auto-scrapes 35+ companies · Updates at 8 AM & 6 PM IST · Built for India's freshers</span>
-</footer>
 
 <div class="toast" id="toast"></div>
 
 <script>
+// Linked directly with your active database instance URL
+const SUB_URL = "https://kofcqctifaguxaqzstoz.supabase.co";
+// Paste your long Anon Key inside this string from Project Settings -> API
+const SUB_KEY = "YOUR_ANON_PUBLIC_API_KEY"; 
+
+const supabase = Supabase.createClient(SUB_URL, SUB_KEY);
+
 let allJobs = [];
 let activeFilter = 'All';
-let activeFilterClass = 'active-all';
-let onlyOpenings = false;
+let isSignUpMode = false;
+let currentUserProfile = null;
 
-(function buildSkeleton() {
-  const c = document.getElementById('skeletonRows');
-  if(!c) return;
-  for (let i = 0; i < 8; i++) {
-    c.innerHTML += `<div class="skel-row">
-      <div class="skel skel-bar"></div>
-      <div class="skel skel-logo"></div>
-      <div class="skel-body">
-        <div class="skel skel-title" style="width:${35+Math.random()*25}%"></div>
-        <div class="skel skel-sub" style="width:${20+Math.random()*20}%"></div>
-      </div>
-      <div class="skel skel-btn"></div>
-    </div>`;
+// Initialize app session
+supabase.auth.onAuthStateChange(async (event, session) => {
+  if (session) {
+    document.getElementById('logoutBtn').style.display = 'block';
+    await checkProfilePermissions(session.user);
+  } else {
+    document.getElementById('logoutBtn').style.display = 'none';
+    showScreen('authWall');
   }
-})();
+});
 
-function initials(name) {
-  return name.split(/\s+/).slice(0,2).map(w => w[0]).join('').toUpperCase();
+async function checkProfilePermissions(user) {
+  const { data: profile, error } = await supabase
+    .from('profiles')
+    .select('*')
+    .eq('id', user.id)
+    .single();
+
+  if (profile) {
+    currentUserProfile = profile;
+    if (profile.is_admin) {
+      showScreen('appDashboard');
+      document.getElementById('adminPanel').classList.remove('hidden');
+      loadAdminDashboard();
+      loadJobFeed();
+    } else if (profile.is_approved) {
+      showScreen('appDashboard');
+      document.getElementById('adminPanel').classList.add('hidden');
+      loadJobFeed();
+    } else {
+      showScreen('pendingScreen');
+    }
+  }
 }
 
-function logoColor(name) {
-  const colors = [
-    ['#eee8fd','#5b3fbe'], ['#fce9d8','#c96020'], ['#d6f0e8','#1a7c5a'],
-    ['#e8edf8','#2a4aab'], ['#fde8e8','#c94040'], ['#fdf4d8','#9b6e10']
-  ];
-  let h = 0; for (const c of name) h = (h * 31 + c.charCodeAt(0)) & 0xffffffff;
-  const [bg,fg] = colors[Math.abs(h) % colors.length];
-  return { bg, fg };
+function showScreen(screenId) {
+  document.getElementById('authWall').classList.add('hidden');
+  document.getElementById('pendingScreen').classList.add('hidden');
+  document.getElementById('appDashboard').classList.add('hidden');
+  document.getElementById(screenId).classList.remove('hidden');
 }
 
-async function loadJobs() {
+function toggleAuthMode() {
+  isSignUpMode = !isSignUpMode;
+  document.getElementById('authTitle').textContent = isSignUpMode ? "Request Access" : "Sign In";
+  document.getElementById('authSubtitle').textContent = isSignUpMode ? "Enter email & password to request portal access." : "Welcome to FreshHire. Access is private.";
+  document.getElementById('authBtn').textContent = isSignUpMode ? "Submit Access Request" : "Log In";
+  document.getElementById('authToggleMsg').innerHTML = isSignUpMode ? "Already registered? <span onclick='toggleAuthMode()'>Log In</span>" : "Don't have an account? <span onclick='toggleAuthMode()'>Request Access</span>";
+}
+
+async function processAuth() {
+  const email = document.getElementById('authEmail').value.trim();
+  const password = document.getElementById('authPassword').value.trim();
+
+  if(!email || !password) { showToast("Please fill in all fields.", true); return; }
+
+  if (isSignUpMode) {
+    const { data, error } = await supabase.auth.signUp({ email, password });
+    if (error) { showToast(error.message, true); } 
+    else { 
+      showToast("Access Request Submitted!");
+      showScreen('pendingScreen');
+    }
+  } else {
+    const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+    if (error) { showToast("Invalid credentials or unapproved account.", true); }
+  }
+}
+
+async function handleLogout() {
+  await supabase.auth.signOut();
+  currentUserProfile = null;
+  showScreen('authWall');
+}
+
+// Admin Panel Logic
+async function loadAdminDashboard() {
+  const { data: pendingUsers, error } = await supabase
+    .from('profiles')
+    .select('*')
+    .eq('is_approved', false)
+    .eq('is_admin', false);
+
+  const container = document.getElementById('pendingUsersList');
+  if (!pendingUsers || pendingUsers.length === 0) {
+    container.innerHTML = `<p style="font-size:0.85rem; color:var(--muted)">No pending approval requests at the moment.</p>`;
+    return;
+  }
+
+  container.innerHTML = pendingUsers.map(user => `
+    <div class="admin-row">
+      <span style="font-size:0.9rem; font-weight:700;">${user.email}</span>
+      <button class="btn-approve" onclick="approveUserAccess('${user.id}')">Grant Access</button>
+    </div>
+  `).join('');
+}
+
+async function approveUserAccess(userId) {
+  const { error } = await supabase
+    .from('profiles')
+    .update({ is_approved: true })
+    .eq('id', userId);
+
+  if (!error) {
+    showToast("User access granted!");
+    loadAdminDashboard();
+  }
+}
+
+// Core Job System Logic
+async function loadJobFeed() {
   try {
     const res = await fetch('jobs.json?v=' + Date.now());
     const data = await res.json();
     allJobs = data.jobs || [];
-
-    const d = new Date(data.last_updated);
-    const fmt = d.toLocaleString('en-IN', {
-      day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: true
-    });
-    document.getElementById('lastUpdatedMeta').textContent = fmt;
-    document.getElementById('heroUpdatedTime').textContent = fmt;
-
     renderAll();
   } catch(e) {
-    document.getElementById('jobList').innerHTML = `
-      <div class="empty-state">
-        <h3>Couldn't load jobs</h3>
-        <p>Ensure jobs.json is fully updated within the directory.</p>
-      </div>`;
+    document.getElementById('jobList').innerHTML = `<p>Error loading private feed.</p>`;
   }
 }
 
-function setFilter(filter, btn, cls) {
-  document.querySelectorAll('.fpill').forEach(p => p.className = 'fpill');
-  btn.classList.add(cls);
-  activeFilter = filter;
-  onlyOpenings = false;
-  document.getElementById('pill-open').className = 'fpill';
-  renderAll();
-}
-
-function toggleOpen(btn) {
-  onlyOpenings = !onlyOpenings;
-  if (onlyOpenings) {
-    document.querySelectorAll('.fpill').forEach(p => p.className = 'fpill');
-    btn.classList.add('active-open');
-    activeFilter = 'All';
-  } else {
-    btn.className = 'fpill';
-    document.getElementById('pill-All').classList.add('active-all');
-  }
+function setFilter(domain, buttonEl) {
+  document.querySelectorAll('.fpill').forEach(p => p.classList.remove('active'));
+  buttonEl.classList.add('active');
+  activeFilter = domain;
   renderAll();
 }
 
 function renderAll() {
   const q = document.getElementById('searchInput').value.toLowerCase().trim();
-  let jobs = allJobs;
+  let filtered = allJobs;
 
-  if (activeFilter !== 'All') jobs = jobs.filter(j => j.domain === activeFilter);
-  if (onlyOpenings) jobs = jobs.filter(j => !j.manual_check && !j.error);
-  if (q) jobs = jobs.filter(j =>
-    j.company.toLowerCase().includes(q) ||
-    j.title.toLowerCase().includes(q) ||
-    (j.domain||'').toLowerCase().includes(q)
-  );
+  if (activeFilter !== 'All') filtered = filtered.filter(j => j.domain === activeFilter);
+  if (q) filtered = filtered.filter(j => j.company.toLowerCase().includes(q) || j.title.toLowerCase().includes(q));
 
-  document.getElementById('countMeta').textContent = jobs.length;
-  const list = document.getElementById('jobList');
+  document.getElementById('countMeta').textContent = filtered.length;
+  const container = document.getElementById('jobList');
 
-  if (!jobs.length) {
-    list.innerHTML = `<div class="empty-state"><h3>No results</h3><p>Try structural variations or clearing filters.</p></div>`;
+  if (filtered.length === 0) {
+    container.innerHTML = `<div style="text-align:center; padding:3rem; color:var(--muted);">No matching private roles found.</div>`;
     return;
   }
 
-  const rows = jobs.map((j, i) => {
-    const isManual = j.manual_check || j.error;
-    const domain = j.domain || 'Unknown';
-    const lc = logoColor(j.company);
-    const ini = initials(j.company);
-    const domainClass = isManual ? 'manual' : domain;
-    const domainLabel = isManual ? 'Portal' : domain;
-    const displayTitle = isManual ? `Explore Careers at ${j.company}` : j.title;
-
-    return `<div class="job-row" style="animation-delay:${Math.min(i,15)*0.025}s; opacity: ${isManual ? 0.8 : 1}">
-      <div class="row-indicator ${domain}"></div>
-      <div class="row-logo" style="background:${isManual ? '#eaeae6' : lc.bg};color:${isManual ? '#777' : lc.fg};">${ini}</div>
+  container.innerHTML = filtered.map(j => `
+    <div class="job-row">
+      <div class="row-indicator ${j.domain}"></div>
       <div class="row-body">
-        <div class="row-title" title="${displayTitle}" style="font-weight: ${isManual ? '500' : '700'}">${displayTitle}</div>
-        <div class="row-meta">
-          <span class="row-company">${j.company}</span>
-          <span class="row-dot">·</span>
-          <span class="domain-tag ${domainClass}">${domainLabel}</span>
-        </div>
+        <div class="row-title">${j.title} <span class="domain-tag ${j.domain}">${j.domain}</span></div>
+        <div class="row-company">${j.company}</div>
       </div>
-      <a href="${j.url}" target="_blank" rel="noopener" class="btn-visit">
-        ${isManual ? 'Open Portal' : 'Apply'}
-        <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-      </a>
-    </div>`;
-  }).join('');
-
-  list.innerHTML = `<div class="job-list">${rows}</div>`;
+      <a href="${j.url}" target="_blank" rel="noopener" class="btn-visit">Apply</a>
+    </div>
+  `).join('');
 }
 
-function filterJobs() { renderAll(); }
-
-function subscribe() {
-  const el = document.getElementById('notifyEmailTop');
-  const email = el.value.trim();
-  if (!email || !email.includes('@')) { showToast('Enter a valid email address.', 'error'); return; }
-  const subs = JSON.parse(localStorage.getItem('fh_subs') || '[]');
-  if (!subs.includes(email)) { subs.push(email); localStorage.setItem('fh_subs', JSON.stringify(subs)); }
-  el.value = '';
-  showToast('✓ Subscribed! Active automation notifications are live.', 'success');
-}
-
-function showToast(msg, type='success') {
+function showToast(msg, isError = false) {
   const t = document.getElementById('toast');
   t.textContent = msg;
-  t.className = `toast ${type} visible`;
+  t.style.background = isError ? 'var(--red)' : 'var(--teal)';
+  t.className = "toast visible";
   setTimeout(() => t.className = 'toast', 4000);
 }
-
-loadJobs();
 </script>
 </body>
 </html>
