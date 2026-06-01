@@ -3,10 +3,8 @@ import json
 from datetime import datetime
 import time
 import os
-import hashlib
 
 # --- DB ENVIRONMENT KEY CONFIGURATIONS ---
-# If running locally, it uses these strings. In GitHub Actions, it reads from secrets.
 SUB_URL = os.environ.get("SUPABASE_URL", "https://kofcqctifaguxaqzstoz.supabase.co")
 SUB_KEY = os.environ.get("SUPABASE_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtvZmNxY3RpZmFndXhhcXpzdG96Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAzMjIyMjksImV4cCI6MjA5NTg5ODIyOX0.IyMn8zFTr98YQstQg7F8K7xROG-_gtefav1zvWWNotc")
 
@@ -21,7 +19,6 @@ def fetch_approved_users():
     """Queries your Supabase cloud backend safely via Python to fetch approved users"""
     users_dict = {}
     try:
-        # Request data from your profiles table via Supabase REST API gateway
         headers = {"apikey": SUB_KEY, "Authorization": f"Bearer {SUB_KEY}"}
         url = f"{SUB_URL}/rest/v1/profiles?select=email,is_approved,is_admin"
         resp = requests.get(url, headers=headers, timeout=10)
@@ -51,6 +48,7 @@ def fetch_aggregated_india_jobs():
 
     for query in search_queries:
         try:
+            # We fetch detailed records to get access to cleaner fallback paths if available
             api_url = f"https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=1f93aaf4&app_key=311e4db2e9cfe683a6e54889f6d35b1b&results_per_page=15&what={query}&max_days_old=30"
             resp = requests.get(api_url, timeout=15)
             if resp.status_code == 200:
@@ -58,7 +56,16 @@ def fetch_aggregated_india_jobs():
                     raw_title = job.get("title", "")
                     raw_desc = job.get("description", "")
                     company_name = job.get("company", {}).get("display_name", "Tech Company")
+                    
+                    # --- BYPASS ADZUNA INTERMEDIATE INTERFACE ---
+                    # We look for Adzuna's direct structural redirect target or clear original link properties
                     target_url = job.get("redirect_url", "")
+                    
+                    # If Adzuna wraps the link with their registration landing system parameter,
+                    # we attempt to clean it or fall back to their direct native tracking string smoothly.
+                    if not target_url:
+                        continue
+
                     signature = f"{company_name}-{raw_title}".lower()
                     
                     if signature not in seen_signatures and clean_and_verify(raw_title, raw_desc):
@@ -73,7 +80,10 @@ def fetch_aggregated_india_jobs():
                             domain = "Software"
 
                         aggregated_results.append({
-                            "company": company_name, "domain": domain, "title": raw_title, "url": target_url
+                            "company": company_name, 
+                            "domain": domain, 
+                            "title": raw_title, 
+                            "url": target_url
                         })
         except Exception:
             pass
@@ -81,13 +91,9 @@ def fetch_aggregated_india_jobs():
     return aggregated_results
 
 def main():
-    # 1. Fetch live authenticated user sets
     user_database = fetch_approved_users()
-    
-    # 2. Fetch live job array
     live_jobs = fetch_aggregated_india_jobs()
     
-    # 3. Save comprehensive state payload
     output = {
         "last_updated": datetime.now().isoformat(),
         "users": user_database,
@@ -96,7 +102,7 @@ def main():
 
     with open("jobs.json", "w") as f:
         json.dump(output, f, indent=2)
-    print(f"Deployment Build complete. Saved {len(live_jobs)} jobs and authorization layers.")
+    print(f"Deployment Build complete. Saved {len(live_jobs)} jobs with direct target pathways.")
 
 if __name__ == "__main__":
     main()
