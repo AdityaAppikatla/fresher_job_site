@@ -1,39 +1,33 @@
-name: Daily Job Scraper
+name: 24-7 Rapid Job Sync
 
 on:
   schedule:
-    - cron: '30 2 * * *'   # 8:00 AM IST (UTC+5:30)
-    - cron: '30 12 * * *'  # 6:00 PM IST
-  workflow_dispatch:        # manual trigger
+    # Triggers every single hour, 24 times a day, completely hands-free
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
-  scrape:
+  sync_engine:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
+      - name: Pull Source Code
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Initialize Environment
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4
+      - name: Core Dependencies
+        run: pip install requests
 
-      - name: Run scraper
-        env:
-          EMAILJS_SERVICE_ID: ${{ secrets.EMAILJS_SERVICE_ID }}
-          EMAILJS_TEMPLATE_ID: ${{ secrets.EMAILJS_TEMPLATE_ID }}
-          EMAILJS_PRIVATE_KEY: ${{ secrets.EMAILJS_PRIVATE_KEY }}
-          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+      - name: Execute Aggregation Engine
         run: python scraper.py
 
-      - name: Commit updated jobs.json
+      - name: Live Push To Dashboard
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add jobs.json
-          git diff --staged --quiet || git commit -m "🤖 Auto-update jobs $(date +'%Y-%m-%d %H:%M IST')"
+          git diff --staged --quiet || git commit -m "🤖 Realtime Job Sync $(date +'%Y-%m-%d %H:%M IST')"
           git push
