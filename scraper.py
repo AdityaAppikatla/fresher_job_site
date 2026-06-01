@@ -148,7 +148,7 @@ def main():
         payload = {
             "service_id": service_id,
             "template_id": template_id,
-            "accessToken": private_key,
+            "user_id": private_key,
             "template_params": {
                 "to_email": recipient,
                 "subject": f"🎓 Fresher Job Alert — {len(fresher_jobs)} roles found today!",
