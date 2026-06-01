@@ -2,9 +2,8 @@ name: 24-7 Rapid Job Sync
 
 on:
   schedule:
-    # Triggers every single hour, 24 times a day, completely hands-free
-    - cron: '0 * * * *'
-  workflow_dispatch:
+    - cron: '0 * * * *'  # Runs automatically every single hour, 24/7
+  workflow_dispatch:     # Allows you to click "Run workflow" manually anytime
 
 jobs:
   sync_engine:
@@ -18,7 +17,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Core Dependencies
+      - name: Install Core Dependencies
         run: pip install requests
 
       - name: Execute Aggregation Engine
