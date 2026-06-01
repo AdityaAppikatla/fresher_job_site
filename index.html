@@ -4,495 +4,811 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FreshHire — Fresher Tech Jobs India</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Cabinet+Grotesk:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --bg: #0a0a0f;
-    --surface: #111118;
-    --card: #16161f;
-    --border: #1e1e2e;
-    --accent: #7c6aff;
-    --accent2: #ff6a6a;
-    --accent3: #6affc8;
-    --text: #e8e8f0;
-    --muted: #6b6b80;
-    --vlsi: #7c6aff;
-    --embedded: #ff9d4d;
-    --software: #6affc8;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
+:root {
+  --ink: #0c0c10;
+  --ink2: #1a1a24;
+  --ink3: #252535;
+  --surface: #f4f3ef;
+  --paper: #faf9f6;
+  --white: #ffffff;
+  --border: rgba(12,12,16,0.1);
+  --border2: rgba(12,12,16,0.07);
+  --muted: #7a7a8c;
+  --muted2: #a0a0b4;
+  --gold: #c8a84b;
+  --gold-light: #f5e9c8;
+  --gold-dark: #8c6d1f;
+  --teal: #1a8c6e;
+  --teal-light: #d6f0e8;
+  --teal-bg: rgba(26,140,110,0.08);
+  --red: #c94040;
+  --red-light: #fce8e8;
+  --vlsi-color: #5b3fbe;
+  --vlsi-bg: rgba(91,63,190,0.08);
+  --vlsi-border: rgba(91,63,190,0.2);
+  --emb-color: #c96020;
+  --emb-bg: rgba(201,96,32,0.08);
+  --emb-border: rgba(201,96,32,0.2);
+  --soft-color: #1a7c5a;
+  --soft-bg: rgba(26,124,90,0.08);
+  --soft-border: rgba(26,124,90,0.2);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-pill: 100px;
+  --transition: 0.2s cubic-bezier(0.4,0,0.2,1);
+}
 
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'DM Sans', sans-serif;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; font-size: 16px; }
 
-  /* Noise overlay */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-    pointer-events: none;
-    z-index: 0;
-  }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Cabinet Grotesk', system-ui, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
 
-  /* Header */
-  header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: rgba(10,10,15,0.85);
-    backdrop-filter: blur(20px);
-    border-bottom: 1px solid var(--border);
-    padding: 0 2rem;
-    height: 64px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .logo {
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: 1.4rem;
-    letter-spacing: -0.02em;
-  }
-  .logo span { color: var(--accent); }
-  .header-meta {
-    font-size: 0.78rem;
-    color: var(--muted);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  .live-dot {
-    width: 7px; height: 7px;
-    background: var(--accent3);
-    border-radius: 50%;
-    animation: pulse 2s infinite;
-  }
-  @keyframes pulse {
-    0%,100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.4; transform: scale(1.4); }
-  }
+/* Subtle grid texture */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(12,12,16,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(12,12,16,0.025) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+  z-index: 0;
+}
 
-  /* Hero */
-  .hero {
-    padding: 5rem 2rem 3rem;
-    text-align: center;
-    position: relative;
-  }
-  .hero-glow {
-    position: absolute;
-    top: 0; left: 50%;
-    transform: translateX(-50%);
-    width: 600px; height: 300px;
-    background: radial-gradient(ellipse, rgba(124,106,255,0.15) 0%, transparent 70%);
-    pointer-events: none;
-  }
-  .hero h1 {
-    font-family: 'Syne', sans-serif;
-    font-size: clamp(2.2rem, 6vw, 4.5rem);
-    font-weight: 800;
-    line-height: 1.05;
-    letter-spacing: -0.03em;
-    margin-bottom: 1rem;
-  }
-  .hero h1 em {
-    font-style: normal;
-    background: linear-gradient(135deg, var(--accent) 0%, #b06aff 50%, var(--accent2) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-  .hero p {
-    font-size: 1.05rem;
-    color: var(--muted);
-    max-width: 520px;
-    margin: 0 auto 2rem;
-    line-height: 1.7;
-    font-weight: 300;
-  }
+/* ── HEADER ── */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: rgba(250,249,246,0.92);
+  backdrop-filter: blur(24px) saturate(1.5);
+  -webkit-backdrop-filter: blur(24px) saturate(1.5);
+  border-bottom: 1px solid var(--border);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 clamp(1.2rem, 4vw, 3rem);
+}
 
-  /* Stats bar */
-  .stats {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    margin-bottom: 3rem;
-  }
-  .stat-chip {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 100px;
-    padding: 0.45rem 1rem;
-    font-size: 0.82rem;
-    color: var(--muted);
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-  }
-  .stat-chip strong { color: var(--text); font-weight: 500; }
+.logo {
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logo-mark {
+  width: 28px;
+  height: 28px;
+  background: var(--ink);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-mark svg { display: block; }
+.logo-word em {
+  font-style: normal;
+  color: var(--gold);
+}
 
-  /* Controls */
-  .controls {
-    max-width: 900px;
-    margin: 0 auto 2.5rem;
-    padding: 0 1.5rem;
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .search-wrap {
-    flex: 1;
-    min-width: 200px;
-    position: relative;
-  }
-  .search-wrap svg {
-    position: absolute;
-    left: 14px; top: 50%;
-    transform: translateY(-50%);
-    color: var(--muted);
-    pointer-events: none;
-  }
-  input[type="text"] {
-    width: 100%;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 0.75rem 1rem 0.75rem 2.8rem;
-    color: var(--text);
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.9rem;
-    outline: none;
-    transition: border-color 0.2s;
-  }
-  input[type="text"]:focus { border-color: var(--accent); }
-  input[type="text"]::placeholder { color: var(--muted); }
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.header-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.01em;
+}
+.pulse-dot {
+  width: 7px;
+  height: 7px;
+  background: var(--teal);
+  border-radius: 50%;
+  animation: blink 2.4s ease-in-out infinite;
+}
+@keyframes blink {
+  0%,100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+.header-cta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--ink);
+  color: var(--paper);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 0.45rem 1rem;
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 0.01em;
+  transition: background var(--transition), transform var(--transition);
+}
+.header-cta:hover { background: var(--ink2); transform: translateY(-1px); }
 
-  .filter-pills {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-  }
-  .pill {
-    padding: 0.55rem 1.1rem;
-    border-radius: 100px;
-    border: 1px solid var(--border);
-    background: var(--card);
-    color: var(--muted);
-    font-size: 0.82rem;
-    cursor: pointer;
-    transition: all 0.2s;
-    font-family: 'DM Sans', sans-serif;
-    letter-spacing: 0.01em;
-  }
-  .pill:hover { border-color: var(--accent); color: var(--text); }
-  .pill.active { background: var(--accent); border-color: var(--accent); color: #fff; }
-  .pill.vlsi.active { background: var(--vlsi); border-color: var(--vlsi); }
-  .pill.embedded.active { background: var(--embedded); border-color: var(--embedded); }
-  .pill.software.active { background: var(--software); border-color: var(--software); color: #000; }
+/* ── HERO ── */
+.hero {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: clamp(3rem, 8vw, 6rem) clamp(1.2rem, 4vw, 2rem) clamp(2rem, 4vw, 3rem);
+  position: relative;
+  z-index: 1;
+}
 
-  /* Notify bar */
-  .notify-bar {
-    max-width: 900px;
-    margin: 0 auto 2.5rem;
-    padding: 0 1.5rem;
-  }
-  .notify-card {
-    background: linear-gradient(135deg, rgba(124,106,255,0.1), rgba(106,255,200,0.05));
-    border: 1px solid rgba(124,106,255,0.3);
-    border-radius: 16px;
-    padding: 1.2rem 1.5rem;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-  .notify-icon { font-size: 1.5rem; }
-  .notify-text { flex: 1; min-width: 200px; }
-  .notify-text strong { display: block; font-size: 0.95rem; margin-bottom: 0.2rem; }
-  .notify-text span { font-size: 0.8rem; color: var(--muted); }
-  .notify-form { display: flex; gap: 0.5rem; flex-wrap: wrap; }
-  .notify-form input {
-    background: rgba(255,255,255,0.07);
-    border: 1px solid rgba(124,106,255,0.3);
-    border-radius: 10px;
-    padding: 0.6rem 1rem;
-    color: var(--text);
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.85rem;
-    outline: none;
-    width: 220px;
-    transition: border-color 0.2s;
-  }
-  .notify-form input:focus { border-color: var(--accent); }
-  .btn-notify {
-    background: var(--accent);
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    padding: 0.6rem 1.2rem;
-    font-family: 'Syne', sans-serif;
-    font-size: 0.85rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: opacity 0.2s, transform 0.1s;
-  }
-  .btn-notify:hover { opacity: 0.85; }
-  .btn-notify:active { transform: scale(0.97); }
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--gold-light);
+  border: 1px solid rgba(200,168,75,0.35);
+  border-radius: var(--radius-pill);
+  padding: 0.35rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gold-dark);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 1.75rem;
+}
+.hero-eyebrow span {
+  width: 5px; height: 5px;
+  background: var(--gold);
+  border-radius: 50%;
+}
 
-  /* Grid */
-  .grid {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1.5rem 4rem;
-    display: grid;
-    gap: 0.75rem;
-  }
+.hero-title {
+  font-family: 'Clash Display', sans-serif;
+  font-size: clamp(2.6rem, 7vw, 5.5rem);
+  font-weight: 600;
+  line-height: 0.97;
+  letter-spacing: -0.04em;
+  color: var(--ink);
+  margin-bottom: 1.5rem;
+}
+.hero-title .line2 {
+  display: block;
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--ink3);
+}
+.hero-title .accent-word {
+  position: relative;
+  display: inline-block;
+}
+.hero-title .accent-word::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--gold);
+  border-radius: 2px;
+}
 
-  /* Job card */
-  .job-card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 1.2rem 1.4rem;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    transition: border-color 0.2s, transform 0.15s;
-    cursor: default;
-    animation: fadeIn 0.4s ease both;
-  }
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  .job-card:hover {
-    border-color: rgba(124,106,255,0.4);
-    transform: translateX(3px);
-  }
-  .domain-dot {
-    width: 10px; height: 10px;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
-  .domain-dot.VLSI { background: var(--vlsi); }
-  .domain-dot.Embedded { background: var(--embedded); }
-  .domain-dot.Software { background: var(--software); }
+.hero-sub {
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  font-weight: 400;
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 520px;
+  margin-bottom: 2.5rem;
+}
 
-  .job-info { flex: 1; min-width: 0; }
-  .job-title {
-    font-size: 0.92rem;
-    font-weight: 500;
-    color: var(--text);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-bottom: 0.25rem;
-  }
-  .job-meta {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    font-size: 0.78rem;
-    color: var(--muted);
-    flex-wrap: wrap;
-  }
-  .job-company { font-weight: 500; color: #9898b0; }
-  .badge {
-    font-size: 0.68rem;
-    padding: 0.2rem 0.6rem;
-    border-radius: 100px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-  }
-  .badge.VLSI { background: rgba(124,106,255,0.15); color: var(--vlsi); }
-  .badge.Embedded { background: rgba(255,157,77,0.15); color: var(--embedded); }
-  .badge.Software { background: rgba(106,255,200,0.15); color: var(--software); }
-  .badge.manual { background: rgba(255,106,106,0.1); color: var(--accent2); }
+.hero-chips {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.hchip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid;
+}
+.hchip.vlsi { background: var(--vlsi-bg); border-color: var(--vlsi-border); color: var(--vlsi-color); }
+.hchip.emb { background: var(--emb-bg); border-color: var(--emb-border); color: var(--emb-color); }
+.hchip.soft { background: var(--soft-bg); border-color: var(--soft-border); color: var(--soft-color); }
+.hchip.updated {
+  background: var(--surface);
+  border-color: var(--border);
+  color: var(--muted);
+  font-weight: 500;
+}
 
-  .btn-open {
-    background: rgba(124,106,255,0.12);
-    border: 1px solid rgba(124,106,255,0.25);
-    color: var(--accent);
-    border-radius: 10px;
-    padding: 0.5rem 1rem;
-    font-size: 0.8rem;
-    font-family: 'Syne', sans-serif;
-    font-weight: 600;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 0.2s;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-    white-space: nowrap;
-  }
-  .btn-open:hover {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: #fff;
-  }
+/* ── MAIN CONTENT ── */
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 clamp(1.2rem, 4vw, 2rem) 6rem;
+  position: relative;
+  z-index: 1;
+}
 
-  /* Empty state */
-  .empty {
-    text-align: center;
-    padding: 4rem 1rem;
-    color: var(--muted);
-  }
-  .empty h3 { font-family: 'Syne', sans-serif; font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--text); }
+/* ── ALERT SIGNUP ── */
+.alert-banner {
+  background: var(--ink);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.75rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.alert-icon-wrap {
+  width: 44px;
+  height: 44px;
+  background: rgba(255,255,255,0.1);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.alert-icon-wrap svg { width: 22px; height: 22px; stroke: #fff; }
+.alert-copy { flex: 1; min-width: 160px; }
+.alert-copy strong {
+  display: block;
+  color: #fff;
+  font-size: 0.92rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  letter-spacing: -0.01em;
+}
+.alert-copy span { color: rgba(255,255,255,0.5); font-size: 0.78rem; }
+.alert-form { display: flex; gap: 8px; flex-wrap: wrap; }
+.alert-input {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 1rem;
+  color: #fff;
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  outline: none;
+  width: 210px;
+  transition: border-color var(--transition);
+}
+.alert-input::placeholder { color: rgba(255,255,255,0.35); }
+.alert-input:focus { border-color: var(--gold); }
+.btn-alert {
+  background: var(--gold);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 1.2rem;
+  color: var(--ink);
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 800;
+  cursor: pointer;
+  letter-spacing: 0.01em;
+  transition: opacity var(--transition), transform var(--transition);
+  white-space: nowrap;
+}
+.btn-alert:hover { opacity: 0.88; }
+.btn-alert:active { transform: scale(0.97); }
 
-  /* Last updated */
-  .updated-bar {
-    max-width: 900px;
-    margin: 0 auto 1.5rem;
-    padding: 0 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-  .updated-text { font-size: 0.8rem; color: var(--muted); }
-  .count-text { font-size: 0.8rem; color: var(--muted); }
-  .count-text strong { color: var(--text); }
+/* ── TOOLBAR ── */
+.toolbar {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+.search-field {
+  flex: 1;
+  min-width: 200px;
+  position: relative;
+}
+.search-field svg {
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  stroke: var(--muted2);
+  pointer-events: none;
+  stroke-width: 2;
+  fill: none;
+}
+.search-input {
+  width: 100%;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.65rem 1rem 0.65rem 2.6rem;
+  color: var(--ink);
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-size: 0.88rem;
+  outline: none;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+.search-input:focus {
+  border-color: rgba(91,63,190,0.4);
+  box-shadow: 0 0 0 3px rgba(91,63,190,0.08);
+}
+.search-input::placeholder { color: var(--muted2); }
 
-  /* Loading */
-  .loading {
-    text-align: center;
-    padding: 5rem;
-    color: var(--muted);
-    font-family: 'Syne', sans-serif;
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  .spinner {
-    width: 32px; height: 32px;
-    border: 3px solid var(--border);
-    border-top-color: var(--accent);
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-  }
-  @keyframes spin { to { transform: rotate(360deg); } }
+.filter-group {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.fpill {
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: var(--white);
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+  font-family: 'Cabinet Grotesk', sans-serif;
+  letter-spacing: 0.01em;
+}
+.fpill:hover { border-color: var(--ink3); color: var(--ink); }
+.fpill.active-all { background: var(--ink); border-color: var(--ink); color: #fff; }
+.fpill.active-vlsi { background: var(--vlsi-color); border-color: var(--vlsi-color); color: #fff; }
+.fpill.active-emb { background: var(--emb-color); border-color: var(--emb-color); color: #fff; }
+.fpill.active-soft { background: var(--soft-color); border-color: var(--soft-color); color: #fff; }
+.fpill.active-open { background: var(--teal); border-color: var(--teal); color: #fff; }
 
-  /* Toast */
-  .toast {
-    position: fixed;
-    bottom: 2rem; right: 2rem;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 1rem 1.4rem;
-    font-size: 0.88rem;
-    z-index: 999;
-    transform: translateY(100px);
-    opacity: 0;
-    transition: all 0.3s cubic-bezier(0.19,1,0.22,1);
-    max-width: 300px;
-  }
-  .toast.show { transform: translateY(0); opacity: 1; }
-  .toast.success { border-color: rgba(106,255,200,0.4); }
-  .toast.error { border-color: rgba(255,106,106,0.4); }
+/* ── META BAR ── */
+.meta-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.meta-bar span {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+.meta-bar strong { color: var(--ink); font-weight: 600; }
 
-  @media (max-width: 600px) {
-    .hero { padding: 3.5rem 1.2rem 2.5rem; }
-    .controls { padding: 0 1rem; }
-    .grid { padding: 0 1rem 3rem; }
-    .notify-bar { padding: 0 1rem; }
-    .updated-bar { padding: 0 1rem; }
-    .job-card { padding: 1rem; }
-    header { padding: 0 1rem; }
-  }
+/* ── JOB LIST ── */
+.job-list { display: flex; flex-direction: column; gap: 0; }
+
+.job-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--white);
+  border: 1px solid var(--border2);
+  border-bottom: none;
+  transition: background var(--transition), border-color var(--transition);
+  animation: rowIn 0.35s ease both;
+}
+.job-row:first-child { border-radius: var(--radius) var(--radius) 0 0; }
+.job-row:last-child { border-bottom: 1px solid var(--border2); border-radius: 0 0 var(--radius) var(--radius); }
+.job-row:only-child { border-radius: var(--radius); border-bottom: 1px solid var(--border2); }
+.job-row:hover {
+  background: var(--surface);
+  border-color: var(--border);
+  z-index: 1;
+  position: relative;
+}
+@keyframes rowIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.row-indicator {
+  width: 3px;
+  height: 36px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.row-indicator.VLSI { background: var(--vlsi-color); }
+.row-indicator.Embedded { background: var(--emb-color); }
+.row-indicator.Software { background: var(--soft-color); }
+.row-indicator.Unknown { background: var(--border); }
+
+.row-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Clash Display', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink2);
+  flex-shrink: 0;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.row-body { flex: 1; min-width: 0; }
+.row-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 3px;
+}
+.row-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.row-company {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+.row-dot { color: var(--muted2); font-size: 0.65rem; }
+.domain-tag {
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.15rem 0.55rem;
+  border-radius: var(--radius-pill);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.domain-tag.VLSI { background: var(--vlsi-bg); color: var(--vlsi-color); border: 1px solid var(--vlsi-border); }
+.domain-tag.Embedded { background: var(--emb-bg); color: var(--emb-color); border: 1px solid var(--emb-border); }
+.domain-tag.Software { background: var(--soft-bg); color: var(--soft-color); border: 1px solid var(--soft-border); }
+.domain-tag.manual { background: rgba(201,64,64,0.08); color: var(--red); border: 1px solid rgba(201,64,64,0.2); }
+
+.btn-visit {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0.45rem 0.9rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--muted);
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all var(--transition);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.btn-visit:hover {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+.btn-visit svg {
+  width: 11px;
+  height: 11px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  flex-shrink: 0;
+}
+
+/* ── EMPTY ── */
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: var(--white);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+}
+.empty-state h3 {
+  font-family: 'Clash Display', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--ink);
+}
+.empty-state p { font-size: 0.88rem; color: var(--muted); }
+
+/* ── LOADING ── */
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 5rem 2rem;
+  color: var(--muted);
+}
+.spinner {
+  width: 30px;
+  height: 30px;
+  border: 2.5px solid var(--border);
+  border-top-color: var(--vlsi-color);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* ── SKELETON ── */
+.skeleton-rows { display: flex; flex-direction: column; gap: 0; }
+.skel-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--white);
+  border: 1px solid var(--border2);
+  border-bottom: none;
+}
+.skel-row:first-child { border-radius: var(--radius) var(--radius) 0 0; }
+.skel-row:last-child { border-bottom: 1px solid var(--border2); border-radius: 0 0 var(--radius) var(--radius); }
+.skel {
+  background: linear-gradient(90deg, var(--surface) 0%, #ece9e2 50%, var(--surface) 100%);
+  background-size: 300% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+  border-radius: 6px;
+}
+@keyframes shimmer {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+.skel-bar { height: 3px; width: 36px; border-radius: 3px; flex-shrink: 0; }
+.skel-logo { width: 36px; height: 36px; border-radius: 9px; flex-shrink: 0; }
+.skel-body { flex: 1; }
+.skel-title { height: 14px; width: 45%; margin-bottom: 8px; }
+.skel-sub { height: 11px; width: 30%; }
+.skel-btn { height: 30px; width: 70px; border-radius: var(--radius-sm); flex-shrink: 0; }
+
+/* ── TOAST ── */
+.toast {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 9999;
+  background: var(--ink);
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 0.9rem 1.3rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  max-width: 300px;
+  transform: translateY(20px) scale(0.97);
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  pointer-events: none;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+}
+.toast.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+.toast.success { background: var(--teal); }
+.toast.error { background: var(--red); }
+
+/* ── FOOTER ── */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 2rem clamp(1.2rem, 4vw, 3rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background: var(--paper);
+  position: relative;
+  z-index: 1;
+}
+.foot-logo {
+  font-family: 'Clash Display', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -0.03em;
+}
+.foot-logo em { font-style: normal; color: var(--gold); }
+.foot-copy { font-size: 0.75rem; color: var(--muted); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 640px) {
+  .header-badge { display: none; }
+  .hero-title { line-height: 1; }
+  .hero-title .line2 { display: inline; }
+  .alert-banner { padding: 1.2rem 1.2rem; }
+  .alert-input { width: 100%; }
+  .alert-form { width: 100%; }
+  .row-logo { display: none; }
+  .job-row { padding: 0.85rem 1rem; }
+}
 </style>
 </head>
 <body>
 
+<!-- ── HEADER ── -->
 <header>
-  <div class="logo">Fresh<span>Hire</span></div>
-  <div class="header-meta">
-    <span class="live-dot"></span>
-    <span>Auto-updates daily · 35+ companies</span>
+  <div class="logo">
+    <div class="logo-mark">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path d="M3 8h10M8 3v10M5 5l6 6M11 5l-6 6" stroke="#f5e9c8" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <span class="logo-word">Fresh<em>Hire</em></span>
+  </div>
+  <div class="header-right">
+    <div class="header-badge">
+      <span class="pulse-dot"></span>
+      <span>Auto-updated · 35+ companies</span>
+    </div>
+    <button class="header-cta" onclick="document.getElementById('notifyEmailTop').focus(); document.querySelector('.alert-banner').scrollIntoView({behavior:'smooth'})">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+        <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+      </svg>
+      Get alerts
+    </button>
   </div>
 </header>
 
-<div class="hero">
-  <div class="hero-glow"></div>
-  <h1>Land your first<br><em>tech role</em> in India</h1>
-  <p>Freshly scraped openings from 35+ semiconductor, embedded & software companies — updated automatically every morning.</p>
-</div>
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-eyebrow"><span></span> India's #1 Fresher Tech Job Board</div>
+  <h1 class="hero-title">
+    Your first<br>
+    <span class="line2">tech <span class="accent-word">career</span></span><br>
+    starts here.
+  </h1>
+  <p class="hero-sub">Real openings from 35+ semiconductor, embedded & software companies — scraped daily, no fluff, no spam. Built for freshers by someone who's been there.</p>
+  <div class="hero-chips">
+    <span class="hchip vlsi">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><rect x="5" y="5" width="14" height="14" rx="1"/><path d="M9 5V3M15 5V3M9 21v-2M15 21v-2M5 9H3M5 15H3M21 9h-2M21 15h-2"/></svg>
+      VLSI / Chip Design
+    </span>
+    <span class="hchip emb">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+      Embedded Systems
+    </span>
+    <span class="hchip soft">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+      Software
+    </span>
+    <span class="hchip updated" id="heroUpdatedChip">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      Updated <span id="heroUpdatedTime">today</span>
+    </span>
+  </div>
+</section>
 
-<div class="stats">
-  <div class="stat-chip">🔬 <strong>VLSI / Chip Design</strong></div>
-  <div class="stat-chip">⚙️ <strong>Embedded Systems</strong></div>
-  <div class="stat-chip">💻 <strong>Software</strong></div>
-  <div class="stat-chip">🕐 Updated <strong id="last-updated-chip">Loading...</strong></div>
-</div>
+<!-- ── MAIN ── -->
+<main class="main">
 
-<!-- Notify bar -->
-<div class="notify-bar">
-  <div class="notify-card">
-    <div class="notify-icon">📬</div>
-    <div class="notify-text">
-      <strong>Get email alerts for new openings</strong>
-      <span>We'll notify you the moment a new fresher role is posted</span>
+  <!-- Alert signup -->
+  <div class="alert-banner">
+    <div class="alert-icon-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+        <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+      </svg>
     </div>
-    <div class="notify-form">
-      <input type="text" id="notifyEmail" placeholder="your@email.com" />
-      <button class="btn-notify" onclick="subscribe()">Notify me</button>
+    <div class="alert-copy">
+      <strong>Never miss a new opening</strong>
+      <span>Email alerts · twice daily · zero spam</span>
+    </div>
+    <div class="alert-form">
+      <input class="alert-input" type="email" id="notifyEmailTop" placeholder="your@email.com" />
+      <button class="btn-alert" onclick="subscribe()">Subscribe free</button>
     </div>
   </div>
-</div>
 
-<!-- Controls -->
-<div class="controls">
-  <div class="search-wrap">
-    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-    </svg>
-    <input type="text" id="searchInput" placeholder="Search company or role..." oninput="filterJobs()" />
+  <!-- Toolbar -->
+  <div class="toolbar">
+    <div class="search-field">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input class="search-input" type="text" id="searchInput" placeholder="Search company, role, or technology…" oninput="filterJobs()" />
+    </div>
+    <div class="filter-group">
+      <button class="fpill active-all" id="pill-All" onclick="setFilter('All',this,'active-all')">All</button>
+      <button class="fpill" id="pill-VLSI" onclick="setFilter('VLSI',this,'active-vlsi')">VLSI</button>
+      <button class="fpill" id="pill-Embedded" onclick="setFilter('Embedded',this,'active-emb')">Embedded</button>
+      <button class="fpill" id="pill-Software" onclick="setFilter('Software',this,'active-soft')">Software</button>
+      <button class="fpill" id="pill-open" onclick="toggleOpen(this)">Openings only</button>
+    </div>
   </div>
-  <div class="filter-pills">
-    <button class="pill active" onclick="setFilter('All', this)">All</button>
-    <button class="pill vlsi" onclick="setFilter('VLSI', this)">VLSI</button>
-    <button class="pill embedded" onclick="setFilter('Embedded', this)">Embedded</button>
-    <button class="pill software" onclick="setFilter('Software', this)">Software</button>
-    <button class="pill" onclick="setFilter('jobs', this)">Openings only</button>
+
+  <!-- Meta bar -->
+  <div class="meta-bar">
+    <span>Last scraped: <strong id="lastUpdatedMeta">—</strong></span>
+    <span>Showing <strong id="countMeta">—</strong> results</span>
   </div>
-</div>
 
-<!-- Updated bar -->
-<div class="updated-bar">
-  <span class="updated-text">🕐 Last scraped: <span id="last-updated">—</span></span>
-  <span class="count-text">Showing <strong id="count">—</strong> results</span>
-</div>
-
-<!-- Job grid -->
-<div class="grid" id="jobGrid">
-  <div class="loading">
-    <div class="spinner"></div>
-    Fetching latest jobs...
+  <!-- Job list -->
+  <div id="jobList">
+    <div class="skeleton-rows" id="skeletonRows">
+      <!-- 8 skeleton rows -->
+    </div>
   </div>
-</div>
 
-<!-- Toast -->
+</main>
+
+<footer>
+  <div class="foot-logo">Fresh<em>Hire</em></div>
+  <span class="foot-copy">Auto-scrapes 35+ companies · Updates at 8 AM & 6 PM IST · Built for India's freshers</span>
+</footer>
+
 <div class="toast" id="toast"></div>
 
 <script>
 let allJobs = [];
 let activeFilter = 'All';
+let activeFilterClass = 'active-all';
 let onlyOpenings = false;
+
+// Build skeleton
+(function buildSkeleton() {
+  const c = document.getElementById('skeletonRows');
+  for (let i = 0; i < 8; i++) {
+    c.innerHTML += `<div class="skel-row">
+      <div class="skel skel-bar"></div>
+      <div class="skel skel-logo"></div>
+      <div class="skel-body">
+        <div class="skel skel-title" style="width:${35+Math.random()*25}%"></div>
+        <div class="skel skel-sub" style="width:${20+Math.random()*20}%"></div>
+      </div>
+      <div class="skel skel-btn"></div>
+    </div>`;
+  }
+})();
+
+function initials(name) {
+  return name.split(/\s+/).slice(0,2).map(w => w[0]).join('').toUpperCase();
+}
+
+function logoColor(name) {
+  const colors = [
+    ['#eee8fd','#5b3fbe'], ['#fce9d8','#c96020'], ['#d6f0e8','#1a7c5a'],
+    ['#e8edf8','#2a4aab'], ['#fde8e8','#c94040'], ['#fdf4d8','#9b6e10'],
+    ['#e4f7f0','#157a5e'], ['#f0e8fd','#7a3fbe']
+  ];
+  let h = 0; for (const c of name) h = (h * 31 + c.charCodeAt(0)) & 0xffffffff;
+  const [bg,fg] = colors[Math.abs(h) % colors.length];
+  return { bg, fg };
+}
 
 async function loadJobs() {
   try {
@@ -500,120 +816,113 @@ async function loadJobs() {
     const data = await res.json();
     allJobs = data.jobs || [];
 
-    // Format date
     const d = new Date(data.last_updated);
-    const formatted = d.toLocaleString('en-IN', {
-      day: 'numeric', month: 'short', year: 'numeric',
-      hour: '2-digit', minute: '2-digit', hour12: true
+    const fmt = d.toLocaleString('en-IN', {
+      day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: true
     });
-    document.getElementById('last-updated').textContent = formatted;
-    document.getElementById('last-updated-chip').textContent = formatted;
+    document.getElementById('lastUpdatedMeta').textContent = fmt;
+    document.getElementById('heroUpdatedTime').textContent = fmt;
 
-    renderJobs();
+    renderAll();
   } catch(e) {
-    document.getElementById('jobGrid').innerHTML = `
-      <div class="empty">
-        <h3>Could not load jobs</h3>
+    document.getElementById('jobList').innerHTML = `
+      <div class="empty-state">
+        <h3>Couldn't load jobs</h3>
         <p>Make sure jobs.json is in the same folder as this page.</p>
       </div>`;
   }
 }
 
-function setFilter(filter, btn) {
-  document.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
-  btn.classList.add('active');
-  if (filter === 'jobs') {
-    activeFilter = 'All';
-    onlyOpenings = true;
-  } else {
-    activeFilter = filter;
-    onlyOpenings = false;
-  }
-  filterJobs();
+function setFilter(filter, btn, cls) {
+  document.querySelectorAll('.fpill').forEach(p => {
+    p.className = 'fpill';
+  });
+  btn.classList.add(cls);
+  activeFilter = filter;
+  onlyOpenings = false;
+  document.getElementById('pill-open').className = 'fpill';
+  renderAll();
 }
 
-function filterJobs() {
-  const query = document.getElementById('searchInput').value.toLowerCase().trim();
-  let filtered = allJobs;
-
-  if (activeFilter !== 'All') {
-    filtered = filtered.filter(j => j.domain === activeFilter);
-  }
+function toggleOpen(btn) {
+  onlyOpenings = !onlyOpenings;
   if (onlyOpenings) {
-    filtered = filtered.filter(j => !j.manual_check && !j.error);
+    document.querySelectorAll('.fpill').forEach(p => p.className = 'fpill');
+    btn.classList.add('active-open');
+    activeFilter = 'All';
+  } else {
+    btn.className = 'fpill';
+    document.getElementById('pill-All').classList.add('active-all');
   }
-  if (query) {
-    filtered = filtered.filter(j =>
-      j.company.toLowerCase().includes(query) ||
-      j.title.toLowerCase().includes(query) ||
-      (j.domain || '').toLowerCase().includes(query)
-    );
-  }
-
-  document.getElementById('count').textContent = filtered.length;
-  renderCards(filtered);
+  renderAll();
 }
 
-function renderJobs() {
-  document.getElementById('count').textContent = allJobs.length;
-  renderCards(allJobs);
-}
+function renderAll() {
+  const q = document.getElementById('searchInput').value.toLowerCase().trim();
+  let jobs = allJobs;
 
-function renderCards(jobs) {
-  const grid = document.getElementById('jobGrid');
+  if (activeFilter !== 'All') jobs = jobs.filter(j => j.domain === activeFilter);
+  if (onlyOpenings) jobs = jobs.filter(j => !j.manual_check && !j.error);
+  if (q) jobs = jobs.filter(j =>
+    j.company.toLowerCase().includes(q) ||
+    j.title.toLowerCase().includes(q) ||
+    (j.domain||'').toLowerCase().includes(q)
+  );
+
+  document.getElementById('countMeta').textContent = jobs.length;
+  const list = document.getElementById('jobList');
+
   if (!jobs.length) {
-    grid.innerHTML = `<div class="empty"><h3>No results found</h3><p>Try a different search or filter.</p></div>`;
+    list.innerHTML = `<div class="empty-state"><h3>No results</h3><p>Try a different search or filter.</p></div>`;
     return;
   }
 
-  grid.innerHTML = jobs.map((j, i) => {
+  const rows = jobs.map((j, i) => {
     const isManual = j.manual_check || j.error;
-    const titleLabel = isManual ? j.title : j.title;
-    const badgeClass = isManual ? 'manual' : j.domain;
-    const badgeText = isManual ? 'Check manually' : j.domain;
+    const domain = j.domain || 'Unknown';
+    const lc = logoColor(j.company);
+    const ini = initials(j.company);
+    const domainClass = isManual ? 'manual' : domain;
+    const domainLabel = isManual ? 'Check site' : domain;
 
-    return `
-    <div class="job-card" style="animation-delay:${Math.min(i,20)*0.03}s">
-      <span class="domain-dot ${j.domain}"></span>
-      <div class="job-info">
-        <div class="job-title" title="${titleLabel}">${titleLabel}</div>
-        <div class="job-meta">
-          <span class="job-company">${j.company}</span>
-          <span class="badge ${badgeClass}">${badgeText}</span>
+    return `<div class="job-row" style="animation-delay:${Math.min(i,15)*0.025}s">
+      <div class="row-indicator ${domain}"></div>
+      <div class="row-logo" style="background:${lc.bg};color:${lc.fg};">${ini}</div>
+      <div class="row-body">
+        <div class="row-title" title="${j.title}">${j.title}</div>
+        <div class="row-meta">
+          <span class="row-company">${j.company}</span>
+          <span class="row-dot">·</span>
+          <span class="domain-tag ${domainClass}">${domainLabel}</span>
         </div>
       </div>
-      <a href="${j.url}" target="_blank" rel="noopener" class="btn-open">
+      <a href="${j.url}" target="_blank" rel="noopener" class="btn-visit">
         Open
-        <svg width="11" height="11" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-          <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
-        </svg>
+        <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
       </a>
     </div>`;
   }).join('');
+
+  list.innerHTML = `<div class="job-list">${rows}</div>`;
 }
 
+function filterJobs() { renderAll(); }
+
 function subscribe() {
-  const email = document.getElementById('notifyEmail').value.trim();
-  if (!email || !email.includes('@')) {
-    showToast('Please enter a valid email address.', 'error');
-    return;
-  }
-  // Save to localStorage for client-side reference
-  const subs = JSON.parse(localStorage.getItem('fh_subscribers') || '[]');
-  if (!subs.includes(email)) {
-    subs.push(email);
-    localStorage.setItem('fh_subscribers', JSON.stringify(subs));
-  }
-  document.getElementById('notifyEmail').value = '';
-  showToast('✅ You\'re subscribed! You\'ll get email alerts when new jobs are posted.', 'success');
+  const el = document.getElementById('notifyEmailTop');
+  const email = el.value.trim();
+  if (!email || !email.includes('@')) { showToast('Enter a valid email address.', 'error'); return; }
+  const subs = JSON.parse(localStorage.getItem('fh_subs') || '[]');
+  if (!subs.includes(email)) { subs.push(email); localStorage.setItem('fh_subs', JSON.stringify(subs)); }
+  el.value = '';
+  showToast('✓ Subscribed! You\'ll get alerts when new jobs land.', 'success');
 }
 
 function showToast(msg, type='success') {
   const t = document.getElementById('toast');
   t.textContent = msg;
-  t.className = `toast ${type} show`;
-  setTimeout(() => t.classList.remove('show'), 4000);
+  t.className = `toast ${type} visible`;
+  setTimeout(() => t.className = 'toast', 4000);
 }
 
 loadJobs();
