@@ -3,25 +3,46 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FreshHire — Fresher Job Board</title>
+<title>FreshHire — Private Access Portal</title>
 <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@500;600;700&family=Cabinet+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
 <style>
 :root {
   --ink: #0c0c10; --ink2: #1a1a24; --surface: #f4f3ef;
   --paper: #faf9f6; --white: #ffffff; --border: rgba(12,12,16,0.1);
   --border2: rgba(12,12,16,0.07); --muted: #7a7a8c; --gold: #c8a84b;
-  --teal: #1a8c6e; --radius: 12px; --radius-sm: 8px; --radius-pill: 100px; --transition: 0.2s cubic-bezier(0.4,0,0.2,1);
+  --gold-light: #f5e9c8; --gold-dark: #8c6d1f; --teal: #1a8c6e; --red: #c94040;
+  --radius: 12px; --radius-sm: 8px; --radius-pill: 100px; --transition: 0.2s ease;
   --vlsi-color: #5b3fbe; --vlsi-bg: rgba(91,63,190,0.08);
   --emb-color: #c96020; --emb-bg: rgba(201,96,32,0.08);
   --soft-color: #1a7c5a; --soft-bg: rgba(26,124,90,0.08);
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { background: var(--paper); color: var(--ink); font-family: 'Cabinet Grotesk', system-ui, sans-serif; min-height: 100vh; -webkit-font-smoothing: antialiased; }
-header { position: sticky; top: 0; z-index: 200; background: rgba(250,249,246,0.92); backdrop-filter: blur(24px); border-bottom: 1px solid var(--border); height: 60px; display: flex; align-items: center; padding: 0 4vw; }
+header { position: sticky; top: 0; z-index: 200; background: rgba(250,249,246,0.92); backdrop-filter: blur(24px); border-bottom: 1px solid var(--border); height: 60px; display: flex; align-items: center; justify-content: space-between; padding: 0 4vw; }
 .logo { font-family: 'Clash Display', sans-serif; font-weight: 700; font-size: 1.25rem; color: var(--ink); display: flex; align-items: center; gap: 0.5rem; }
-.logo-mark { width: 28px; height: 28px; background: var(--ink); border-radius: 7px; display: flex; align-items: center; justify-content: center; }
+.logo-mark { width: 28px; height: 28px; background: var(--ink); border-radius: 7px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 12px; }
 .logo-word em { font-style: normal; color: var(--gold); }
+.btn-logout { background: transparent; border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.4rem 0.8rem; font-size: 0.8rem; font-weight: 600; cursor: pointer; display: none; }
 .main { max-width: 900px; margin: 0 auto; padding: 3rem 4vw; }
+.hidden { display: none !important; }
+
+/* PRIVATE ACCESS WALL SCREEN */
+.auth-container { max-width: 420px; margin: 4rem auto; background: var(--white); border: 1px solid var(--border); padding: 2.5rem; border-radius: var(--radius); box-shadow: 0 4px 24px rgba(0,0,0,0.02); }
+.auth-title { font-family: 'Clash Display', sans-serif; font-size: 1.8rem; margin-bottom: 0.5rem; letter-spacing: -0.02em; }
+.auth-subtitle { color: var(--muted); font-size: 0.88rem; margin-bottom: 1.5rem; line-height: 1.4; }
+.form-group { margin-bottom: 1.25rem; }
+.form-group label { display: block; font-size: 0.8rem; font-weight: 700; margin-bottom: 0.4rem; text-transform: uppercase; }
+.form-input { width: 100%; padding: 0.65rem 0.75rem; border: 1px solid var(--border); border-radius: var(--radius-sm); font-family: inherit; font-size: 0.9rem; outline: none; }
+.form-input:focus { border-color: var(--ink); }
+.btn-primary { width: 100%; background: var(--ink); color: var(--paper); border: none; padding: 0.75rem; border-radius: var(--radius-sm); font-weight: 700; cursor: pointer; margin-top: 0.5rem; }
+.btn-primary:hover { background: var(--ink2); }
+.auth-toggle { text-align: center; margin-top: 1.2rem; font-size: 0.85rem; color: var(--muted); }
+.auth-toggle span { color: var(--gold-dark); cursor: pointer; font-weight: 700; text-decoration: underline; }
+
+/* REQUEST ACCESS PANEL SPECIFICS */
+.request-box { background: #fdfaf2; border: 1px dashed var(--gold); border-radius: var(--radius-sm); padding: 1rem; margin-top: 1rem; font-size: 0.85rem; line-height: 1.4; color: #5c4a1a; }
+
+/* FEED GRID */
 .toolbar { display: flex; gap: 0.75rem; margin-bottom: 1rem; flex-wrap: wrap; }
 .search-field { flex: 1; }
 .search-input { width: 100%; background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.65rem 1rem; font-family: inherit; font-size: 0.88rem; outline: none; }
@@ -44,52 +65,137 @@ header { position: sticky; top: 0; z-index: 200; background: rgba(250,249,246,0.
 .domain-tag.VLSI { background: var(--vlsi-bg); color: var(--vlsi-color); }
 .domain-tag.Embedded { background: var(--emb-bg); color: var(--emb-color); }
 .domain-tag.Software { background: var(--soft-bg); color: var(--soft-color); }
-.btn-visit { display: inline-flex; align-items: center; padding: 0.45rem 0.9rem; background: transparent; border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--muted); font-size: 0.78rem; font-weight: 600; text-decoration: none; transition: all var(--transition); }
-.btn-visit:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
+.btn-visit { display: inline-flex; align-items: center; padding: 0.45rem 0.9rem; background: transparent; border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--muted); font-size: 0.78rem; font-weight: 600; text-decoration: none; }
+.btn-visit:hover { background: var(--ink); color: #fff; }
+.toast { position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 999; background: var(--ink); color: #fff; border-radius: var(--radius); padding: 0.9rem 1.3rem; font-size: 0.85rem; opacity: 0; pointer-events: none; transition: 0.3s; }
+.toast.visible { opacity: 1; }
 </style>
 </head>
 <body>
 
 <header>
   <div class="logo">
-    <div class="logo-mark"><span style="color:#f5e9c8; font-size:12px;">★</span></div>
-    <span class="logo-word">Fresh<em>Hire</em></span>
+    <div class="logo-mark">★</div>
+    <span class="logo-word">Fresh<em>Hire Private</em></span>
   </div>
+  <button id="logoutBtn" class="btn-logout" onclick="handleLogout()">Logout</button>
 </header>
 
 <main class="main">
-  <div class="toolbar">
-    <div class="search-field">
-      <input class="search-input" type="text" id="searchInput" placeholder="Search technology, role, or company..." oninput="renderAll()" />
+  <div id="authWall" class="auth-container">
+    <h2 id="authTitle" class="auth-title">Private Access</h2>
+    <p id="authSubtitle" class="auth-subtitle">This directory is restricted. Enter your authorized email id to unlock live fresher positions.</p>
+    
+    <div class="form-group">
+      <label>Authorized Email Address</label>
+      <input type="email" id="authEmail" class="form-input" placeholder="name@domain.com">
     </div>
-    <div class="filter-group">
-      <button class="fpill active" id="pill-All" onclick="setFilter('All', this)">All</button>
-      <button class="fpill" id="pill-VLSI" onclick="setFilter('VLSI', this)">VLSI</button>
-      <button class="fpill" id="pill-Embedded" onclick="setFilter('Embedded', this)">Embedded</button>
-      <button class="fpill" id="pill-Software" onclick="setFilter('Software', this)">Software</button>
+    
+    <button id="authBtn" class="btn-primary" onclick="verifyAccess()">Verify & Enter</button>
+    
+    <div id="requestArea" class="hidden">
+      <div class="request-box">
+        <strong>How to request access:</strong><br>
+        Send an email to the administrator containing your requested registration details. Once the admin adds your email id to the approved list, your portal will open.
+      </div>
     </div>
+    
+    <p class="auth-toggle" id="authToggleMsg">Don't have access? <span onclick="toggleMode(true)">Request Portal Entry</span></p>
   </div>
 
-  <div class="meta-bar">
-    <span>Pipeline Status: <strong style="color:var(--teal)">Online 24/7</strong></span>
-    <span>Showing <strong id="countMeta">—</strong> verified openings</span>
-  </div>
+  <div id="appDashboard" class="hidden">
+    <div class="toolbar">
+      <div class="search-field">
+        <input class="search-input" type="text" id="searchInput" placeholder="Search technology, role, or company..." oninput="renderAll()" />
+      </div>
+      <div class="filter-group">
+        <button class="fpill active" id="pill-All" onclick="setFilter('All', this)">All</button>
+        <button class="fpill" id="pill-VLSI" onclick="setFilter('VLSI', this)">VLSI</button>
+        <button class="fpill" id="pill-Embedded" onclick="setFilter('Embedded', this)">Embedded</button>
+        <button class="fpill" id="pill-Software" onclick="setFilter('Software', this)">Software</button>
+      </div>
+    </div>
 
-  <div id="jobList" class="job-list"></div>
+    <div class="meta-bar">
+      <span>Security Engine: <strong style="color:var(--teal)">Verified Session Active</strong></span>
+      <span>Showing <strong id="countMeta">—</strong> openings</span>
+    </div>
+
+    <div id="jobList" class="job-list"></div>
+  </div>
 </main>
 
+<div class="toast" id="toast"></div>
+
 <script>
-let allJobs = [];
+let databasePayload = null;
 let activeFilter = 'All';
 
-async function loadJobFeed() {
+async function initPortal() {
   try {
+    // Load local data generated securely by Python background worker
     const res = await fetch('jobs.json?v=' + Date.now());
-    const data = await res.json();
-    allJobs = data.jobs || [];
-    renderAll();
+    databasePayload = await res.json();
+    
+    // Check if user has an active valid session saved locally
+    const savedSession = localStorage.getItem('freshhire_session');
+    if (savedSession && databasePayload.users && databasePayload.users[savedSession]) {
+      if (databasePayload.users[savedSession].approved) {
+        launchDashboard();
+      }
+    }
   } catch(e) {
-    document.getElementById('jobList').innerHTML = `<p>Error loading job feed.</p>`;
+    showToast("Error reading system payload configuration.", true);
+  }
+}
+
+function verifyAccess() {
+  const email = document.getElementById('authEmail').value.toLowerCase().trim();
+  if(!email) { showToast("Please type a valid email address.", true); return; }
+
+  if (!databasePayload || !databasePayload.users) {
+    showToast("System is initializing. Please try again in a moment.", true);
+    return;
+  }
+
+  const userRecord = databasePayload.users[email];
+  
+  if (userRecord && userRecord.approved) {
+    localStorage.setItem('freshhire_session', email);
+    showToast("Access verified! Welcome.");
+    launchDashboard();
+  } else if (userRecord && !userRecord.approved) {
+    showToast("Your registration is pending admin approval.", true);
+  } else {
+    showToast("Access denied. Email id is not on the approved list.", true);
+  }
+}
+
+function launchDashboard() {
+  document.getElementById('authWall').classList.add('hidden');
+  document.getElementById('appDashboard').classList.remove('hidden');
+  document.getElementById('logoutBtn').style.display = 'block';
+  renderAll();
+}
+
+function handleLogout() {
+  localStorage.removeItem('freshhire_session');
+  location.reload();
+}
+
+function toggleMode(requestMode) {
+  if (requestMode) {
+    document.getElementById('authTitle').textContent = "Request Entry";
+    document.getElementById('authSubtitle').textContent = "This board is private. Submit your request details to the system administrator.";
+    document.getElementById('requestArea').classList.remove('hidden');
+    document.getElementById('authBtn').classList.add('hidden');
+    document.getElementById('authToggleMsg').innerHTML = "Already registered? <span onclick='toggleMode(false)'>Back to Sign In</span>";
+  } else {
+    document.getElementById('authTitle').textContent = "Private Access";
+    document.getElementById('authSubtitle').textContent = "This directory is restricted. Enter your authorized email id to unlock live fresher positions.";
+    document.getElementById('requestArea').classList.add('hidden');
+    document.getElementById('authBtn').classList.remove('hidden');
+    document.getElementById('authToggleMsg').innerHTML = "Don't have access? <span onclick='toggleMode(true)'>Request Portal Entry</span>";
   }
 }
 
@@ -101,8 +207,9 @@ function setFilter(domain, buttonEl) {
 }
 
 function renderAll() {
+  if(!databasePayload) return;
   const q = document.getElementById('searchInput').value.toLowerCase().trim();
-  let filtered = allJobs;
+  let filtered = databasePayload.jobs || [];
 
   if (activeFilter !== 'All') filtered = filtered.filter(j => j.domain === activeFilter);
   if (q) filtered = filtered.filter(j => j.company.toLowerCase().includes(q) || j.title.toLowerCase().includes(q));
@@ -111,7 +218,7 @@ function renderAll() {
   const container = document.getElementById('jobList');
 
   if (filtered.length === 0) {
-    container.innerHTML = `<div style="text-align:center; padding:3rem; color:var(--muted);">No matching open roles found.</div>`;
+    container.innerHTML = `<div style="text-align:center; padding:3rem; color:var(--muted);">No matching records found.</div>`;
     return;
   }
 
@@ -127,8 +234,16 @@ function renderAll() {
   `).join('');
 }
 
-// Start feed immediately
-loadJobFeed();
+function showToast(msg, isError = false) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.style.background = isError ? 'var(--red)' : 'var(--teal)';
+  t.className = "toast visible";
+  setTimeout(() => t.className = 'toast', 4000);
+}
+
+// Fire up core routine
+initPortal();
 </script>
 </body>
 </html>
