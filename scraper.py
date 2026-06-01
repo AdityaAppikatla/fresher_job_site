@@ -4,11 +4,9 @@ import json
 import os
 from datetime import datetime
 import time
-from urllib.parse import urljoin
 
 COMPANIES = [
     # Semiconductor / VLSI
-    {"name": "NVIDIA", "url": "https://nvidia.eightfold.ai/careers", "domain": "VLSI"},
     {"name": "Tessolve", "url": "https://tessolve.com/careers/", "domain": "VLSI"},
     {"name": "Sankalp Semiconductor", "url": "https://sankalpct.com/careers/", "domain": "VLSI"},
     {"name": "eInfochips", "url": "https://www.einfochips.com/careers/", "domain": "VLSI"},
@@ -51,66 +49,51 @@ COMPANIES = [
 FRESHER_KEYWORDS = [
     "fresher", "graduate", "trainee", "junior", "entry level", "entry-level",
     "0-1 year", "0 year", "0-2 year", "intern", "apprentice", "associate engineer",
-    "graduate engineer", "get", "campus", "2025 passout", "2026 passout", "2027 passout"
-]
-
-NEGATIVE_KEYWORDS = [
-    "senior", "lead", "principal", "manager", "architect", "experienced", "years experience", "5+", "3+"
+    "graduate engineer", "get", "campus", "2024 passout", "2025 passout", "2026 passout"
 ]
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
+
 def is_fresher_role(text):
     text_lower = text.lower()
-    has_fresher = any(kw in text_lower for kw in FRESHER_KEYWORDS)
-    has_negative = any(neg in text_lower for neg in NEGATIVE_KEYWORDS)
-    return has_fresher and not has_negative
+    return any(kw in text_lower for kw in FRESHER_KEYWORDS)
+
 
 def scrape_company(company):
     results = []
     try:
-        resp = requests.get(company["url"], headers=HEADERS, timeout=15, verify=True)
+        resp = requests.get(company["url"], headers=HEADERS, timeout=12)
         soup = BeautifulSoup(resp.text, "html.parser")
-        seen_titles = set()
-        
-        # Pull text from hyperlink components rather than broad structural tags
-        links_found = soup.find_all("a")
-        
-        for link in links_found:
-            text = link.get_text(separator=" ", strip=True)
-            url_path = link.get("href", "").strip()
-            
-            if 6 < len(text) < 90:
-                if is_fresher_role(text):
-                    clean_title = " ".join(text.split())
-                    
-                    if clean_title not in seen_titles:
-                        seen_titles.add(clean_title)
-                        
-                        # Fix relative directory links
-                        if url_path.startswith("http"):
-                            job_url = url_path
-                        elif url_path.startswith("/"):
-                            job_url = urljoin(company["url"], url_path)
-                        else:
-                            job_url = company["url"]
 
-                        results.append({
-                            "company": company["name"],
-                            "domain": company["domain"],
-                            "title": clean_title,
-                            "url": job_url,
-                            "company_careers": company["url"],
-                            "found_at": datetime.now().isoformat()
-                        })
+        candidates = []
+        for tag in soup.find_all(["h1", "h2", "h3", "h4", "a", "li", "span", "div"], limit=400):
+            text = tag.get_text(strip=True)
+            if 10 < len(text) < 120:
+                link = tag.get("href", "") if tag.name == "a" else ""
+                candidates.append((text, link))
+
+        seen = set()
+        for text, link in candidates:
+            if is_fresher_role(text) and text not in seen:
+                seen.add(text)
+                job_url = link if link and link.startswith("http") else company["url"]
+                results.append({
+                    "company": company["name"],
+                    "domain": company["domain"],
+                    "title": text,
+                    "url": job_url,
+                    "company_careers": company["url"],
+                    "found_at": datetime.now().isoformat()
+                })
 
         if not results:
             results.append({
                 "company": company["name"],
                 "domain": company["domain"],
-                "title": "Check career portal for active openings",
+                "title": "Visit careers page — check manually",
                 "url": company["url"],
                 "company_careers": company["url"],
                 "found_at": datetime.now().isoformat(),
@@ -121,7 +104,7 @@ def scrape_company(company):
         results.append({
             "company": company["name"],
             "domain": company["domain"],
-            "title": "Portal update in progress — check manually",
+            "title": "Could not reach site — check manually",
             "url": company["url"],
             "company_careers": company["url"],
             "found_at": datetime.now().isoformat(),
@@ -130,12 +113,19 @@ def scrape_company(company):
 
     return results
 
+
 def send_email(all_jobs):
     service_id = os.environ.get("EMAILJS_SERVICE_ID", "")
     template_id = os.environ.get("EMAILJS_TEMPLATE_ID", "")
     public_key = os.environ.get("EMAILJS_PUBLIC_KEY", "")
     private_key = os.environ.get("EMAILJS_PRIVATE_KEY", "")
     recipient = os.environ.get("NOTIFY_EMAIL", "")
+
+    print(f"service_id set: {bool(service_id)}")
+    print(f"template_id set: {bool(template_id)}")
+    print(f"public_key set: {bool(public_key)}")
+    print(f"private_key set: {bool(private_key)}")
+    print(f"recipient set: {bool(recipient)}")
 
     if not all([service_id, template_id, public_key, private_key, recipient]):
         print("Email skipped — one or more secrets missing")
@@ -165,8 +155,11 @@ def send_email(all_jobs):
             headers={"Content-Type": "application/json"}
         )
         print(f"Email sent: {r.status_code}")
+        if r.status_code != 200:
+            print(f"Email error details: {r.text}")
     except Exception as e:
         print(f"Email exception: {e}")
+
 
 def main():
     all_jobs = []
@@ -186,7 +179,9 @@ def main():
         json.dump(output, f, indent=2)
 
     print(f"\nDone! Found {len(all_jobs)} entries across {len(COMPANIES)} companies.")
+
     send_email(all_jobs)
+
 
 if __name__ == "__main__":
     main()
