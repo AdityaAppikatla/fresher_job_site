@@ -1,4 +1,449 @@
 {
-  "last_updated": "2026-06-01T00:00:00",
-  "jobs": []
+  "last_updated": "2026-06-01T10:45:27.241630",
+  "total": 52,
+  "jobs": [
+    {
+      "company": "Tessolve",
+      "domain": "VLSI",
+      "title": "Could not reach site \u2014 check manually",
+      "url": "https://tessolve.com/careers/",
+      "company_careers": "https://tessolve.com/careers/",
+      "found_at": "2026-06-01T10:44:07.265374",
+      "error": "HTTPSConnectionPool(host='tessolve.com', port=443): Max retries exceeded with url: /careers/ (Caused by NameResolutionError(\"HTTPSConnection(host='tessolve.com', port=443): Failed to resolve 'tessolve.com' ([Errno -5] No address associated with hostname)\"))"
+    },
+    {
+      "company": "Sankalp Semiconductor",
+      "domain": "VLSI",
+      "title": "Could not reach site \u2014 check manually",
+      "url": "https://sankalpct.com/careers/",
+      "company_careers": "https://sankalpct.com/careers/",
+      "found_at": "2026-06-01T10:44:08.327882",
+      "error": "HTTPSConnectionPool(host='sankalpct.com', port=443): Max retries exceeded with url: /careers/ (Caused by NameResolutionError(\"HTTPSConnection(host='sankalpct.com', port=443): Failed to resolve 'sankalpct.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "company": "eInfochips",
+      "domain": "VLSI",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://www.einfochips.com/careers/",
+      "company_careers": "https://www.einfochips.com/careers/",
+      "found_at": "2026-06-01T10:44:09.443093",
+      "manual_check": true
+    },
+    {
+      "company": "Entuple Technologies",
+      "domain": "VLSI",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://entuple.com/careers/",
+      "company_careers": "https://entuple.com/careers/",
+      "found_at": "2026-06-01T10:44:12.049738",
+      "manual_check": true
+    },
+    {
+      "company": "Amitek",
+      "domain": "VLSI",
+      "title": "Could not reach site \u2014 check manually",
+      "url": "https://www.amitek.in/careers",
+      "company_careers": "https://www.amitek.in/careers",
+      "found_at": "2026-06-01T10:44:13.515270",
+      "error": "HTTPSConnectionPool(host='www.amitek.in', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.amitek.in'. (_ssl.c:1016)\")))"
+    },
+    {
+      "company": "Likitha Semiconductor",
+      "domain": "VLSI",
+      "title": "Could not reach site \u2014 check manually",
+      "url": "https://likithasemiconductor.com/careers",
+      "company_careers": "https://likithasemiconductor.com/careers",
+      "found_at": "2026-06-01T10:44:14.560973",
+      "error": "HTTPSConnectionPool(host='likithasemiconductor.com', port=443): Max retries exceeded with url: /careers (Caused by NameResolutionError(\"HTTPSConnection(host='likithasemiconductor.com', port=443): Failed to resolve 'likithasemiconductor.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "company": "Centre for Development of Advanced Computing",
+      "domain": "VLSI",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://www.cdac.in/index.aspx?id=career",
+      "company_careers": "https://www.cdac.in/index.aspx?id=career",
+      "found_at": "2026-06-01T10:44:23.057550",
+      "manual_check": true
+    },
+    {
+      "company": "BEL",
+      "domain": "VLSI",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://bel-india.in/careers/",
+      "company_careers": "https://bel-india.in/careers/",
+      "found_at": "2026-06-01T10:44:26.653883",
+      "manual_check": true
+    },
+    {
+      "company": "SION Semiconductors",
+      "domain": "VLSI",
+      "title": "CareersInternshipInternship Form",
+      "url": "https://sionsemi.com/careers",
+      "company_careers": "https://sionsemi.com/careers",
+      "found_at": "2026-06-01T10:44:28.819125"
+    },
+    {
+      "company": "SION Semiconductors",
+      "domain": "VLSI",
+      "title": "Internship Form",
+      "url": "https://sionsemi.com/careers",
+      "company_careers": "https://sionsemi.com/careers",
+      "found_at": "2026-06-01T10:44:28.819136"
+    },
+    {
+      "company": "Radiant Semiconductors",
+      "domain": "VLSI",
+      "title": "Together we grow, together we innovate to shape success.",
+      "url": "https://radiantsemi.com/careers",
+      "company_careers": "https://radiantsemi.com/careers",
+      "found_at": "2026-06-01T10:44:30.601439"
+    },
+    {
+      "company": "Radiant Semiconductors",
+      "domain": "VLSI",
+      "title": "Interested in discovering how Radiant can benefit your business? Get in touch with us to learn more.",
+      "url": "https://radiantsemi.com/careers",
+      "company_careers": "https://radiantsemi.com/careers",
+      "found_at": "2026-06-01T10:44:30.601488"
+    },
+    {
+      "company": "Mirafra Technologies",
+      "domain": "VLSI",
+      "title": "CommunityOpen-sourceTrainingsInternshipsCSR",
+      "url": "https://mirafra.com/careers/",
+      "company_careers": "https://mirafra.com/careers/",
+      "found_at": "2026-06-01T10:44:31.986984"
+    },
+    {
+      "company": "Mirafra Technologies",
+      "domain": "VLSI",
+      "title": "Internships",
+      "url": "https://mirafra.com/careers/",
+      "company_careers": "https://mirafra.com/careers/",
+      "found_at": "2026-06-01T10:44:31.986998"
+    },
+    {
+      "company": "MosChip",
+      "domain": "VLSI",
+      "title": "Competitive SalaryOur compensation packages are designed to help you forget about money and do what you do best.",
+      "url": "https://moschip.com/careers/",
+      "company_careers": "https://moschip.com/careers/",
+      "found_at": "2026-06-01T10:44:33.188568"
+    },
+    {
+      "company": "MosChip",
+      "domain": "VLSI",
+      "title": "Get Directions",
+      "url": "https://moschip.com/careers/",
+      "company_careers": "https://moschip.com/careers/",
+      "found_at": "2026-06-01T10:44:33.188593"
+    },
+    {
+      "company": "XtremeSilica Technologies",
+      "domain": "VLSI",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://xtremesilica.com/careers",
+      "company_careers": "https://xtremesilica.com/careers",
+      "found_at": "2026-06-01T10:44:34.440619",
+      "manual_check": true
+    },
+    {
+      "company": "KeenSemi",
+      "domain": "VLSI",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://keensemi.com/careers",
+      "company_careers": "https://keensemi.com/careers",
+      "found_at": "2026-06-01T10:44:35.669119",
+      "manual_check": true
+    },
+    {
+      "company": "Green Semiconductors",
+      "domain": "VLSI",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://greensemi.in/careers",
+      "company_careers": "https://greensemi.in/careers",
+      "found_at": "2026-06-01T10:44:36.795746",
+      "manual_check": true
+    },
+    {
+      "company": "Chipspirit",
+      "domain": "VLSI",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://chipspirit.com/careers",
+      "company_careers": "https://chipspirit.com/careers",
+      "found_at": "2026-06-01T10:44:38.614115",
+      "manual_check": true
+    },
+    {
+      "company": "PrimeSoc Technologies",
+      "domain": "VLSI",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://primesoc.com/careers",
+      "company_careers": "https://primesoc.com/careers",
+      "found_at": "2026-06-01T10:44:39.825208",
+      "manual_check": true
+    },
+    {
+      "company": "leadIC Design",
+      "domain": "VLSI",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://leadicdesign.com/careers",
+      "company_careers": "https://leadicdesign.com/careers",
+      "found_at": "2026-06-01T10:44:41.906613",
+      "manual_check": true
+    },
+    {
+      "company": "PulseWave Semiconductor",
+      "domain": "VLSI",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://pulsewave.in/careers",
+      "company_careers": "https://pulsewave.in/careers",
+      "found_at": "2026-06-01T10:44:43.056623",
+      "manual_check": true
+    },
+    {
+      "company": "ROUTE2SOC Technologies",
+      "domain": "VLSI",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://route2soc.com/careers",
+      "company_careers": "https://route2soc.com/careers",
+      "found_at": "2026-06-01T10:44:44.867089",
+      "manual_check": true
+    },
+    {
+      "company": "Embien Technologies",
+      "domain": "Embedded",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://embien.com/careers/",
+      "company_careers": "https://embien.com/careers/",
+      "found_at": "2026-06-01T10:44:47.565452",
+      "manual_check": true
+    },
+    {
+      "company": "Delphi TVS",
+      "domain": "Embedded",
+      "title": "Could not reach site \u2014 check manually",
+      "url": "https://www.delphitvs.com/careers",
+      "company_careers": "https://www.delphitvs.com/careers",
+      "found_at": "2026-06-01T10:45:00.648536",
+      "error": "HTTPSConnectionPool(host='www.delphitvs.com', port=443): Max retries exceeded with url: /careers (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.delphitvs.com', port=443) at 0x7fa24578bcd0>, 'Connection to www.delphitvs.com timed out. (connect timeout=12)'))"
+    },
+    {
+      "company": "Bosch India",
+      "domain": "Embedded",
+      "title": "Students and graduatesMain NavigationCareers OverviewStudents and graduatesOverviewFor graduatesFor students",
+      "url": "https://www.bosch.in/careers/",
+      "company_careers": "https://www.bosch.in/careers/",
+      "found_at": "2026-06-01T10:45:03.619962"
+    },
+    {
+      "company": "Bosch India",
+      "domain": "Embedded",
+      "title": "Students and graduates",
+      "url": "https://www.bosch.in/careers/",
+      "company_careers": "https://www.bosch.in/careers/",
+      "found_at": "2026-06-01T10:45:03.619973"
+    },
+    {
+      "company": "Bosch India",
+      "domain": "Embedded",
+      "title": "For graduates",
+      "url": "https://www.bosch.in/careers/",
+      "company_careers": "https://www.bosch.in/careers/",
+      "found_at": "2026-06-01T10:45:03.619983"
+    },
+    {
+      "company": "Bosch India",
+      "domain": "Embedded",
+      "title": "Spark.NXT \u00e2\u0080\u0093 100 years of Bosch In India",
+      "url": "https://www.bosch.in/careers/",
+      "company_careers": "https://www.bosch.in/careers/",
+      "found_at": "2026-06-01T10:45:03.619992"
+    },
+    {
+      "company": "Bosch India",
+      "domain": "Embedded",
+      "title": "Let\u00e2\u0080\u0099s grow together.Grow into countless new roles, positions and opportunities.Growth and development atBosch",
+      "url": "https://www.bosch.in/careers/",
+      "company_careers": "https://www.bosch.in/careers/",
+      "found_at": "2026-06-01T10:45:03.620024"
+    },
+    {
+      "company": "Bosch India",
+      "domain": "Embedded",
+      "title": "Let\u00e2\u0080\u0099s grow together.",
+      "url": "https://www.bosch.in/careers/",
+      "company_careers": "https://www.bosch.in/careers/",
+      "found_at": "2026-06-01T10:45:03.620039"
+    },
+    {
+      "company": "Continental India",
+      "domain": "Embedded",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://www.continental-jobs.com/",
+      "company_careers": "https://www.continental-jobs.com/",
+      "found_at": "2026-06-01T10:45:06.039163",
+      "manual_check": true
+    },
+    {
+      "company": "Tata Elxsi",
+      "domain": "Embedded",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://www.tataelxsi.com/careers/",
+      "company_careers": "https://www.tataelxsi.com/careers/",
+      "found_at": "2026-06-01T10:45:08.719913",
+      "manual_check": true
+    },
+    {
+      "company": "TCS",
+      "domain": "Software",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://www.tcs.com/careers/india",
+      "company_careers": "https://www.tcs.com/careers/india",
+      "found_at": "2026-06-01T10:45:10.212362",
+      "manual_check": true
+    },
+    {
+      "company": "Infosys",
+      "domain": "Software",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://career.infosys.com/",
+      "company_careers": "https://career.infosys.com/",
+      "found_at": "2026-06-01T10:45:11.359411",
+      "manual_check": true
+    },
+    {
+      "company": "Wipro",
+      "domain": "Software",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://careers.wipro.com/",
+      "company_careers": "https://careers.wipro.com/",
+      "found_at": "2026-06-01T10:45:13.845695",
+      "manual_check": true
+    },
+    {
+      "company": "HCL Technologies",
+      "domain": "Software",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://www.hcltech.com/careers",
+      "company_careers": "https://www.hcltech.com/careers",
+      "found_at": "2026-06-01T10:45:16.767294",
+      "manual_check": true
+    },
+    {
+      "company": "Tech Mahindra",
+      "domain": "Software",
+      "title": "Get Started",
+      "url": "https://careers.techmahindra.com/",
+      "company_careers": "https://careers.techmahindra.com/",
+      "found_at": "2026-06-01T10:45:19.751706"
+    },
+    {
+      "company": "Tech Mahindra",
+      "domain": "Software",
+      "title": "Get\r\n                                                                            Started",
+      "url": "https://careers.techmahindra.com/",
+      "company_careers": "https://careers.techmahindra.com/",
+      "found_at": "2026-06-01T10:45:19.751720"
+    },
+    {
+      "company": "Tech Mahindra",
+      "domain": "Software",
+      "title": "Get StartedRegisterSign\r\n                                                        InIT OpportunitiesBPS Opportunities",
+      "url": "https://careers.techmahindra.com/",
+      "company_careers": "https://careers.techmahindra.com/",
+      "found_at": "2026-06-01T10:45:19.751760"
+    },
+    {
+      "company": "Tech Mahindra",
+      "domain": "Software",
+      "title": "ITTech LeadSkills:AngularExperience:5 - 10 YearsLocation:HYDERABADApply/Shortlist",
+      "url": "https://careers.techmahindra.com/",
+      "company_careers": "https://careers.techmahindra.com/",
+      "found_at": "2026-06-01T10:45:19.751850"
+    },
+    {
+      "company": "Tech Mahindra",
+      "domain": "Software",
+      "title": "ITTech LeadSkills:OracleExperience:7 - 10 YearsLocation:PUNEApply/Shortlist",
+      "url": "https://careers.techmahindra.com/",
+      "company_careers": "https://careers.techmahindra.com/",
+      "found_at": "2026-06-01T10:45:19.751882"
+    },
+    {
+      "company": "Tech Mahindra",
+      "domain": "Software",
+      "title": "ITTest EngineerSkills:SoftwareExperience:4 - 10 YearsLocation:AHMEDABADApply/Shortlist",
+      "url": "https://careers.techmahindra.com/",
+      "company_careers": "https://careers.techmahindra.com/",
+      "found_at": "2026-06-01T10:45:19.751902"
+    },
+    {
+      "company": "Tech Mahindra",
+      "domain": "Software",
+      "title": "ITTech LeadSkills:APIExperience:7 - 10 YearsLocation:BENGALURUApply/Shortlist",
+      "url": "https://careers.techmahindra.com/",
+      "company_careers": "https://careers.techmahindra.com/",
+      "found_at": "2026-06-01T10:45:19.751913"
+    },
+    {
+      "company": "Mphasis",
+      "domain": "Software",
+      "title": "CAMPUS PROGRAMS",
+      "url": "https://careers.mphasis.com/",
+      "company_careers": "https://careers.mphasis.com/",
+      "found_at": "2026-06-01T10:45:20.963156"
+    },
+    {
+      "company": "Cognizant",
+      "domain": "Software",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://careers.cognizant.com/india",
+      "company_careers": "https://careers.cognizant.com/india",
+      "found_at": "2026-06-01T10:45:22.521784",
+      "manual_check": true
+    },
+    {
+      "company": "Accenture India",
+      "domain": "Software",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://www.accenture.com/in-en/careers",
+      "company_careers": "https://www.accenture.com/in-en/careers",
+      "found_at": "2026-06-01T10:45:23.885362",
+      "manual_check": true
+    },
+    {
+      "company": "Capgemini India",
+      "domain": "Software",
+      "title": "Students and graduates",
+      "url": "https://www.capgemini.com/in-en/careers/",
+      "company_careers": "https://www.capgemini.com/in-en/careers/",
+      "found_at": "2026-06-01T10:45:25.050512"
+    },
+    {
+      "company": "Capgemini India",
+      "domain": "Software",
+      "title": "Let\u2019s connectBackLet\u2019s connectOur officesCampus activities",
+      "url": "https://www.capgemini.com/in-en/careers/",
+      "company_careers": "https://www.capgemini.com/in-en/careers/",
+      "found_at": "2026-06-01T10:45:25.050549"
+    },
+    {
+      "company": "Capgemini India",
+      "domain": "Software",
+      "title": "Campus activities",
+      "url": "https://www.capgemini.com/in-en/careers/",
+      "company_careers": "https://www.capgemini.com/in-en/careers/",
+      "found_at": "2026-06-01T10:45:25.050566"
+    },
+    {
+      "company": "L&T Technology Services",
+      "domain": "Software",
+      "title": "Visit careers page \u2014 check manually",
+      "url": "https://www.ltts.com/careers",
+      "company_careers": "https://www.ltts.com/careers",
+      "found_at": "2026-06-01T10:45:26.240770",
+      "manual_check": true
+    }
+  ]
 }
