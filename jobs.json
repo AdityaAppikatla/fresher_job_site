@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T11:58:02.726019",
+  "last_updated": "2026-06-01T13:23:04.595137",
   "total": 52,
   "jobs": [
     {
@@ -8,7 +8,7 @@
       "title": "Could not reach site \u2014 check manually",
       "url": "https://tessolve.com/careers/",
       "company_careers": "https://tessolve.com/careers/",
-      "found_at": "2026-06-01T11:56:21.905212",
+      "found_at": "2026-06-01T13:21:46.784628",
       "error": "HTTPSConnectionPool(host='tessolve.com', port=443): Max retries exceeded with url: /careers/ (Caused by NameResolutionError(\"HTTPSConnection(host='tessolve.com', port=443): Failed to resolve 'tessolve.com' ([Errno -5] No address associated with hostname)\"))"
     },
     {
@@ -17,7 +17,7 @@
       "title": "Could not reach site \u2014 check manually",
       "url": "https://sankalpct.com/careers/",
       "company_careers": "https://sankalpct.com/careers/",
-      "found_at": "2026-06-01T11:56:22.919116",
+      "found_at": "2026-06-01T13:21:47.869586",
       "error": "HTTPSConnectionPool(host='sankalpct.com', port=443): Max retries exceeded with url: /careers/ (Caused by NameResolutionError(\"HTTPSConnection(host='sankalpct.com', port=443): Failed to resolve 'sankalpct.com' ([Errno -2] Name or service not known)\"))"
     },
     {
@@ -26,17 +26,17 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://www.einfochips.com/careers/",
       "company_careers": "https://www.einfochips.com/careers/",
-      "found_at": "2026-06-01T11:56:24.055927",
+      "found_at": "2026-06-01T13:21:49.073726",
       "manual_check": true
     },
     {
       "company": "Entuple Technologies",
       "domain": "VLSI",
-      "title": "Could not reach site \u2014 check manually",
+      "title": "Visit careers page \u2014 check manually",
       "url": "https://entuple.com/careers/",
       "company_careers": "https://entuple.com/careers/",
-      "found_at": "2026-06-01T11:56:37.212644",
-      "error": "HTTPSConnectionPool(host='www.entuple.com', port=443): Max retries exceeded with url: /careers/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.entuple.com', port=443) at 0x7f6a62abf450>, 'Connection to www.entuple.com timed out. (connect timeout=12)'))"
+      "found_at": "2026-06-01T13:21:51.802336",
+      "manual_check": true
     },
     {
       "company": "Amitek",
@@ -44,7 +44,7 @@
       "title": "Could not reach site \u2014 check manually",
       "url": "https://www.amitek.in/careers",
       "company_careers": "https://www.amitek.in/careers",
-      "found_at": "2026-06-01T11:56:38.555723",
+      "found_at": "2026-06-01T13:21:53.096968",
       "error": "HTTPSConnectionPool(host='www.amitek.in', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.amitek.in'. (_ssl.c:1016)\")))"
     },
     {
@@ -53,7 +53,7 @@
       "title": "Could not reach site \u2014 check manually",
       "url": "https://likithasemiconductor.com/careers",
       "company_careers": "https://likithasemiconductor.com/careers",
-      "found_at": "2026-06-01T11:56:39.566363",
+      "found_at": "2026-06-01T13:21:54.182590",
       "error": "HTTPSConnectionPool(host='likithasemiconductor.com', port=443): Max retries exceeded with url: /careers (Caused by NameResolutionError(\"HTTPSConnection(host='likithasemiconductor.com', port=443): Failed to resolve 'likithasemiconductor.com' ([Errno -2] Name or service not known)\"))"
     },
     {
@@ -62,7 +62,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://www.cdac.in/index.aspx?id=career",
       "company_careers": "https://www.cdac.in/index.aspx?id=career",
-      "found_at": "2026-06-01T11:56:47.870457",
+      "found_at": "2026-06-01T13:21:59.741306",
       "manual_check": true
     },
     {
@@ -71,7 +71,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://bel-india.in/careers/",
       "company_careers": "https://bel-india.in/careers/",
-      "found_at": "2026-06-01T11:56:51.474359",
+      "found_at": "2026-06-01T13:22:03.398959",
       "manual_check": true
     },
     {
@@ -80,7 +80,7 @@
       "title": "CareersInternshipInternship Form",
       "url": "https://sionsemi.com/careers",
       "company_careers": "https://sionsemi.com/careers",
-      "found_at": "2026-06-01T11:56:54.004363"
+      "found_at": "2026-06-01T13:22:05.878848"
     },
     {
       "company": "SION Semiconductors",
@@ -88,7 +88,7 @@
       "title": "Internship Form",
       "url": "https://sionsemi.com/careers",
       "company_careers": "https://sionsemi.com/careers",
-      "found_at": "2026-06-01T11:56:54.004374"
+      "found_at": "2026-06-01T13:22:05.878857"
     },
     {
       "company": "Radiant Semiconductors",
@@ -96,7 +96,7 @@
       "title": "Together we grow, together we innovate to shape success.",
       "url": "https://radiantsemi.com/careers",
       "company_careers": "https://radiantsemi.com/careers",
-      "found_at": "2026-06-01T11:56:56.078337"
+      "found_at": "2026-06-01T13:22:07.953720"
     },
     {
       "company": "Radiant Semiconductors",
@@ -104,7 +104,7 @@
       "title": "Interested in discovering how Radiant can benefit your business? Get in touch with us to learn more.",
       "url": "https://radiantsemi.com/careers",
       "company_careers": "https://radiantsemi.com/careers",
-      "found_at": "2026-06-01T11:56:56.078386"
+      "found_at": "2026-06-01T13:22:07.953770"
     },
     {
       "company": "Mirafra Technologies",
@@ -112,7 +112,7 @@
       "title": "CommunityOpen-sourceTrainingsInternshipsCSR",
       "url": "https://mirafra.com/careers/",
       "company_careers": "https://mirafra.com/careers/",
-      "found_at": "2026-06-01T11:56:57.460743"
+      "found_at": "2026-06-01T13:22:09.778675"
     },
     {
       "company": "Mirafra Technologies",
@@ -120,7 +120,7 @@
       "title": "Internships",
       "url": "https://mirafra.com/careers/",
       "company_careers": "https://mirafra.com/careers/",
-      "found_at": "2026-06-01T11:56:57.460756"
+      "found_at": "2026-06-01T13:22:09.778687"
     },
     {
       "company": "MosChip",
@@ -128,7 +128,7 @@
       "title": "Competitive SalaryOur compensation packages are designed to help you forget about money and do what you do best.",
       "url": "https://moschip.com/careers/",
       "company_careers": "https://moschip.com/careers/",
-      "found_at": "2026-06-01T11:56:58.666930"
+      "found_at": "2026-06-01T13:22:10.988261"
     },
     {
       "company": "MosChip",
@@ -136,7 +136,7 @@
       "title": "Get Directions",
       "url": "https://moschip.com/careers/",
       "company_careers": "https://moschip.com/careers/",
-      "found_at": "2026-06-01T11:56:58.666953"
+      "found_at": "2026-06-01T13:22:10.988281"
     },
     {
       "company": "XtremeSilica Technologies",
@@ -144,7 +144,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://xtremesilica.com/careers",
       "company_careers": "https://xtremesilica.com/careers",
-      "found_at": "2026-06-01T11:56:59.995976",
+      "found_at": "2026-06-01T13:22:12.141071",
       "manual_check": true
     },
     {
@@ -153,7 +153,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://keensemi.com/careers",
       "company_careers": "https://keensemi.com/careers",
-      "found_at": "2026-06-01T11:57:01.158948",
+      "found_at": "2026-06-01T13:22:13.315777",
       "manual_check": true
     },
     {
@@ -162,7 +162,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://greensemi.in/careers",
       "company_careers": "https://greensemi.in/careers",
-      "found_at": "2026-06-01T11:57:02.240461",
+      "found_at": "2026-06-01T13:22:14.524730",
       "manual_check": true
     },
     {
@@ -171,7 +171,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://chipspirit.com/careers",
       "company_careers": "https://chipspirit.com/careers",
-      "found_at": "2026-06-01T11:57:04.329444",
+      "found_at": "2026-06-01T13:22:16.583548",
       "manual_check": true
     },
     {
@@ -180,17 +180,17 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://primesoc.com/careers",
       "company_careers": "https://primesoc.com/careers",
-      "found_at": "2026-06-01T11:57:05.495374",
+      "found_at": "2026-06-01T13:22:17.746350",
       "manual_check": true
     },
     {
       "company": "leadIC Design",
       "domain": "VLSI",
-      "title": "Could not reach site \u2014 check manually",
+      "title": "Visit careers page \u2014 check manually",
       "url": "https://leadicdesign.com/careers",
       "company_careers": "https://leadicdesign.com/careers",
-      "found_at": "2026-06-01T11:57:18.554325",
-      "error": "HTTPSConnectionPool(host='leadicdesign.com', port=443): Max retries exceeded with url: /careers (Caused by NewConnectionError(\"HTTPSConnection(host='leadicdesign.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "found_at": "2026-06-01T13:22:21.164868",
+      "manual_check": true
     },
     {
       "company": "PulseWave Semiconductor",
@@ -198,7 +198,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://pulsewave.in/careers",
       "company_careers": "https://pulsewave.in/careers",
-      "found_at": "2026-06-01T11:57:19.627325",
+      "found_at": "2026-06-01T13:22:22.315472",
       "manual_check": true
     },
     {
@@ -207,7 +207,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://route2soc.com/careers",
       "company_careers": "https://route2soc.com/careers",
-      "found_at": "2026-06-01T11:57:21.628552",
+      "found_at": "2026-06-01T13:22:24.326677",
       "manual_check": true
     },
     {
@@ -216,7 +216,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://embien.com/careers/",
       "company_careers": "https://embien.com/careers/",
-      "found_at": "2026-06-01T11:57:24.786130",
+      "found_at": "2026-06-01T13:22:27.484334",
       "manual_check": true
     },
     {
@@ -225,8 +225,8 @@
       "title": "Could not reach site \u2014 check manually",
       "url": "https://www.delphitvs.com/careers",
       "company_careers": "https://www.delphitvs.com/careers",
-      "found_at": "2026-06-01T11:57:37.915161",
-      "error": "HTTPSConnectionPool(host='www.delphitvs.com', port=443): Max retries exceeded with url: /careers (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.delphitvs.com', port=443) at 0x7f6a61cb80d0>, 'Connection to www.delphitvs.com timed out. (connect timeout=12)'))"
+      "found_at": "2026-06-01T13:22:40.622299",
+      "error": "HTTPSConnectionPool(host='www.delphitvs.com', port=443): Max retries exceeded with url: /careers (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.delphitvs.com', port=443) at 0x7f415f0bb050>, 'Connection to www.delphitvs.com timed out. (connect timeout=12)'))"
     },
     {
       "company": "Bosch India",
@@ -234,7 +234,7 @@
       "title": "Students and graduatesMain NavigationCareers OverviewStudents and graduatesOverviewFor graduatesFor students",
       "url": "https://www.bosch.in/careers/",
       "company_careers": "https://www.bosch.in/careers/",
-      "found_at": "2026-06-01T11:57:40.509577"
+      "found_at": "2026-06-01T13:22:42.612692"
     },
     {
       "company": "Bosch India",
@@ -242,7 +242,7 @@
       "title": "Students and graduates",
       "url": "https://www.bosch.in/careers/",
       "company_careers": "https://www.bosch.in/careers/",
-      "found_at": "2026-06-01T11:57:40.509586"
+      "found_at": "2026-06-01T13:22:42.612702"
     },
     {
       "company": "Bosch India",
@@ -250,7 +250,7 @@
       "title": "For graduates",
       "url": "https://www.bosch.in/careers/",
       "company_careers": "https://www.bosch.in/careers/",
-      "found_at": "2026-06-01T11:57:40.509596"
+      "found_at": "2026-06-01T13:22:42.612711"
     },
     {
       "company": "Bosch India",
@@ -258,7 +258,7 @@
       "title": "Spark.NXT \u00e2\u0080\u0093 100 years of Bosch In India",
       "url": "https://www.bosch.in/careers/",
       "company_careers": "https://www.bosch.in/careers/",
-      "found_at": "2026-06-01T11:57:40.509608"
+      "found_at": "2026-06-01T13:22:42.612722"
     },
     {
       "company": "Bosch India",
@@ -266,7 +266,7 @@
       "title": "Let\u00e2\u0080\u0099s grow together.Grow into countless new roles, positions and opportunities.Growth and development atBosch",
       "url": "https://www.bosch.in/careers/",
       "company_careers": "https://www.bosch.in/careers/",
-      "found_at": "2026-06-01T11:57:40.509637"
+      "found_at": "2026-06-01T13:22:42.612752"
     },
     {
       "company": "Bosch India",
@@ -274,7 +274,7 @@
       "title": "Let\u00e2\u0080\u0099s grow together.",
       "url": "https://www.bosch.in/careers/",
       "company_careers": "https://www.bosch.in/careers/",
-      "found_at": "2026-06-01T11:57:40.509654"
+      "found_at": "2026-06-01T13:22:42.612768"
     },
     {
       "company": "Continental India",
@@ -282,7 +282,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://www.continental-jobs.com/",
       "company_careers": "https://www.continental-jobs.com/",
-      "found_at": "2026-06-01T11:57:42.526212",
+      "found_at": "2026-06-01T13:22:44.768760",
       "manual_check": true
     },
     {
@@ -291,7 +291,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://www.tataelxsi.com/careers/",
       "company_careers": "https://www.tataelxsi.com/careers/",
-      "found_at": "2026-06-01T11:57:44.569466",
+      "found_at": "2026-06-01T13:22:46.787511",
       "manual_check": true
     },
     {
@@ -300,7 +300,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://www.tcs.com/careers/india",
       "company_careers": "https://www.tcs.com/careers/india",
-      "found_at": "2026-06-01T11:57:45.907025",
+      "found_at": "2026-06-01T13:22:47.913028",
       "manual_check": true
     },
     {
@@ -309,7 +309,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://career.infosys.com/",
       "company_careers": "https://career.infosys.com/",
-      "found_at": "2026-06-01T11:57:47.074511",
+      "found_at": "2026-06-01T13:22:49.057033",
       "manual_check": true
     },
     {
@@ -318,7 +318,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://careers.wipro.com/",
       "company_careers": "https://careers.wipro.com/",
-      "found_at": "2026-06-01T11:57:49.225604",
+      "found_at": "2026-06-01T13:22:51.405447",
       "manual_check": true
     },
     {
@@ -327,7 +327,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://www.hcltech.com/careers",
       "company_careers": "https://www.hcltech.com/careers",
-      "found_at": "2026-06-01T11:57:51.954216",
+      "found_at": "2026-06-01T13:22:53.962913",
       "manual_check": true
     },
     {
@@ -336,7 +336,7 @@
       "title": "Get Started",
       "url": "https://careers.techmahindra.com/",
       "company_careers": "https://careers.techmahindra.com/",
-      "found_at": "2026-06-01T11:57:54.808540"
+      "found_at": "2026-06-01T13:22:56.899166"
     },
     {
       "company": "Tech Mahindra",
@@ -344,7 +344,7 @@
       "title": "Get\r\n                                                                            Started",
       "url": "https://careers.techmahindra.com/",
       "company_careers": "https://careers.techmahindra.com/",
-      "found_at": "2026-06-01T11:57:54.808552"
+      "found_at": "2026-06-01T13:22:56.899177"
     },
     {
       "company": "Tech Mahindra",
@@ -352,7 +352,7 @@
       "title": "Get StartedRegisterSign\r\n                                                        InIT OpportunitiesBPS Opportunities",
       "url": "https://careers.techmahindra.com/",
       "company_careers": "https://careers.techmahindra.com/",
-      "found_at": "2026-06-01T11:57:54.808592"
+      "found_at": "2026-06-01T13:22:56.899218"
     },
     {
       "company": "Tech Mahindra",
@@ -360,7 +360,7 @@
       "title": "ITTech LeadSkills:AngularExperience:5 - 10 YearsLocation:HYDERABADApply/Shortlist",
       "url": "https://careers.techmahindra.com/",
       "company_careers": "https://careers.techmahindra.com/",
-      "found_at": "2026-06-01T11:57:54.808680"
+      "found_at": "2026-06-01T13:22:56.899319"
     },
     {
       "company": "Tech Mahindra",
@@ -368,7 +368,7 @@
       "title": "ITTech LeadSkills:OracleExperience:7 - 10 YearsLocation:PUNEApply/Shortlist",
       "url": "https://careers.techmahindra.com/",
       "company_careers": "https://careers.techmahindra.com/",
-      "found_at": "2026-06-01T11:57:54.808713"
+      "found_at": "2026-06-01T13:22:56.899353"
     },
     {
       "company": "Tech Mahindra",
@@ -376,7 +376,7 @@
       "title": "ITTest EngineerSkills:SoftwareExperience:4 - 10 YearsLocation:AHMEDABADApply/Shortlist",
       "url": "https://careers.techmahindra.com/",
       "company_careers": "https://careers.techmahindra.com/",
-      "found_at": "2026-06-01T11:57:54.808733"
+      "found_at": "2026-06-01T13:22:56.899373"
     },
     {
       "company": "Tech Mahindra",
@@ -384,15 +384,16 @@
       "title": "ITTech LeadSkills:APIExperience:7 - 10 YearsLocation:BENGALURUApply/Shortlist",
       "url": "https://careers.techmahindra.com/",
       "company_careers": "https://careers.techmahindra.com/",
-      "found_at": "2026-06-01T11:57:54.808743"
+      "found_at": "2026-06-01T13:22:56.899384"
     },
     {
       "company": "Mphasis",
       "domain": "Software",
-      "title": "CAMPUS PROGRAMS",
+      "title": "Visit careers page \u2014 check manually",
       "url": "https://careers.mphasis.com/",
       "company_careers": "https://careers.mphasis.com/",
-      "found_at": "2026-06-01T11:57:56.353263"
+      "found_at": "2026-06-01T13:22:58.360282",
+      "manual_check": true
     },
     {
       "company": "Cognizant",
@@ -400,7 +401,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://careers.cognizant.com/india",
       "company_careers": "https://careers.cognizant.com/india",
-      "found_at": "2026-06-01T11:57:57.809588",
+      "found_at": "2026-06-01T13:22:59.554406",
       "manual_check": true
     },
     {
@@ -409,7 +410,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://www.accenture.com/in-en/careers",
       "company_careers": "https://www.accenture.com/in-en/careers",
-      "found_at": "2026-06-01T11:57:59.093793",
+      "found_at": "2026-06-01T13:23:00.742445",
       "manual_check": true
     },
     {
@@ -418,7 +419,7 @@
       "title": "Students and graduates",
       "url": "https://www.capgemini.com/in-en/careers/",
       "company_careers": "https://www.capgemini.com/in-en/careers/",
-      "found_at": "2026-06-01T11:58:00.193012"
+      "found_at": "2026-06-01T13:23:02.357237"
     },
     {
       "company": "Capgemini India",
@@ -426,7 +427,7 @@
       "title": "Let\u2019s connectBackLet\u2019s connectOur officesCampus activities",
       "url": "https://www.capgemini.com/in-en/careers/",
       "company_careers": "https://www.capgemini.com/in-en/careers/",
-      "found_at": "2026-06-01T11:58:00.193044"
+      "found_at": "2026-06-01T13:23:02.357271"
     },
     {
       "company": "Capgemini India",
@@ -434,7 +435,7 @@
       "title": "Campus activities",
       "url": "https://www.capgemini.com/in-en/careers/",
       "company_careers": "https://www.capgemini.com/in-en/careers/",
-      "found_at": "2026-06-01T11:58:00.193061"
+      "found_at": "2026-06-01T13:23:02.357288"
     },
     {
       "company": "L&T Technology Services",
@@ -442,7 +443,7 @@
       "title": "Visit careers page \u2014 check manually",
       "url": "https://www.ltts.com/careers",
       "company_careers": "https://www.ltts.com/careers",
-      "found_at": "2026-06-01T11:58:01.725207",
+      "found_at": "2026-06-01T13:23:03.594508",
       "manual_check": true
     }
   ]
