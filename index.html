@@ -10,7 +10,7 @@
   --ink: #0c0c10; --ink2: #1a1a24; --surface: #f4f3ef;
   --paper: #faf9f6; --white: #ffffff; --border: rgba(12,12,16,0.1);
   --border2: rgba(12,12,16,0.07); --muted: #7a7a8c; --gold: #c8a84b;
-  --gold-light: #f5e9c8; --gold-dark: #8c6d1f; --teal: #1a8c6e; --red: #c94040;
+  --gold-light: #fdfaf2; --gold-dark: #8c6d1f; --teal: #1a8c6e; --red: #c94040;
   --radius: 12px; --radius-sm: 8px; --radius-pill: 100px; --transition: 0.2s ease;
   --vlsi-color: #5b3fbe; --vlsi-bg: rgba(91,63,190,0.08);
   --emb-color: #c96020; --emb-bg: rgba(201,96,32,0.08);
@@ -40,7 +40,7 @@ header { position: sticky; top: 0; z-index: 200; background: rgba(250,249,246,0.
 .auth-toggle span { color: var(--gold-dark); cursor: pointer; font-weight: 700; text-decoration: underline; }
 
 /* REQUEST ACCESS PANEL SPECIFICS */
-.request-box { background: #fdfaf2; border: 1px dashed var(--gold); border-radius: var(--radius-sm); padding: 1rem; margin-top: 1rem; font-size: 0.85rem; line-height: 1.4; color: #5c4a1a; }
+.request-box { background: var(--gold-light); border: 1px dashed var(--gold); border-radius: var(--radius-sm); padding: 1rem; margin-top: 1rem; font-size: 0.85rem; line-height: 1.4; color: var(--gold-dark); }
 
 /* FEED GRID */
 .toolbar { display: flex; gap: 0.75rem; margin-bottom: 1rem; flex-wrap: wrap; }
@@ -76,7 +76,7 @@ header { position: sticky; top: 0; z-index: 200; background: rgba(250,249,246,0.
 <header>
   <div class="logo">
     <div class="logo-mark">★</div>
-    <span class="logo-word">Fresh<em>Hire Private</em></span>
+    <span class="logo-word">Fresh<em style="color:var(--gold); font-style:normal;">Hire Private</em></span>
   </div>
   <button id="logoutBtn" class="btn-logout" onclick="handleLogout()">Logout</button>
 </header>
@@ -87,16 +87,16 @@ header { position: sticky; top: 0; z-index: 200; background: rgba(250,249,246,0.
     <p id="authSubtitle" class="auth-subtitle">This directory is restricted. Enter your authorized email id to unlock live fresher positions.</p>
     
     <div class="form-group">
-      <label>Authorized Email Address</label>
+      <label id="emailLabel">Authorized Email Address</label>
       <input type="email" id="authEmail" class="form-input" placeholder="name@domain.com">
     </div>
     
     <button id="authBtn" class="btn-primary" onclick="verifyAccess()">Verify & Enter</button>
+    <button id="submitRequestBtn" class="btn-primary hidden" onclick="submitRegistrationRequest()">Submit Registration Request</button>
     
     <div id="requestArea" class="hidden">
       <div class="request-box">
-        <strong>How to request access:</strong><br>
-        Send an email to the administrator containing your requested registration details. Once the admin adds your email id to the approved list, your portal will open.
+        <strong>Status:</strong> Once you submit your email, it will show up on the admin panel as <em>Pending</em>. The site coordinator will review and clear it shortly.
       </div>
     </div>
     
@@ -131,13 +131,22 @@ header { position: sticky; top: 0; z-index: 200; background: rgba(250,249,246,0.
 let databasePayload = null;
 let activeFilter = 'All';
 
+// Hardcoded safe public endpoint configuration to send back request data
+const SUB_URL = "https://kofcqctifaguxaqzstoz.supabase.co";
+const SUB_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtvZmNxY3RpZmFndXhhcXpzdG96Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAzMjIyMjksImV4cCI6MjA5NTg5ODIyOX0.IyMn8zFTr98YQstQg7F8K7xROG-_gtefav1zvWWNotc";
+
+function generateUUID() {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+    return v.toString(16);
+  });
+}
+
 async function initPortal() {
   try {
-    // Load local data generated securely by Python background worker
     const res = await fetch('jobs.json?v=' + Date.now());
     databasePayload = await res.json();
     
-    // Check if user has an active valid session saved locally
     const savedSession = localStorage.getItem('freshhire_session');
     if (savedSession && databasePayload.users && databasePayload.users[savedSession]) {
       if (databasePayload.users[savedSession].approved) {
@@ -154,7 +163,7 @@ function verifyAccess() {
   if(!email) { showToast("Please type a valid email address.", true); return; }
 
   if (!databasePayload || !databasePayload.users) {
-    showToast("System is initializing. Please try again in a moment.", true);
+    showToast("System is initializing. Please try again.", true);
     return;
   }
 
@@ -171,6 +180,38 @@ function verifyAccess() {
   }
 }
 
+async function submitRegistrationRequest() {
+  const email = document.getElementById('authEmail').value.toLowerCase().trim();
+  if (!email || !email.includes('@')) { showToast("Please enter a valid email format.", true); return; }
+
+  try {
+    const response = await fetch(`${SUB_URL}/rest/v1/profiles`, {
+      method: 'POST',
+      headers: {
+        'apikey': SUB_KEY,
+        'Authorization': `Bearer ${SUB_KEY}`,
+        'Content-Type': 'application/json',
+        'Prefer': 'return=minimal'
+      },
+      body: JSON.stringify({
+        id: generateUUID(),
+        email: email,
+        is_approved: false,
+        is_admin: false
+      })
+    });
+
+    if (response.status === 201 || response.ok) {
+      showToast("Request submitted successfully!");
+      toggleMode(false);
+    } else {
+      showToast("This email is already registered or pending review.", true);
+    }
+  } catch (error) {
+    showToast("Network error submitting profile request.", true);
+  }
+}
+
 function launchDashboard() {
   document.getElementById('authWall').classList.add('hidden');
   document.getElementById('appDashboard').classList.remove('hidden');
@@ -184,17 +225,24 @@ function handleLogout() {
 }
 
 function toggleMode(requestMode) {
+  const authEmailInput = document.getElementById('authEmail');
+  authEmailInput.value = "";
+  
   if (requestMode) {
     document.getElementById('authTitle').textContent = "Request Entry";
-    document.getElementById('authSubtitle').textContent = "This board is private. Submit your request details to the system administrator.";
+    document.getElementById('authSubtitle').textContent = "Submit your email address to the system log below.";
+    document.getElementById('emailLabel').textContent = "Your Email Address";
     document.getElementById('requestArea').classList.remove('hidden');
     document.getElementById('authBtn').classList.add('hidden');
+    document.getElementById('submitRequestBtn').classList.remove('hidden');
     document.getElementById('authToggleMsg').innerHTML = "Already registered? <span onclick='toggleMode(false)'>Back to Sign In</span>";
   } else {
     document.getElementById('authTitle').textContent = "Private Access";
     document.getElementById('authSubtitle').textContent = "This directory is restricted. Enter your authorized email id to unlock live fresher positions.";
+    document.getElementById('emailLabel').textContent = "Authorized Email Address";
     document.getElementById('requestArea').classList.add('hidden');
     document.getElementById('authBtn').classList.remove('hidden');
+    document.getElementById('submitRequestBtn').classList.add('hidden');
     document.getElementById('authToggleMsg').innerHTML = "Don't have access? <span onclick='toggleMode(true)'>Request Portal Entry</span>";
   }
 }
@@ -242,7 +290,6 @@ function showToast(msg, isError = false) {
   setTimeout(() => t.className = 'toast', 4000);
 }
 
-// Fire up core routine
 initPortal();
 </script>
 </body>
