@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T17:43:30.050030",
+  "last_updated": "2026-06-29T20:06:46.298176",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -746,12 +746,6 @@
       "url": "https://www.adzuna.in/details/5775381150?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Bosch Group",
-      "domain": "Embedded",
-      "title": "Biomedical Systems Engineer \u2013 Connected MedTech",
-      "url": "https://www.adzuna.in/details/5748327969?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Enphase Energy",
       "domain": "Embedded",
       "title": "Staff Firmware Engineer",
@@ -822,6 +816,12 @@
       "domain": "Embedded",
       "title": "Sr Engg I, SVT \u2013 Router",
       "url": "https://www.adzuna.in/details/5775350352?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Altium",
+      "domain": "Software",
+      "title": "Staff Engineer - Characterization",
+      "url": "https://www.adzuna.in/details/5758089286?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Vertiv Group",
@@ -1046,16 +1046,16 @@
       "url": "https://www.adzuna.in/details/5759028640?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Analog Devices",
-      "domain": "Software",
-      "title": "Mechatronics Engineer",
-      "url": "https://www.adzuna.in/details/5778919561?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Arista Networks",
       "domain": "Embedded",
       "title": "Hardware Design Engineer, Ethernet Switching",
       "url": "https://www.adzuna.in/details/5759192971?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Analog Devices",
+      "domain": "Software",
+      "title": "Mechatronics Engineer",
+      "url": "https://www.adzuna.in/details/5778919561?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Magna International",
@@ -1388,12 +1388,6 @@
       "url": "https://www.adzuna.in/details/5774999797?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "IFS",
-      "domain": "Software",
-      "title": "DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5773539686?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Accellor",
       "domain": "Software",
       "title": "DevOps Engineer",
@@ -1668,6 +1662,12 @@
       "domain": "Software",
       "title": "AI DevOps Engineer",
       "url": "https://www.adzuna.in/details/5777458608?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Miratech",
+      "domain": "Software",
+      "title": "DevOps Engineer with Splunk",
+      "url": "https://www.adzuna.in/details/5762113026?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
