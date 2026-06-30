@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30T00:11:20.957437",
+  "last_updated": "2026-06-30T05:09:45.073584",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -836,6 +836,12 @@
       "url": "https://www.adzuna.in/details/5758089286?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Renesas Electronics",
+      "domain": "Software",
+      "title": "Sr Staff Engineer, Product Marketing (Power)",
+      "url": "https://www.adzuna.in/details/5775502894?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Vertiv Group",
       "domain": "Embedded",
       "title": "Engineer Firmware",
@@ -1064,22 +1070,28 @@
       "url": "https://www.adzuna.in/details/5759028640?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Arista Networks",
-      "domain": "Embedded",
-      "title": "Hardware Design Engineer, Ethernet Switching",
-      "url": "https://www.adzuna.in/details/5759192971?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Analog Devices",
       "domain": "Software",
       "title": "Mechatronics Engineer",
       "url": "https://www.adzuna.in/details/5778919561?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Arista Networks",
+      "domain": "Embedded",
+      "title": "Hardware Design Engineer, Ethernet Switching",
+      "url": "https://www.adzuna.in/details/5759192971?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Magna International",
       "domain": "Software",
       "title": "ECAD Engineer",
       "url": "https://www.adzuna.in/details/5762938362?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Renesas Electronics",
+      "domain": "Embedded",
+      "title": "Field Application Engineer -EDA -Altium",
+      "url": "https://www.adzuna.in/details/5781273756?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Orbit Global hr Consultants",
@@ -1346,12 +1358,6 @@
       "url": "https://www.adzuna.in/details/5780533973?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Weekday AI",
-      "domain": "Software",
-      "title": "Full Stack Engineer",
-      "url": "https://www.adzuna.in/details/5759699687?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Flatgigs",
       "domain": "Software",
       "title": "Full Stack Engineer",
@@ -1362,6 +1368,12 @@
       "domain": "Software",
       "title": "Full Stack Engineer",
       "url": "https://www.adzuna.in/details/5772527416?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Weekday AI",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5759699687?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "METRO Global Solution Center IN",
@@ -1404,6 +1416,12 @@
       "domain": "Software",
       "title": "Devops Engineer",
       "url": "https://www.adzuna.in/details/5774999797?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Scout Incorporation",
+      "domain": "Software",
+      "title": "DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5781559761?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Accellor",
@@ -1524,12 +1542,6 @@
       "domain": "Software",
       "title": "DevOps Engineer",
       "url": "https://www.adzuna.in/details/5780539034?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Bellurbis",
-      "domain": "Software",
-      "title": "DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5756810213?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Easy Trip Planners Limited",
@@ -1685,7 +1697,7 @@
       "company": "Miratech",
       "domain": "Software",
       "title": "DevOps Engineer with Splunk",
-      "url": "https://www.adzuna.in/details/5762113013?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5762113023?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
