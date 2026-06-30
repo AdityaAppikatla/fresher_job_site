@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30T20:59:57.949903",
+  "last_updated": "2026-06-30T22:22:18.002677",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -386,16 +386,16 @@
       "url": "https://www.adzuna.in/details/5781443710?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Amazon",
+      "domain": "VLSI",
+      "title": "Design Verification Engineer, Silicon and Systems Group",
+      "url": "https://www.adzuna.in/details/5775359573?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Intel",
       "domain": "Software",
       "title": "Mixed Signal Logic Design Engineer",
       "url": "https://www.adzuna.in/details/5778131766?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Renesas",
-      "domain": "VLSI",
-      "title": "Engineer, Physical Design",
-      "url": "https://www.adzuna.in/details/5752831269?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Silicon Labs Pvt.Ltd",
@@ -608,6 +608,12 @@
       "url": "https://www.adzuna.in/details/5746211894?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Renesas",
+      "domain": "VLSI",
+      "title": "Engineer, Physical Design",
+      "url": "https://www.adzuna.in/details/5752831269?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Renesas Electronics",
       "domain": "VLSI",
       "title": "Sr Staff Engineer, Physical Design",
@@ -678,12 +684,6 @@
       "domain": "Embedded",
       "title": "Junior Embedded Firmware Engineer",
       "url": "https://www.adzuna.in/details/5775994249?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Sensata",
-      "domain": "Embedded",
-      "title": "Radar Embedded Firmware Engineer",
-      "url": "https://www.adzuna.in/details/5748166045?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "NXP Semiconductors",
@@ -776,6 +776,12 @@
       "url": "https://www.adzuna.in/details/5775274888?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Allegion",
+      "domain": "Embedded",
+      "title": "Firmware Engineer",
+      "url": "https://www.adzuna.in/details/5782529440?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Thermo Fisher Scientific",
       "domain": "Software",
       "title": "Engineer III, Electrical",
@@ -818,6 +824,12 @@
       "url": "https://www.adzuna.in/details/5774232495?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Sensata",
+      "domain": "Embedded",
+      "title": "Radar Signal Processing Engineer",
+      "url": "https://www.adzuna.in/details/5748166045?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Texas Instruments",
       "domain": "Embedded",
       "title": "Software Engineer",
@@ -846,12 +858,6 @@
       "domain": "Embedded",
       "title": "Engineer II, Embedded Software Test",
       "url": "https://www.adzuna.in/details/5774205486?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Harman Becker Automotive Systems Manufacturing Kft",
-      "domain": "Embedded",
-      "title": "Software Engineer - Embedded Linux",
-      "url": "https://www.adzuna.in/details/5757715146?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Vertiv Group",
@@ -894,6 +900,12 @@
       "domain": "VLSI",
       "title": "Technologist, VLSI Design Engineering",
       "url": "https://www.adzuna.in/details/5756664063?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Harman Becker Automotive Systems Manufacturing Kft",
+      "domain": "Embedded",
+      "title": "Software Engineer - Embedded Linux",
+      "url": "https://www.adzuna.in/details/5757715146?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Global Water Solutions",
@@ -1038,6 +1050,12 @@
       "domain": "Embedded",
       "title": "PCB Design Engineer",
       "url": "https://www.adzuna.in/details/5774999994?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Arrow",
+      "domain": "VLSI",
+      "title": "PCB Design Engineer",
+      "url": "https://www.adzuna.in/details/5782533926?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Eaton Corporation",
@@ -1292,12 +1310,6 @@
       "url": "https://www.adzuna.in/details/5775777711?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "NavGurukul",
-      "domain": "Software",
-      "title": "Backend Developer (Python) \u2013 GenAI & LLM Applications",
-      "url": "https://www.adzuna.in/details/5755733092?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Webkit24",
       "domain": "Software",
       "title": "Frontend Developer",
@@ -1376,6 +1388,12 @@
       "url": "https://www.adzuna.in/details/5761948141?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Weekday AI",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5759699687?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Particle41",
       "domain": "Software",
       "title": "AI Engineer",
@@ -1392,12 +1410,6 @@
       "domain": "Software",
       "title": "Full Stack Engineer",
       "url": "https://www.adzuna.in/details/5772527416?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Weekday AI",
-      "domain": "Software",
-      "title": "Full Stack Engineer",
-      "url": "https://www.adzuna.in/details/5759699687?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "METRO Global Solution Center IN",
@@ -1566,12 +1578,6 @@
       "domain": "Software",
       "title": "Devops Engineer",
       "url": "https://www.adzuna.in/details/5756753942?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Kyara Consulting",
-      "domain": "Software",
-      "title": "DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5771020752?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "IBM",
