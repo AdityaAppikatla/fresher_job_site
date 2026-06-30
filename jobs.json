@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T22:13:39.994899",
+  "last_updated": "2026-06-30T00:11:20.957437",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -380,6 +380,12 @@
       "url": "https://www.adzuna.in/details/5752831269?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "SiFive",
+      "domain": "Software",
+      "title": "NoC Design Verification Engineer",
+      "url": "https://www.adzuna.in/details/5767173139?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Silicon Labs Pvt.Ltd",
       "domain": "Software",
       "title": "IP/SoC/UVM Verification Engineer -IC Design",
@@ -516,18 +522,6 @@
       "domain": "Software",
       "title": "CPU Design Verification Engineer",
       "url": "https://www.adzuna.in/details/5771955026?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "SiFive",
-      "domain": "Software",
-      "title": "NoC Design Verification Engineer",
-      "url": "https://www.adzuna.in/details/5767173139?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Analog Devices",
-      "domain": "Software",
-      "title": "Staff Design Verification Engineer",
-      "url": "https://www.adzuna.in/details/5744818323?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Analog Devices",
@@ -728,12 +722,6 @@
       "url": "https://www.adzuna.in/details/5776735571?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Thermo Fisher Scientific",
-      "domain": "Embedded",
-      "title": "Engineer III, Firmware",
-      "url": "https://www.adzuna.in/details/5744793641?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Globals",
       "domain": "Embedded",
       "title": "Space Systems Engineer",
@@ -836,10 +824,16 @@
       "url": "https://www.adzuna.in/details/5757715146?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Thermo Fisher Scientific",
+      "company": "Netgear",
+      "domain": "Embedded",
+      "title": "Sr Engg I, SVT \u2013 Router",
+      "url": "https://www.adzuna.in/details/5775350352?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Altium",
       "domain": "Software",
-      "title": "Staff Engineer, Electrical",
-      "url": "https://www.adzuna.in/details/5744829238?utm_medium=api&utm_source=1f93aaf4"
+      "title": "Staff Engineer - Characterization",
+      "url": "https://www.adzuna.in/details/5758089286?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Vertiv Group",
