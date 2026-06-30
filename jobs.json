@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30T12:14:36.537052",
+  "last_updated": "2026-06-30T15:34:31.866604",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -416,16 +416,16 @@
       "url": "https://www.adzuna.in/details/5780539467?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Renesas Electronics",
-      "domain": "Software",
-      "title": "Staff Engineer, Digital Design",
-      "url": "https://www.adzuna.in/details/5774765299?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Proxelera Private Limited",
       "domain": "VLSI",
       "title": "DFT Engineer",
       "url": "https://www.adzuna.in/details/5759292614?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Renesas Electronics",
+      "domain": "Software",
+      "title": "Staff Engineer, Digital Design",
+      "url": "https://www.adzuna.in/details/5774765299?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "IBM",
@@ -1052,16 +1052,16 @@
       "url": "https://www.adzuna.in/details/5759028640?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Arista Networks",
-      "domain": "Embedded",
-      "title": "Hardware Design Engineer, Ethernet Switching",
-      "url": "https://www.adzuna.in/details/5759192971?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Analog Devices",
       "domain": "Software",
       "title": "Mechatronics Engineer",
       "url": "https://www.adzuna.in/details/5778919561?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Arista Networks",
+      "domain": "Embedded",
+      "title": "Hardware Design Engineer, Ethernet Switching",
+      "url": "https://www.adzuna.in/details/5759192971?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Magna International",
@@ -1166,16 +1166,16 @@
       "url": "https://www.adzuna.in/details/5778410363?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Bosch Group",
-      "domain": "Software",
-      "title": "Automotive High-Speed Hardware Design Engineer",
-      "url": "https://www.adzuna.in/details/5752159488?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Fortive Corporation",
       "domain": "Software",
       "title": "Hardware Engineer",
       "url": "https://www.adzuna.in/details/5758090974?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Bosch Group",
+      "domain": "Software",
+      "title": "Automotive High-Speed Hardware Design Engineer",
+      "url": "https://www.adzuna.in/details/5752159488?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Texas Instruments",
@@ -1380,6 +1380,12 @@
       "domain": "Software",
       "title": "Full Stack Engineer",
       "url": "https://www.adzuna.in/details/5779431214?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Intellimachs",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5782093245?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Barclays",
@@ -1680,12 +1686,6 @@
       "domain": "Software",
       "title": "AI DevOps Engineer",
       "url": "https://www.adzuna.in/details/5777458608?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Miratech",
-      "domain": "Software",
-      "title": "DevOps Engineer with Splunk",
-      "url": "https://www.adzuna.in/details/5762113017?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
