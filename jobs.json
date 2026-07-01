@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T00:13:39.989455",
+  "last_updated": "2026-07-01T05:26:53.840674",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -920,6 +920,12 @@
       "url": "https://www.adzuna.in/details/5771987118?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "KPIT Technologies Limited",
+      "domain": "Embedded",
+      "title": "Audio Driver Engineer",
+      "url": "https://www.adzuna.in/details/5782684221?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Sourceright Technologies  Private Limited",
       "domain": "Embedded",
       "title": "Linux Device Drivers Professional",
@@ -936,6 +942,12 @@
       "domain": "Embedded",
       "title": "Sr Engineer - Linux BSP",
       "url": "https://www.adzuna.in/details/5749654722?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "KPIT Technologies Limited",
+      "domain": "Software",
+      "title": "Android BSP Engineer",
+      "url": "https://www.adzuna.in/details/5782684220?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Cisco Systems",
@@ -1004,18 +1016,6 @@
       "url": "https://www.adzuna.in/details/5779459798?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "IBM",
-      "domain": "Software",
-      "title": "AIX Test Engineer",
-      "url": "https://www.adzuna.in/details/5759294722?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Skild AI",
-      "domain": "Software",
-      "title": "Camera Systems Software Engineer - India",
-      "url": "https://www.adzuna.in/details/5767100951?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Unistring Tech Solutions",
       "domain": "Embedded",
       "title": "PCB Design Engineer",
@@ -1082,12 +1082,6 @@
       "url": "https://www.adzuna.in/details/5759028640?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Arista Networks",
-      "domain": "Embedded",
-      "title": "Hardware Design Engineer, Ethernet Switching",
-      "url": "https://www.adzuna.in/details/5759192971?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Analog Devices",
       "domain": "Software",
       "title": "Mechatronics Engineer",
@@ -1098,6 +1092,12 @@
       "domain": "Software",
       "title": "ECAD Engineer",
       "url": "https://www.adzuna.in/details/5762938362?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Arista Networks",
+      "domain": "Embedded",
+      "title": "Hardware Design Engineer, Ethernet Switching",
+      "url": "https://www.adzuna.in/details/5759192971?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Renesas Electronics",
@@ -1244,12 +1244,6 @@
       "url": "https://www.adzuna.in/details/5759556965?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Schneider Electric",
-      "domain": "Software",
-      "title": "Regulatory Engineer_ EMI/EMC",
-      "url": "https://www.adzuna.in/details/5774205525?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "LT-Larsen & Toubro Limited",
       "domain": "Software",
       "title": "Electronics Design Engineer",
@@ -1364,12 +1358,6 @@
       "url": "https://www.adzuna.in/details/5780533973?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Paypal",
-      "domain": "Software",
-      "title": "Staff Software Engineer - FrontEnd",
-      "url": "https://www.adzuna.in/details/5761948169?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Flatgigs",
       "domain": "Software",
       "title": "Full Stack Engineer",
@@ -1424,6 +1412,12 @@
       "url": "https://www.adzuna.in/details/5756145621?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Zorba Consulting India",
+      "domain": "Software",
+      "title": "DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5782656563?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Sia",
       "domain": "Software",
       "title": "DevOps Engineer",
@@ -1434,12 +1428,6 @@
       "domain": "Software",
       "title": "Devops Engineer",
       "url": "https://www.adzuna.in/details/5774999797?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Scout Incorporation",
-      "domain": "Software",
-      "title": "DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5781559761?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Branch International",
