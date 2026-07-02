@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T22:22:09.039526",
+  "last_updated": "2026-07-02T00:14:39.939923",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -23,13 +23,13 @@
       "company": "HCLTech",
       "domain": "VLSI",
       "title": "RTL Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5784149503?se=tsWZO5t18RG075onbIWOaw&utm_medium=api&utm_source=1f93aaf4&v=1D20C4CB095D6AD81B201ECE120CB7ADC0AA3747"
+      "url": "https://www.adzuna.in/land/ad/5784149503?se=EFLO7ap18RG075onbIWOaw&utm_medium=api&utm_source=1f93aaf4&v=1D20C4CB095D6AD81B201ECE120CB7ADC0AA3747"
     },
     {
       "company": "SEMIFIVE",
       "domain": "Software",
       "title": "IR/EM Low Power Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5779300454?se=tsWZO5t18RG075onbIWOaw&utm_medium=api&utm_source=1f93aaf4&v=E86819871849D5175AE30FFF17D007DA5C2D62CA"
+      "url": "https://www.adzuna.in/land/ad/5779300454?se=EFLO7ap18RG075onbIWOaw&utm_medium=api&utm_source=1f93aaf4&v=E86819871849D5175AE30FFF17D007DA5C2D62CA"
     },
     {
       "company": "Hewlett Packard Enterprise",
@@ -41,7 +41,7 @@
       "company": "Synopsys Inc",
       "domain": "Software",
       "title": "LPDDR IP Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5776591411?se=tsWZO5t18RG075onbIWOaw&utm_medium=api&utm_source=1f93aaf4&v=10DBED7F37B13804E115A210D378BE388F2BA85B"
+      "url": "https://www.adzuna.in/land/ad/5776591411?se=EFLO7ap18RG075onbIWOaw&utm_medium=api&utm_source=1f93aaf4&v=10DBED7F37B13804E115A210D378BE388F2BA85B"
     },
     {
       "company": "Cisco",
@@ -108,12 +108,6 @@
       "domain": "VLSI",
       "title": "Silicon DFT Engineer, Cloud SIlicon",
       "url": "https://www.adzuna.in/details/5770994705?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Semtech",
-      "domain": "VLSI",
-      "title": "Staff Verification Design Engineer",
-      "url": "https://www.adzuna.in/details/5746732295?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "IBM",
@@ -194,6 +188,12 @@
       "url": "https://www.adzuna.in/details/5756201369?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Cisco",
+      "domain": "Software",
+      "title": "Design Engineer",
+      "url": "https://www.adzuna.in/details/5761948449?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "NVIDIA",
       "domain": "VLSI",
       "title": "ASIC Verification Engineer",
@@ -254,12 +254,6 @@
       "url": "https://www.adzuna.in/details/5752429015?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "SiFive",
-      "domain": "Software",
-      "title": "Staff Engineer, Low Power Verification & Formal Equivalence",
-      "url": "https://www.adzuna.in/details/5746734371?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "IBM",
       "domain": "VLSI",
       "title": "Physical Design Engineer - Low Power Design",
@@ -281,7 +275,7 @@
       "company": "Mirafra Technologies",
       "domain": "VLSI",
       "title": "rtl design engineer",
-      "url": "https://www.adzuna.in/land/ad/5778043283?se=xlnLPZt18RGt3dtJYsVrNQ&utm_medium=api&utm_source=1f93aaf4&v=D690F8087EE4B4D4AB253B35CEF4312B424D98E1"
+      "url": "https://www.adzuna.in/land/ad/5778043283?se=8AjV8Kp18RGwZbsBzI66BQ&utm_medium=api&utm_source=1f93aaf4&v=D690F8087EE4B4D4AB253B35CEF4312B424D98E1"
     },
     {
       "company": "Anthriq",
@@ -359,7 +353,7 @@
       "company": "UST",
       "domain": "VLSI",
       "title": "FPGA HAPS Engineer",
-      "url": "https://www.adzuna.in/land/ad/5763491847?se=UPztPpt18RGOeNvhEByHAg&utm_medium=api&utm_source=1f93aaf4&v=0E9C7086954BAAECEBEA84B620B3E8C9E0BFFC7B"
+      "url": "https://www.adzuna.in/land/ad/5763491847?se=5A1O8qp18RGt3dtJYsVrNQ&utm_medium=api&utm_source=1f93aaf4&v=0E9C7086954BAAECEBEA84B620B3E8C9E0BFFC7B"
     },
     {
       "company": "Silicon Labs Pvt.Ltd",
@@ -560,12 +554,6 @@
       "url": "https://www.adzuna.in/details/5768704654?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "SiFive",
-      "domain": "VLSI",
-      "title": "Staff Engineer, Physical Design - Caches",
-      "url": "https://www.adzuna.in/details/5746696410?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Renesas",
       "domain": "VLSI",
       "title": "Sr Staff Engineer, Physical Design",
@@ -660,12 +648,6 @@
       "domain": "Embedded",
       "title": "Staff Firmware DVT Engineer",
       "url": "https://www.adzuna.in/details/5775564471?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Microchip",
-      "domain": "Software",
-      "title": "Engineer II Software",
-      "url": "https://www.adzuna.in/details/5746735153?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Eaton Corporation",
@@ -786,6 +768,12 @@
       "domain": "Embedded",
       "title": "Engineer II, Embedded Software Test",
       "url": "https://www.adzuna.in/details/5774205486?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Eaton Corporation",
+      "domain": "Embedded",
+      "title": "Engineer - Embedded Automation QA",
+      "url": "https://www.adzuna.in/details/5764071426?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Vertiv Group",
@@ -956,10 +944,16 @@
       "url": "https://www.adzuna.in/details/5767238973?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "RTX",
+      "domain": "Software",
+      "title": "Graduate Engineer Trainee",
+      "url": "https://www.adzuna.in/details/5779459798?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "QpiAI",
       "domain": "Software",
       "title": "Quantum Processor Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5768229522?se=xLJXRpt18RG075onbIWOaw&utm_medium=api&utm_source=1f93aaf4&v=79BC6034E380B40A025798CA786BF53A7934F6BD"
+      "url": "https://www.adzuna.in/land/ad/5768229522?se=Cu6m_Kp18RGKLZw9PWe4Qg&utm_medium=api&utm_source=1f93aaf4&v=79BC6034E380B40A025798CA786BF53A7934F6BD"
     },
     {
       "company": "Unistring Tech Solutions",
@@ -1211,7 +1205,7 @@
       "company": "Newton School of Technology",
       "domain": "Software",
       "title": "Associate Professor - Computer Science",
-      "url": "https://www.adzuna.in/land/ad/5776258768?se=Nm6hR5t18RG075onbIWOaw&utm_medium=api&utm_source=1f93aaf4&v=F7C2280E0BB0E2A729EC8ADC15BA4834F2E5C98D"
+      "url": "https://www.adzuna.in/land/ad/5776258768?se=5lVh_qp18RGOeNvhEByHAg&utm_medium=api&utm_source=1f93aaf4&v=F7C2280E0BB0E2A729EC8ADC15BA4834F2E5C98D"
     },
     {
       "company": "Enan Tech Private Limited",
