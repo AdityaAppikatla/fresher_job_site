@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T11:39:08.731920",
+  "last_updated": "2026-07-15T13:53:14.839902",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -23,13 +23,13 @@
       "company": "HCLTech",
       "domain": "VLSI",
       "title": "RTL Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5784149503?se=SryDsUGA8RGhfq4EPRdkdA&utm_medium=api&utm_source=1f93aaf4&v=1D20C4CB095D6AD81B201ECE120CB7ADC0AA3747"
+      "url": "https://www.adzuna.in/land/ad/5784149503?se=YmPqblSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1f93aaf4&v=1D20C4CB095D6AD81B201ECE120CB7ADC0AA3747"
     },
     {
       "company": "SEMIFIVE",
       "domain": "Software",
       "title": "IR/EM Low Power Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5779300454?se=SryDsUGA8RGhfq4EPRdkdA&utm_medium=api&utm_source=1f93aaf4&v=E86819871849D5175AE30FFF17D007DA5C2D62CA"
+      "url": "https://www.adzuna.in/land/ad/5779300454?se=YmPqblSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1f93aaf4&v=E86819871849D5175AE30FFF17D007DA5C2D62CA"
     },
     {
       "company": "Hewlett Packard Enterprise",
@@ -41,7 +41,7 @@
       "company": "Synopsys Inc",
       "domain": "Software",
       "title": "LPDDR IP Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5776591411?se=SryDsUGA8RGhfq4EPRdkdA&utm_medium=api&utm_source=1f93aaf4&v=10DBED7F37B13804E115A210D378BE388F2BA85B"
+      "url": "https://www.adzuna.in/land/ad/5776591411?se=YmPqblSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1f93aaf4&v=10DBED7F37B13804E115A210D378BE388F2BA85B"
     },
     {
       "company": "PQAngels Technologies Pvt. Ltd",
@@ -233,13 +233,13 @@
       "company": "Mirafra Technologies",
       "domain": "VLSI",
       "title": "rtl design engineer",
-      "url": "https://www.adzuna.in/land/ad/5778043283?se=tgSutEGA8RGXM_-LqMmtCA&utm_medium=api&utm_source=1f93aaf4&v=D690F8087EE4B4D4AB253B35CEF4312B424D98E1"
+      "url": "https://www.adzuna.in/land/ad/5778043283?se=nOWEclSA8RG0Ubp31fGi7g&utm_medium=api&utm_source=1f93aaf4&v=D690F8087EE4B4D4AB253B35CEF4312B424D98E1"
     },
     {
       "company": "ACL Digital",
       "domain": "VLSI",
       "title": "RTL FUSA Engineers",
-      "url": "https://www.adzuna.in/land/ad/5785794523?se=tgSutEGA8RGXM_-LqMmtCA&utm_medium=api&utm_source=1f93aaf4&v=FB06D3321603474323EEAFB5DEBC5C96B3683C61"
+      "url": "https://www.adzuna.in/land/ad/5785794523?se=nOWEclSA8RG0Ubp31fGi7g&utm_medium=api&utm_source=1f93aaf4&v=FB06D3321603474323EEAFB5DEBC5C96B3683C61"
     },
     {
       "company": "PQAngels Technologies Pvt. Ltd",
@@ -338,12 +338,6 @@
       "url": "https://www.adzuna.in/details/5787828556?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Renesas Electronics",
-      "domain": "VLSI",
-      "title": "Staff Digital Engineer (DFT Design)",
-      "url": "https://www.adzuna.in/details/5799017077?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Silicon Labs Pvt.Ltd",
       "domain": "Software",
       "title": "IP/SoC/UVM Verification Engineer -IC Design",
@@ -354,6 +348,12 @@
       "domain": "Software",
       "title": "Analog Mixed-Signal Verification Engineer",
       "url": "https://www.adzuna.in/details/5780500568?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Renesas Electronics",
+      "domain": "VLSI",
+      "title": "Staff Digital Engineer (DFT Design)",
+      "url": "https://www.adzuna.in/details/5799017077?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Microchip",
@@ -824,12 +824,6 @@
       "url": "https://www.adzuna.in/details/5779473549?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Vertiv Group",
-      "domain": "Software",
-      "title": "Electrical Engineer",
-      "url": "https://www.adzuna.in/details/5770972342?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Mitsogo",
       "domain": "Embedded",
       "title": "Device Driver Engineer",
@@ -923,7 +917,7 @@
       "company": "QpiAI",
       "domain": "Software",
       "title": "Quantum Processor Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5768229522?se=vDuMwUGA8RGcJ7UjlTCDow&utm_medium=api&utm_source=1f93aaf4&v=79BC6034E380B40A025798CA786BF53A7934F6BD"
+      "url": "https://www.adzuna.in/land/ad/5768229522?se=fmiRflSA8RG0Ubp31fGi7g&utm_medium=api&utm_source=1f93aaf4&v=79BC6034E380B40A025798CA786BF53A7934F6BD"
     },
     {
       "company": "Unistring Tech Solutions",
@@ -990,6 +984,12 @@
       "domain": "Software",
       "title": "ECAD Engineer",
       "url": "https://www.adzuna.in/details/5797621327?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Renesas Electronics",
+      "domain": "Embedded",
+      "title": "Staff Application Engineer",
+      "url": "https://www.adzuna.in/details/5801250897?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "TE Connectivity",
@@ -1145,7 +1145,7 @@
       "company": "Newton School of Technology",
       "domain": "Software",
       "title": "Associate Professor - Computer Science",
-      "url": "https://www.adzuna.in/land/ad/5776258768?se=XBphw0GA8RGhfq4EPRdkdA&utm_medium=api&utm_source=1f93aaf4&v=F7C2280E0BB0E2A729EC8ADC15BA4834F2E5C98D"
+      "url": "https://www.adzuna.in/land/ad/5776258768?se=OmtxgFSA8RG0Ubp31fGi7g&utm_medium=api&utm_source=1f93aaf4&v=F7C2280E0BB0E2A729EC8ADC15BA4834F2E5C98D"
     },
     {
       "company": "Terralogic Software Solutions",
@@ -1502,12 +1502,6 @@
       "url": "https://www.adzuna.in/details/5787150338?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Capco",
-      "domain": "Software",
-      "title": "GCP Platform Engineer",
-      "url": "https://www.adzuna.in/details/5786419225?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Onactive Consulting",
       "domain": "Software",
       "title": "DevOps Engineer",
@@ -1518,6 +1512,12 @@
       "domain": "Software",
       "title": "DevOps Engineer",
       "url": "https://www.adzuna.in/details/5793371788?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Capco",
+      "domain": "Software",
+      "title": "GCP Platform Engineer",
+      "url": "https://www.adzuna.in/details/5786419225?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Toradex",
