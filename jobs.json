@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T15:55:02.941003",
+  "last_updated": "2026-07-20T18:10:02.144119",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -23,19 +23,19 @@
       "company": "HCLTech",
       "domain": "VLSI",
       "title": "Physical Design Engineer \u2013 ASIC/SoC",
-      "url": "https://www.adzuna.in/land/ad/5802784091?se=NHYCTFOE8RGL1fT2QXZtrg&utm_medium=api&utm_source=1f93aaf4&v=B3CEBC845BFF39AAC3CB58051062979BF84A8B22"
+      "url": "https://www.adzuna.in/land/ad/5802784091?se=hPsHImaE8RGDNqFawWcTVA&utm_medium=api&utm_source=1f93aaf4&v=B3CEBC845BFF39AAC3CB58051062979BF84A8B22"
     },
     {
       "company": "HCLTech",
       "domain": "VLSI",
       "title": "RTL Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5784149503?se=NHYCTFOE8RGL1fT2QXZtrg&utm_medium=api&utm_source=1f93aaf4&v=1D20C4CB095D6AD81B201ECE120CB7ADC0AA3747"
+      "url": "https://www.adzuna.in/land/ad/5784149503?se=hPsHImaE8RGDNqFawWcTVA&utm_medium=api&utm_source=1f93aaf4&v=1D20C4CB095D6AD81B201ECE120CB7ADC0AA3747"
     },
     {
       "company": "SEMIFIVE",
       "domain": "Software",
       "title": "IR/EM Low Power Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5779300454?se=NHYCTFOE8RGL1fT2QXZtrg&utm_medium=api&utm_source=1f93aaf4&v=E86819871849D5175AE30FFF17D007DA5C2D62CA"
+      "url": "https://www.adzuna.in/land/ad/5779300454?se=hPsHImaE8RGDNqFawWcTVA&utm_medium=api&utm_source=1f93aaf4&v=E86819871849D5175AE30FFF17D007DA5C2D62CA"
     },
     {
       "company": "Hewlett Packard Enterprise",
@@ -47,7 +47,7 @@
       "company": "Synopsys Inc",
       "domain": "Software",
       "title": "LPDDR IP Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5776591411?se=NHYCTFOE8RGL1fT2QXZtrg&utm_medium=api&utm_source=1f93aaf4&v=10DBED7F37B13804E115A210D378BE388F2BA85B"
+      "url": "https://www.adzuna.in/land/ad/5776591411?se=hPsHImaE8RGDNqFawWcTVA&utm_medium=api&utm_source=1f93aaf4&v=10DBED7F37B13804E115A210D378BE388F2BA85B"
     },
     {
       "company": "PQAngels Technologies Pvt. Ltd",
@@ -245,13 +245,13 @@
       "company": "Mirafra Technologies",
       "domain": "VLSI",
       "title": "rtl design engineer",
-      "url": "https://www.adzuna.in/land/ad/5778043283?se=mHZaTlOE8RGaa6qMFcW1DA&utm_medium=api&utm_source=1f93aaf4&v=D690F8087EE4B4D4AB253B35CEF4312B424D98E1"
+      "url": "https://www.adzuna.in/land/ad/5778043283?se=tDNMJWaE8RGL1fT2QXZtrg&utm_medium=api&utm_source=1f93aaf4&v=D690F8087EE4B4D4AB253B35CEF4312B424D98E1"
     },
     {
       "company": "ACL Digital",
       "domain": "VLSI",
       "title": "RTL FUSA Engineers",
-      "url": "https://www.adzuna.in/land/ad/5785794523?se=mHZaTlOE8RGaa6qMFcW1DA&utm_medium=api&utm_source=1f93aaf4&v=FB06D3321603474323EEAFB5DEBC5C96B3683C61"
+      "url": "https://www.adzuna.in/land/ad/5785794523?se=tDNMJWaE8RGL1fT2QXZtrg&utm_medium=api&utm_source=1f93aaf4&v=FB06D3321603474323EEAFB5DEBC5C96B3683C61"
     },
     {
       "company": "PQAngels Technologies Pvt. Ltd",
@@ -344,12 +344,6 @@
       "url": "https://www.adzuna.in/details/5778131766?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Intel",
-      "domain": "Software",
-      "title": "Pre-si Verification Engineer",
-      "url": "https://www.adzuna.in/details/5785899328?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Renesas Electronics",
       "domain": "VLSI",
       "title": "Staff Digital Engineer (DFT Design)",
@@ -438,6 +432,12 @@
       "domain": "VLSI",
       "title": "FPGA / Embedded Firmware Engineer",
       "url": "https://www.adzuna.in/details/5778446754?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Marvell Technology",
+      "domain": "Software",
+      "title": "Staff Verification Engineer- PCIe/UALink/CXL",
+      "url": "https://www.adzuna.in/details/5808207055?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Intel",
@@ -1022,6 +1022,12 @@
       "url": "https://www.adzuna.in/details/5806879097?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Aimtron Electronics Limited",
+      "domain": "Embedded",
+      "title": "Engineer - Electronics",
+      "url": "https://www.adzuna.in/details/5808207133?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Renesas Electronics",
       "domain": "Embedded",
       "title": "Staff Application Engineer",
@@ -1169,7 +1175,7 @@
       "company": "Newton School of Technology",
       "domain": "Software",
       "title": "Associate Professor - Computer Science",
-      "url": "https://www.adzuna.in/land/ad/5776258768?se=TBMsWVOE8RGQncJrKsvQAg&utm_medium=api&utm_source=1f93aaf4&v=F7C2280E0BB0E2A729EC8ADC15BA4834F2E5C98D"
+      "url": "https://www.adzuna.in/land/ad/5776258768?se=zMd9M2aE8RGrzJaJ3knFvQ&utm_medium=api&utm_source=1f93aaf4&v=F7C2280E0BB0E2A729EC8ADC15BA4834F2E5C98D"
     },
     {
       "company": "Terralogic Software Solutions",
