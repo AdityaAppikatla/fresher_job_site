@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T21:16:24.475210",
+  "last_updated": "2026-07-21T23:03:05.636236",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -23,19 +23,19 @@
       "company": "HCLTech",
       "domain": "VLSI",
       "title": "Physical Design Engineer \u2013 ASIC/SoC",
-      "url": "https://www.adzuna.in/land/ad/5802784091?se=IlkkU0mF8RGFfdBXCjC3Gg&utm_medium=api&utm_source=1f93aaf4&v=B3CEBC845BFF39AAC3CB58051062979BF84A8B22"
+      "url": "https://www.adzuna.in/land/ad/5802784091?se=GCqJE1iF8RGgQcTn0fwhJg&utm_medium=api&utm_source=1f93aaf4&v=B3CEBC845BFF39AAC3CB58051062979BF84A8B22"
     },
     {
       "company": "HCLTech",
       "domain": "VLSI",
       "title": "RTL Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5784149503?se=IlkkU0mF8RGFfdBXCjC3Gg&utm_medium=api&utm_source=1f93aaf4&v=1D20C4CB095D6AD81B201ECE120CB7ADC0AA3747"
+      "url": "https://www.adzuna.in/land/ad/5784149503?se=GCqJE1iF8RGgQcTn0fwhJg&utm_medium=api&utm_source=1f93aaf4&v=1D20C4CB095D6AD81B201ECE120CB7ADC0AA3747"
     },
     {
       "company": "SEMIFIVE",
       "domain": "Software",
       "title": "IR/EM Low Power Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5779300454?se=IlkkU0mF8RGFfdBXCjC3Gg&utm_medium=api&utm_source=1f93aaf4&v=E86819871849D5175AE30FFF17D007DA5C2D62CA"
+      "url": "https://www.adzuna.in/land/ad/5779300454?se=GCqJE1iF8RGgQcTn0fwhJg&utm_medium=api&utm_source=1f93aaf4&v=E86819871849D5175AE30FFF17D007DA5C2D62CA"
     },
     {
       "company": "Hewlett Packard Enterprise",
@@ -47,7 +47,7 @@
       "company": "Synopsys Inc",
       "domain": "Software",
       "title": "LPDDR IP Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5776591411?se=IlkkU0mF8RGFfdBXCjC3Gg&utm_medium=api&utm_source=1f93aaf4&v=10DBED7F37B13804E115A210D378BE388F2BA85B"
+      "url": "https://www.adzuna.in/land/ad/5776591411?se=GCqJE1iF8RGgQcTn0fwhJg&utm_medium=api&utm_source=1f93aaf4&v=10DBED7F37B13804E115A210D378BE388F2BA85B"
     },
     {
       "company": "PQAngels Technologies Pvt. Ltd",
@@ -263,13 +263,13 @@
       "company": "Mirafra Technologies",
       "domain": "VLSI",
       "title": "rtl design engineer",
-      "url": "https://www.adzuna.in/land/ad/5778043283?se=ItgKV0mF8RGFfdBXCjC3Gg&utm_medium=api&utm_source=1f93aaf4&v=D690F8087EE4B4D4AB253B35CEF4312B424D98E1"
+      "url": "https://www.adzuna.in/land/ad/5778043283?se=6k3yHViF8RG974pouqc-_w&utm_medium=api&utm_source=1f93aaf4&v=D690F8087EE4B4D4AB253B35CEF4312B424D98E1"
     },
     {
       "company": "ACL Digital",
       "domain": "VLSI",
       "title": "RTL FUSA Engineers",
-      "url": "https://www.adzuna.in/land/ad/5785794523?se=ItgKV0mF8RGFfdBXCjC3Gg&utm_medium=api&utm_source=1f93aaf4&v=FB06D3321603474323EEAFB5DEBC5C96B3683C61"
+      "url": "https://www.adzuna.in/land/ad/5785794523?se=6k3yHViF8RG974pouqc-_w&utm_medium=api&utm_source=1f93aaf4&v=FB06D3321603474323EEAFB5DEBC5C96B3683C61"
     },
     {
       "company": "PQAngels Technologies Pvt. Ltd",
@@ -368,16 +368,22 @@
       "url": "https://www.adzuna.in/details/5799017077?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Microchip",
+      "company": "onsemi",
       "domain": "Software",
-      "title": "Engineer II Verification",
-      "url": "https://www.adzuna.in/details/5784337449?utm_medium=api&utm_source=1f93aaf4"
+      "title": "Digital Design Engineer",
+      "url": "https://www.adzuna.in/details/5809894103?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Weekday AI",
       "domain": "VLSI",
       "title": "SoC Block Integration Engineer",
       "url": "https://www.adzuna.in/details/5803358878?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Microchip",
+      "domain": "Software",
+      "title": "Engineer II Verification",
+      "url": "https://www.adzuna.in/details/5784337449?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "NVIDIA",
@@ -434,6 +440,18 @@
       "url": "https://www.adzuna.in/details/5805399021?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Google",
+      "domain": "Software",
+      "title": "Silicon Infrastructure Engineer, TPU, Google Cloud",
+      "url": "https://www.adzuna.in/details/5770939028?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Micron",
+      "domain": "Software",
+      "title": "Design engineer",
+      "url": "https://www.adzuna.in/details/5809896620?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Microchip",
       "domain": "Software",
       "title": "Engineer-II - IP Design",
@@ -462,6 +480,12 @@
       "domain": "Software",
       "title": "Staff Verification Engineer- PCIe/UALink/CXL",
       "url": "https://www.adzuna.in/details/5808207055?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "onsemi",
+      "domain": "VLSI",
+      "title": "Staff System Validation Engineer",
+      "url": "https://www.adzuna.in/details/5809847853?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Intel",
@@ -704,12 +728,6 @@
       "url": "https://www.adzuna.in/details/5775564471?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Thermo Fisher Scientific",
-      "domain": "Software",
-      "title": "Engineer II, Hardware",
-      "url": "https://www.adzuna.in/details/5771990481?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Kimbal",
       "domain": "Embedded",
       "title": "Junior Embedded Engineer",
@@ -842,6 +860,12 @@
       "url": "https://www.adzuna.in/details/5796065949?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "SequoiaAT",
+      "domain": "Embedded",
+      "title": "Linux Device Driver Engineer",
+      "url": "https://www.adzuna.in/details/5797508846?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Eaton Corporation",
       "domain": "Embedded",
       "title": "Engineer - Firmware Linux Development",
@@ -894,12 +918,6 @@
       "domain": "Software",
       "title": "Electrical Engineer",
       "url": "https://www.adzuna.in/details/5770972342?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "SequoiaAT",
-      "domain": "Embedded",
-      "title": "Linux Device Driver Engineer",
-      "url": "https://www.adzuna.in/details/5797508846?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "KPIT Technologies Limited",
@@ -968,12 +986,6 @@
       "url": "https://www.adzuna.in/details/5787179324?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Qualcomm",
-      "domain": "Software",
-      "title": "engineer staff",
-      "url": "https://www.adzuna.in/details/5789810652?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Unistring Tech Solutions",
       "domain": "Embedded",
       "title": "PCB Design Engineer",
@@ -1010,6 +1022,12 @@
       "url": "https://www.adzuna.in/details/5801817212?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Aumovio",
+      "domain": "VLSI",
+      "title": "EE Engineer",
+      "url": "https://www.adzuna.in/details/5790973916?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Autodesk",
       "domain": "Embedded",
       "title": "Software Engineer \u2013 Electronics Systems & PCB Solutions",
@@ -1020,12 +1038,6 @@
       "domain": "Embedded",
       "title": "Software Engineer - Electronics Systems & PCB Solutions",
       "url": "https://www.adzuna.in/details/5771397620?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Aumovio",
-      "domain": "VLSI",
-      "title": "EE Engineer",
-      "url": "https://www.adzuna.in/details/5790973916?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Navitas Semiconductor Usa",
@@ -1142,6 +1154,12 @@
       "url": "https://www.adzuna.in/details/5780829890?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Bosch Group",
+      "domain": "Software",
+      "title": "Automotive High-Speed Hardware Design Engineer",
+      "url": "https://www.adzuna.in/details/5802881989?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Micron",
       "domain": "Software",
       "title": "Engineer, GQ OPS -REL Process",
@@ -1152,12 +1170,6 @@
       "domain": "Software",
       "title": "Engineer Mechatronics",
       "url": "https://www.adzuna.in/details/5804417685?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Bosch Group",
-      "domain": "Software",
-      "title": "Automotive High-Speed Hardware Design Engineer",
-      "url": "https://www.adzuna.in/details/5802881989?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Vertiv Group",
@@ -1205,7 +1217,7 @@
       "company": "Newton School of Technology",
       "domain": "Software",
       "title": "Associate Professor - Computer Science",
-      "url": "https://www.adzuna.in/land/ad/5776258768?se=LHNuZ0mF8RGvXJbpEOqD1Q&utm_medium=api&utm_source=1f93aaf4&v=F7C2280E0BB0E2A729EC8ADC15BA4834F2E5C98D"
+      "url": "https://www.adzuna.in/land/ad/5776258768?se=hgHTQliF8RGgQcTn0fwhJg&utm_medium=api&utm_source=1f93aaf4&v=F7C2280E0BB0E2A729EC8ADC15BA4834F2E5C98D"
     },
     {
       "company": "Terralogic Software Solutions",
@@ -1278,12 +1290,6 @@
       "domain": "Software",
       "title": "Frontend Developer Intern",
       "url": "https://www.adzuna.in/details/5787829176?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Aristocrat Technologies",
-      "domain": "Software",
-      "title": "Sr Engineer II - Frontend Developer",
-      "url": "https://www.adzuna.in/details/5797297553?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Aristocrat",
@@ -1632,12 +1638,6 @@
       "domain": "Software",
       "title": "Devops Engineer",
       "url": "https://www.adzuna.in/details/5796204420?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Ensono",
-      "domain": "Software",
-      "title": "DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5794774163?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
