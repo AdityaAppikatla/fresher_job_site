@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T15:13:37.058619",
+  "last_updated": "2026-07-23T17:35:25.232125",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -23,19 +23,19 @@
       "company": "HCLTech",
       "domain": "VLSI",
       "title": "Physical Design Engineer \u2013 ASIC/SoC",
-      "url": "https://www.adzuna.in/land/ad/5802784091?se=pvm0AKmG8RGOTokAaHxoXQ&utm_medium=api&utm_source=1f93aaf4&v=B3CEBC845BFF39AAC3CB58051062979BF84A8B22"
+      "url": "https://www.adzuna.in/land/ad/5802784091?se=5qpQzryG8RGs1ZmgqrrhFg&utm_medium=api&utm_source=1f93aaf4&v=B3CEBC845BFF39AAC3CB58051062979BF84A8B22"
     },
     {
       "company": "HCLTech",
       "domain": "VLSI",
       "title": "RTL Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5784149503?se=pvm0AKmG8RGOTokAaHxoXQ&utm_medium=api&utm_source=1f93aaf4&v=1D20C4CB095D6AD81B201ECE120CB7ADC0AA3747"
+      "url": "https://www.adzuna.in/land/ad/5784149503?se=5qpQzryG8RGs1ZmgqrrhFg&utm_medium=api&utm_source=1f93aaf4&v=1D20C4CB095D6AD81B201ECE120CB7ADC0AA3747"
     },
     {
       "company": "SEMIFIVE",
       "domain": "Software",
       "title": "IR/EM Low Power Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5779300454?se=pvm0AKmG8RGOTokAaHxoXQ&utm_medium=api&utm_source=1f93aaf4&v=E86819871849D5175AE30FFF17D007DA5C2D62CA"
+      "url": "https://www.adzuna.in/land/ad/5779300454?se=5qpQzryG8RGs1ZmgqrrhFg&utm_medium=api&utm_source=1f93aaf4&v=E86819871849D5175AE30FFF17D007DA5C2D62CA"
     },
     {
       "company": "Phizenix",
@@ -53,7 +53,7 @@
       "company": "Synopsys Inc",
       "domain": "Software",
       "title": "LPDDR IP Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5776591411?se=pvm0AKmG8RGOTokAaHxoXQ&utm_medium=api&utm_source=1f93aaf4&v=10DBED7F37B13804E115A210D378BE388F2BA85B"
+      "url": "https://www.adzuna.in/land/ad/5776591411?se=5qpQzryG8RGs1ZmgqrrhFg&utm_medium=api&utm_source=1f93aaf4&v=10DBED7F37B13804E115A210D378BE388F2BA85B"
     },
     {
       "company": "PQAngels Technologies Pvt. Ltd",
@@ -257,13 +257,13 @@
       "company": "Mirafra Technologies",
       "domain": "VLSI",
       "title": "rtl design engineer",
-      "url": "https://www.adzuna.in/land/ad/5778043283?se=wn5cA6mG8RGlUrNxYc2GaA&utm_medium=api&utm_source=1f93aaf4&v=D690F8087EE4B4D4AB253B35CEF4312B424D98E1"
+      "url": "https://www.adzuna.in/land/ad/5778043283?se=_O3v0LyG8RG9caUpA9fZSw&utm_medium=api&utm_source=1f93aaf4&v=D690F8087EE4B4D4AB253B35CEF4312B424D98E1"
     },
     {
       "company": "ACL Digital",
       "domain": "VLSI",
       "title": "RTL FUSA Engineers",
-      "url": "https://www.adzuna.in/land/ad/5785794523?se=wn5cA6mG8RGlUrNxYc2GaA&utm_medium=api&utm_source=1f93aaf4&v=FB06D3321603474323EEAFB5DEBC5C96B3683C61"
+      "url": "https://www.adzuna.in/land/ad/5785794523?se=_O3v0LyG8RG9caUpA9fZSw&utm_medium=api&utm_source=1f93aaf4&v=FB06D3321603474323EEAFB5DEBC5C96B3683C61"
     },
     {
       "company": "PQAngels Technologies Pvt. Ltd",
@@ -1229,7 +1229,7 @@
       "company": "Newton School of Technology",
       "domain": "Software",
       "title": "Associate Professor - Computer Science",
-      "url": "https://www.adzuna.in/land/ad/5776258768?se=fozmDqmG8RG-gJlD41DMNg&utm_medium=api&utm_source=1f93aaf4&v=F7C2280E0BB0E2A729EC8ADC15BA4834F2E5C98D"
+      "url": "https://www.adzuna.in/land/ad/5776258768?se=XGWE3byG8RGlu8FcJJTwKw&utm_medium=api&utm_source=1f93aaf4&v=F7C2280E0BB0E2A729EC8ADC15BA4834F2E5C98D"
     },
     {
       "company": "Terralogic Software Solutions",
@@ -1260,12 +1260,6 @@
       "domain": "Software",
       "title": "Python Backend Developer Intern (FastAPI)",
       "url": "https://www.adzuna.in/details/5812187923?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Moody's",
-      "domain": "Software",
-      "title": "Software Engineer .NET Backend Developer",
-      "url": "https://www.adzuna.in/details/5785771327?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "NetApp",
@@ -1379,7 +1373,7 @@
       "company": "Accenture",
       "domain": "Software",
       "title": "Full Stack Engineer",
-      "url": "https://www.adzuna.in/details/5796211508?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5812528397?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "BNY Mellon",
@@ -1662,6 +1656,12 @@
       "domain": "Software",
       "title": "DevOps Engineer",
       "url": "https://www.adzuna.in/details/5794774163?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "SequoiaAT",
+      "domain": "Software",
+      "title": "DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5797508844?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
