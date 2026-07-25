@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T17:05:25.402190",
+  "last_updated": "2026-07-25T19:15:53.403741",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -164,6 +164,12 @@
       "url": "https://www.adzuna.in/details/5797384679?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Weekday AI",
+      "domain": "VLSI",
+      "title": "SoC Block Integration Engineer",
+      "url": "https://www.adzuna.in/details/5803358878?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Hewlett Packard Enterprise",
       "domain": "VLSI",
       "title": "ASIC Verification Engineer",
@@ -308,6 +314,12 @@
       "url": "https://www.adzuna.in/details/5787828556?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Renesas Electronics",
+      "domain": "VLSI",
+      "title": "Staff Digital Engineer (DFT Design)",
+      "url": "https://www.adzuna.in/details/5799017077?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "GlobalFoundries",
       "domain": "Software",
       "title": "Analog Mixed-Signal Verification Engineer",
@@ -320,12 +332,6 @@
       "url": "https://www.adzuna.in/details/5809894103?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Renesas Electronics",
-      "domain": "VLSI",
-      "title": "Staff Digital Engineer (DFT Design)",
-      "url": "https://www.adzuna.in/details/5799017077?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "NVIDIA",
       "domain": "Software",
       "title": "Verification Engineer, Performance",
@@ -336,12 +342,6 @@
       "domain": "Software",
       "title": "Engineer II Verification",
       "url": "https://www.adzuna.in/details/5784337449?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Weekday AI",
-      "domain": "VLSI",
-      "title": "SoC Block Integration Engineer",
-      "url": "https://www.adzuna.in/details/5803358878?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "NVIDIA",
@@ -740,12 +740,6 @@
       "url": "https://www.adzuna.in/details/5798266108?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "SolarEdge",
-      "domain": "Embedded",
-      "title": "Embedded Software Engineer",
-      "url": "https://www.adzuna.in/details/5815106681?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Phizenix",
       "domain": "Software",
       "title": "Post Silicon Validation Engineer",
@@ -762,6 +756,12 @@
       "domain": "Embedded",
       "title": "Software Development Intern Embedded QA Mangalore",
       "url": "https://www.adzuna.in/details/5808698574?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "SolarEdge",
+      "domain": "Embedded",
+      "title": "Embedded Software Engineer",
+      "url": "https://www.adzuna.in/details/5811383200?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "N Human Resources & Management Systems",
@@ -881,7 +881,7 @@
       "company": "ABB",
       "domain": "Software",
       "title": "Product Engineer",
-      "url": "https://www.adzuna.in/land/ad/5796513498?se=svvS-UqI8RGrg5YQe_eAEA&utm_medium=api&utm_source=1f93aaf4&v=87B9AAE3CB5249F45880E8CC5DEEB68D0CC21548"
+      "url": "https://www.adzuna.in/land/ad/5796513498?se=JjXkN12I8RG3tOkLR0Zx3w&utm_medium=api&utm_source=1f93aaf4&v=87B9AAE3CB5249F45880E8CC5DEEB68D0CC21548"
     },
     {
       "company": "Schneider Electric",
@@ -1253,7 +1253,7 @@
       "company": "Accenture",
       "domain": "Software",
       "title": "Full Stack Engineer",
-      "url": "https://www.adzuna.in/land/ad/5812528397?se=qMCOAEuI8RG3tOkLR0Zx3w&utm_medium=api&utm_source=1f93aaf4&v=AFFD0359BA7D71B42A92A128FD622F953FDC1960"
+      "url": "https://www.adzuna.in/land/ad/5812528397?se=rhV3PF2I8RGrg5YQe_eAEA&utm_medium=api&utm_source=1f93aaf4&v=AFFD0359BA7D71B42A92A128FD622F953FDC1960"
     },
     {
       "company": "NavGurukul",
@@ -1262,10 +1262,16 @@
       "url": "https://www.adzuna.in/details/5803870024?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Candescent",
+      "domain": "Software",
+      "title": "Software Engineer IV - Java Backend developer",
+      "url": "https://www.adzuna.in/details/5812848477?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Aristocrat",
       "domain": "Software",
       "title": "Sr Engineer II - Frontend Developer",
-      "url": "https://www.adzuna.in/land/ad/5796513497?se=yP2FAUuI8RGEopbyd0f8Hw&utm_medium=api&utm_source=1f93aaf4&v=2928623B9A78B08CE95E472D6EBD8C8E3B31ABAD"
+      "url": "https://www.adzuna.in/land/ad/5796513497?se=as0WPV2I8RG3tOkLR0Zx3w&utm_medium=api&utm_source=1f93aaf4&v=2928623B9A78B08CE95E472D6EBD8C8E3B31ABAD"
     },
     {
       "company": "Webkit24",
@@ -1355,25 +1361,19 @@
       "company": "Pfizer",
       "domain": "Software",
       "title": "DS & AI Full Stack Engineer",
-      "url": "https://www.adzuna.in/land/ad/5811159050?se=LBmMA0uI8RGEopbyd0f8Hw&utm_medium=api&utm_source=1f93aaf4&v=7DFD56B72967366FE9A1A88C97A3FC4E0933837B"
+      "url": "https://www.adzuna.in/land/ad/5811159050?se=AG6OPl2I8RG3tOkLR0Zx3w&utm_medium=api&utm_source=1f93aaf4&v=7DFD56B72967366FE9A1A88C97A3FC4E0933837B"
     },
     {
       "company": "MSD",
       "domain": "Software",
       "title": "Specialist Software Engineering, Full-Stack",
-      "url": "https://www.adzuna.in/land/ad/5809380584?se=LBmMA0uI8RGEopbyd0f8Hw&utm_medium=api&utm_source=1f93aaf4&v=07D97540F481E39755B39D15631F35B09B0FB94B"
+      "url": "https://www.adzuna.in/land/ad/5809380584?se=AG6OPl2I8RG3tOkLR0Zx3w&utm_medium=api&utm_source=1f93aaf4&v=07D97540F481E39755B39D15631F35B09B0FB94B"
     },
     {
       "company": "Weekday AI",
       "domain": "Software",
       "title": "Full stack Engineer",
       "url": "https://www.adzuna.in/details/5809537584?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Sparix Global.",
-      "domain": "Software",
-      "title": "Full Stack Engineer",
-      "url": "https://www.adzuna.in/details/5803520368?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "BNY Mellon",
@@ -1410,6 +1410,12 @@
       "domain": "Software",
       "title": "Full Stack Engineer",
       "url": "https://www.adzuna.in/details/5805335903?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "BNY Mellon International Operations India Private Limited",
+      "domain": "Software",
+      "title": "Full-Stack Engineer",
+      "url": "https://www.adzuna.in/details/5796402810?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Sia",
