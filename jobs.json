@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27T00:05:38.917544",
+  "last_updated": "2026-07-27T04:40:39.324156",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -356,16 +356,16 @@
       "url": "https://www.adzuna.in/details/5784337449?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Texas Instruments",
-      "domain": "VLSI",
-      "title": "Digital IC Design Engineer",
-      "url": "https://www.adzuna.in/details/5815842923?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Weekday AI",
       "domain": "VLSI",
       "title": "SoC Block Integration Engineer",
       "url": "https://www.adzuna.in/details/5803358878?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Texas Instruments",
+      "domain": "VLSI",
+      "title": "Digital IC Design Engineer",
+      "url": "https://www.adzuna.in/details/5815842923?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "NVIDIA",
@@ -845,19 +845,19 @@
       "company": "ABB",
       "domain": "Software",
       "title": "Product Engineer",
-      "url": "https://www.adzuna.in/land/ad/5796513498?se=JD4Iz06J8RGEopbyd0f8Hw&utm_medium=api&utm_source=1f93aaf4&v=87B9AAE3CB5249F45880E8CC5DEEB68D0CC21548"
-    },
-    {
-      "company": "Schneider Electric",
-      "domain": "Embedded",
-      "title": "Engineer II, Embedded Software Design",
-      "url": "https://www.adzuna.in/details/5806696178?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/land/ad/5796513498?se=RJy4R3WJ8RGrg5YQe_eAEA&utm_medium=api&utm_source=1f93aaf4&v=87B9AAE3CB5249F45880E8CC5DEEB68D0CC21548"
     },
     {
       "company": "VISIONTEK",
       "domain": "Embedded",
       "title": "Trainee/Assistant Engineer(Device Drivers) - R&D",
       "url": "https://www.adzuna.in/details/5811737163?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Vertiv Group",
+      "domain": "Software",
+      "title": "Electrical Engineer",
+      "url": "https://www.adzuna.in/details/5809892300?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "SequoiaAT",
@@ -1037,7 +1037,7 @@
       "company": "Renesas Electronics",
       "domain": "Embedded",
       "title": "Staff Application Engineer",
-      "url": "https://www.adzuna.in/details/5801250897?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5801250898?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Vinayak Outsourcing Works",
@@ -1211,7 +1211,7 @@
       "company": "Accenture",
       "domain": "Software",
       "title": "Full Stack Engineer",
-      "url": "https://www.adzuna.in/land/ad/5812528397?se=fIiW2k6J8RGEopbyd0f8Hw&utm_medium=api&utm_source=1f93aaf4&v=AFFD0359BA7D71B42A92A128FD622F953FDC1960"
+      "url": "https://www.adzuna.in/land/ad/5812528397?se=pm7uS3WJ8RGrg5YQe_eAEA&utm_medium=api&utm_source=1f93aaf4&v=AFFD0359BA7D71B42A92A128FD622F953FDC1960"
     },
     {
       "company": "NavGurukul",
@@ -1235,7 +1235,7 @@
       "company": "Aristocrat",
       "domain": "Software",
       "title": "Sr Engineer II - Frontend Developer",
-      "url": "https://www.adzuna.in/land/ad/5796513497?se=_LI13E6J8RG3tOkLR0Zx3w&utm_medium=api&utm_source=1f93aaf4&v=2928623B9A78B08CE95E472D6EBD8C8E3B31ABAD"
+      "url": "https://www.adzuna.in/land/ad/5796513497?se=ammTTHWJ8RGEopbyd0f8Hw&utm_medium=api&utm_source=1f93aaf4&v=2928623B9A78B08CE95E472D6EBD8C8E3B31ABAD"
     },
     {
       "company": "Test",
@@ -1322,16 +1322,22 @@
       "url": "https://www.adzuna.in/details/5815987791?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "BU Consultants",
+      "domain": "VLSI",
+      "title": "Frontend Engineer",
+      "url": "https://www.adzuna.in/details/5782656639?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Pfizer",
       "domain": "Software",
       "title": "DS & AI Full Stack Engineer",
-      "url": "https://www.adzuna.in/land/ad/5811159050?se=tFrD306J8RGEopbyd0f8Hw&utm_medium=api&utm_source=1f93aaf4&v=7DFD56B72967366FE9A1A88C97A3FC4E0933837B"
+      "url": "https://www.adzuna.in/land/ad/5811159050?se=LFQrTnWJ8RG3tOkLR0Zx3w&utm_medium=api&utm_source=1f93aaf4&v=7DFD56B72967366FE9A1A88C97A3FC4E0933837B"
     },
     {
       "company": "MSD",
       "domain": "Software",
       "title": "Specialist Software Engineering, Full-Stack",
-      "url": "https://www.adzuna.in/land/ad/5809380584?se=tFrD306J8RGEopbyd0f8Hw&utm_medium=api&utm_source=1f93aaf4&v=07D97540F481E39755B39D15631F35B09B0FB94B"
+      "url": "https://www.adzuna.in/land/ad/5809380584?se=LFQrTnWJ8RG3tOkLR0Zx3w&utm_medium=api&utm_source=1f93aaf4&v=07D97540F481E39755B39D15631F35B09B0FB94B"
     },
     {
       "company": "Weekday AI",
@@ -1343,7 +1349,7 @@
       "company": "Scout Incorporation",
       "domain": "Software",
       "title": "Full Stack Engineer",
-      "url": "https://www.adzuna.in/details/5816029386?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5816994910?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "BNY Mellon",
@@ -1391,7 +1397,7 @@
       "company": "RWS",
       "domain": "Software",
       "title": "DevOps Engineer (Azure)",
-      "url": "https://www.adzuna.in/land/ad/5790410144?se=XJPa4k6J8RGTnfXCZobDwA&utm_medium=api&utm_source=1f93aaf4&v=3DCCB88E3C5FA2977081BB057B6A4E8604E36976"
+      "url": "https://www.adzuna.in/land/ad/5790410144?se=jkCkT3WJ8RGEopbyd0f8Hw&utm_medium=api&utm_source=1f93aaf4&v=3DCCB88E3C5FA2977081BB057B6A4E8604E36976"
     },
     {
       "company": "Sia",
@@ -1526,16 +1532,16 @@
       "url": "https://www.adzuna.in/details/5814433620?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Rysun Labs Pvt Ltd",
-      "domain": "Software",
-      "title": "DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5781767219?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Acceldata",
       "domain": "Software",
       "title": "DevOps Engineer",
       "url": "https://www.adzuna.in/details/5816842844?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Rysun Labs Pvt Ltd",
+      "domain": "Software",
+      "title": "DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5781767219?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "3Clogic",
