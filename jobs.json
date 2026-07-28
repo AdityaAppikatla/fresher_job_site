@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28T02:54:22.987794",
+  "last_updated": "2026-07-28T05:52:35.591929",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -188,6 +188,12 @@
       "url": "https://www.adzuna.in/details/5797384679?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Weekday AI",
+      "domain": "VLSI",
+      "title": "SoC Block Integration Engineer",
+      "url": "https://www.adzuna.in/details/5803358878?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Hewlett Packard Enterprise",
       "domain": "VLSI",
       "title": "ASIC Verification Engineer",
@@ -324,12 +330,6 @@
       "domain": "Software",
       "title": "Mixed Signal Logic Design Engineer",
       "url": "https://www.adzuna.in/details/5803878212?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Weekday AI",
-      "domain": "VLSI",
-      "title": "SoC Block Integration Engineer",
-      "url": "https://www.adzuna.in/details/5803358878?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Renesas Electronics",
@@ -851,7 +851,7 @@
       "company": "ABB",
       "domain": "Software",
       "title": "Product Engineer",
-      "url": "https://www.adzuna.in/land/ad/5796513498?se=OEaPmi-K8RGUBPgfNc56Mg&utm_medium=api&utm_source=1f93aaf4&v=87B9AAE3CB5249F45880E8CC5DEEB68D0CC21548"
+      "url": "https://www.adzuna.in/land/ad/5796513498?se=wC8kgEiK8RGN7I8SJbKJfQ&utm_medium=api&utm_source=1f93aaf4&v=87B9AAE3CB5249F45880E8CC5DEEB68D0CC21548"
     },
     {
       "company": "VISIONTEK",
@@ -1043,7 +1043,7 @@
       "company": "Renesas Electronics",
       "domain": "Embedded",
       "title": "Staff Application Engineer",
-      "url": "https://www.adzuna.in/details/5801250897?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5801250898?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Vinayak Outsourcing Works",
@@ -1217,7 +1217,7 @@
       "company": "Accenture",
       "domain": "Software",
       "title": "Full Stack Engineer",
-      "url": "https://www.adzuna.in/land/ad/5812528397?se=aFVvni-K8RG1d7LYFOmBDw&utm_medium=api&utm_source=1f93aaf4&v=AFFD0359BA7D71B42A92A128FD622F953FDC1960"
+      "url": "https://www.adzuna.in/land/ad/5812528397?se=AoUahEiK8RG15qh8e_qqzQ&utm_medium=api&utm_source=1f93aaf4&v=AFFD0359BA7D71B42A92A128FD622F953FDC1960"
     },
     {
       "company": "NavGurukul",
@@ -1241,7 +1241,7 @@
       "company": "Aristocrat",
       "domain": "Software",
       "title": "Sr Engineer II - Frontend Developer",
-      "url": "https://www.adzuna.in/land/ad/5796513497?se=OPcany-K8RG1d7LYFOmBDw&utm_medium=api&utm_source=1f93aaf4&v=2928623B9A78B08CE95E472D6EBD8C8E3B31ABAD"
+      "url": "https://www.adzuna.in/land/ad/5796513497?se=2HvAhEiK8RG15qh8e_qqzQ&utm_medium=api&utm_source=1f93aaf4&v=2928623B9A78B08CE95E472D6EBD8C8E3B31ABAD"
     },
     {
       "company": "Startiqos Ai system pvt ltd",
@@ -1343,7 +1343,7 @@
       "company": "Pfizer",
       "domain": "Software",
       "title": "DS & AI Full Stack Engineer",
-      "url": "https://www.adzuna.in/land/ad/5811159050?se=xI1qoC-K8RGhc8VmICvpmw&utm_medium=api&utm_source=1f93aaf4&v=7DFD56B72967366FE9A1A88C97A3FC4E0933837B"
+      "url": "https://www.adzuna.in/land/ad/5811159050?se=hIcghkiK8RG1d7LYFOmBDw&utm_medium=api&utm_source=1f93aaf4&v=7DFD56B72967366FE9A1A88C97A3FC4E0933837B"
     },
     {
       "company": "Weekday AI",
@@ -1403,7 +1403,7 @@
       "company": "RWS",
       "domain": "Software",
       "title": "DevOps Engineer (Azure)",
-      "url": "https://www.adzuna.in/land/ad/5790410144?se=EkC5oS-K8RGUBPgfNc56Mg&utm_medium=api&utm_source=1f93aaf4&v=3DCCB88E3C5FA2977081BB057B6A4E8604E36976"
+      "url": "https://www.adzuna.in/land/ad/5790410144?se=-j5qh0iK8RGXg4cXG4EfVw&utm_medium=api&utm_source=1f93aaf4&v=3DCCB88E3C5FA2977081BB057B6A4E8604E36976"
     },
     {
       "company": "Sia",
