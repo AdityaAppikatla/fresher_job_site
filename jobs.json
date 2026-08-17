@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T21:30:55.274884",
+  "last_updated": "2026-08-17T22:29:38.497857",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -23,13 +23,13 @@
       "company": "HCLTech",
       "domain": "VLSI",
       "title": "RTL Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5809581022?se=tM4IyIKa8RGoq93y-acWwA&utm_medium=api&utm_source=1f93aaf4&v=BE7DF6E26C827E2C351C733296EA4AA7C18DF5D5"
+      "url": "https://www.adzuna.in/land/ad/5809581022?se=XsnKCIua8RGyIdVC-Du-Yg&utm_medium=api&utm_source=1f93aaf4&v=BE7DF6E26C827E2C351C733296EA4AA7C18DF5D5"
     },
     {
       "company": "SEMIFIVE",
       "domain": "Software",
       "title": "IR/EM Low Power Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5829374200?se=tM4IyIKa8RGoq93y-acWwA&utm_medium=api&utm_source=1f93aaf4&v=BED28D67876FA77AE7BCC1D297D992243B429B18"
+      "url": "https://www.adzuna.in/land/ad/5829374200?se=XsnKCIua8RGyIdVC-Du-Yg&utm_medium=api&utm_source=1f93aaf4&v=BED28D67876FA77AE7BCC1D297D992243B429B18"
     },
     {
       "company": "Phizenix",
@@ -204,12 +204,6 @@
       "domain": "Software",
       "title": "Technical Staff - Test Engineering",
       "url": "https://www.adzuna.in/details/5834760215?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "TYLsemi",
-      "domain": "VLSI",
-      "title": "Staff Physical Design Engineer",
-      "url": "https://www.adzuna.in/details/5833583489?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Hewlett Packard Enterprise",
@@ -558,6 +552,12 @@
       "domain": "VLSI",
       "title": "Physical Design Engineer",
       "url": "https://www.adzuna.in/details/5819877613?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "TYLsemi",
+      "domain": "VLSI",
+      "title": "Staff Physical Design Engineer",
+      "url": "https://www.adzuna.in/details/5833583489?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Intel",
@@ -1304,12 +1304,6 @@
       "url": "https://www.adzuna.in/details/5842741215?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "MTAB Technology Center P Ltd",
-      "domain": "Software",
-      "title": "Backend Developer - Intern",
-      "url": "https://www.adzuna.in/details/5841852915?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Cynbit Technologies",
       "domain": "Software",
       "title": "Backend Developer Intern",
@@ -1349,7 +1343,7 @@
       "company": "Kyndryl",
       "domain": "Software",
       "title": "Software Engineer - Microsoft Power Platform Developer",
-      "url": "https://www.adzuna.in/land/ad/5841509246?se=oL645oKa8RGyIdVC-Du-Yg&utm_medium=api&utm_source=1f93aaf4&v=77A93A263198B258FF86EBD054D2013BF2EF8C57"
+      "url": "https://www.adzuna.in/land/ad/5841509246?se=VrH1G4ua8RGOSIg9zE2Xbg&utm_medium=api&utm_source=1f93aaf4&v=77A93A263198B258FF86EBD054D2013BF2EF8C57"
     },
     {
       "company": "PricewaterhouseCoopers",
@@ -1481,7 +1475,7 @@
       "company": "Coca-Cola",
       "domain": "Software",
       "title": "Full Stack Engineer, INSWA",
-      "url": "https://www.adzuna.in/land/ad/5832204973?se=nHSz6YKa8RGVcZyokYtSjw&utm_medium=api&utm_source=1f93aaf4&v=F9EEAD7386101A2931165E2E4328146692789932"
+      "url": "https://www.adzuna.in/land/ad/5832204973?se=BOe0Houa8RGoq93y-acWwA&utm_medium=api&utm_source=1f93aaf4&v=F9EEAD7386101A2931165E2E4328146692789932"
     },
     {
       "company": "Taylor and Francis",
@@ -1613,7 +1607,7 @@
       "company": "Tata Consultancy Services",
       "domain": "Software",
       "title": "Product Engineer",
-      "url": "https://www.adzuna.in/land/ad/5835869813?se=KqTQ64Ka8RGOSIg9zE2Xbg&utm_medium=api&utm_source=1f93aaf4&v=5005836E85D3C45D220CABEE5C943CAFECF93EFE"
+      "url": "https://www.adzuna.in/land/ad/5835869813?se=eNVuIIua8RGB8rnM-OiTpQ&utm_medium=api&utm_source=1f93aaf4&v=5005836E85D3C45D220CABEE5C943CAFECF93EFE"
     },
     {
       "company": "Jungleworks",
