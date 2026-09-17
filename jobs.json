@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17T20:06:48.748183",
+  "last_updated": "2026-09-17T23:27:46.344802",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -23,13 +23,13 @@
       "company": "ACL Digital",
       "domain": "VLSI",
       "title": "PD EMIR Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864440247?se=OKrBGdOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=335869103DC53E926A6CE8FCA9E12BDADFCF9988"
+      "url": "https://www.adzuna.in/land/ad/5864440247?se=-GhrTe-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=335869103DC53E926A6CE8FCA9E12BDADFCF9988"
     },
     {
       "company": "HCLTech",
       "domain": "VLSI",
       "title": "RTL Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5867716677?se=OKrBGdOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=8A4876E9CC1C9F07906A596D4C98A58C39231865"
+      "url": "https://www.adzuna.in/land/ad/5867716677?se=-GhrTe-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=8A4876E9CC1C9F07906A596D4C98A58C39231865"
     },
     {
       "company": "Meta Platform",
@@ -53,7 +53,7 @@
       "company": "ACL Digital",
       "domain": "VLSI",
       "title": "DFT Engineer",
-      "url": "https://www.adzuna.in/land/ad/5884159286?se=OKrBGdOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=A176BADAD57A86E157466C52972F80E80887EEB3"
+      "url": "https://www.adzuna.in/land/ad/5884159286?se=-GhrTe-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=A176BADAD57A86E157466C52972F80E80887EEB3"
     },
     {
       "company": "NVIDIA",
@@ -65,7 +65,7 @@
       "company": "Mirafra Technologies",
       "domain": "VLSI",
       "title": "PD Engineer-Noida",
-      "url": "https://www.adzuna.in/land/ad/5865288521?se=OKrBGdOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=605865B8ADF5222AA7DA72EF4EBCAC7DC1FACFD5"
+      "url": "https://www.adzuna.in/land/ad/5865288521?se=-GhrTe-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=605865B8ADF5222AA7DA72EF4EBCAC7DC1FACFD5"
     },
     {
       "company": "Meta Platforms",
@@ -326,52 +326,58 @@
       "url": "https://www.adzuna.in/details/5870772563?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "PQAngels Technologies Pvt. Ltd",
+      "domain": "VLSI",
+      "title": "Design Verification Engineer",
+      "url": "https://www.adzuna.in/details/5869962323?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "L&T Technology Services",
       "domain": "VLSI",
       "title": "FPGA / RTL Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5880950169?se=-uN6I9Oy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=77344E7B0ED9958B2A7EE8EA8E8338B6422ADFE2"
+      "url": "https://www.adzuna.in/land/ad/5880950169?se=mr1EUO-y8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=77344E7B0ED9958B2A7EE8EA8E8338B6422ADFE2"
     },
     {
       "company": "SmartSoC Solutions Pvt Ltd",
       "domain": "VLSI",
       "title": "CPU-RTL design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864439238?se=-uN6I9Oy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=90877399315A6F3642CC8DE19D9F45A106823105"
+      "url": "https://www.adzuna.in/land/ad/5864439238?se=mr1EUO-y8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=90877399315A6F3642CC8DE19D9F45A106823105"
     },
     {
       "company": "L&T Technology Services",
       "domain": "VLSI",
       "title": "CPU RTL Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864424520?se=-uN6I9Oy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=647CBCC6BCB9ADB7861C83509609F907D2EAF17D"
+      "url": "https://www.adzuna.in/land/ad/5864424520?se=mr1EUO-y8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=647CBCC6BCB9ADB7861C83509609F907D2EAF17D"
     },
     {
       "company": "ACL Digital",
       "domain": "VLSI",
       "title": "FPGA Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864427437?se=-uN6I9Oy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=7DB13B0BE7B9A4BDCF19DA7FC51F790ECECA7158"
+      "url": "https://www.adzuna.in/land/ad/5864427437?se=mr1EUO-y8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=7DB13B0BE7B9A4BDCF19DA7FC51F790ECECA7158"
     },
     {
       "company": "7Rays Semiconductors",
       "domain": "VLSI",
       "title": "STA (Static Timing Analysis) and Synthesis Engineer",
-      "url": "https://www.adzuna.in/land/ad/5880064452?se=-uN6I9Oy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=E874314052E721F4F082968851D9EB0FA2DE5A39"
+      "url": "https://www.adzuna.in/land/ad/5880064452?se=mr1EUO-y8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=E874314052E721F4F082968851D9EB0FA2DE5A39"
     },
     {
       "company": "NXP Semiconductors",
       "domain": "VLSI",
       "title": "Staff Digital Design Engineers",
-      "url": "https://www.adzuna.in/land/ad/5865295233?se=-uN6I9Oy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=760733854AAE19F658888371B8F3D4578839A531"
+      "url": "https://www.adzuna.in/land/ad/5865295233?se=mr1EUO-y8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=760733854AAE19F658888371B8F3D4578839A531"
     },
     {
       "company": "Mythic",
       "domain": "VLSI",
       "title": "Sr DFT Engineer",
-      "url": "https://www.adzuna.in/land/ad/5884159101?se=-uN6I9Oy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=6AD2C22D1E77B177AC08F0B0FBB432B4C258E2A1"
+      "url": "https://www.adzuna.in/land/ad/5884159101?se=mr1EUO-y8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=6AD2C22D1E77B177AC08F0B0FBB432B4C258E2A1"
     },
     {
       "company": "Confidential",
       "domain": "Software",
       "title": "AI Native UX Designer",
-      "url": "https://www.adzuna.in/land/ad/5879667241?se=-uN6I9Oy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=B449D0CC67D44BDC67576315E327047F1E3DC5E1"
+      "url": "https://www.adzuna.in/land/ad/5879667241?se=mr1EUO-y8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=B449D0CC67D44BDC67576315E327047F1E3DC5E1"
     },
     {
       "company": "PQAngels Technologies Pvt. Ltd",
@@ -419,31 +425,31 @@
       "company": "ACL Digital",
       "domain": "VLSI",
       "title": "Design Verification Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864423292?se=pDF0KNOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=8F7F183AB5CEC45EFB62E3A0D423BB7D323FD570"
+      "url": "https://www.adzuna.in/land/ad/5864423292?se=2Dx3Ue-y8RGch8oqFElw4A&utm_medium=api&utm_source=1f93aaf4&v=8F7F183AB5CEC45EFB62E3A0D423BB7D323FD570"
     },
     {
       "company": "Mirafra Technologies",
       "domain": "VLSI",
       "title": "FPGA Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864433941?se=pDF0KNOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=E7739887776326E5E93A4156195C1C1826A41948"
+      "url": "https://www.adzuna.in/land/ad/5864433941?se=2Dx3Ue-y8RGch8oqFElw4A&utm_medium=api&utm_source=1f93aaf4&v=E7739887776326E5E93A4156195C1C1826A41948"
     },
     {
       "company": "Baya Systems",
       "domain": "Software",
       "title": "NoC Hardware Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864435994?se=pDF0KNOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=C285A5069E8985983E70BF696555C7878D564E0D"
+      "url": "https://www.adzuna.in/land/ad/5864435994?se=2Dx3Ue-y8RGch8oqFElw4A&utm_medium=api&utm_source=1f93aaf4&v=C285A5069E8985983E70BF696555C7878D564E0D"
     },
     {
       "company": "Amlogic, Inc.",
       "domain": "Software",
       "title": "SoC Front-End Design & Signoff Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864427778?se=pDF0KNOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=5BC1AB193522098002E6F7C4BE3AC8A23EC2D446"
+      "url": "https://www.adzuna.in/land/ad/5864427778?se=2Dx3Ue-y8RGch8oqFElw4A&utm_medium=api&utm_source=1f93aaf4&v=5BC1AB193522098002E6F7C4BE3AC8A23EC2D446"
     },
     {
       "company": "Skyroot Aerospace",
       "domain": "VLSI",
       "title": "Embedded Hardware Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5871991155?se=ZEO5KtOy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=62B1A54603129C39E606CEF13B38A0E8CD626EE0"
+      "url": "https://www.adzuna.in/land/ad/5871991155?se=1Hg-Uu-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=62B1A54603129C39E606CEF13B38A0E8CD626EE0"
     },
     {
       "company": "Aritha",
@@ -500,10 +506,10 @@
       "url": "https://www.adzuna.in/details/5885446719?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "PQAngels Technologies Pvt. Ltd",
-      "domain": "VLSI",
-      "title": "Design Verification Engineer",
-      "url": "https://www.adzuna.in/details/5869962323?utm_medium=api&utm_source=1f93aaf4"
+      "company": "Siemens EDA ",
+      "domain": "Software",
+      "title": "R&D Software Engineer (C++)",
+      "url": "https://www.adzuna.in/details/5856679129?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Renesas",
@@ -701,7 +707,7 @@
       "company": "Meril",
       "domain": "Software",
       "title": "Robotics Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864421971?se=3BYHMtOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=A38418BF29C0756E02D3AA62FEE87AF2E1225693"
+      "url": "https://www.adzuna.in/land/ad/5864421971?se=DpxWVe-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=A38418BF29C0756E02D3AA62FEE87AF2E1225693"
     },
     {
       "company": "Kla",
@@ -923,25 +929,25 @@
       "company": "Thermo Fisher Scientific",
       "domain": "Embedded",
       "title": "Engineer III, Firmware",
-      "url": "https://www.adzuna.in/land/ad/5886486648?se=OkgWOdOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=E80383ED1F857AA139F70D005F788C21E8712C78"
+      "url": "https://www.adzuna.in/land/ad/5886486648?se=OEWeWO-y8RGch8oqFElw4A&utm_medium=api&utm_source=1f93aaf4&v=E80383ED1F857AA139F70D005F788C21E8712C78"
     },
     {
       "company": "Thermo Fisher Scientific",
       "domain": "Software",
       "title": "Engineer III, Electrical",
-      "url": "https://www.adzuna.in/land/ad/5886487582?se=OkgWOdOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=8473D516175973DFEBE49D37700E2F89B4B048E3"
+      "url": "https://www.adzuna.in/land/ad/5886487582?se=OEWeWO-y8RGch8oqFElw4A&utm_medium=api&utm_source=1f93aaf4&v=8473D516175973DFEBE49D37700E2F89B4B048E3"
     },
     {
       "company": "Thakral One",
       "domain": "Embedded",
       "title": "S/W Engineer \u2013 Linux BSP (India)",
-      "url": "https://www.adzuna.in/land/ad/5864434727?se=OkgWOdOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=2ACC9162A94919C32A7E33871CC6565D5163138F"
+      "url": "https://www.adzuna.in/land/ad/5864434727?se=OEWeWO-y8RGch8oqFElw4A&utm_medium=api&utm_source=1f93aaf4&v=2ACC9162A94919C32A7E33871CC6565D5163138F"
     },
     {
       "company": "ABB",
       "domain": "Embedded",
       "title": "Embedded Engineer Software Development",
-      "url": "https://www.adzuna.in/land/ad/5878334285?se=OkgWOdOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=2477194F29ED0904540F1D58BBDFDBC7C7EB7E6E"
+      "url": "https://www.adzuna.in/land/ad/5878334285?se=OEWeWO-y8RGch8oqFElw4A&utm_medium=api&utm_source=1f93aaf4&v=2477194F29ED0904540F1D58BBDFDBC7C7EB7E6E"
     },
     {
       "company": "NXP Semiconductors",
@@ -953,13 +959,13 @@
       "company": "Nanoprecise Sci Corp",
       "domain": "Embedded",
       "title": "Security Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864432003?se=OkgWOdOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=DD7C1C6CA6E44DC76AAED808886B92C405261361"
+      "url": "https://www.adzuna.in/land/ad/5864432003?se=OEWeWO-y8RGch8oqFElw4A&utm_medium=api&utm_source=1f93aaf4&v=DD7C1C6CA6E44DC76AAED808886B92C405261361"
     },
     {
       "company": "Thermo Fisher Scientific",
       "domain": "Software",
       "title": "Engineer III \u2013 Control Software",
-      "url": "https://www.adzuna.in/land/ad/5886487645?se=OkgWOdOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=8139B0149F7C48ABF64F82E31C3D07B4E3EDC235"
+      "url": "https://www.adzuna.in/land/ad/5886487645?se=OEWeWO-y8RGch8oqFElw4A&utm_medium=api&utm_source=1f93aaf4&v=8139B0149F7C48ABF64F82E31C3D07B4E3EDC235"
     },
     {
       "company": "Pretlist",
@@ -977,7 +983,7 @@
       "company": "ABB",
       "domain": "Embedded",
       "title": "Embedded Testing Engineer",
-      "url": "https://www.adzuna.in/land/ad/5878335660?se=OkgWOdOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=8F404A6326D4711C2DF2CEDDEBD4E4D11022ECE4"
+      "url": "https://www.adzuna.in/land/ad/5878335660?se=OEWeWO-y8RGch8oqFElw4A&utm_medium=api&utm_source=1f93aaf4&v=8F404A6326D4711C2DF2CEDDEBD4E4D11022ECE4"
     },
     {
       "company": "Microchip",
@@ -1025,7 +1031,7 @@
       "company": "Antariksha Labs",
       "domain": "Embedded",
       "title": "Embedded Hardware Design Engineer \u2014 PCB, Analog & Sensor Systems",
-      "url": "https://www.adzuna.in/land/ad/5882595878?se=Kow6O9Oy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=D4521026430FAF2B7F90A6DEEF262F6501F0A7F3"
+      "url": "https://www.adzuna.in/land/ad/5882595878?se=coKjWe-y8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=D4521026430FAF2B7F90A6DEEF262F6501F0A7F3"
     },
     {
       "company": "TechBiz Global GmbH",
@@ -1100,16 +1106,10 @@
       "url": "https://www.adzuna.in/details/5864837639?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "DATOMS",
-      "domain": "Software",
-      "title": "IOT Solution Engineer",
-      "url": "https://www.adzuna.in/details/5871260128?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "KalKey",
       "domain": "Embedded",
       "title": "Internet of Things Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864439263?se=aM_BPNOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=55AB5A9E6A078870724C3778343D74232278B0BD"
+      "url": "https://www.adzuna.in/land/ad/5864439263?se=Yj9LWu-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=55AB5A9E6A078870724C3778343D74232278B0BD"
     },
     {
       "company": "Eaton Corporation",
@@ -1121,7 +1121,7 @@
       "company": "Thermo Fisher Scientific",
       "domain": "Software",
       "title": "Sr Staff Engineer, Electrical",
-      "url": "https://www.adzuna.in/land/ad/5886486766?se=aM_BPNOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=92A348B42A139356E826C9F01D7FF9EC5CA6FE76"
+      "url": "https://www.adzuna.in/land/ad/5886486766?se=Yj9LWu-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=92A348B42A139356E826C9F01D7FF9EC5CA6FE76"
     },
     {
       "company": "Meta Platform",
@@ -1175,19 +1175,19 @@
       "company": "L&T Technology Services",
       "domain": "Embedded",
       "title": "Linux Device Driver Development Engineer",
-      "url": "https://www.adzuna.in/land/ad/5869418279?se=Rsn_P9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=23CDA6B25F8E20FAAD83B1F599177FAD0B083F33"
+      "url": "https://www.adzuna.in/land/ad/5869418279?se=mFivW--y8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=23CDA6B25F8E20FAAD83B1F599177FAD0B083F33"
     },
     {
       "company": "BotLab Dynamics",
       "domain": "Embedded",
       "title": "Embedded Linux BSP Engineer",
-      "url": "https://www.adzuna.in/land/ad/5867035792?se=Rsn_P9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=BF5B85E29CD6D5B06B0CAE9D5777CF1CB8721B18"
+      "url": "https://www.adzuna.in/land/ad/5867035792?se=mFivW--y8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=BF5B85E29CD6D5B06B0CAE9D5777CF1CB8721B18"
     },
     {
       "company": "Cyfuture",
       "domain": "VLSI",
       "title": "Dekstop support Engineer",
-      "url": "https://www.adzuna.in/land/ad/5871991635?se=Rsn_P9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=91CDBFCB25FA845AE0FED0F982593BD01C242299"
+      "url": "https://www.adzuna.in/land/ad/5871991635?se=mFivW--y8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=91CDBFCB25FA845AE0FED0F982593BD01C242299"
     },
     {
       "company": "Renesas",
@@ -1241,145 +1241,145 @@
       "company": "BPM Microsystems",
       "domain": "Embedded",
       "title": "PCB Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5882597986?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=025691B6975E49CA33E5ACBC2D9C6A28D46F4C0E"
+      "url": "https://www.adzuna.in/land/ad/5882597986?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=025691B6975E49CA33E5ACBC2D9C6A28D46F4C0E"
     },
     {
       "company": "Sq.M Technologies",
       "domain": "Embedded",
       "title": "PCB Design Engineer - Allegro",
-      "url": "https://www.adzuna.in/land/ad/5884585553?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=6B8A2FFA9B2494BB6158CF7009CAE3D69E9C64F5"
+      "url": "https://www.adzuna.in/land/ad/5884585553?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=6B8A2FFA9B2494BB6158CF7009CAE3D69E9C64F5"
     },
     {
       "company": "TE Connectivity",
       "domain": "Embedded",
       "title": "MGR II R&D/PRODUCT DVL ENGINEERING - PCB DESIGN",
-      "url": "https://www.adzuna.in/land/ad/5887061086?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=8B74F048A2B0C04E2931BE5EBAE70CDA43656F15"
+      "url": "https://www.adzuna.in/land/ad/5887061086?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=8B74F048A2B0C04E2931BE5EBAE70CDA43656F15"
     },
     {
       "company": "TE Connectivity",
       "domain": "Embedded",
       "title": "MGR I R&D/PRODUCT DVL ENGINEERING - PCB DESIGN",
-      "url": "https://www.adzuna.in/land/ad/5887061699?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=B872FA2AE0A1C2C3278FE016A1BDF51BC9A203A8"
+      "url": "https://www.adzuna.in/land/ad/5887061699?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=B872FA2AE0A1C2C3278FE016A1BDF51BC9A203A8"
     },
     {
       "company": "BPM Microsystems",
       "domain": "Embedded",
       "title": "Printed Circuit Board Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864431752?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=8140FBBD816B97D11D4CB370B75C850CDB68BE6F"
+      "url": "https://www.adzuna.in/land/ad/5864431752?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=8140FBBD816B97D11D4CB370B75C850CDB68BE6F"
     },
     {
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "SR R&D/PRODUCT DVL ENGINEER",
-      "url": "https://www.adzuna.in/land/ad/5887061070?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=5A956CDBF03BCA446A2A2FFC29F1B7900F8096B2"
+      "url": "https://www.adzuna.in/land/ad/5887061070?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=5A956CDBF03BCA446A2A2FFC29F1B7900F8096B2"
     },
     {
       "company": "Univision Technology Solutions Pvt Ltd  )",
       "domain": "Embedded",
       "title": "Printed Circuit Board Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5872266346?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=299F6299F3A681AEC07F485F3885393901B622D4"
+      "url": "https://www.adzuna.in/land/ad/5872266346?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=299F6299F3A681AEC07F485F3885393901B622D4"
     },
     {
       "company": "Planet Material Labs",
       "domain": "Embedded",
       "title": "Power Electronics Hardware Engineer - Wind Turbine Controllers",
-      "url": "https://www.adzuna.in/land/ad/5876872401?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=A163BE5FC1629A93854A6C875115C3A28527A0E8"
+      "url": "https://www.adzuna.in/land/ad/5876872401?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=A163BE5FC1629A93854A6C875115C3A28527A0E8"
     },
     {
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "SR MGR R&D/PRODUCT DVL ENGINEERING",
-      "url": "https://www.adzuna.in/land/ad/5887061535?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=E5B6CBFDA96B61616542E3CF9B77B645A2750AE4"
+      "url": "https://www.adzuna.in/land/ad/5887061535?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=E5B6CBFDA96B61616542E3CF9B77B645A2750AE4"
     },
     {
       "company": "DWB Tech Solutions",
       "domain": "VLSI",
       "title": "Printed Circuit Board Design Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864433593?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=4DED15E15151891316C2006F5A24FB0AAC3BE8D8"
+      "url": "https://www.adzuna.in/land/ad/5864433593?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=4DED15E15151891316C2006F5A24FB0AAC3BE8D8"
     },
     {
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "STAFF SIGNAL INTEGRITY ENGINEER",
-      "url": "https://www.adzuna.in/land/ad/5887061732?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=FFFF7947D0ECDC01976DF96C729551660066C430"
+      "url": "https://www.adzuna.in/land/ad/5887061732?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=FFFF7947D0ECDC01976DF96C729551660066C430"
     },
     {
       "company": "BIBA Electronics Pvt Ltd",
       "domain": "Embedded",
       "title": "Embedded Electronics Hardware Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864424903?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=4DC5293601E4079362080EDFECC5C49A89B6C37E"
+      "url": "https://www.adzuna.in/land/ad/5864424903?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=4DC5293601E4079362080EDFECC5C49A89B6C37E"
     },
     {
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "STAFF R&D/PRODUCT DVL ENGINEER - Signal Integrity",
-      "url": "https://www.adzuna.in/land/ad/5887061702?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=4CF05290FA1A0598C13E2831BF21564A3A2659CC"
+      "url": "https://www.adzuna.in/land/ad/5887061702?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=4CF05290FA1A0598C13E2831BF21564A3A2659CC"
     },
     {
       "company": "TE Connectivity",
       "domain": "Embedded",
       "title": "MGR II R&D/PRODUCT DVL ENGINEERING - SI Simulation",
-      "url": "https://www.adzuna.in/land/ad/5887061109?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=39D711850A1E04201EDCE6064F9809561503CFF2"
+      "url": "https://www.adzuna.in/land/ad/5887061109?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=39D711850A1E04201EDCE6064F9809561503CFF2"
     },
     {
       "company": "Nexteer Automotive - India Technical Center",
       "domain": "Software",
       "title": "Electrical Hardware Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864435795?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=C68A5A5B8BC053CB82F2C083B99D43DF7746C6E5"
+      "url": "https://www.adzuna.in/land/ad/5864435795?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=C68A5A5B8BC053CB82F2C083B99D43DF7746C6E5"
     },
     {
       "company": "TE Connectivity",
       "domain": "Embedded",
       "title": "STAFF - PCB Simulation Engineer",
-      "url": "https://www.adzuna.in/land/ad/5887061025?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=BCF2F45D2FEFEF699194C5F06B3FB34FEA606C63"
+      "url": "https://www.adzuna.in/land/ad/5887061025?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=BCF2F45D2FEFEF699194C5F06B3FB34FEA606C63"
     },
     {
       "company": "Meril",
       "domain": "Embedded",
       "title": "Endoscopy Hardware Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864422016?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=3DF840407245274E699BCF37FAFBED1883CDF2C8"
+      "url": "https://www.adzuna.in/land/ad/5864422016?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=3DF840407245274E699BCF37FAFBED1883CDF2C8"
     },
     {
       "company": "HCLTech",
       "domain": "Software",
       "title": "HCL WalkIN for Hardware design Engineers on 29th August in Chennai",
-      "url": "https://www.adzuna.in/land/ad/5864439051?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=718E83E2A831518445E31B32A29E190DADFD02A7"
+      "url": "https://www.adzuna.in/land/ad/5864439051?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=718E83E2A831518445E31B32A29E190DADFD02A7"
     },
     {
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "MGR II R&D/PRODUCT DVL ENGINEERING",
-      "url": "https://www.adzuna.in/land/ad/5887061736?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=1DBDC0F724B227C581575DA8781BE5720B8FFE1D"
+      "url": "https://www.adzuna.in/land/ad/5887061736?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=1DBDC0F724B227C581575DA8781BE5720B8FFE1D"
     },
     {
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "STAFF R&D/PRODUCT DVL ENGINEER Signal Integrity",
-      "url": "https://www.adzuna.in/land/ad/5887061042?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=56029E2D7B91A00A83E42B3E8F7133A786565E56"
+      "url": "https://www.adzuna.in/land/ad/5887061042?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=56029E2D7B91A00A83E42B3E8F7133A786565E56"
     },
     {
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "R&D/PRODUCT DVL ENGINEER II",
-      "url": "https://www.adzuna.in/land/ad/5887061113?se=6n5SQ9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=6DD32ECC946FDACA561F910A39F56A3CD27B20A2"
+      "url": "https://www.adzuna.in/land/ad/5887061113?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=6DD32ECC946FDACA561F910A39F56A3CD27B20A2"
     },
     {
       "company": "Taggd",
       "domain": "Software",
       "title": "Engineer - Hardware (Battery Management System)",
-      "url": "https://www.adzuna.in/land/ad/5868794710?se=ji0_RdOy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=32B27BF61C2F6A9902FB197A71DB60C9FE4F9971"
+      "url": "https://www.adzuna.in/land/ad/5868794710?se=oN_2XO-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=32B27BF61C2F6A9902FB197A71DB60C9FE4F9971"
     },
     {
       "company": "Thermo Fisher Scientific",
       "domain": "Software",
       "title": "Electrical Engineer III",
-      "url": "https://www.adzuna.in/land/ad/5886486739?se=ji0_RdOy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=FF684616A542EC088358F6557CA353F4892EE5EC"
+      "url": "https://www.adzuna.in/land/ad/5886486739?se=rNGiXe-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=FF684616A542EC088358F6557CA353F4892EE5EC"
     },
     {
       "company": "TE Connectivity",
       "domain": "Embedded",
       "title": "R&D/PRODUCT DVL ENGINEER I",
-      "url": "https://www.adzuna.in/land/ad/5887061460?se=ji0_RdOy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=54D42FD28FC34CF9BD64D240053DE5F6E6DBACD3"
+      "url": "https://www.adzuna.in/land/ad/5887061460?se=rNGiXe-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=54D42FD28FC34CF9BD64D240053DE5F6E6DBACD3"
     },
     {
       "company": "Real Placements",
@@ -1391,13 +1391,13 @@
       "company": "Azista Space",
       "domain": "Software",
       "title": "HARDWARE DESIGN ENGINEER",
-      "url": "https://www.adzuna.in/land/ad/5864427953?se=ji0_RdOy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=81BE7F9DB3FBDA767A3E0786D969BAA2DC98CE4A"
+      "url": "https://www.adzuna.in/land/ad/5864427953?se=rNGiXe-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=81BE7F9DB3FBDA767A3E0786D969BAA2DC98CE4A"
     },
     {
       "company": "Adam Tech",
       "domain": "Software",
       "title": "Design Solutions Engineer",
-      "url": "https://www.adzuna.in/land/ad/5846300462?se=ji0_RdOy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=FB02E9164EC855BAD71871FDD06648393C51D3FD"
+      "url": "https://www.adzuna.in/land/ad/5846300462?se=rNGiXe-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=FB02E9164EC855BAD71871FDD06648393C51D3FD"
     },
     {
       "company": "Aptiv",
@@ -1439,109 +1439,103 @@
       "company": "iThink Digital",
       "domain": "Software",
       "title": "Junior Backend Developer",
-      "url": "https://www.adzuna.in/land/ad/5882587620?se=iP-oRtOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=0443499115DC4D87EC5E3D98D2B2E8767B41CE33"
+      "url": "https://www.adzuna.in/land/ad/5882587620?se=0BRUXu-y8RGhP6hnMIx_gw&utm_medium=api&utm_source=1f93aaf4&v=0443499115DC4D87EC5E3D98D2B2E8767B41CE33"
     },
     {
       "company": "Capco",
       "domain": "Software",
       "title": "Python Data Engineers",
-      "url": "https://www.adzuna.in/land/ad/5885147301?se=unH0R9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=278209AD9FDDD4753A3DEBFADF100505E6E9923A"
+      "url": "https://www.adzuna.in/land/ad/5885147301?se=ML7vXu-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=278209AD9FDDD4753A3DEBFADF100505E6E9923A"
     },
     {
       "company": "BCI~IT",
       "domain": "Software",
       "title": "Python Backend Consultant (Data Engineering & Data Pipelines)",
-      "url": "https://www.adzuna.in/land/ad/5886606023?se=unH0R9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=D2DE91EF5223D749A168D2AF2E4BDF8F573DA903"
+      "url": "https://www.adzuna.in/land/ad/5886606023?se=ML7vXu-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=D2DE91EF5223D749A168D2AF2E4BDF8F573DA903"
     },
     {
       "company": "Office Beacon ASPL",
       "domain": "Software",
       "title": "Junior Backend Node.js Engineer",
-      "url": "https://www.adzuna.in/land/ad/5876871730?se=unH0R9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=BB74A5528150C79154D82CE30A5F79272884FD97"
+      "url": "https://www.adzuna.in/land/ad/5876871730?se=ML7vXu-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=BB74A5528150C79154D82CE30A5F79272884FD97"
     },
     {
       "company": "Zango",
       "domain": "Software",
       "title": "Founding Engineer (AI, Backend)",
-      "url": "https://www.adzuna.in/land/ad/5864427528?se=unH0R9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=FFCC89BC9DB7CA43E737C5C92CF02FBBBF8FD73D"
+      "url": "https://www.adzuna.in/land/ad/5864427528?se=ML7vXu-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=FFCC89BC9DB7CA43E737C5C92CF02FBBBF8FD73D"
     },
     {
       "company": "Implere Technologies Pvt Ltd",
       "domain": "Software",
       "title": "Backend Engineer \u2013 Python, FastAPI & PostgreSQL",
-      "url": "https://www.adzuna.in/land/ad/5876870694?se=unH0R9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=2C6A5139003263330A26EAE625CB798BBBB0C2D0"
+      "url": "https://www.adzuna.in/land/ad/5876870694?se=ML7vXu-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=2C6A5139003263330A26EAE625CB798BBBB0C2D0"
     },
     {
       "company": "ALLSTARSIT",
       "domain": "Software",
       "title": "Back End Engineer",
-      "url": "https://www.adzuna.in/land/ad/5886096301?se=unH0R9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=3874D35FE6660667627EE47B28728C86F02D23F6"
+      "url": "https://www.adzuna.in/land/ad/5886096301?se=ML7vXu-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=3874D35FE6660667627EE47B28728C86F02D23F6"
     },
     {
       "company": "Gleantap",
       "domain": "Software",
       "title": "AI Backend Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864437651?se=unH0R9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=C11E53B06BDFB094A406F0BCAF309F41BA9A19B7"
+      "url": "https://www.adzuna.in/land/ad/5864437651?se=ML7vXu-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=C11E53B06BDFB094A406F0BCAF309F41BA9A19B7"
     },
     {
       "company": "Zepcruit",
       "domain": "Software",
       "title": "Frontend Intern",
-      "url": "https://www.adzuna.in/land/ad/5867270081?se=unH0R9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=1FA98E3D2F3F34BB9E3B84A1CAC277F0F6B756C6"
+      "url": "https://www.adzuna.in/land/ad/5867270081?se=ML7vXu-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=1FA98E3D2F3F34BB9E3B84A1CAC277F0F6B756C6"
     },
     {
       "company": "Palo Alto Networks",
       "domain": "Software",
       "title": "Sr Staff Engineer \u2013 Backend & Security Data Infrastructure (Contractor)",
-      "url": "https://www.adzuna.in/land/ad/5864439228?se=unH0R9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=0DA69819AA3EA93F3D49E8726D978CAD18185F5F"
+      "url": "https://www.adzuna.in/land/ad/5864439228?se=ML7vXu-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=0DA69819AA3EA93F3D49E8726D978CAD18185F5F"
     },
     {
       "company": "Arcana",
       "domain": "Software",
       "title": "Software Engineer Backend (SDE 2)",
-      "url": "https://www.adzuna.in/land/ad/5864443104?se=unH0R9Oy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=99BF0FDEB61239C831193238DF10CEA9F1BC9309"
-    },
-    {
-      "company": "Black Box",
-      "domain": "Software",
-      "title": "Frontend Developer",
-      "url": "https://www.adzuna.in/land/ad/5871992187?se=dB1RSdOy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=888B82B96E9276274E747AEE0E0D0BE2189BB0C6"
+      "url": "https://www.adzuna.in/land/ad/5864443104?se=ML7vXu-y8RGMn4vpK9YMgQ&utm_medium=api&utm_source=1f93aaf4&v=99BF0FDEB61239C831193238DF10CEA9F1BC9309"
     },
     {
       "company": "UPJOB",
       "domain": "VLSI",
       "title": "Frontend Developer",
-      "url": "https://www.adzuna.in/land/ad/5876869784?se=dB1RSdOy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=52940FF10ADF386E3FB39E9D09F5639318282B0A"
+      "url": "https://www.adzuna.in/land/ad/5876869784?se=IOfBX--y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=52940FF10ADF386E3FB39E9D09F5639318282B0A"
     },
     {
       "company": "Anslation",
       "domain": "Software",
       "title": "Tech Interns",
-      "url": "https://www.adzuna.in/land/ad/5869558475?se=dB1RSdOy8RG-HvXocs6iYQ&utm_medium=api&utm_source=1f93aaf4&v=C7381EA9C5164B025C82200439F5FDB2125742C0"
+      "url": "https://www.adzuna.in/land/ad/5869558475?se=IOfBX--y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=C7381EA9C5164B025C82200439F5FDB2125742C0"
     },
     {
       "company": "Hire Feed",
       "domain": "Software",
       "title": "Frontend Engineer - Web Applications (Remote)",
-      "url": "https://www.adzuna.in/land/ad/5882593990?se=GtWXStOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=FC58D652CAA945787AEB68E088C8F535C0F7CED1"
+      "url": "https://www.adzuna.in/land/ad/5882593990?se=mIxiYO-y8RGhP6hnMIx_gw&utm_medium=api&utm_source=1f93aaf4&v=FC58D652CAA945787AEB68E088C8F535C0F7CED1"
     },
     {
       "company": "eBay",
       "domain": "Software",
       "title": "MTS-1 Software Engineer - Fullstack",
-      "url": "https://www.adzuna.in/land/ad/5857251118?se=GtWXStOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=554CED14F27E25A70D6F4A2B3F87FC47BCEAA74C"
+      "url": "https://www.adzuna.in/land/ad/5857251118?se=mIxiYO-y8RGhP6hnMIx_gw&utm_medium=api&utm_source=1f93aaf4&v=554CED14F27E25A70D6F4A2B3F87FC47BCEAA74C"
     },
     {
       "company": "SkillsCapital",
       "domain": "Software",
       "title": "Frontend Engineer (Fully Remote) - Global AI-Powered Tech Talent Venture",
-      "url": "https://www.adzuna.in/land/ad/5884584921?se=GtWXStOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=2BD0711C401E23081E01B7BFA3DEB03C4178E387"
+      "url": "https://www.adzuna.in/land/ad/5884584921?se=mIxiYO-y8RGhP6hnMIx_gw&utm_medium=api&utm_source=1f93aaf4&v=2BD0711C401E23081E01B7BFA3DEB03C4178E387"
     },
     {
       "company": "Thermo Fisher Scientific",
       "domain": "Software",
       "title": "Staff Engineer, Software",
-      "url": "https://www.adzuna.in/land/ad/5886486655?se=GtWXStOy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=0A422F40DE3EF34637ADF243690B99BDACE9FC85"
+      "url": "https://www.adzuna.in/land/ad/5886486655?se=mIxiYO-y8RGhP6hnMIx_gw&utm_medium=api&utm_source=1f93aaf4&v=0A422F40DE3EF34637ADF243690B99BDACE9FC85"
     },
     {
       "company": "Aditi Tech Consulting Private Limited",
@@ -1559,43 +1553,43 @@
       "company": "Kyndryl",
       "domain": "Software",
       "title": "Full stack SW Engineer",
-      "url": "https://www.adzuna.in/land/ad/5856695651?se=GtLVS9Oy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=D2E259B9461EA24A6E223BCA0DC272A465D4862C"
+      "url": "https://www.adzuna.in/land/ad/5856695651?se=3hQHYe-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=D2E259B9461EA24A6E223BCA0DC272A465D4862C"
     },
     {
       "company": "MSD",
       "domain": "Software",
       "title": "Specialist Software Engineering, Full-Stack",
-      "url": "https://www.adzuna.in/land/ad/5881877325?se=GtLVS9Oy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=20824832044E746505BB2454F0C4D25860F56651"
+      "url": "https://www.adzuna.in/land/ad/5881877325?se=3hQHYe-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=20824832044E746505BB2454F0C4D25860F56651"
     },
     {
       "company": "eBay",
       "domain": "Software",
       "title": "MTS 1, Software Engineer - Full Stack",
-      "url": "https://www.adzuna.in/land/ad/5880002271?se=GtLVS9Oy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=B9CAA29F8C571094574C9E3BA5C77DA20025DA36"
+      "url": "https://www.adzuna.in/land/ad/5880002271?se=3hQHYe-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=B9CAA29F8C571094574C9E3BA5C77DA20025DA36"
     },
     {
       "company": "Moody's",
       "domain": "Software",
       "title": "Software Engineer - Full Stack (Angular and Node.JS)",
-      "url": "https://www.adzuna.in/land/ad/5859662514?se=GtLVS9Oy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=209BC063A6854583EEFD7DE5702EB329513CE767"
+      "url": "https://www.adzuna.in/land/ad/5859662514?se=3hQHYe-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=209BC063A6854583EEFD7DE5702EB329513CE767"
     },
     {
       "company": "MSD",
       "domain": "Software",
       "title": "Specialist, Software Engineering, Full-Stack, GenAI and Agentic AI",
-      "url": "https://www.adzuna.in/land/ad/5869485086?se=GtLVS9Oy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=76E9AE274BF8D64D36F7690AE504DED465EB717F"
+      "url": "https://www.adzuna.in/land/ad/5869485086?se=3hQHYe-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=76E9AE274BF8D64D36F7690AE504DED465EB717F"
     },
     {
       "company": "Colt Technology Services",
       "domain": "Software",
       "title": "Consultant - Full Stack (Django, DRF, React), Engineering Governance",
-      "url": "https://www.adzuna.in/land/ad/5878336080?se=GtLVS9Oy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=4DC96FB843CCC04D38D8ADFFDA9AA9657793B804"
+      "url": "https://www.adzuna.in/land/ad/5878336080?se=3hQHYe-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=4DC96FB843CCC04D38D8ADFFDA9AA9657793B804"
     },
     {
       "company": "CTC",
       "domain": "Software",
       "title": "US IT cum Engineering Recruiter",
-      "url": "https://www.adzuna.in/land/ad/5864438084?se=GtLVS9Oy8RGWEPVu98_4YQ&utm_medium=api&utm_source=1f93aaf4&v=C561F4994B6BB7B44962228E0F9CFEEB308404B3"
+      "url": "https://www.adzuna.in/land/ad/5864438084?se=3hQHYe-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=C561F4994B6BB7B44962228E0F9CFEEB308404B3"
     },
     {
       "company": "Oteemo, Inc",
@@ -1703,85 +1697,85 @@
       "company": "Kyndryl",
       "domain": "Software",
       "title": "DevOps Engineer",
-      "url": "https://www.adzuna.in/land/ad/5850907180?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=865AA385B032DD50EF68C6FBEA29FFF1FF3C6618"
+      "url": "https://www.adzuna.in/land/ad/5850907180?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=865AA385B032DD50EF68C6FBEA29FFF1FF3C6618"
     },
     {
       "company": "Deutsche Bank",
       "domain": "Software",
       "title": "Devops Engineer",
-      "url": "https://www.adzuna.in/land/ad/5882426627?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=51517BACC605441AF914A83BA777F204BF5EC4CE"
+      "url": "https://www.adzuna.in/land/ad/5882426627?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=51517BACC605441AF914A83BA777F204BF5EC4CE"
     },
     {
       "company": "Allianz Commercial",
       "domain": "Software",
       "title": "Devops Engineer_2864",
-      "url": "https://www.adzuna.in/land/ad/5886486722?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=3D533BFA5CC39E42CF90ECB40435E571FBE2536E"
+      "url": "https://www.adzuna.in/land/ad/5886486722?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=3D533BFA5CC39E42CF90ECB40435E571FBE2536E"
     },
     {
       "company": "Allianz Commercial",
       "domain": "Software",
       "title": "DevOps Engineer_2865",
-      "url": "https://www.adzuna.in/land/ad/5886486651?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=211749D3305C84E0C4A955E417459AC398A8F418"
+      "url": "https://www.adzuna.in/land/ad/5886486651?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=211749D3305C84E0C4A955E417459AC398A8F418"
     },
     {
       "company": "Thermo Fisher Scientific",
       "domain": "Software",
       "title": "Engineer II, DevOps Engineering",
-      "url": "https://www.adzuna.in/land/ad/5886486727?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=568B1E21CD89C5EB2424C280DD7BCE01584B2BAF"
+      "url": "https://www.adzuna.in/land/ad/5886486727?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=568B1E21CD89C5EB2424C280DD7BCE01584B2BAF"
     },
     {
       "company": "Thermo Fisher Scientific",
       "domain": "Software",
       "title": "Staff Engineer, DevOps Engineering",
-      "url": "https://www.adzuna.in/land/ad/5886486719?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=35247D7684AF942C4AA5B10D2C98DA285DB723A7"
+      "url": "https://www.adzuna.in/land/ad/5886486719?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=35247D7684AF942C4AA5B10D2C98DA285DB723A7"
     },
     {
       "company": "Kyndryl",
       "domain": "Software",
       "title": "DevOps Delivery Engineering",
-      "url": "https://www.adzuna.in/land/ad/5867727351?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=2F12BA1A98469C51F60CB478B31923E17C00E718"
+      "url": "https://www.adzuna.in/land/ad/5867727351?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=2F12BA1A98469C51F60CB478B31923E17C00E718"
     },
     {
       "company": "Kyndryl",
       "domain": "Software",
       "title": "Operations Engineer (DevOps & Observability)",
-      "url": "https://www.adzuna.in/land/ad/5872825705?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=FAC3050901D4787BD03F1D10949BD08103185C61"
+      "url": "https://www.adzuna.in/land/ad/5872825705?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=FAC3050901D4787BD03F1D10949BD08103185C61"
     },
     {
       "company": "ABB",
       "domain": "Software",
       "title": "R&D Engineer - DevOps & QE",
-      "url": "https://www.adzuna.in/land/ad/5860300725?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=06448DFBEC42709F23ED9CBD187EDDDE83683ED3"
+      "url": "https://www.adzuna.in/land/ad/5860300725?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=06448DFBEC42709F23ED9CBD187EDDDE83683ED3"
     },
     {
       "company": "Tata Consultancy Services",
       "domain": "Software",
       "title": "AWS DevOps (Cloud Security ,Cloud Networking) Engineer",
-      "url": "https://www.adzuna.in/land/ad/5864440094?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=F87326EE9D1F2D3905B4937AE4EAC96A6B013307"
+      "url": "https://www.adzuna.in/land/ad/5864440094?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=F87326EE9D1F2D3905B4937AE4EAC96A6B013307"
     },
     {
       "company": "Kyndryl",
       "domain": "Software",
       "title": "Platform Engineering - GCP",
-      "url": "https://www.adzuna.in/land/ad/5885765277?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=10D980B92AE7CDD7198F842C99DA669DE48D18D4"
+      "url": "https://www.adzuna.in/land/ad/5885765277?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=10D980B92AE7CDD7198F842C99DA669DE48D18D4"
     },
     {
       "company": "Thermo Fisher Scientific",
       "domain": "Software",
       "title": "Engineer III, Software",
-      "url": "https://www.adzuna.in/land/ad/5886486643?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=285333A2E5E1A51B4A5D9F546ACC891D94EC515B"
+      "url": "https://www.adzuna.in/land/ad/5886486643?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=285333A2E5E1A51B4A5D9F546ACC891D94EC515B"
     },
     {
       "company": "Capco",
       "domain": "Software",
       "title": "Data Engineer _DEPS_ MTCR",
-      "url": "https://www.adzuna.in/land/ad/5886486791?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=C5142B499BDDDC302C747472F86CCAF2B99247BB"
+      "url": "https://www.adzuna.in/land/ad/5886486791?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=C5142B499BDDDC302C747472F86CCAF2B99247BB"
     },
     {
       "company": "Thermo Fisher Scientific",
       "domain": "Software",
       "title": "Python Engineer",
-      "url": "https://www.adzuna.in/land/ad/5886487354?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=6D0552C64A2DF50E9A6DD67B68DEAA9FCE386DB3"
+      "url": "https://www.adzuna.in/land/ad/5886487354?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=6D0552C64A2DF50E9A6DD67B68DEAA9FCE386DB3"
     },
     {
       "company": "Miratech",
@@ -1817,7 +1811,7 @@
       "company": "Lorven Technologies Inc.",
       "domain": "Software",
       "title": "Backend Automation Engineer",
-      "url": "https://www.adzuna.in/land/ad/5870860103?se=siRrTtOy8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=F6AABD649BF7372C5CA09F807F2FE42C63E3172E"
+      "url": "https://www.adzuna.in/land/ad/5870860103?se=Nk1hYu-y8RGv64qE4zjWDA&utm_medium=api&utm_source=1f93aaf4&v=F6AABD649BF7372C5CA09F807F2FE42C63E3172E"
     },
     {
       "company": "Kla",
