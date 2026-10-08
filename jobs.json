@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T21:51:12.510164",
+  "last_updated": "2026-10-08T01:40:33.441755",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -134,16 +134,16 @@
       "url": "https://www.adzuna.in/details/5917311520?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Trigent Software Private Limited",
-      "domain": "VLSI",
-      "title": "DFX / DFT Verification Engineer",
-      "url": "https://www.adzuna.in/details/5917523624?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Qualcomm",
       "domain": "Software",
       "title": "2027 Campus Hire_ Associate Engineer_ HW",
       "url": "https://www.adzuna.in/details/5892689941?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Trigent Software Private Limited",
+      "domain": "VLSI",
+      "title": "DFX / DFT Verification Engineer",
+      "url": "https://www.adzuna.in/details/5917523624?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "NVIDIA",
@@ -614,12 +614,6 @@
       "url": "https://www.adzuna.in/details/5895346290?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Analog Devices",
-      "domain": "Software",
-      "title": "Staff Engineer, Design Verification Engineering",
-      "url": "https://www.adzuna.in/details/5874235399?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Imagination Technologies",
       "domain": "Software",
       "title": "GPU Verification Engineer",
@@ -720,12 +714,6 @@
       "domain": "Software",
       "title": "Staff Engineer - Memory Design",
       "url": "https://www.adzuna.in/details/5911377433?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "LSCC India",
-      "domain": "Software",
-      "title": "Sr Staff Design Engineer",
-      "url": "https://www.adzuna.in/details/5874262384?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Intel Corporation",
@@ -998,16 +986,16 @@
       "url": "https://www.adzuna.in/details/5916813498?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "SolarEdge",
-      "domain": "Embedded",
-      "title": "Embedded & Automation Engineer",
-      "url": "https://www.adzuna.in/details/5874132262?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "GE Vernova",
       "domain": "Embedded",
       "title": "Engineer 1 - Embedded SW Quality Test",
       "url": "https://www.adzuna.in/details/5902915994?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "SolarEdge",
+      "domain": "Embedded",
+      "title": "Embedded & Automation Engineer",
+      "url": "https://www.adzuna.in/details/5875722143?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Vertiv Group",
@@ -1034,16 +1022,22 @@
       "url": "https://www.adzuna.in/details/5881157629?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Airbound",
+      "domain": "Software",
+      "title": "Avionics Hardware Engineer",
+      "url": "https://www.adzuna.in/details/5889513720?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Renesas Electronics",
       "domain": "Embedded",
       "title": "Software QA Engineer",
       "url": "https://www.adzuna.in/details/5904773415?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Airbound",
+      "company": "Harman Becker Automotive Systems Manufacturing Kft",
       "domain": "Software",
-      "title": "Avionics Hardware Engineer",
-      "url": "https://www.adzuna.in/details/5889513720?utm_medium=api&utm_source=1f93aaf4"
+      "title": "Advanced Engineer \u2013 C++ Linux",
+      "url": "https://www.adzuna.in/details/5900714620?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Cadence Systems",
@@ -1092,12 +1086,6 @@
       "domain": "Embedded",
       "title": "Embedded Software Engineer",
       "url": "https://www.adzuna.in/details/5916925051?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Harman Becker Automotive Systems Manufacturing Kft",
-      "domain": "Software",
-      "title": "Advanced Engineer \u2013 C++ Linux",
-      "url": "https://www.adzuna.in/details/5900714620?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Gravity Engineering Services Pvt Ltd",
@@ -1154,12 +1142,6 @@
       "url": "https://www.adzuna.in/details/5914016614?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Bosch Group",
-      "domain": "Embedded",
-      "title": "Embedded SW engineer - EPT2",
-      "url": "https://www.adzuna.in/details/5877174716?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Nokia Global",
       "domain": "Embedded",
       "title": "Software Engineer - Platform",
@@ -1206,6 +1188,18 @@
       "domain": "Embedded",
       "title": "Linux Kernel Engineer with Coresight experience",
       "url": "https://www.adzuna.in/details/5893831485?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Hewlett Packard Enterprise",
+      "domain": "Embedded",
+      "title": "Embedded Software Engineer",
+      "url": "https://www.adzuna.in/details/5910225395?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Aptiv",
+      "domain": "Software",
+      "title": "Advanced Software Engineer-Autosar BSW",
+      "url": "https://www.adzuna.in/details/5910238578?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Trillectric",
