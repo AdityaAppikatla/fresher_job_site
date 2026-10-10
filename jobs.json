@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-10T06:52:02.956695",
+  "last_updated": "2026-10-10T13:27:58.278955",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -554,6 +554,12 @@
       "url": "https://www.adzuna.in/details/5887521122?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Intel",
+      "domain": "Software",
+      "title": "Analog Circuit Design Engineer",
+      "url": "https://www.adzuna.in/details/5904041367?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Cadence Systems",
       "domain": "VLSI",
       "title": "Mixed- Signal Systems and Verification Engineer",
@@ -932,12 +938,6 @@
       "url": "https://www.adzuna.in/details/5921563312?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "SolarEdge",
-      "domain": "Embedded",
-      "title": "Embedded Software Engineer",
-      "url": "https://www.adzuna.in/details/5920172214?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Qualcomm",
       "domain": "Embedded",
       "title": "CPU Firmware Developer Engineer (Staff/Sr Staff)",
@@ -1038,6 +1038,12 @@
       "domain": "VLSI",
       "title": "Trainee Engineer",
       "url": "https://www.adzuna.in/details/5910221641?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "MiniMed",
+      "domain": "Software",
+      "title": "Software Engineer II - Mobile App Development , Devops Engineer",
+      "url": "https://www.adzuna.in/details/5881157629?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Cadence Systems",
@@ -1166,6 +1172,12 @@
       "url": "https://www.adzuna.in/details/5890784978?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Silicon Signals Pvt Ltd",
+      "domain": "Embedded",
+      "title": "Sales Trainee",
+      "url": "https://www.adzuna.in/details/5922056582?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Trigent Software Private Limited",
       "domain": "Embedded",
       "title": "Audio System Software Engineer - Embedded C++",
@@ -1212,12 +1224,6 @@
       "domain": "Embedded",
       "title": "Embedded Software Engineer Specialist",
       "url": "https://www.adzuna.in/details/5915706327?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Qualcomm",
-      "domain": "Embedded",
-      "title": "Linux Kernel Engineer with Coresight experience",
-      "url": "https://www.adzuna.in/details/5893831485?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Trillectric",
@@ -1326,6 +1332,12 @@
       "domain": "Embedded",
       "title": "Embedded System Engineer",
       "url": "https://www.adzuna.in/details/5916911600?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "BDS Services Pvt Ltd ",
+      "domain": "Embedded",
+      "title": "IoT Hardware Engineer",
+      "url": "https://www.adzuna.in/details/5922057242?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Magna International, Inc",
@@ -1520,6 +1532,12 @@
       "url": "https://www.adzuna.in/details/5889520287?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Huami Technologies",
+      "domain": "Software",
+      "title": "Frontend Development Intern",
+      "url": "https://www.adzuna.in/details/5922057652?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Zudu AI",
       "domain": "Software",
       "title": "Frontend Developer \u2014 Intern / Fresher",
@@ -1544,16 +1562,16 @@
       "url": "https://www.adzuna.in/details/5919327368?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Steps AI",
-      "domain": "Software",
-      "title": "Frontend Focused Software Development Engineer",
-      "url": "https://www.adzuna.in/details/5913719386?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "MyCareernet",
       "domain": "Software",
       "title": "Software Engineer Frontend (React / TypeScript)_104088",
       "url": "https://www.adzuna.in/details/5901762262?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Steps AI",
+      "domain": "Software",
+      "title": "Frontend Focused Software Development Engineer",
+      "url": "https://www.adzuna.in/details/5913719386?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Acme Services Private Limited",
@@ -1724,6 +1742,12 @@
       "url": "https://www.adzuna.in/details/5910220987?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "whitewhale software solution",
+      "domain": "Software",
+      "title": "DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5922024555?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Ubique Systems",
       "domain": "Software",
       "title": "DevOps Engineer",
@@ -1856,12 +1880,6 @@
       "url": "https://www.adzuna.in/details/5916869745?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "GSSTech Group",
-      "domain": "Software",
-      "title": "DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5878284935?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Shopalyst Technologies",
       "domain": "Software",
       "title": "DevOps Engineer",
@@ -1878,6 +1896,12 @@
       "domain": "Software",
       "title": "DevOps Engineer",
       "url": "https://www.adzuna.in/details/5889518946?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "TRC Companies, Inc.",
+      "domain": "Software",
+      "title": "Devops Engineer",
+      "url": "https://www.adzuna.in/details/5921981972?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "KLA",
@@ -1968,12 +1992,6 @@
       "domain": "Software",
       "title": "Staff DevOps Engineer",
       "url": "https://www.adzuna.in/details/5904146539?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Trigent Software Private Limited",
-      "domain": "Software",
-      "title": "AWS Devops Engineer",
-      "url": "https://www.adzuna.in/details/5919544542?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
