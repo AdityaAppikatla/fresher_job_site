@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T01:44:20.102918",
+  "last_updated": "2026-10-11T08:34:01.066038",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -122,6 +122,12 @@
       "url": "https://www.adzuna.in/details/5884512117?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "IBM",
+      "domain": "Software",
+      "title": "Logic Design Engineer",
+      "url": "https://www.adzuna.in/details/5921755520?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Synopsys Inc",
       "domain": "Software",
       "title": "Application Engineering, Sr Engineer - ICV Runset Development",
@@ -210,12 +216,6 @@
       "domain": "Software",
       "title": "Staff Engineer Formal(IOMMU-N)",
       "url": "https://www.adzuna.in/details/5910195248?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Nokia",
-      "domain": "VLSI",
-      "title": "SoC Physical Design Engineer",
-      "url": "https://www.adzuna.in/details/5887520989?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Hewlett Packard Enterprise",
@@ -668,6 +668,12 @@
       "url": "https://www.adzuna.in/details/5892690069?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Nokia",
+      "domain": "VLSI",
+      "title": "SoC Physical Design Engineer",
+      "url": "https://www.adzuna.in/details/5887520989?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Imagination Technologies",
       "domain": "VLSI",
       "title": "GPU Physical Design Engineer",
@@ -768,6 +774,12 @@
       "domain": "Software",
       "title": "CAD Product Designer / 3D Printing Engineer",
       "url": "https://www.adzuna.in/details/5908400785?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Eaton Corporation",
+      "domain": "Software",
+      "title": "Engineer - DMP - Electrical Products",
+      "url": "https://www.adzuna.in/details/5922944000?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Broadcom",
@@ -896,6 +908,18 @@
       "url": "https://www.adzuna.in/details/5920456884?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Neev Pvt Ltd",
+      "domain": "Embedded",
+      "title": "Embedded Manual Engineer",
+      "url": "https://www.adzuna.in/details/5904503109?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Artha Nexgen",
+      "domain": "Embedded",
+      "title": "Firmware Engineer  Audio Domain Exp - Infineon - Bangalore",
+      "url": "https://www.adzuna.in/details/5903295533?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Fuelistic Innovations Private Limited",
       "domain": "Embedded",
       "title": "IoT solution Engineer",
@@ -938,16 +962,22 @@
       "url": "https://www.adzuna.in/details/5911676056?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Loom Solar Pvt. Ltd.",
+      "company": "DATOMS",
       "domain": "Software",
-      "title": "Head of Engineering",
-      "url": "https://www.adzuna.in/details/5880757065?utm_medium=api&utm_source=1f93aaf4"
+      "title": "IOT Solution Engineer",
+      "url": "https://www.adzuna.in/details/5914954948?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Honeywell",
       "domain": "Embedded",
       "title": "Embedded Engr II",
       "url": "https://www.adzuna.in/details/5902910867?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Loom Solar Pvt. Ltd.",
+      "domain": "Software",
+      "title": "Head of Engineering",
+      "url": "https://www.adzuna.in/details/5880757065?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Netgear",
@@ -1004,6 +1034,12 @@
       "url": "https://www.adzuna.in/details/5922374939?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Tata Elxsi Limited",
+      "domain": "Embedded",
+      "title": "Network Design Engineer - Embedded Linux, OpenWRT",
+      "url": "https://www.adzuna.in/details/5922791566?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "LetsIntern",
       "domain": "VLSI",
       "title": "Human Resource Intern",
@@ -1020,24 +1056,6 @@
       "domain": "Software",
       "title": "Avionics Hardware Engineer",
       "url": "https://www.adzuna.in/details/5889513720?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Harman Becker Automotive Systems Manufacturing Kft",
-      "domain": "Software",
-      "title": "Software Engineer - C++ Middleware",
-      "url": "https://www.adzuna.in/details/5920981640?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Renesas Electronics",
-      "domain": "Embedded",
-      "title": "Software QA Engineer",
-      "url": "https://www.adzuna.in/details/5904773415?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "MiniMed",
-      "domain": "Software",
-      "title": "Sr Software Engineer - DevOps & Automation Tools Engineer",
-      "url": "https://www.adzuna.in/details/5881156858?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Cadence Systems",
@@ -1094,6 +1112,18 @@
       "url": "https://www.adzuna.in/details/5919839832?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Harman Becker Automotive Systems Manufacturing Kft",
+      "domain": "Software",
+      "title": "Software Engineer - C++ Middleware",
+      "url": "https://www.adzuna.in/details/5920981640?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Zoid technologies Pvt. Ltd.",
+      "domain": "Software",
+      "title": "Systems Engineer | Defence",
+      "url": "https://www.adzuna.in/details/5913213775?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "American Megatrends International India",
       "domain": "Software",
       "title": "Member of Technical Staff I",
@@ -1104,12 +1134,6 @@
       "domain": "Embedded",
       "title": "Sr Staff Engineer, Virtual Platform Engineering",
       "url": "https://www.adzuna.in/details/5907315368?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Cisco",
-      "domain": "Software",
-      "title": "Software Development Engineer \u2013 Routing Platforms",
-      "url": "https://www.adzuna.in/details/5919276090?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "TechSkillio",
@@ -1146,6 +1170,12 @@
       "domain": "Embedded",
       "title": "Embedded Software Engineer",
       "url": "https://www.adzuna.in/details/5914016614?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Graphcore",
+      "domain": "Software",
+      "title": "Staff System Software Engineer - Bengaluru, multiple vacancies",
+      "url": "https://www.adzuna.in/details/5922413937?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Nokia Global",
@@ -1418,6 +1448,12 @@
       "url": "https://www.adzuna.in/details/5919137332?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Origin",
+      "domain": "Embedded",
+      "title": "Apprentice - Embedded Hardware, Power & Safety",
+      "url": "https://www.adzuna.in/details/5921748513?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Nexperia",
       "domain": "Software",
       "title": "Staff Hardware Engineer \u2013 Test Hardware & Probe Solutions",
@@ -1472,30 +1508,6 @@
       "url": "https://www.adzuna.in/details/5917362731?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Nokia",
-      "domain": "Software",
-      "title": "Manufacturing Test Development Engineer",
-      "url": "https://www.adzuna.in/details/5901481073?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Altium",
-      "domain": "Software",
-      "title": "Software Engineer - Frontend Developer (Angular)",
-      "url": "https://www.adzuna.in/details/5907458551?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "TE Connectivity",
-      "domain": "Software",
-      "title": "STAFF R&D/PRODUCT DVL ENGINEER Signal Integrity",
-      "url": "https://www.adzuna.in/details/5887061042?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Intel",
-      "domain": "Software",
-      "title": "Hardware Engineer",
-      "url": "https://www.adzuna.in/details/5890806104?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Akeshya",
       "domain": "Software",
       "title": "Backend Developer (Remote)",
@@ -1512,6 +1524,12 @@
       "domain": "Software",
       "title": "Python Backend Developer",
       "url": "https://www.adzuna.in/details/5889568730?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Web Digital Mantra IT Services Pvt Ltd",
+      "domain": "Software",
+      "title": "Backend Developer Intern",
+      "url": "https://www.adzuna.in/details/5922023375?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Bybit",
@@ -1574,6 +1592,12 @@
       "url": "https://www.adzuna.in/details/5904075574?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Altium",
+      "domain": "Software",
+      "title": "Software Engineer - Frontend Developer (Angular)",
+      "url": "https://www.adzuna.in/details/5907458551?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "PricewaterhouseCoopers",
       "domain": "Software",
       "title": "IN_Specialist 3_ Frontend Developer_AppTech_Advisory_Pune",
@@ -1590,6 +1614,12 @@
       "domain": "Software",
       "title": "Software Engineer Frontend (React / TypeScript)_104088",
       "url": "https://www.adzuna.in/details/5901762262?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Local business Marketing",
+      "domain": "Software",
+      "title": "Front End Internship",
+      "url": "https://www.adzuna.in/details/5902287145?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Acme Services Private Limited",
@@ -1622,16 +1652,22 @@
       "url": "https://www.adzuna.in/details/5904151536?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "ascendion",
-      "domain": "Software",
-      "title": "Front End UI Engineer",
-      "url": "https://www.adzuna.in/details/5888551506?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Pavago",
       "domain": "Software",
       "title": "Full Stack Engineer",
       "url": "https://www.adzuna.in/details/5878840004?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Santa Browser",
+      "domain": "Software",
+      "title": "Full-Stack Engineer",
+      "url": "https://www.adzuna.in/details/5904502883?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Copods",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5894623136?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Riverhouse Technologies",
@@ -1674,6 +1710,12 @@
       "domain": "Software",
       "title": "DevOps Engineer",
       "url": "https://www.adzuna.in/details/5914221144?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Gainserv Infotech Pvt Ltd",
+      "domain": "Software",
+      "title": "DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5906872037?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "CloudifyOps Pvt .Ltd",
@@ -1832,6 +1874,12 @@
       "url": "https://www.adzuna.in/details/5908403516?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Citigroup",
+      "domain": "Software",
+      "title": "Devops Engineer",
+      "url": "https://www.adzuna.in/details/5922943663?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "r3 Consultant",
       "domain": "Software",
       "title": "Devops Engineer",
@@ -1902,6 +1950,12 @@
       "domain": "Software",
       "title": "DevOps Engineer",
       "url": "https://www.adzuna.in/details/5898502228?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "McAfee, Inc.",
+      "domain": "Software",
+      "title": "DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5921755982?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Cloudanix",
@@ -2000,22 +2054,10 @@
       "url": "https://www.adzuna.in/details/5899851721?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Sia",
+      "company": "Medico Workforce",
       "domain": "Software",
-      "title": "Staff DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5904075485?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Tazapay",
-      "domain": "Software",
-      "title": "Staff DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5904146539?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Trigent Software Private Limited",
-      "domain": "Software",
-      "title": "AWS Devops Engineer",
-      "url": "https://www.adzuna.in/details/5919544542?utm_medium=api&utm_source=1f93aaf4"
+      "title": "DevOps Engineer JOB-1052",
+      "url": "https://www.adzuna.in/details/5922766095?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
