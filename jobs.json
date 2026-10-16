@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16T06:54:44.957043",
+  "last_updated": "2026-10-16T12:12:29.922352",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -200,16 +200,16 @@
       "url": "https://www.adzuna.in/details/5892689941?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Micron",
-      "domain": "VLSI",
-      "title": "Digital Design Engineer, DMTS/SMTS/MTS",
-      "url": "https://www.adzuna.in/details/5922403599?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Trigent Software Private Limited",
       "domain": "VLSI",
       "title": "DFX / DFT Verification Engineer",
       "url": "https://www.adzuna.in/details/5917523624?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Micron",
+      "domain": "VLSI",
+      "title": "Digital Design Engineer, DMTS/SMTS/MTS",
+      "url": "https://www.adzuna.in/details/5922403599?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "NVIDIA",
@@ -222,12 +222,6 @@
       "domain": "VLSI",
       "title": "RTL Design Engineer",
       "url": "https://www.adzuna.in/details/5921111994?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "SiFive",
-      "domain": "Software",
-      "title": "Staff Engineer Formal(IOMMU-N)",
-      "url": "https://www.adzuna.in/details/5910195248?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "NVIDIA",
@@ -328,6 +322,12 @@
     {
       "company": "Qualcomm",
       "domain": "Software",
+      "title": "DSP / NPU Design Verification Sr Staff Engineer",
+      "url": "https://www.adzuna.in/details/5930370337?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Qualcomm",
+      "domain": "Software",
       "title": "Infra Design Verification Sr Engineer",
       "url": "https://www.adzuna.in/details/5903790258?utm_medium=api&utm_source=1f93aaf4"
     },
@@ -336,18 +336,6 @@
       "domain": "VLSI",
       "title": "Infra Power Design Verification Staff Engineer",
       "url": "https://www.adzuna.in/details/5911773579?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Broadcom",
-      "domain": "VLSI",
-      "title": "R&D Engineer IC Design",
-      "url": "https://www.adzuna.in/details/5885974714?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "AMD",
-      "domain": "VLSI",
-      "title": "RTL Design Engineer",
-      "url": "https://www.adzuna.in/details/5885974894?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "AMD",
@@ -422,6 +410,12 @@
       "url": "https://www.adzuna.in/details/5901481177?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "ADCI - BLR 14 SEZ",
+      "domain": "Software",
+      "title": "SoC Validation Engineer, Amazon Devices",
+      "url": "https://www.adzuna.in/details/5930499703?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Altera Semiconductor",
       "domain": "VLSI",
       "title": "IP Logic Design Engineer",
@@ -464,16 +458,16 @@
       "url": "https://www.adzuna.in/details/5900748128?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "LSCC India",
-      "domain": "VLSI",
-      "title": "Staff Design Engineer - SoC & RTL",
-      "url": "https://www.adzuna.in/details/5901709767?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "NVIDIA",
       "domain": "VLSI",
       "title": "DFT Engineer - Hardware",
       "url": "https://www.adzuna.in/details/5922389362?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "LSCC India",
+      "domain": "VLSI",
+      "title": "Staff Design Engineer - SoC & RTL",
+      "url": "https://www.adzuna.in/details/5901709767?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "onsemi",
@@ -530,6 +524,12 @@
       "url": "https://www.adzuna.in/details/5905892030?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Renesas Electronics",
+      "domain": "Software",
+      "title": "Sr Engineer, Design Verification",
+      "url": "https://www.adzuna.in/details/5929514284?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Broadcom",
       "domain": "VLSI",
       "title": "Staff Engineer",
@@ -540,12 +540,6 @@
       "domain": "VLSI",
       "title": "FPGA Silicon Design Verification Engineer",
       "url": "https://www.adzuna.in/details/5889505756?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Renesas Electronics",
-      "domain": "Software",
-      "title": "Sr Engineer, Design Verification",
-      "url": "https://www.adzuna.in/details/5929514284?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Micron Technology",
@@ -582,12 +576,6 @@
       "domain": "Software",
       "title": "Analog Circuit Design Engineer",
       "url": "https://www.adzuna.in/details/5904041367?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Qualcomm",
-      "domain": "Software",
-      "title": "IP Design Verification Engineer",
-      "url": "https://www.adzuna.in/details/5912386156?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Cadence Systems",
@@ -812,12 +800,6 @@
       "url": "https://www.adzuna.in/details/5908609955?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Synopsys Inc",
-      "domain": "VLSI",
-      "title": "DFT Solutions Engineer",
-      "url": "https://www.adzuna.in/details/5885974866?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "GlobalFoundries",
       "domain": "VLSI",
       "title": "Sr Engineer Design",
@@ -1004,6 +986,12 @@
       "url": "https://www.adzuna.in/details/5923258905?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Qualcomm",
+      "domain": "Software",
+      "title": "CPU Design Sr Staff Verification Engineer",
+      "url": "https://www.adzuna.in/details/5930370660?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "GE Vernova",
       "domain": "Embedded",
       "title": "Engineer 1 - Embedded SW Quality Test",
@@ -1040,18 +1028,6 @@
       "url": "https://www.adzuna.in/details/5889092872?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Honeywell",
-      "domain": "Embedded",
-      "title": "Intern Bachelors Embedded Eng",
-      "url": "https://www.adzuna.in/details/5927700834?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "NXP Semiconductors",
-      "domain": "Embedded",
-      "title": "Experienced Embedded Software EngineerEngineer",
-      "url": "https://www.adzuna.in/details/5927711116?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "IBM",
       "domain": "Embedded",
       "title": "Z Firmware Development Engineer",
@@ -1068,6 +1044,12 @@
       "domain": "Embedded",
       "title": "Firmware Engineer II",
       "url": "https://www.adzuna.in/details/5917343615?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "NXP Semiconductors",
+      "domain": "Embedded",
+      "title": "Experienced Embedded Software EngineerEngineer",
+      "url": "https://www.adzuna.in/details/5927711116?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Logitech",
