@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-17T19:08:30.706741",
+  "last_updated": "2026-10-17T22:05:09.660360",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -986,16 +986,16 @@
       "url": "https://www.adzuna.in/details/5931469937?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "DATOMS",
-      "domain": "Software",
-      "title": "IOT Solution Engineer",
-      "url": "https://www.adzuna.in/details/5914954948?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Emerson",
       "domain": "Embedded",
       "title": "Embedded Development Engineer",
       "url": "https://www.adzuna.in/details/5911676056?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "DATOMS",
+      "domain": "Software",
+      "title": "IOT Solution Engineer",
+      "url": "https://www.adzuna.in/details/5914954948?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Amazon",
@@ -1068,6 +1068,12 @@
       "domain": "Embedded",
       "title": "Embedded Software Engineer",
       "url": "https://www.adzuna.in/details/5930897310?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "NewVison",
+      "domain": "Embedded",
+      "title": "Middle C++ Software Engineer (Networking)",
+      "url": "https://www.adzuna.in/details/5922374939?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "IBM",
@@ -1194,6 +1200,12 @@
       "domain": "Embedded",
       "title": "Android System Engineer",
       "url": "https://www.adzuna.in/details/5931059193?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "American Megatrends International India",
+      "domain": "Software",
+      "title": "Member of Technical Staff I",
+      "url": "https://www.adzuna.in/details/5898476640?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "TechSkillio",
@@ -1349,7 +1361,7 @@
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "SR R&D/PRODUCT DVL ENGINEER",
-      "url": "https://www.adzuna.in/land/ad/5887061070?se=KNRJG17K8RGIlt-psuh1ig&utm_medium=api&utm_source=1f93aaf4&v=5A956CDBF03BCA446A2A2FFC29F1B7900F8096B2"
+      "url": "https://www.adzuna.in/land/ad/5887061070?se=qjWAynbK8RGIlt-psuh1ig&utm_medium=api&utm_source=1f93aaf4&v=5A956CDBF03BCA446A2A2FFC29F1B7900F8096B2"
     },
     {
       "company": "Spacezoneindia",
@@ -1373,7 +1385,7 @@
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "R&D/PRODUCT DVL ENGINEER II",
-      "url": "https://www.adzuna.in/land/ad/5918725175?se=KNRJG17K8RGIlt-psuh1ig&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
+      "url": "https://www.adzuna.in/land/ad/5918725175?se=qjWAynbK8RGIlt-psuh1ig&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
     },
     {
       "company": "Growth Heist",
@@ -1439,13 +1451,13 @@
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "STAFF SIGNAL INTEGRITY ENGINEER",
-      "url": "https://www.adzuna.in/land/ad/5887061732?se=OLYzHF7K8RGD3NuKZ_epjg&utm_medium=api&utm_source=1f93aaf4&v=FFFF7947D0ECDC01976DF96C729551660066C430"
+      "url": "https://www.adzuna.in/land/ad/5887061732?se=MGIdy3bK8RGq65mh8wCbFA&utm_medium=api&utm_source=1f93aaf4&v=FFFF7947D0ECDC01976DF96C729551660066C430"
     },
     {
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "STAFF R&D/PRODUCT DVL ENGINEER - Signal Integrity",
-      "url": "https://www.adzuna.in/land/ad/5887061702?se=OLYzHF7K8RGD3NuKZ_epjg&utm_medium=api&utm_source=1f93aaf4&v=4CF05290FA1A0598C13E2831BF21564A3A2659CC"
+      "url": "https://www.adzuna.in/land/ad/5887061702?se=MGIdy3bK8RGq65mh8wCbFA&utm_medium=api&utm_source=1f93aaf4&v=4CF05290FA1A0598C13E2831BF21564A3A2659CC"
     },
     {
       "company": "Weatherford",
@@ -1511,7 +1523,7 @@
       "company": "TE Connectivity",
       "domain": "Embedded",
       "title": "STAFF - PCB Simulation Engineer",
-      "url": "https://www.adzuna.in/land/ad/5887061025?se=OLYzHF7K8RGD3NuKZ_epjg&utm_medium=api&utm_source=1f93aaf4&v=BCF2F45D2FEFEF699194C5F06B3FB34FEA606C63"
+      "url": "https://www.adzuna.in/land/ad/5887061025?se=MGIdy3bK8RGq65mh8wCbFA&utm_medium=api&utm_source=1f93aaf4&v=BCF2F45D2FEFEF699194C5F06B3FB34FEA606C63"
     },
     {
       "company": "Mynd Integrated Solutions",
