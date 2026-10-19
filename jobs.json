@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T00:59:15.344976",
+  "last_updated": "2026-10-19T06:03:30.160632",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -276,6 +276,12 @@
       "domain": "VLSI",
       "title": "Experienced ASIC-FPGA Verification Engineer",
       "url": "https://www.adzuna.in/details/5933458382?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "The Boeing Company",
+      "domain": "VLSI",
+      "title": "Experienced ASIC-FPGA Verification Engineer",
+      "url": "https://www.adzuna.in/details/5933015976?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Micron Technology",
@@ -818,6 +824,12 @@
       "url": "https://www.adzuna.in/details/5891404268?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Synopsys Inc",
+      "domain": "VLSI",
+      "title": "Sr Staff Engineer - Physical Design",
+      "url": "https://www.adzuna.in/details/5933586959?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "SiFive",
       "domain": "VLSI",
       "title": "Staff Engineer, Physical Design - High Speed Interconnects",
@@ -870,6 +882,12 @@
       "domain": "VLSI",
       "title": "RTL Power Engineer - Bangalore",
       "url": "https://www.adzuna.in/details/5933451862?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Velaura",
+      "domain": "VLSI",
+      "title": "RTL Engineer Memory Subsystem - Bangalore",
+      "url": "https://www.adzuna.in/details/5933464606?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Cisco",
@@ -1160,6 +1178,12 @@
       "url": "https://www.adzuna.in/details/5898485098?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Schneider Electric",
+      "domain": "Embedded",
+      "title": "Engineer II, Embedded Software Design",
+      "url": "https://www.adzuna.in/details/5933804408?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Cadence Design Systems, Inc.",
       "domain": "Embedded",
       "title": "Firmware Engineer II",
@@ -1242,6 +1266,12 @@
       "domain": "Embedded",
       "title": "Solutions Engineer I_Vijaykumar Gaadhe_Ahmedabad",
       "url": "https://www.adzuna.in/details/5932371355?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Infineon Technologies",
+      "domain": "Embedded",
+      "title": "Engineer Software",
+      "url": "https://www.adzuna.in/details/5933587017?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Renesas Electronics",
@@ -1340,10 +1370,10 @@
       "url": "https://www.adzuna.in/details/5903780437?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Qualcomm",
-      "domain": "Software",
-      "title": "CPU Performance Developer Staff Engineer",
-      "url": "https://www.adzuna.in/details/5931990732?utm_medium=api&utm_source=1f93aaf4"
+      "company": "TE Connectivity",
+      "domain": "Embedded",
+      "title": "PCB Design Engineer II",
+      "url": "https://www.adzuna.in/details/5921758797?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Evolute Group",
@@ -1379,7 +1409,7 @@
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "R&D/PRODUCT DVL ENGINEER II",
-      "url": "https://www.adzuna.in/land/ad/5918725175?se=cK0jSFjL8RGD3NuKZ_epjg&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
+      "url": "https://www.adzuna.in/land/ad/5918725175?se=zprRuoLL8RG3EbgTpNkm_w&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
     },
     {
       "company": "Growth Heist",
@@ -1712,6 +1742,12 @@
       "url": "https://www.adzuna.in/details/5923511008?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Hello Edge",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5933211725?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Ahead",
       "domain": "Software",
       "title": "Full Stack Engineer",
@@ -1728,12 +1764,6 @@
       "domain": "Software",
       "title": "Full Stack Engineer",
       "url": "https://www.adzuna.in/details/5924096474?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "EXL",
-      "domain": "Software",
-      "title": "Full Stack Engineer",
-      "url": "https://www.adzuna.in/details/5891895982?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Vrinda International",
