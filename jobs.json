@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T00:10:29.165623",
+  "last_updated": "2026-10-20T05:46:50.867842",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -60,6 +60,12 @@
       "domain": "VLSI",
       "title": "ASIC Engineer, Design Verification",
       "url": "https://www.adzuna.in/details/5901481271?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Synopsys Inc",
+      "domain": "VLSI",
+      "title": "ASIC Digital Design, Staff Engineer",
+      "url": "https://www.adzuna.in/details/5935024059?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Synopsys Inc",
@@ -746,10 +752,22 @@
       "url": "https://www.adzuna.in/details/5896657778?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "KCS Corporation",
+      "domain": "VLSI",
+      "title": "Substation Physical Design Engineer",
+      "url": "https://www.adzuna.in/details/5934593626?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Kandou AI",
       "domain": "VLSI",
       "title": "Physical Design Engineers - 2 openings",
       "url": "https://www.adzuna.in/details/5905433972?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "KCS Corporation",
+      "domain": "VLSI",
+      "title": "Electrical Physical Design Engineer II",
+      "url": "https://www.adzuna.in/details/5934594001?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "IBM",
@@ -876,12 +894,6 @@
       "domain": "VLSI",
       "title": "RTL Power Engineer - Bangalore",
       "url": "https://www.adzuna.in/details/5933451862?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Velaura",
-      "domain": "VLSI",
-      "title": "RTL Engineer Memory Subsystem - Bangalore",
-      "url": "https://www.adzuna.in/details/5933464606?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Cisco",
@@ -1032,6 +1044,12 @@
       "domain": "Software",
       "title": "Software Development Engineer - Connectivity, Emerging Device Software",
       "url": "https://www.adzuna.in/details/5928577793?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Mitr HR Private Limited",
+      "domain": "Software",
+      "title": "Software Test Engineer (10)",
+      "url": "https://www.adzuna.in/details/5934869862?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "TYLsemi",
@@ -1340,12 +1358,6 @@
       "url": "https://www.adzuna.in/details/5903780437?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Qualcomm",
-      "domain": "Software",
-      "title": "CPU Performance Developer Staff Engineer",
-      "url": "https://www.adzuna.in/details/5931990732?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "TE Connectivity",
       "domain": "Embedded",
       "title": "PCB Design Engineer II",
@@ -1385,7 +1397,7 @@
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "R&D/PRODUCT DVL ENGINEER II",
-      "url": "https://www.adzuna.in/land/ad/5918725175?se=xibqnhrM8RGsiLO5gkNBSw&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
+      "url": "https://www.adzuna.in/land/ad/5918725175?se=cKR1nknM8RGX9ow4Acismg&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
     },
     {
       "company": "Growth Heist",
@@ -1544,18 +1556,6 @@
       "url": "https://www.adzuna.in/details/5901481073?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Altium",
-      "domain": "Software",
-      "title": "Software Engineer - Frontend Developer (Angular)",
-      "url": "https://www.adzuna.in/details/5907458551?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Altium",
-      "domain": "Software",
-      "title": "Software Development Engineer -Backend",
-      "url": "https://www.adzuna.in/details/5926963656?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Mynd Integrated Solutions",
       "domain": "Software",
       "title": "Backend Developer",
@@ -1644,6 +1644,12 @@
       "domain": "Software",
       "title": "Software Engineer \u2013 Frontend Developer (Angular)",
       "url": "https://www.adzuna.in/details/5904075574?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Altium",
+      "domain": "Software",
+      "title": "Software Engineer - Frontend Developer (Angular)",
+      "url": "https://www.adzuna.in/details/5907458551?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "PricewaterhouseCoopers",
@@ -1826,22 +1832,16 @@
       "url": "https://www.adzuna.in/details/5923248578?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Rakuten Symphony",
-      "domain": "Software",
-      "title": "Full Stack Engineer",
-      "url": "https://www.adzuna.in/details/5924608461?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "UnitedHealth Group",
-      "domain": "Software",
-      "title": "Full Stack Engineer",
-      "url": "https://www.adzuna.in/details/5930115302?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Vrinda International",
       "domain": "Software",
       "title": "DEVOPS ENGINEER",
       "url": "https://www.adzuna.in/details/5895875182?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "MY HR",
+      "domain": "Software",
+      "title": "DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5934455286?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Gainserv Infotech Pvt Ltd",
@@ -2256,12 +2256,6 @@
       "domain": "Software",
       "title": "DevOps Engineer",
       "url": "https://www.adzuna.in/details/5899851721?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Sia",
-      "domain": "Software",
-      "title": "Staff DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5904075485?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
