@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T23:08:02.432573",
+  "last_updated": "2026-10-22T04:07:54.940187",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -23,7 +23,7 @@
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "SR R&D/PRODUCT DVL ENGINEER-MAGNETICS",
-      "url": "https://www.adzuna.in/land/ad/5922549588?se=MizRKaTN8RGI54QPRiQJtQ&utm_medium=api&utm_source=1f93aaf4&v=F07CF4FDD0896744AF8D0B02F186D92D7D734763"
+      "url": "https://www.adzuna.in/land/ad/5922549588?se=IF8R_s3N8RGw3aNPvQFJgQ&utm_medium=api&utm_source=1f93aaf4&v=F07CF4FDD0896744AF8D0B02F186D92D7D734763"
     },
     {
       "company": "Hewlett Packard Enterprise",
@@ -228,6 +228,12 @@
       "domain": "Software",
       "title": "Staff Engineer Formal(IOMMU-N)",
       "url": "https://www.adzuna.in/details/5910195248?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Ericsson",
+      "domain": "Embedded",
+      "title": "Embedded Linux Platform Engineer",
+      "url": "https://www.adzuna.in/details/5935329890?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "NVIDIA",
@@ -968,12 +974,6 @@
       "url": "https://www.adzuna.in/details/5936827052?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "NXP Semiconductors",
-      "domain": "VLSI",
-      "title": "Experienced Embedded Firmware/Software Engineer",
-      "url": "https://www.adzuna.in/details/5935779928?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Zenius IT Services Pvt Ltd",
       "domain": "VLSI",
       "title": "C++ Developer (Embedded Systems / Firmware Engineer)",
@@ -1052,16 +1052,16 @@
       "url": "https://www.adzuna.in/details/5931469937?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "DATOMS",
-      "domain": "Software",
-      "title": "IOT Solution Engineer",
-      "url": "https://www.adzuna.in/details/5914954948?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Emerson",
       "domain": "Embedded",
       "title": "Embedded Development Engineer",
       "url": "https://www.adzuna.in/details/5911676056?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "DATOMS",
+      "domain": "Software",
+      "title": "IOT Solution Engineer",
+      "url": "https://www.adzuna.in/details/5914954948?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Amazon",
@@ -1340,12 +1340,6 @@
       "url": "https://www.adzuna.in/details/5927737841?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Ericsson",
-      "domain": "Embedded",
-      "title": "Embedded Linux Platform Engineer",
-      "url": "https://www.adzuna.in/details/5935329890?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Silicon Signals Pvt Ltd",
       "domain": "Embedded",
       "title": "Sales Trainee",
@@ -1451,7 +1445,7 @@
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "R&D/PRODUCT DVL ENGINEER II",
-      "url": "https://www.adzuna.in/land/ad/5918725175?se=yuyiO6TN8RGI54QPRiQJtQ&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
+      "url": "https://www.adzuna.in/land/ad/5918725175?se=bmRzG87N8RGQ0J-VVY9MQA&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
     },
     {
       "company": "Growth Heist",
@@ -1670,12 +1664,6 @@
       "url": "https://www.adzuna.in/details/5916866119?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Developer Bazaar Technologies",
-      "domain": "Software",
-      "title": "Frontend Developer Intern",
-      "url": "https://www.adzuna.in/details/5932778355?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "www.Houseitt.in",
       "domain": "Software",
       "title": "FRONTEND DEVELOPER INTERN",
@@ -1709,7 +1697,7 @@
       "company": "Standard Chartered Bank",
       "domain": "Software",
       "title": "AVP, Full Stack Engineer",
-      "url": "https://www.adzuna.in/land/ad/5936953614?se=Mlc6QKTN8RGB8pCzaQZ2NQ&utm_medium=api&utm_source=1f93aaf4&v=E17B9C1F627B886036B9563A17F9CFA91DB83A99"
+      "url": "https://www.adzuna.in/land/ad/5936953614?se=ZCmII87N8RGw3aNPvQFJgQ&utm_medium=api&utm_source=1f93aaf4&v=E17B9C1F627B886036B9563A17F9CFA91DB83A99"
     },
     {
       "company": "Pavago",
@@ -2072,12 +2060,6 @@
       "url": "https://www.adzuna.in/details/5903796677?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Webito",
-      "domain": "Software",
-      "title": "DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5895470089?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Maropost",
       "domain": "Software",
       "title": "DevOps Engineer",
@@ -2274,6 +2256,12 @@
       "domain": "Software",
       "title": "Staff DevOps Engineer",
       "url": "https://www.adzuna.in/details/5904146539?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Fortanix",
+      "domain": "Software",
+      "title": "DevOps Engineer - IND",
+      "url": "https://www.adzuna.in/details/5926966081?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
