@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T05:35:02.087104",
+  "last_updated": "2026-10-24T10:38:58.324578",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -494,16 +494,16 @@
       "url": "https://www.adzuna.in/details/5935330033?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "LSCC India",
-      "domain": "VLSI",
-      "title": "Staff Design Engineer - SoC & RTL",
-      "url": "https://www.adzuna.in/details/5901709767?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "EdgeCortix",
       "domain": "VLSI",
       "title": "[India] SOC RTL Integration Engineer",
       "url": "https://www.adzuna.in/details/5900748128?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "LSCC India",
+      "domain": "VLSI",
+      "title": "Staff Design Engineer - SoC & RTL",
+      "url": "https://www.adzuna.in/details/5901709767?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "NVIDIA",
@@ -932,16 +932,16 @@
       "url": "https://www.adzuna.in/details/5927728993?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Microchip",
-      "domain": "VLSI",
-      "title": "Engineer-2 FPGA Softwre Design",
-      "url": "https://www.adzuna.in/details/5939466818?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Baker Hughes",
       "domain": "VLSI",
       "title": "Digital Technology Experienced Professional - Software Engineering",
       "url": "https://www.adzuna.in/details/5919340228?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Microchip",
+      "domain": "VLSI",
+      "title": "Engineer-2 FPGA Softwre Design",
+      "url": "https://www.adzuna.in/details/5939466818?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Micron",
@@ -1361,7 +1361,7 @@
       "company": "TE Connectivity",
       "domain": "Embedded",
       "title": "PCB Design Engineer II",
-      "url": "https://www.adzuna.in/land/ad/5918725175?se=hv68omzP8RGV1I84VDeOag&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
+      "url": "https://www.adzuna.in/land/ad/5918725175?se=fFILF5fP8RG23o5gEh_GPw&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
     },
     {
       "company": "Eaton Corporation",
@@ -1643,7 +1643,7 @@
       "company": "MSD",
       "domain": "Software",
       "title": "Specialist Software Engineering, Full-Stack",
-      "url": "https://www.adzuna.in/land/ad/5939640070?se=MthqpmzP8RG0GownEE_3tg&utm_medium=api&utm_source=1f93aaf4&v=3994DEB0E2E45B5291AD1A9D06FF3AEA19DE3FCF"
+      "url": "https://www.adzuna.in/land/ad/5939640070?se=phiFG5fP8RG0GownEE_3tg&utm_medium=api&utm_source=1f93aaf4&v=3994DEB0E2E45B5291AD1A9D06FF3AEA19DE3FCF"
     },
     {
       "company": "Pavago",
@@ -1838,16 +1838,16 @@
       "url": "https://www.adzuna.in/details/5900808790?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "ekhool",
-      "domain": "Software",
-      "title": "Devops Engineer",
-      "url": "https://www.adzuna.in/details/5933188285?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "CometChat",
       "domain": "Software",
       "title": "DevOps Engineer",
       "url": "https://www.adzuna.in/details/5923259774?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "ekhool",
+      "domain": "Software",
+      "title": "Devops Engineer",
+      "url": "https://www.adzuna.in/details/5933188285?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Basepair Inc",
