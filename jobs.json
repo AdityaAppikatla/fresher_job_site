@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T17:59:52.416990",
+  "last_updated": "2026-10-24T20:40:21.361865",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -1274,12 +1274,6 @@
       "url": "https://www.adzuna.in/details/5914008773?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Trigent Software Private Limited",
-      "domain": "Embedded",
-      "title": "Platform Software Engineer",
-      "url": "https://www.adzuna.in/details/5929351133?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "BMW TechWorks",
       "domain": "Embedded",
       "title": "Low-Level Embedded Software Developer",
@@ -1367,7 +1361,7 @@
       "company": "TE Connectivity",
       "domain": "Embedded",
       "title": "PCB Design Engineer II",
-      "url": "https://www.adzuna.in/land/ad/5918725175?se=VAimsNTP8RG17O__M5KguQ&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
+      "url": "https://www.adzuna.in/land/ad/5918725175?se=OOGVGuvP8RG17O__M5KguQ&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
     },
     {
       "company": "Eaton Corporation",
@@ -1874,12 +1868,6 @@
       "url": "https://www.adzuna.in/details/5916890314?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "CodeRound AI",
-      "domain": "Software",
-      "title": "Devops Engineer",
-      "url": "https://www.adzuna.in/details/5926155798?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "PhotonMatters",
       "domain": "Software",
       "title": "DevOps Engineer",
@@ -2154,6 +2142,12 @@
       "domain": "Software",
       "title": "DevOps Engineer (6356)",
       "url": "https://www.adzuna.in/details/5936964374?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Vrinda International",
+      "domain": "Software",
+      "title": "DevOps Engineer \u2013 Kubernetes",
+      "url": "https://www.adzuna.in/details/5938296342?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
