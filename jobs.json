@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T21:34:20.020846",
+  "last_updated": "2026-10-25T23:59:31.272339",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -524,16 +524,16 @@
       "url": "https://www.adzuna.in/details/5923099955?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Synopsys Inc",
-      "domain": "Software",
-      "title": "Sr Staff Mixed-Signal Verification Engineer",
-      "url": "https://www.adzuna.in/details/5935779541?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Sanguine Global",
       "domain": "VLSI",
       "title": "DFT Engineer",
       "url": "https://www.adzuna.in/details/5923259368?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Synopsys Inc",
+      "domain": "Software",
+      "title": "Sr Staff Mixed-Signal Verification Engineer",
+      "url": "https://www.adzuna.in/details/5935779541?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "LSCC India",
@@ -1079,7 +1079,7 @@
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "STAFF R&D/PRODUCT DVL ENGINEER",
-      "url": "https://www.adzuna.in/land/ad/5940146655?se=okeMzbvQ8RGrV9qPojDs1w&utm_medium=api&utm_source=1f93aaf4&v=42E1DF8E83C8DD8878A555BDBB6E03C3A5E4CE35"
+      "url": "https://www.adzuna.in/land/ad/5940146655?se=iKHYE9DQ8RGrV9qPojDs1w&utm_medium=api&utm_source=1f93aaf4&v=42E1DF8E83C8DD8878A555BDBB6E03C3A5E4CE35"
     },
     {
       "company": "IBM",
@@ -1091,7 +1091,7 @@
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "R&D/PRODUCT DVL ENGINEER II",
-      "url": "https://www.adzuna.in/land/ad/5940146665?se=okeMzbvQ8RGrV9qPojDs1w&utm_medium=api&utm_source=1f93aaf4&v=B1201B56E85F19D03153AC5F0C466257CDA8CB88"
+      "url": "https://www.adzuna.in/land/ad/5940146665?se=iKHYE9DQ8RGrV9qPojDs1w&utm_medium=api&utm_source=1f93aaf4&v=B1201B56E85F19D03153AC5F0C466257CDA8CB88"
     },
     {
       "company": "Bloom Energy",
@@ -1343,7 +1343,7 @@
       "company": "TE Connectivity",
       "domain": "Embedded",
       "title": "PCB Design Engineer II",
-      "url": "https://www.adzuna.in/land/ad/5918725175?se=YEkQ0LvQ8RGrV9qPojDs1w&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
+      "url": "https://www.adzuna.in/land/ad/5918725175?se=WHXNFtDQ8RGrV9qPojDs1w&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
     },
     {
       "company": "Eaton Corporation",
@@ -1622,10 +1622,10 @@
       "url": "https://www.adzuna.in/details/5913719386?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Avaloq",
+      "company": "MyCareernet",
       "domain": "Software",
-      "title": "Full Stack Angular/Java Software Engineer",
-      "url": "https://www.adzuna.in/land/ad/5940146697?se=VsMP1LvQ8RGay5oCiNsTjQ&utm_medium=api&utm_source=1f93aaf4&v=FC93A24780BA4581ED37B15B7CF0B3CACF96DD21"
+      "title": "Software Engineer Frontend (React / TypeScript)_104088",
+      "url": "https://www.adzuna.in/details/5901762262?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Pavago",
@@ -1704,6 +1704,12 @@
       "domain": "Software",
       "title": "Full Stack Engineer",
       "url": "https://www.adzuna.in/details/5923511008?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Hello Edge",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5933211725?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Arminus",
