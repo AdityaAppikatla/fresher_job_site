@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26T17:13:02.238968",
+  "last_updated": "2026-10-26T22:29:51.299870",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -1073,7 +1073,7 @@
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "STAFF R&D/PRODUCT DVL ENGINEER",
-      "url": "https://www.adzuna.in/land/ad/5940146655?se=ynGmdWDR8RGTmpORxmRtzw&utm_medium=api&utm_source=1f93aaf4&v=42E1DF8E83C8DD8878A555BDBB6E03C3A5E4CE35"
+      "url": "https://www.adzuna.in/land/ad/5940146655?se=pse5uIzR8RGaLvZ41xPXIA&utm_medium=api&utm_source=1f93aaf4&v=42E1DF8E83C8DD8878A555BDBB6E03C3A5E4CE35"
     },
     {
       "company": "IBM",
@@ -1085,13 +1085,19 @@
       "company": "TE Connectivity",
       "domain": "Software",
       "title": "R&D/PRODUCT DVL ENGINEER II",
-      "url": "https://www.adzuna.in/land/ad/5940146665?se=ynGmdWDR8RGTmpORxmRtzw&utm_medium=api&utm_source=1f93aaf4&v=B1201B56E85F19D03153AC5F0C466257CDA8CB88"
+      "url": "https://www.adzuna.in/land/ad/5940146665?se=pse5uIzR8RGaLvZ41xPXIA&utm_medium=api&utm_source=1f93aaf4&v=B1201B56E85F19D03153AC5F0C466257CDA8CB88"
     },
     {
       "company": "Bloom Energy",
       "domain": "VLSI",
       "title": "Staff Engineer - Electrical",
       "url": "https://www.adzuna.in/details/5932412763?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Bose Professional",
+      "domain": "Embedded",
+      "title": "Software Development Intern, Embedded",
+      "url": "https://www.adzuna.in/details/5942763997?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Vertiv Group",
@@ -1208,12 +1214,6 @@
       "url": "https://www.adzuna.in/details/5929191366?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Tata Elxsi Limited",
-      "domain": "Embedded",
-      "title": "Network Design Engineer - Embedded Linux, OpenWRT",
-      "url": "https://www.adzuna.in/details/5922791566?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "TechSkillio",
       "domain": "Embedded",
       "title": "Linux Device Driver Engineer",
@@ -1280,6 +1280,12 @@
       "url": "https://www.adzuna.in/details/5935329890?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Tata Elxsi Limited",
+      "domain": "Embedded",
+      "title": "Network Design Engineer - Embedded Linux, OpenWRT",
+      "url": "https://www.adzuna.in/details/5922791566?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Weekday AI",
       "domain": "Embedded",
       "title": "Embedded Engineer",
@@ -1331,7 +1337,7 @@
       "company": "TE Connectivity",
       "domain": "Embedded",
       "title": "PCB Design Engineer II",
-      "url": "https://www.adzuna.in/land/ad/5918725175?se=CpGteGDR8RGh_oyDYnSS7w&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
+      "url": "https://www.adzuna.in/land/ad/5918725175?se=upmtu4zR8RGTmpORxmRtzw&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
     },
     {
       "company": "Eaton Corporation",
@@ -1506,6 +1512,12 @@
       "domain": "Embedded",
       "title": "Apprentice - Embedded Hardware, Power & Safety",
       "url": "https://www.adzuna.in/details/5923100166?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Hitachi",
+      "domain": "Software",
+      "title": "C&P Hardware Design Engineer - HVDC Service",
+      "url": "https://www.adzuna.in/details/5933465064?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Mynd Integrated Solutions",
@@ -2126,10 +2138,10 @@
       "url": "https://www.adzuna.in/details/5938296342?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Sia",
+      "company": "Tazapay",
       "domain": "Software",
       "title": "Staff DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5904075485?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5904146539?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
