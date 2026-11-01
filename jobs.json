@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T23:14:16.490604",
+  "last_updated": "2026-11-01T05:24:42.102426",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -19,6 +19,12 @@
     }
   },
   "jobs": [
+    {
+      "company": "TE Connectivity",
+      "domain": "Software",
+      "title": "SR R&D/PRODUCT DVL ENGINEER-MAGNETICS",
+      "url": "https://www.adzuna.in/land/ad/5922549588?se=fD-Sa7TV8RGRQOLR_vdAhg&utm_medium=api&utm_source=1f93aaf4&v=F07CF4FDD0896744AF8D0B02F186D92D7D734763"
+    },
     {
       "company": "Hewlett Packard Enterprise",
       "domain": "VLSI",
@@ -494,12 +500,6 @@
       "url": "https://www.adzuna.in/details/5946610501?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "SiFive",
-      "domain": "Software",
-      "title": "Staff Engineer: Verification of Power Management",
-      "url": "https://www.adzuna.in/details/5947929385?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Agasthya App Labs",
       "domain": "VLSI",
       "title": "Design & Verification Engineer",
@@ -516,12 +516,6 @@
       "domain": "VLSI",
       "title": "DFT Engineer",
       "url": "https://www.adzuna.in/details/5923259368?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "LSCC India",
-      "domain": "Software",
-      "title": "Modeling Design, Staff Engineer",
-      "url": "https://www.adzuna.in/details/5905892030?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Renesas Electronics",
@@ -584,10 +578,10 @@
       "url": "https://www.adzuna.in/details/5933026766?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Micron",
+      "company": "Intel",
       "domain": "Software",
-      "title": "Staff Engineer Design",
-      "url": "https://www.adzuna.in/details/5905880774?utm_medium=api&utm_source=1f93aaf4"
+      "title": "GPU Design Verification Engineer",
+      "url": "https://www.adzuna.in/details/5940662245?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Analog Devices",
@@ -818,6 +812,18 @@
       "url": "https://www.adzuna.in/details/5945699701?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Velaura",
+      "domain": "VLSI",
+      "title": "RTL Power Engineer - Bangalore",
+      "url": "https://www.adzuna.in/details/5933451862?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Velaura",
+      "domain": "VLSI",
+      "title": "RTL Engineer Memory Subsystem - Bangalore",
+      "url": "https://www.adzuna.in/details/5933464606?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "GlobalFoundries",
       "domain": "VLSI",
       "title": "DFT Engineer",
@@ -869,7 +875,7 @@
       "company": "GE Vernova",
       "domain": "VLSI",
       "title": "FPGA development Engineer",
-      "url": "https://www.adzuna.in/details/5905912692?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5907463693?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Applied Materials",
@@ -1046,10 +1052,28 @@
       "url": "https://www.adzuna.in/details/5916813498?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Qualcomm",
+      "domain": "Software",
+      "title": "CPU Design Sr Staff Verification Engineer",
+      "url": "https://www.adzuna.in/details/5930370660?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "TE Connectivity",
+      "domain": "Software",
+      "title": "STAFF R&D/PRODUCT DVL ENGINEER",
+      "url": "https://www.adzuna.in/land/ad/5940146655?se=1GPhfLTV8RGzjJJZ0soEIQ&utm_medium=api&utm_source=1f93aaf4&v=42E1DF8E83C8DD8878A555BDBB6E03C3A5E4CE35"
+    },
+    {
       "company": "IBM",
       "domain": "Embedded",
       "title": "Z Firmware Development Engineer",
       "url": "https://www.adzuna.in/details/5928582597?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "TE Connectivity",
+      "domain": "Software",
+      "title": "R&D/PRODUCT DVL ENGINEER II",
+      "url": "https://www.adzuna.in/land/ad/5940146665?se=1GPhfLTV8RGzjJJZ0soEIQ&utm_medium=api&utm_source=1f93aaf4&v=B1201B56E85F19D03153AC5F0C466257CDA8CB88"
     },
     {
       "company": "Bloom Energy",
@@ -1184,6 +1208,12 @@
       "url": "https://www.adzuna.in/details/5919839832?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "ABB",
+      "domain": "Embedded",
+      "title": "Embedded Software Engineer",
+      "url": "https://www.adzuna.in/land/ad/5944893587?se=-uqbfrTV8RGGCOFuy44SDg&utm_medium=api&utm_source=1f93aaf4&v=F906CBA80C51EB087F7918758CA4DE25780B3825"
+    },
+    {
       "company": "TechSkillio",
       "domain": "Embedded",
       "title": "Linux Device Driver Engineer",
@@ -1247,19 +1277,13 @@
       "company": "Amazon",
       "domain": "Software",
       "title": "Software Developer - Platform BSP Engineer, SSG",
-      "url": "https://www.adzuna.in/details/5923518926?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5923970372?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Tata Elxsi Limited",
       "domain": "Embedded",
       "title": "Network Design Engineer - Embedded Linux, OpenWRT",
       "url": "https://www.adzuna.in/details/5922791566?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "ABB",
-      "domain": "Embedded",
-      "title": "Embedded Software Engineer",
-      "url": "https://www.adzuna.in/details/5944684837?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Silicon Signals Pvt Ltd",
@@ -1304,10 +1328,16 @@
       "url": "https://www.adzuna.in/details/5939434005?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "NVIDIA",
+      "company": "Qualcomm",
+      "domain": "Software",
+      "title": "CPU Performance Developer Staff Engineer",
+      "url": "https://www.adzuna.in/details/5931990732?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "TE Connectivity",
       "domain": "Embedded",
-      "title": "System Security Software Engineer",
-      "url": "https://www.adzuna.in/details/5905924946?utm_medium=api&utm_source=1f93aaf4"
+      "title": "PCB Design Engineer II",
+      "url": "https://www.adzuna.in/land/ad/5918725175?se=Wix2gLTV8RGRQOLR_vdAhg&utm_medium=api&utm_source=1f93aaf4&v=B1DD054F6EB578F88F6C8063A093A87171E6DD5C"
     },
     {
       "company": "Eaton Corporation",
@@ -1328,6 +1358,12 @@
       "url": "https://www.adzuna.in/details/5947075639?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "IRP Systems",
+      "domain": "Embedded",
+      "title": "Power Electronics Engineer",
+      "url": "https://www.adzuna.in/details/5947293359?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Intel",
       "domain": "Embedded",
       "title": "Platform Hardware design Engineer",
@@ -1338,12 +1374,6 @@
       "domain": "Software",
       "title": "Signal Integrity and Power Integrity Engineer",
       "url": "https://www.adzuna.in/details/5945916323?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "TE Connectivity",
-      "domain": "Software",
-      "title": "STAFF R&D/PRODUCT DVL ENGINEER",
-      "url": "https://www.adzuna.in/details/5943179961?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Weekday AI",
@@ -1398,12 +1428,6 @@
       "domain": "Embedded",
       "title": "Engineer I Electrical & Electronics Engineering IX",
       "url": "https://www.adzuna.in/details/5938130197?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Aptiv",
-      "domain": "Embedded",
-      "title": "ECAD Engineer",
-      "url": "https://www.adzuna.in/details/5905905557?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Groz-Beckert",
@@ -1482,18 +1506,6 @@
       "domain": "Software",
       "title": "Creative Graphic Designer Intern",
       "url": "https://www.adzuna.in/details/5947202637?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Origin",
-      "domain": "Embedded",
-      "title": "Apprentice - Embedded Hardware, Power & Safety",
-      "url": "https://www.adzuna.in/details/5923100166?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Analog Devices",
-      "domain": "Software",
-      "title": "Staff System Applications Engineer",
-      "url": "https://www.adzuna.in/details/5945895355?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Mynd Integrated Solutions",
@@ -1586,16 +1598,16 @@
       "url": "https://www.adzuna.in/details/5913719386?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "VY SYSTEMS PRIVATE LIMITED",
-      "domain": "VLSI",
-      "title": "Java Fullstack Developer",
-      "url": "https://www.adzuna.in/details/5932023465?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Acme Services Private Limited",
       "domain": "Software",
       "title": "Fullstack Engineer",
       "url": "https://www.adzuna.in/details/5947216772?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "VY SYSTEMS PRIVATE LIMITED",
+      "domain": "VLSI",
+      "title": "Java Fullstack Developer",
+      "url": "https://www.adzuna.in/details/5932023465?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Bose Professional",
@@ -1610,10 +1622,28 @@
       "url": "https://www.adzuna.in/details/5923249123?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Adhoc Softwares",
+      "company": "Standard Chartered Bank",
       "domain": "Software",
-      "title": "Frontend role",
-      "url": "https://www.adzuna.in/details/5916865619?utm_medium=api&utm_source=1f93aaf4"
+      "title": "AVP, Full Stack Engineer",
+      "url": "https://www.adzuna.in/land/ad/5936953614?se=uoSohrTV8RGzkfY_QG7FnA&utm_medium=api&utm_source=1f93aaf4&v=E17B9C1F627B886036B9563A17F9CFA91DB83A99"
+    },
+    {
+      "company": "Standard Chartered Bank",
+      "domain": "Software",
+      "title": "VP, CL, Full Stack Engineering, WRB Tech",
+      "url": "https://www.adzuna.in/land/ad/5936953840?se=uoSohrTV8RGzkfY_QG7FnA&utm_medium=api&utm_source=1f93aaf4&v=BBAAED490E6B464C14406C20D0C1BB864C0FE223"
+    },
+    {
+      "company": "MSD",
+      "domain": "Software",
+      "title": "Specialist Software Engineering, Full-Stack",
+      "url": "https://www.adzuna.in/land/ad/5939640070?se=uoSohrTV8RGzkfY_QG7FnA&utm_medium=api&utm_source=1f93aaf4&v=3994DEB0E2E45B5291AD1A9D06FF3AEA19DE3FCF"
+    },
+    {
+      "company": "Avaloq",
+      "domain": "Software",
+      "title": "Full Stack Angular/Java Software Engineer",
+      "url": "https://www.adzuna.in/land/ad/5940146697?se=uoSohrTV8RGzkfY_QG7FnA&utm_medium=api&utm_source=1f93aaf4&v=FC93A24780BA4581ED37B15B7CF0B3CACF96DD21"
     },
     {
       "company": "Igloo",
@@ -1628,12 +1658,6 @@
       "url": "https://www.adzuna.in/details/5935899828?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Santa Browser",
-      "domain": "Software",
-      "title": "Full-Stack Engineer",
-      "url": "https://www.adzuna.in/details/5904502883?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Numentica LLC",
       "domain": "Software",
       "title": "Full Stack Engineer",
@@ -1646,16 +1670,142 @@
       "url": "https://www.adzuna.in/details/5925632410?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Accenture",
-      "domain": "Software",
-      "title": "Full Stack Engineer",
-      "url": "https://www.adzuna.in/details/5905917755?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Ecolibrium",
       "domain": "Software",
       "title": "Full-stack Engineer",
       "url": "https://www.adzuna.in/details/5919336803?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Accenture",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5921001465?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Atsera",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5912193054?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Tier5",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5918929409?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Aditi Tech Consulting Private Limited",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5932787791?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Nomni",
+      "domain": "Software",
+      "title": "Full-Stack Engineer",
+      "url": "https://www.adzuna.in/details/5931990821?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Barclays",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5939418131?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Bhanzu",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5943348194?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "METRO/MAKRO",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5913666071?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Rocketlane",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5923511008?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Hello Edge",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5933211725?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Ahead",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5917366836?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Amazon",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5924096474?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Toronto boutique apartments",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5918845241?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Svapps Soft Solutions Private Company",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5918868256?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "CultureMonkey",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5916911109?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "SIPL",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5918909574?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "ACKPlus Solutions",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5921982565?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Heptagon Technologies",
+      "domain": "Software",
+      "title": "Full stack Engineer",
+      "url": "https://www.adzuna.in/details/5923246633?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Chipn",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5923248578?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Mako IT Lab Private Limited",
+      "domain": "Software",
+      "title": "Full-stack Engineer",
+      "url": "https://www.adzuna.in/details/5944412546?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "UnitedHealth Group",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5930115302?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Insight Global",
+      "domain": "Software",
+      "title": "Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5909548097?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Miratech",
@@ -1760,16 +1910,16 @@
       "url": "https://www.adzuna.in/details/5916890314?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Exillar",
-      "domain": "Software",
-      "title": "DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5924096477?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "PhotonMatters",
       "domain": "Software",
       "title": "DevOps Engineer",
       "url": "https://www.adzuna.in/details/5925632169?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Exillar",
+      "domain": "Software",
+      "title": "DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5924096477?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Agiletech Info Solutions pvt ltd",
@@ -1782,12 +1932,6 @@
       "domain": "Software",
       "title": "Devops Engineer",
       "url": "https://www.adzuna.in/details/5939919828?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Accenture",
-      "domain": "Software",
-      "title": "DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5905893576?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Rakuten",
