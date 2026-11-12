@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T17:28:16.932581",
+  "last_updated": "2026-11-12T23:24:03.379034",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -506,6 +506,12 @@
       "url": "https://www.adzuna.in/details/5955617585?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Intel",
+      "domain": "VLSI",
+      "title": "Chassis IP Design Engineer",
+      "url": "https://www.adzuna.in/details/5929235209?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "DECCANX",
       "domain": "VLSI",
       "title": "Design Verification Engineer",
@@ -944,16 +950,16 @@
       "url": "https://www.adzuna.in/details/5940659182?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Dreamaerospace Technologies Pvt. Ltd.",
-      "domain": "Embedded",
-      "title": "Associate Scientist - Avionics Engineer",
-      "url": "https://www.adzuna.in/details/5954893780?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Eaton Corporation",
       "domain": "Embedded",
       "title": "Engineer- Firmware",
       "url": "https://www.adzuna.in/details/5950287682?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Dreamaerospace Technologies Pvt. Ltd.",
+      "domain": "Embedded",
+      "title": "Associate Scientist - Avionics Engineer",
+      "url": "https://www.adzuna.in/details/5954893780?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Origin",
@@ -1370,16 +1376,16 @@
       "url": "https://www.adzuna.in/details/5963448117?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Renesas Electronics",
-      "domain": "Embedded",
-      "title": "Staff Validation Engineer",
-      "url": "https://www.adzuna.in/details/5951720175?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Xylem",
       "domain": "Software",
       "title": "Electronics Hardware Engineer",
       "url": "https://www.adzuna.in/details/5953192140?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Renesas Electronics",
+      "domain": "Embedded",
+      "title": "Staff Validation Engineer",
+      "url": "https://www.adzuna.in/details/5951720175?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Tata Electronics",
@@ -1484,16 +1490,16 @@
       "url": "https://www.adzuna.in/details/5960528348?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Training Basket",
-      "domain": "Software",
-      "title": "UI Engineer \u2013 React.js",
-      "url": "https://www.adzuna.in/details/5932564472?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Black Box",
       "domain": "Software",
       "title": "Jr. Front End Developer",
       "url": "https://www.adzuna.in/details/5949458113?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Training Basket",
+      "domain": "Software",
+      "title": "UI Engineer \u2013 React.js",
+      "url": "https://www.adzuna.in/details/5932564472?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Zirodigital",
@@ -1640,10 +1646,10 @@
       "url": "https://www.adzuna.in/details/5958324160?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Aiphant Technologies",
+      "company": "Vinyl Equity",
       "domain": "Software",
       "title": "Full Stack Engineer",
-      "url": "https://www.adzuna.in/details/5961611237?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5963428801?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Nemetschek India",
@@ -1982,16 +1988,16 @@
       "url": "https://www.adzuna.in/details/5963066669?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Flair Labs",
-      "domain": "Software",
-      "title": "DevOps Engineer",
-      "url": "https://www.adzuna.in/details/5963446738?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Study Now",
       "domain": "Software",
       "title": "DevOps Engineer",
       "url": "https://www.adzuna.in/details/5955821389?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Flair Labs",
+      "domain": "Software",
+      "title": "DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5963446738?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Vrinda International",
