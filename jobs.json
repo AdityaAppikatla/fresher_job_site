@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T00:19:59.135518",
+  "last_updated": "2026-11-12T08:04:49.684810",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -404,16 +404,22 @@
       "url": "https://www.adzuna.in/details/5945368934?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Renesas Electronics",
-      "domain": "VLSI",
-      "title": "Sr Engineer, Design Verification",
-      "url": "https://www.adzuna.in/details/5947323844?utm_medium=api&utm_source=1f93aaf4"
+      "company": "Broadcom",
+      "domain": "Software",
+      "title": "Staff Engineer",
+      "url": "https://www.adzuna.in/details/5962707562?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Renesas Electronics",
       "domain": "VLSI",
       "title": "Sr Staff Verification Engineer",
       "url": "https://www.adzuna.in/details/5947323834?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Renesas Electronics",
+      "domain": "VLSI",
+      "title": "Sr Engineer, Design Verification",
+      "url": "https://www.adzuna.in/details/5947323844?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Intel",
@@ -440,16 +446,16 @@
       "url": "https://www.adzuna.in/details/5944176481?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Trigent Software Private Limited",
-      "domain": "VLSI",
-      "title": "Emulation Engineer (Ethernet)",
-      "url": "https://www.adzuna.in/details/5954643822?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Micron Technology",
       "domain": "Software",
       "title": "Design engineer",
       "url": "https://www.adzuna.in/details/5957024527?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Trigent Software Private Limited",
+      "domain": "VLSI",
+      "title": "Emulation Engineer (Ethernet)",
+      "url": "https://www.adzuna.in/details/5954643822?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Microchip",
@@ -552,6 +558,12 @@
       "domain": "Software",
       "title": "Wireless R&D IP Verification Staff/Sr Staff Engineer",
       "url": "https://www.adzuna.in/details/5928803536?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "ADCI - BLR 14 SEZ",
+      "domain": "Software",
+      "title": "Design Verification Engineer, Silicon and Systems Group",
+      "url": "https://www.adzuna.in/details/5961577216?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Analog Devices",
@@ -944,28 +956,22 @@
       "url": "https://www.adzuna.in/details/5938634206?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Griffinmark Robotics",
-      "domain": "VLSI",
-      "title": "Embedded Engineer (Fresher)",
-      "url": "https://www.adzuna.in/details/5945170866?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Amazon",
       "domain": "Software",
       "title": "Software Development Engineer - Connectivity, Emerging Device Software",
       "url": "https://www.adzuna.in/details/5928577793?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Griffinmark Robotics",
+      "domain": "VLSI",
+      "title": "Embedded Engineer (Fresher)",
+      "url": "https://www.adzuna.in/details/5945170866?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Mitr HR Private Limited",
       "domain": "Software",
       "title": "Software Test Engineer (10)",
       "url": "https://www.adzuna.in/details/5934869862?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "SanDisk",
-      "domain": "Embedded",
-      "title": "Associate Firmware Verification Engineer",
-      "url": "https://www.adzuna.in/details/5953955290?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "IBM",
@@ -1277,7 +1283,7 @@
       "company": "Magna International, Inc",
       "domain": "Software",
       "title": "ECAD Engineer",
-      "url": "https://www.adzuna.in/details/5953895145?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5962684874?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Eaton Corporation",
@@ -1388,10 +1394,10 @@
       "url": "https://www.adzuna.in/details/5954643820?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Hitachi",
+      "company": "Job Nexus India",
       "domain": "Software",
-      "title": "Backend Software Development Engineer \u2013 Expert",
-      "url": "https://www.adzuna.in/details/5961897926?utm_medium=api&utm_source=1f93aaf4"
+      "title": "Frontend Developer",
+      "url": "https://www.adzuna.in/details/5962472504?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Developer Bazaar Technologies",
@@ -1442,16 +1448,16 @@
       "url": "https://www.adzuna.in/details/5949458113?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Training Basket",
-      "domain": "Software",
-      "title": "UI Engineer \u2013 React.js",
-      "url": "https://www.adzuna.in/details/5932564472?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Zirodigital",
       "domain": "Software",
       "title": "Web Developer Intern",
       "url": "https://www.adzuna.in/details/5932023459?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Training Basket",
+      "domain": "Software",
+      "title": "UI Engineer \u2013 React.js",
+      "url": "https://www.adzuna.in/details/5932564472?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Training Basket",
@@ -1481,7 +1487,7 @@
       "company": "Miratech",
       "domain": "Software",
       "title": "Full Stack Engineer (Go and React)",
-      "url": "https://www.adzuna.in/details/5954660736?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5954660745?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Rentomojo",
@@ -1494,18 +1500,6 @@
       "domain": "Software",
       "title": "App Dev & Support Engineer II",
       "url": "https://www.adzuna.in/details/5957853803?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Conduent Business Services India LLP",
-      "domain": "Software",
-      "title": "App Dev & Support Engineer I",
-      "url": "https://www.adzuna.in/details/5958903399?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Conduent Business Services India LLP",
-      "domain": "Software",
-      "title": "App Dev & Support Engineer II",
-      "url": "https://www.adzuna.in/details/5955510822?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Igloo",
@@ -1583,7 +1577,7 @@
       "company": "Deutsche Bank",
       "domain": "Software",
       "title": "Site Reliability & DevOps Engineer \u2013 VP",
-      "url": "https://www.adzuna.in/land/ad/5959383232?se=GiNNyi7e8RGFL-IvDfWobQ&utm_medium=api&utm_source=1f93aaf4&v=0F9014BF716C5ED0A3CEAD08F8F3E524529A8DEA"
+      "url": "https://www.adzuna.in/land/ad/5959383232?se=3iHNuW_e8RGYFNuPuswjLA&utm_medium=api&utm_source=1f93aaf4&v=0F9014BF716C5ED0A3CEAD08F8F3E524529A8DEA"
     },
     {
       "company": "Miratech",
@@ -1608,6 +1602,12 @@
       "domain": "Software",
       "title": "DevOps Engineer",
       "url": "https://www.adzuna.in/details/5933143946?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "8th Element Digital Private Limited",
+      "domain": "Software",
+      "title": "DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5962476745?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "NewVison",
@@ -1662,6 +1662,12 @@
       "domain": "Software",
       "title": "Devops Engineer",
       "url": "https://www.adzuna.in/details/5939919828?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Teamlease Digital Private Limited",
+      "domain": "Software",
+      "title": "Devops Engineer",
+      "url": "https://www.adzuna.in/details/5962480220?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Phoeniqs Technologies",
@@ -1908,18 +1914,6 @@
       "domain": "Software",
       "title": "Salesforce DevOps Engineer",
       "url": "https://www.adzuna.in/details/5961583516?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "ADTM Adenza Technology de Mexico S de RL de CV",
-      "domain": "Software",
-      "title": "DevOps Engineer - Specialist",
-      "url": "https://www.adzuna.in/details/5943571161?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Artech Infosystems Private Limited",
-      "domain": "Software",
-      "title": "DevOps Engineer with Python",
-      "url": "https://www.adzuna.in/details/5947506578?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
