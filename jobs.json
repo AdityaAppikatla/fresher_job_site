@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T21:34:28.699079",
+  "last_updated": "2026-11-16T01:41:42.795747",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -84,12 +84,6 @@
       "domain": "VLSI",
       "title": "ASIC Engineer, Physical Design CAD",
       "url": "https://www.adzuna.in/details/5945383261?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Meta",
-      "domain": "VLSI",
-      "title": "ASIC Engineer Intern, Design Verification",
-      "url": "https://www.adzuna.in/details/5930112741?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Meta",
@@ -200,6 +194,12 @@
       "url": "https://www.adzuna.in/details/5939434487?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Analog Devices",
+      "domain": "VLSI",
+      "title": "Staff Engineer \u2013 DFT Engineering",
+      "url": "https://www.adzuna.in/details/5949111456?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Broadcom",
       "domain": "VLSI",
       "title": "ASIC Verification Engineer",
@@ -234,12 +234,6 @@
       "domain": "Software",
       "title": "NOC Design Verification Engineers (Engineer/Sr Engineer)",
       "url": "https://www.adzuna.in/details/5960294769?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "IBM",
-      "domain": "VLSI",
-      "title": "Functional Verification Engineer",
-      "url": "https://www.adzuna.in/details/5930113577?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "SiFive",
@@ -320,12 +314,6 @@
       "url": "https://www.adzuna.in/details/5946783216?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Micron",
-      "domain": "VLSI",
-      "title": "Staff Engineer, RTL Design",
-      "url": "https://www.adzuna.in/details/5930849732?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Qualcomm",
       "domain": "VLSI",
       "title": "RTL Design Engineer - Security /Staff",
@@ -356,12 +344,6 @@
       "url": "https://www.adzuna.in/details/5960996986?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "ADCI - BLR 14 SEZ",
-      "domain": "Software",
-      "title": "SoC Validation Engineer, Amazon Devices",
-      "url": "https://www.adzuna.in/details/5930499703?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Analog Devices",
       "domain": "Software",
       "title": "Digital Design Engineer",
@@ -371,7 +353,7 @@
       "company": "Amazon",
       "domain": "Software",
       "title": "SoC Validation Engineer, Amazon Devices",
-      "url": "https://www.adzuna.in/details/5930855248?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5931772347?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Synopsys Inc",
@@ -458,12 +440,6 @@
       "url": "https://www.adzuna.in/details/5957024527?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Microchip",
-      "domain": "Software",
-      "title": "Technical Staff Engineer - Verification",
-      "url": "https://www.adzuna.in/details/5930835258?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Texas Instruments",
       "domain": "VLSI",
       "title": "Digital Design Engineer - DFT",
@@ -530,12 +506,6 @@
       "url": "https://www.adzuna.in/details/5941571498?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Accenture",
-      "domain": "VLSI",
-      "title": "Functional Verification Engineer",
-      "url": "https://www.adzuna.in/details/5930846690?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Renesas",
       "domain": "Software",
       "title": "Staff Digital Verification Engineer",
@@ -588,6 +558,12 @@
       "domain": "VLSI",
       "title": "FPGA Silicon Validation Engineer",
       "url": "https://www.adzuna.in/details/5951875011?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Skyworks Solutions, Inc.",
+      "domain": "Software",
+      "title": "Electrical Engineer 1",
+      "url": "https://www.adzuna.in/details/5935330110?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Baya Systems",
@@ -660,12 +636,6 @@
       "domain": "VLSI",
       "title": "Silicon Physical Design CAD Engineer",
       "url": "https://www.adzuna.in/details/5931776290?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Microsoft",
-      "domain": "VLSI",
-      "title": "Silicon Physical Design CAD Engineer",
-      "url": "https://www.adzuna.in/details/5930849309?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Qualcomm",
@@ -768,12 +738,6 @@
       "domain": "VLSI",
       "title": "STAFF DFT Engineer",
       "url": "https://www.adzuna.in/details/5953183767?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Analog Devices",
-      "domain": "VLSI",
-      "title": "Staff Engineer \u2013 DFT Engineering",
-      "url": "https://www.adzuna.in/details/5949111456?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Accenture",
@@ -1334,12 +1298,6 @@
       "url": "https://www.adzuna.in/details/5953163508?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Vertiv Group",
-      "domain": "Embedded",
-      "title": "Engineer II Electrical & Electronics Engineering",
-      "url": "https://www.adzuna.in/details/5930903410?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "SanDisk",
       "domain": "Software",
       "title": "Staff Electronic Design Engineer",
@@ -1350,6 +1308,12 @@
       "domain": "Software",
       "title": "Electronics Hardware Engineer",
       "url": "https://www.adzuna.in/details/5953192140?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Renesas Electronics",
+      "domain": "Embedded",
+      "title": "Staff Validation Engineer",
+      "url": "https://www.adzuna.in/details/5951720175?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "SOLO NETWORK",
@@ -1428,6 +1392,12 @@
       "domain": "Software",
       "title": "IT Software-International",
       "url": "https://www.adzuna.in/details/5953174028?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Fancall Private Limited",
+      "domain": "Software",
+      "title": "AI & Full Stack Engineer",
+      "url": "https://www.adzuna.in/details/5947460153?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Job Nexus India",
@@ -1529,7 +1499,7 @@
       "company": "Miratech",
       "domain": "Software",
       "title": "Full Stack Engineer (Go and React)",
-      "url": "https://www.adzuna.in/details/5954660816?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5963129882?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Rentomojo",
@@ -1926,6 +1896,12 @@
       "domain": "VLSI",
       "title": "DEVOPS ENGINEER \u2013 TRAINEE",
       "url": "https://www.adzuna.in/details/5947202655?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Protrude Technologies",
+      "domain": "Software",
+      "title": "Salesforce DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5961583516?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
