@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T03:33:56.911777",
+  "last_updated": "2026-11-17T12:57:15.871359",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -290,22 +290,16 @@
       "url": "https://www.adzuna.in/details/5963451695?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Micron",
-      "domain": "Software",
-      "title": "Staff Memory Design Engineer",
-      "url": "https://www.adzuna.in/details/5957239281?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "SiFive",
-      "domain": "Software",
-      "title": "Staff CPU Design Verification Engineer",
-      "url": "https://www.adzuna.in/details/5948204168?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "AMD",
       "domain": "VLSI",
       "title": "RTL Design Engineer",
       "url": "https://www.adzuna.in/details/5946783216?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Qualcomm",
+      "domain": "VLSI",
+      "title": "CPU RTL Design Engineer",
+      "url": "https://www.adzuna.in/details/5967713592?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Qualcomm",
@@ -386,12 +380,6 @@
       "url": "https://www.adzuna.in/details/5940633093?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Rambus",
-      "domain": "VLSI",
-      "title": "PE Verification Engineering",
-      "url": "https://www.adzuna.in/details/5945368934?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Creeno Solutions Private Limited",
       "domain": "VLSI",
       "title": "Emulation Zebu Engineer",
@@ -444,6 +432,12 @@
       "domain": "Software",
       "title": "Design engineer",
       "url": "https://www.adzuna.in/details/5957024527?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Qualcomm",
+      "domain": "Software",
+      "title": "IP Design Verification Engineer",
+      "url": "https://www.adzuna.in/details/5968924377?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Texas Instruments",
@@ -938,22 +932,28 @@
       "url": "https://www.adzuna.in/details/5961874609?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Cyient",
+      "domain": "Embedded",
+      "title": "Security Test Engineer",
+      "url": "https://www.adzuna.in/details/5967668505?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "DATOMS",
       "domain": "Software",
       "title": "IOT Solution Engineer",
       "url": "https://www.adzuna.in/details/5938634206?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Griffinmark Robotics",
-      "domain": "VLSI",
-      "title": "Embedded Engineer (Fresher)",
-      "url": "https://www.adzuna.in/details/5945170866?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Amazon",
       "domain": "Software",
       "title": "Software Development Engineer - Connectivity, Emerging Device Software",
       "url": "https://www.adzuna.in/details/5945380238?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Griffinmark Robotics",
+      "domain": "VLSI",
+      "title": "Embedded Engineer (Fresher)",
+      "url": "https://www.adzuna.in/details/5945170866?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Cadence Systems",
@@ -1022,6 +1022,12 @@
       "url": "https://www.adzuna.in/details/5963428833?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Vrinda International",
+      "domain": "Embedded",
+      "title": "LINUX KERNEL & DEVICE DRIVER ENGINEER",
+      "url": "https://www.adzuna.in/details/5968301930?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Katomaran Technologies",
       "domain": "Embedded",
       "title": "Linux engineer",
@@ -1032,6 +1038,12 @@
       "domain": "Software",
       "title": "AI Phone - Android Device Integration Engineer",
       "url": "https://www.adzuna.in/details/5954483602?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Qualcomm",
+      "domain": "Embedded",
+      "title": "WLAN Linux Networking Engineer Staff (Software)",
+      "url": "https://www.adzuna.in/details/5967668538?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "ADCI - Karnataka",
@@ -1154,10 +1166,10 @@
       "url": "https://www.adzuna.in/details/5966089493?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Fretron",
-      "domain": "Software",
-      "title": "Associate - Operation",
-      "url": "https://www.adzuna.in/details/5963453894?utm_medium=api&utm_source=1f93aaf4"
+      "company": "Qualcomm",
+      "domain": "Embedded",
+      "title": "Windows drivers/ Stability -Staff Engineer",
+      "url": "https://www.adzuna.in/details/5967713397?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Eaton Corporation",
@@ -1256,6 +1268,12 @@
       "url": "https://www.adzuna.in/details/5943565352?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Analog Devices",
+      "domain": "Software",
+      "title": "Mechatronics Engineer",
+      "url": "https://www.adzuna.in/details/5968979408?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Quest Global",
       "domain": "Embedded",
       "title": "1C - Embedded Hardware - Design Engineer",
@@ -1314,18 +1332,6 @@
       "domain": "Software",
       "title": "Staff Electronic Design Engineer",
       "url": "https://www.adzuna.in/details/5955406430?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Xylem",
-      "domain": "Software",
-      "title": "Electronics Hardware Engineer",
-      "url": "https://www.adzuna.in/details/5953192140?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Renesas Electronics",
-      "domain": "Embedded",
-      "title": "Staff Validation Engineer",
-      "url": "https://www.adzuna.in/details/5951720175?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "SOLO NETWORK",
@@ -1418,12 +1424,6 @@
       "url": "https://www.adzuna.in/details/5953174028?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Fancall Private Limited",
-      "domain": "Software",
-      "title": "AI & Full Stack Engineer",
-      "url": "https://www.adzuna.in/details/5947460153?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Deccan AI",
       "domain": "Software",
       "title": "Frontend Developer",
@@ -1436,10 +1436,10 @@
       "url": "https://www.adzuna.in/details/5962472504?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Developer Bazaar Technologies",
-      "domain": "Software",
+      "company": "Datawise",
+      "domain": "VLSI",
       "title": "Frontend Developer Intern",
-      "url": "https://www.adzuna.in/details/5950499470?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5967965167?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "the Company",
@@ -1523,13 +1523,7 @@
       "company": "Miratech",
       "domain": "Software",
       "title": "Full Stack Engineer (Go and React)",
-      "url": "https://www.adzuna.in/details/5963129882?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Rentomojo",
-      "domain": "Software",
-      "title": "Software Development Engineer I (Frontend)",
-      "url": "https://www.adzuna.in/details/5934869802?utm_medium=api&utm_source=1f93aaf4"
+      "url": "https://www.adzuna.in/details/5954660791?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Igloo",
@@ -1778,6 +1772,12 @@
       "url": "https://www.adzuna.in/details/5964761336?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Ginesys",
+      "domain": "Software",
+      "title": "DevOps Engineer",
+      "url": "https://www.adzuna.in/details/5968976332?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Encord",
       "domain": "Software",
       "title": "DevOps Engineer",
@@ -1898,6 +1898,12 @@
       "url": "https://www.adzuna.in/details/5955821389?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "CGI",
+      "domain": "Software",
+      "title": "DevOps Engineers",
+      "url": "https://www.adzuna.in/details/5968924302?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Vrinda International",
       "domain": "Software",
       "title": "DevOps Engineer \u2013 Kubernetes",
@@ -1908,12 +1914,6 @@
       "domain": "Software",
       "title": "Salesforce DevOps Engineer",
       "url": "https://www.adzuna.in/details/5958183779?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Training Basket",
-      "domain": "VLSI",
-      "title": "DEVOPS ENGINEER \u2013 TRAINEE",
-      "url": "https://www.adzuna.in/details/5947202655?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
