@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T22:56:59.606402",
+  "last_updated": "2026-11-22T02:57:38.166709",
   "users": {
     "adityaappikatla@gmail.com": {
       "approved": true,
@@ -19,12 +19,6 @@
     }
   },
   "jobs": [
-    {
-      "company": "Hewlett Packard Enterprise",
-      "domain": "VLSI",
-      "title": "ASIC Design Engineer",
-      "url": "https://www.adzuna.in/details/5938150312?utm_medium=api&utm_source=1f93aaf4"
-    },
     {
       "company": "MosChip",
       "domain": "VLSI",
@@ -144,12 +138,6 @@
       "domain": "VLSI",
       "title": "ASIC/SOC Development Engineer, Sr Staff",
       "url": "https://www.adzuna.in/details/5962942291?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "NVIDIA",
-      "domain": "Software",
-      "title": "PCIe IP Verification Engineer",
-      "url": "https://www.adzuna.in/details/5938157070?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "NVIDIA",
@@ -518,12 +506,6 @@
       "url": "https://www.adzuna.in/details/5950495569?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Analog Devices",
-      "domain": "Software",
-      "title": "Design Verification Engineer",
-      "url": "https://www.adzuna.in/details/5938142131?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "IBM",
       "domain": "Software",
       "title": "Logic Design Engineer",
@@ -600,12 +582,6 @@
       "domain": "VLSI",
       "title": "SoC Physical Design Engineer",
       "url": "https://www.adzuna.in/details/5971873908?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Intel",
-      "domain": "VLSI",
-      "title": "CPU Physical Design Engineer",
-      "url": "https://www.adzuna.in/details/5938138329?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Silicon Labs",
@@ -926,6 +902,12 @@
       "url": "https://www.adzuna.in/details/5961874609?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "DATOMS",
+      "domain": "Software",
+      "title": "IOT Solution Engineer",
+      "url": "https://www.adzuna.in/details/5938634206?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Griffinmark Robotics",
       "domain": "VLSI",
       "title": "Embedded Engineer (Fresher)",
@@ -1004,6 +986,12 @@
       "url": "https://www.adzuna.in/details/5945929765?utm_medium=api&utm_source=1f93aaf4"
     },
     {
+      "company": "Amazon",
+      "domain": "Embedded",
+      "title": "Software Development Engineer II, Alexa Connectivity Devices",
+      "url": "https://www.adzuna.in/details/5955365241?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
       "company": "Katomaran Technologies",
       "domain": "Embedded",
       "title": "Linux engineer",
@@ -1032,12 +1020,6 @@
       "domain": "Embedded",
       "title": "Firmware Engineer",
       "url": "https://www.adzuna.in/details/5958337774?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
-      "company": "Amazon",
-      "domain": "Embedded",
-      "title": "Software Development Engineer II, Alexa Connectivity Devices",
-      "url": "https://www.adzuna.in/details/5955365244?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Amazon",
@@ -1322,12 +1304,6 @@
       "url": "https://www.adzuna.in/details/5972375566?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Vertiv Group",
-      "domain": "Embedded",
-      "title": "Engineer I Electrical & Electronics Engineering IX",
-      "url": "https://www.adzuna.in/details/5938130197?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Arista Networks",
       "domain": "Embedded",
       "title": "ECAD Engineer",
@@ -1488,6 +1464,12 @@
       "domain": "Software",
       "title": "Full Stack Engineer",
       "url": "https://www.adzuna.in/details/5943348194?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Sitero LLC",
+      "domain": "Software",
+      "title": "Software Engineer I",
+      "url": "https://www.adzuna.in/details/5966107151?utm_medium=api&utm_source=1f93aaf4"
     },
     {
       "company": "Igloo",
@@ -1844,12 +1826,6 @@
       "url": "https://www.adzuna.in/details/5963446738?utm_medium=api&utm_source=1f93aaf4"
     },
     {
-      "company": "Vrinda International",
-      "domain": "Software",
-      "title": "DevOps Engineer \u2013 Kubernetes",
-      "url": "https://www.adzuna.in/details/5938296342?utm_medium=api&utm_source=1f93aaf4"
-    },
-    {
       "company": "Capgemini",
       "domain": "VLSI",
       "title": "FBS DevOps Engineer",
@@ -1860,6 +1836,12 @@
       "domain": "Software",
       "title": "Salesforce DevOps Engineer",
       "url": "https://www.adzuna.in/details/5958183779?utm_medium=api&utm_source=1f93aaf4"
+    },
+    {
+      "company": "Globals",
+      "domain": "Software",
+      "title": "DevOps Engineer \u2013 Infrastructure",
+      "url": "https://www.adzuna.in/details/5970900930?utm_medium=api&utm_source=1f93aaf4"
     }
   ]
 }
